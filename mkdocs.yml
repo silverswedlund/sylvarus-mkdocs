@@ -1,0 +1,16 @@
+site_name: The World of Sylvarus
+
+theme:
+  name: material
+  palette:
+    scheme: slate  # Dark mode scheme
+    primary: 'orange'
+    accent: 'amber'
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+
+extra_css:
+  - assets/custom.css

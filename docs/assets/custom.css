@@ -1,0 +1,107 @@
+/* Background colors for a sleek dark theme */
+.md-main {
+	background-color: #212121;
+	/* Dark Gray */
+	color: #e0e0e0;
+	/* Text color: soft white */
+}
+
+/* Sidebar */
+.md-sidebar {
+	background-color: #292929;
+	/* Darker Sidebar */
+	border-right: 3px solid #ff9800;
+	/* Orange border */
+}
+
+/* Header */
+.md-header {
+	background-color: #1c1c1c;
+	/* Darker header */
+	border-bottom: 3px solid #ff9800;
+	/* Orange border */
+}
+
+/* Adjusting navigation items in sidebar */
+.md-nav__item--active>.md-nav__link,
+.md-nav__link:hover {
+	color: #ff9800;
+	/* Orange highlight */
+}
+
+/* Links */
+a {
+	color: #ff9800;
+	/* Orange links */
+}
+
+a:hover {
+	color: #ffc947;
+	/* Lighter orange on hover */
+}
+
+/* Code blocks */
+.md-typeset code,
+.md-typeset pre {
+	background-color: #333;
+	color: #ffc947;
+	/* light orange text */
+	border: 1px solid #ff9800;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+	background-color: #2e2e2e;
+	border-left: 4px solid #ff9800;
+	color: #d0d0d0;
+}
+
+/* Tables */
+.md-typeset table {
+	background-color: #2a2a2a;
+}
+
+.md-typeset table th {
+	background-color: #1e1e1e;
+	border-bottom: 2px solid #ff9800;
+}
+
+.md-typeset table td {
+	border-bottom: 1px solid #ff9800;
+}
+
+/* Buttons */
+.md-button,
+.md-button--primary {
+	background-color: #ff9800;
+	color: #212121;
+}
+
+.md-button:hover {
+	background-color: #ffc947;
+}
+
+/* Footer (if applicable) */
+.md-footer {
+	background-color: #1c1c1c;
+	color: #888;
+	border-top: 3px solid #ff9800;
+}
+
+/* Scrollbar (optional aesthetic touch) */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff9800;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #ffc947;
+}
