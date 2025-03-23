@@ -105,3 +105,35 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
 	background: #ffc947;
 }
+
+/* Top header site title and navigation links */
+.md-header__title,
+.md-header-nav__button,
+.md-header-nav__topic,
+.md-tabs__link {
+	color: #ffffff !important;
+	/* white text */
+}
+
+.md-tabs__link {
+	color: #000000 !important;
+	/* black text */
+}
+
+/* Active navigation tab text */
+.md-tabs__link--active {
+	color: #ffc947 !important;
+	/* accent color (orange) */
+}
+
+/* Hover navigation tab text */
+.md-tabs__link:hover {
+	color: #ff9800 !important;
+	/* lighter orange */
+}
+
+/* Sidebar active/hover text */
+.md-nav__link--active,
+.md-nav__link:hover {
+	color: #ff9800 !important;
+}
