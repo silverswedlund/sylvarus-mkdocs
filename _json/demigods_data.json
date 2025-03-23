@@ -14,7 +14,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Aurelius.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": "custom deets for aur-y"
     },
     "Deimos": {
       "name": "Deimos",
@@ -26,7 +27,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Deimos.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Phobos": {
       "name": "Phobos",
@@ -38,7 +40,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Phobos.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Eurydice": {
       "name": "Eurydice",
@@ -50,7 +53,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Eurydice.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Heracles": {
       "name": "Heracles",
@@ -62,7 +66,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Heracles.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Tiamel": {
       "name": "Tiamel",
@@ -74,7 +79,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Tiamel.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Sabazios": {
       "name": "Sabazios",
@@ -86,7 +92,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Sabazios.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Ephyra": {
       "name": "Ephyra",
@@ -98,7 +105,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Ephyra.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Atenael": {
       "name": "Atenael",
@@ -110,7 +118,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Atenael.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     },
     "Morax": {
       "name": "Morax",
@@ -122,7 +131,8 @@
       "current_status": "",
       "history": "",
       "image_path": "_images/demigods/Morax.jpg",
-      "description": ""
+      "description": "",
+      "custom_details": ""
     }
   }
 }

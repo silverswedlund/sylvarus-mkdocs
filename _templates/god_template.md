@@ -4,6 +4,7 @@
 <img src="{{ image_path }}" alt="{{ name }}" width="400" />
 ---
 
+## 📕 Details
 **Pronouns:** {{ pronouns }}  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** {{ species }}  
@@ -20,7 +21,10 @@
   Your browser does not support the audio element.
 </audio>
 
-"{{ song_name }}"
+"{{ song_name }}"  
+
+
+{{ custom_details }}
 
 ---
 
