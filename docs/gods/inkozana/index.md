@@ -1,7 +1,7 @@
 # Inkozana  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Inkozana.jpg" alt="Inkozana" style="width:400px;"/>)
+<img src="Inkozana.jpg" alt="Inkozana" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

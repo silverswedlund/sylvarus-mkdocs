@@ -1,7 +1,7 @@
-# Delinette  --  (she/they)
+# Delinette  --  (She/They)
 
 <!-- Optional  -->
-<img src="Delinette.jpg" alt="Delinette" style="width:400px;"/>)
+<img src="Delinette.jpg" alt="Delinette" style="width:400px;"/>
 ---
 
 **Pronouns:** she/they  

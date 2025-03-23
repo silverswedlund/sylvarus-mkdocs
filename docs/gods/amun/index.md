@@ -1,7 +1,7 @@
 # Amun  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Amun.jpg" alt="Amun" style="width:400px;"/>)
+<img src="Amun.jpeg" alt="Amun" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

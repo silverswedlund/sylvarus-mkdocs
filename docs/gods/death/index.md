@@ -1,7 +1,7 @@
 # Death  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Death.jpg" alt="Death" style="width:400px;"/>)
+<img src="Death.jpg" alt="Death" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

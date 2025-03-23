@@ -1,7 +1,7 @@
 # Iranara  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Iranara.jpg" alt="Iranara" style="width:400px;"/>)
+<img src="Iranara.jpg" alt="Iranara" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

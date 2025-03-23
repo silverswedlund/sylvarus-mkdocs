@@ -1,7 +1,7 @@
-# Orpheus  --  (he/they)
+# Orpheus  --  (He/They)
 
 <!-- Optional  -->
-<img src="Orpheus.jpg" alt="Orpheus" style="width:400px;"/>)
+<img src="Orpheus.jpg" alt="Orpheus" style="width:400px;"/>
 ---
 
 **Pronouns:** he/they  

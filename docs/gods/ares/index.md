@@ -1,7 +1,7 @@
 # Ares  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Ares.jpg" alt="Ares" style="width:400px;"/>)
+<img src="Ares.jpg" alt="Ares" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

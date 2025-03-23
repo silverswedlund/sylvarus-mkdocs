@@ -1,7 +1,7 @@
 # Demeter  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Demeter.jpg" alt="Demeter" style="width:400px;"/>)
+<img src="Demeter.jpg" alt="Demeter" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

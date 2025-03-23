@@ -1,7 +1,7 @@
 # Poseidon  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Poseidon.jpg" alt="Poseidon" style="width:400px;"/>)
+<img src="Poseidon.jpg" alt="Poseidon" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

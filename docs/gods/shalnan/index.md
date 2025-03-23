@@ -1,7 +1,7 @@
 # Shal'nan  --  (They/Them)
 
 <!-- Optional  -->
-<img src="Shal'nan.jpg" alt="Shal'nan" style="width:400px;"/>)
+<img src="Shal'nan.jpg" alt="Shal'nan" style="width:400px;"/>
 ---
 
 **Pronouns:** They/Them  

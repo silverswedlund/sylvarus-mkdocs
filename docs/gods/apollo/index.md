@@ -1,7 +1,7 @@
 # Apollo  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Apollo.jpg" alt="Apollo" style="width:400px;"/>)
+<img src="Apollo.jpg" alt="Apollo" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

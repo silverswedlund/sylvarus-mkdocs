@@ -1,7 +1,7 @@
 # Athena  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Athena.jpg" alt="Athena" style="width:400px;"/>)
+<img src="Athena.jpg" alt="Athena" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

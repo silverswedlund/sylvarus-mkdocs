@@ -1,7 +1,7 @@
 # Freija  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Freija.jpg" alt="Freija" style="width:400px;"/>)
+<img src="Freija.jpg" alt="Freija" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

@@ -1,7 +1,7 @@
 # Thanatos  --  (They/Them)
 
 <!-- Optional  -->
-<img src="Thanatos.jpg" alt="Thanatos" style="width:400px;"/>)
+<img src="Thanatos.jpg" alt="Thanatos" style="width:400px;"/>
 ---
 
 **Pronouns:** They/Them  

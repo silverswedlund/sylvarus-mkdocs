@@ -1,7 +1,7 @@
 # Zeus  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Zeus.jpg" alt="Zeus" style="width:400px;"/>)
+<img src="Zeus.jpg" alt="Zeus" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

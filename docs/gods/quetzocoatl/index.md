@@ -1,7 +1,7 @@
 # Quetzocoatl  --  (They/Them)
 
 <!-- Optional  -->
-<img src="Quetzocoatl.jpg" alt="Quetzocoatl" style="width:400px;"/>)
+<img src="Quetzocoatl.jpg" alt="Quetzocoatl" style="width:400px;"/>
 ---
 
 **Pronouns:** They/Them  

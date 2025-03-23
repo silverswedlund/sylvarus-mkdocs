@@ -1,7 +1,7 @@
 # Enkidu  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Enkidu.jpg" alt="Enkidu" style="width:400px;"/>)
+<img src="Enkidu.jpg" alt="Enkidu" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

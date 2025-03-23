@@ -1,7 +1,7 @@
 # Malice  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Malice.jpg" alt="Malice" style="width:400px;"/>)
+<img src="Malice.jpg" alt="Malice" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

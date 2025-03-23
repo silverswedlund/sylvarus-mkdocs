@@ -1,7 +1,7 @@
 # Hestia  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Hestia.jpg" alt="Hestia" style="width:400px;"/>)
+<img src="Hestia.jpg" alt="Hestia" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

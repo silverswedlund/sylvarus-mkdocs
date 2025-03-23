@@ -1,7 +1,7 @@
 # Hermes  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Hermes.jpg" alt="Hermes" style="width:400px;"/>)
+<img src="Hermes.jpg" alt="Hermes" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

@@ -1,7 +1,7 @@
 # Hera  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Hera.jpg" alt="Hera" style="width:400px;"/>)
+<img src="Hera.jpg" alt="Hera" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

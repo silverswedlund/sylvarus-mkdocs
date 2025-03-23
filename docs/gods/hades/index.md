@@ -1,7 +1,7 @@
 # Hades  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Hades.jpg" alt="Hades" style="width:400px;"/>)
+<img src="Hades.jpg" alt="Hades" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

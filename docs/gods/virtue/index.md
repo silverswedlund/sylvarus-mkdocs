@@ -1,7 +1,7 @@
 # Virtue  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Virtue.jpg" alt="Virtue" style="width:400px;"/>)
+<img src="Virtue.jpg" alt="Virtue" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

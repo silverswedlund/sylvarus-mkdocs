@@ -1,7 +1,7 @@
 # Tyro  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Tyro.jpg" alt="Tyro" style="width:400px;"/>)
+<img src="Tyro.jpg" alt="Tyro" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

@@ -1,7 +1,7 @@
 # Aphrodite  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Aphrodite.jpg" alt="Aphrodite" style="width:400px;"/>)
+<img src="Aphrodite.webp" alt="Aphrodite" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

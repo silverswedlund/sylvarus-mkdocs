@@ -1,7 +1,7 @@
 # Osiris  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Osiris.jpg" alt="Osiris" style="width:400px;"/>)
+<img src="Osiris.jpg" alt="Osiris" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

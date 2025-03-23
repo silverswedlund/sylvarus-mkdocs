@@ -1,7 +1,7 @@
 # Anuke  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Anuke.jpg" alt="Anuke" style="width:400px;"/>)
+<img src="Anuke.jpg" alt="Anuke" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

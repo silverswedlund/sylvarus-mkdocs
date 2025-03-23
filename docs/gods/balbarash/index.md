@@ -1,7 +1,7 @@
-# Balbarash  --  (he/they)
+# Balbarash  --  (He/They)
 
 <!-- Optional  -->
-<img src="Balbarash.jpg" alt="Balbarash" style="width:400px;"/>)
+<img src="Balbarash.jpg" alt="Balbarash" style="width:400px;"/>
 ---
 
 **Pronouns:** he/they  

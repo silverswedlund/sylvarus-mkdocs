@@ -1,7 +1,7 @@
 # Asher  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Asher.jpg" alt="Asher" style="width:400px;"/>)
+<img src="Asher.jpg" alt="Asher" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

@@ -1,7 +1,7 @@
 # Halacaster  --  (They/Them)
 
 <!-- Optional  -->
-<img src="Halacaster.jpg" alt="Halacaster" style="width:400px;"/>)
+<img src="Halacaster.jpg" alt="Halacaster" style="width:400px;"/>
 ---
 
 **Pronouns:** They/Them  

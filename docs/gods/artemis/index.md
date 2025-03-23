@@ -1,7 +1,7 @@
 # Artemis  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Artemis.jpg" alt="Artemis" style="width:400px;"/>)
+<img src="Artemis.jpg" alt="Artemis" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

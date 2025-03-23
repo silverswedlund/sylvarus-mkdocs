@@ -1,7 +1,7 @@
-# Hephaestus  --  (any/all)
+# Hephaestus  --  (Any/All)
 
 <!-- Optional  -->
-<img src="Hephaestus.jpg" alt="Hephaestus" style="width:400px;"/>)
+<img src="Hephaestus.jpg" alt="Hephaestus" style="width:400px;"/>
 ---
 
 **Pronouns:** any/all  

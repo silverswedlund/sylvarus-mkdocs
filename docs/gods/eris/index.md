@@ -1,7 +1,7 @@
 # Eris  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Eris.jpg" alt="Eris" style="width:400px;"/>)
+<img src="Eris.jpg" alt="Eris" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

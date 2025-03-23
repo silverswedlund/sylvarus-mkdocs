@@ -1,7 +1,7 @@
 # Zagreus  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Zagreus.jpg" alt="Zagreus" style="width:400px;"/>)
+<img src="Zagreus.jpg" alt="Zagreus" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

@@ -1,7 +1,7 @@
 # Nyx  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Nyx.jpg" alt="Nyx" style="width:400px;"/>)
+<img src="Nyx.jpg" alt="Nyx" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

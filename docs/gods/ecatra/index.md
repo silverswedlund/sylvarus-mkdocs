@@ -1,7 +1,7 @@
 # Ecatra  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Ecatra.jpg" alt="Ecatra" style="width:400px;"/>)
+<img src="Ecatra.jpg" alt="Ecatra" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

@@ -1,7 +1,7 @@
 # Marith  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Marith.jpg" alt="Marith" style="width:400px;"/>)
+<img src="Marith.jpg" alt="Marith" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

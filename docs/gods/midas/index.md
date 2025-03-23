@@ -1,7 +1,7 @@
 # Midas  --  (doesn't care )
 
 <!-- Optional  -->
-<img src="Midas.jpg" alt="Midas" style="width:400px;"/>)
+<img src="Midas.jpg" alt="Midas" style="width:400px;"/>
 ---
 
 **Pronouns:** doesn't care  

@@ -1,7 +1,7 @@
 # Versengeterix  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Versengeterix.jpg" alt="Versengeterix" style="width:400px;"/>)
+<img src="Versengeterix.jpg" alt="Versengeterix" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

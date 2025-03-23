@@ -1,7 +1,7 @@
 # Orakothros  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Orakothros.jpg" alt="Orakothros" style="width:400px;"/>)
+<img src="Orakothros.jpg" alt="Orakothros" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

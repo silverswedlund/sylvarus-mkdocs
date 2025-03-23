@@ -1,7 +1,7 @@
 # Valentina  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Valentina.jpg" alt="Valentina" style="width:400px;"/>)
+<img src="Valentina.jpg" alt="Valentina" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

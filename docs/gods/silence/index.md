@@ -1,7 +1,7 @@
 # Silence  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Silence.jpg" alt="Silence" style="width:400px;"/>)
+<img src="Silence.jpg" alt="Silence" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  

@@ -1,7 +1,7 @@
 # Loki  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Loki.jpg" alt="Loki" style="width:400px;"/>)
+<img src="Loki.jpg" alt="Loki" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

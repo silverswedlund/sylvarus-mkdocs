@@ -1,7 +1,7 @@
 # Odinn  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Odinn.jpg" alt="Odinn" style="width:400px;"/>)
+<img src="Odinn.jpg" alt="Odinn" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

@@ -1,7 +1,7 @@
 # Dionysus  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Dionysus.jpg" alt="Dionysus" style="width:400px;"/>)
+<img src="Dionysus.jpg" alt="Dionysus" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

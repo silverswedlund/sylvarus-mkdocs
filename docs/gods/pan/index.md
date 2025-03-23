@@ -1,7 +1,7 @@
 # Pan  --  (He/Him)
 
 <!-- Optional  -->
-<img src="Pan.jpg" alt="Pan" style="width:400px;"/>)
+<img src="Pan.jpg" alt="Pan" style="width:400px;"/>
 ---
 
 **Pronouns:** He/Him  

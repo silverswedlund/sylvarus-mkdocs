@@ -1,7 +1,7 @@
 # Fortuna  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Fortuna.jpg" alt="Fortuna" style="width:400px;"/>)
+<img src="Fortuna.jpg" alt="Fortuna" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  
