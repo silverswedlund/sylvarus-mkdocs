@@ -1,129 +1,42 @@
-# {{ name }} — ({{ type }})
+# {{ name }}
 
-<!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" width="400" />
 ---
 
-## 📍 Basic Information
-**Type:** {{ type }}  
-**Nation:** [{{ nation }}](../../../locations/nations/{{ nation }})  
-**Region:** {{ region }}  
-**Population:** {{ population }}  
-**Known For:** {{ known_for }}  
-**Founded In:** {{ founding_epoch }}  
-**Ruling Power:** {{ ruling_power }}  
-**Government Type:** {{ government_type }}  
-
-**Theme Music:**  
-<audio controls>
-  <source src="{{ music_path }}" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-"{{ song_name }}"  
+## 🧭 Overview
+**Start Year:** {{ start_year }}  
+**End Year:** {{ end_year }}    
+**Preceded By:** {{ preceded_by }}   
+**Followed By:** {{ followed_by }}   
+**Known For:**
 
 {{ custom_details }}
 
 ---
 
-## 👥 Notable Inhabitants
-{{ primary_inhabitants }}
+## 📜 Historical Summary
+{{ summary }}
 
 ---
 
-## 🧭 Description
-{{ description }}
+## 🧩 Major Events
+{{ major_events }}
 
 ---
 
-## 🏛️ History
-{{ history }}
+## 🌍 Notable Civilizations
+{{ notable_civilizations }}
 
 ---
 
-## 🧃 Culture & Economy
+## 🌟 Cultural Themes & Shifts
 {{ culture }}
 
 ---
 
-## 🛡️ Security & Politics
-{{ politics }}
+## 🔗 Relevant Figures
+{{ notable_figures }}
 
 ---
 
-## 🧱 Architecture & Layout
-{{ architecture }}
-
----
-
-## 🔗 Notable Relationships
-{{ relationships }}
-
----
-
-## 🧭 Points of Interest
-{{ points_of_interest }}# {{ name }} — ({{ type }})
-
-<!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" width="400" />
----
-
-## 📍 Basic Information
-**Type:** {{ type }}  
-**Nation:** [{{ nation }}](../../../locations/nations/{{ nation }})  
-**Region:** {{ region }}  
-**Population:** {{ population }}  
-**Known For:** {{ known_for }}  
-**Founded In:** {{ founding_epoch }}  
-**Ruling Power:** {{ ruling_power }}  
-**Government Type:** {{ government_type }}  
-
-**Theme Music:**  
-<audio controls>
-  <source src="{{ music_path }}" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-"{{ song_name }}"  
-
-{{ custom_details }}
-
----
-
-## 👥 Notable Inhabitants
-{{ primary_inhabitants }}
-
----
-
-## 🧭 Description
-{{ description }}
-
----
-
-## 🏛️ History
-{{ history }}
-
----
-
-## 🧃 Culture & Economy
-{{ culture }}
-
----
-
-## 🛡️ Security & Politics
-{{ politics }}
-
----
-
-## 🧱 Architecture & Layout
-{{ architecture }}
-
----
-
-## 🔗 Notable Relationships
-{{ relationships }}
-
----
-
-## 🧭 Points of Interest
-{{ points_of_interest }}
+## 🧙 Legacy
+{{ legacy }}
