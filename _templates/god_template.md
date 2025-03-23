@@ -10,7 +10,7 @@
 **Pre-ascension Species:** {{ species }}  
 **Ascension Epoch:** {{ ascension_epoch }}  
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
-**Trial:** {{ trial }}
+**Trial:** {{ trial }}  
 **LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
 **Other Identifications:** {{ other_identifiers }}  
 
