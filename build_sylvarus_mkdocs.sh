@@ -10,6 +10,7 @@ echo "🔧 Starting Sylvarus MkDocs Build..."
 SCRIPTS=(
   "_scripts/generate_indexes_from_json.py"
   "_scripts/generate_pantheon_indexes.py"
+  "_scripts/generate_gods_main_index.py"
 )
 
 for SCRIPT in "${SCRIPTS[@]}"; do
