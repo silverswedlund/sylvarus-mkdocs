@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Pre-God Wars  
 **Pantheon:** Fortunians  
-**Trial:** Unknown
+**Trial:** Unknown  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Fortuna | O Fortuna (Carmina Burana - Carl Orff).mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"O Fortuna (Carmina Burana - Carl Orff).mp4"
 
 ---
 

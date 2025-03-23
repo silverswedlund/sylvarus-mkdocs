@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** The God Wars  
 **Pantheon:** Gilgamites  
-**Trial:** Perceive all of reality at once
+**Trial:** Perceive all of reality at once  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Marith | Dragon Quest IX Tokyo Suite - Angelic Land.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Dragon Quest IX Tokyo Suite - Angelic Land.mp4"
 
 ---
 

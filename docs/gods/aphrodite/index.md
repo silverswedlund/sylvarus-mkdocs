@@ -1,7 +1,7 @@
 # Aphrodite  --  (She/Her)
 
 <!-- Optional  -->
-<img src="Aphrodite.webp" alt="Aphrodite" style="width:400px;"/>
+<img src="Aphrodite.jpg" alt="Aphrodite" style="width:400px;"/>
 ---
 
 **Pronouns:** She/Her  
@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** Age of Magic  
 **Pantheon:** None  
-**Trial:** Create a new plane
+**Trial:** Create a new plane  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Aphrodite | Spider Dance- Orchestral swing remix.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Spider Dance- Orchestral swing remix.mp4"
 
 ---
 

@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Halfelf  
 **Ascension Epoch:** Modern Age  
 **Pantheon:** Gilgamites  
-**Trial:** Rid the Feywilds of the Titans
+**Trial:** Rid the Feywilds of the Titans  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Artimis | Death Note- Kuroi Light EXTENDED.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Death Note- Kuroi Light EXTENDED.mp4"
 
 ---
 

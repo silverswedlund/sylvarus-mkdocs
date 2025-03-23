@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Period of Rebirth  
 **Pantheon:** Underworlders  
-**Trial:** Fell a Narntree
+**Trial:** Fell a Narntree  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Aphrodite | Spider Dance- Orchestral swing remix.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Spider Dance- Orchestral swing remix.mp4"
 
 ---
 

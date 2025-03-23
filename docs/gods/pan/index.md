@@ -10,6 +10,16 @@
 **Ascension Epoch:** Age of Chaos  
 **Pantheon:** Zagarans  
 **Trial:** 
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Pan | Let's Dance, Boys! - Super Smash Bros. Ultimate.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Let's Dance, Boys! - Super Smash Bros. Ultimate.mp4"
 
 ---
 

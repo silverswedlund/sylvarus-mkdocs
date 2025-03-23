@@ -10,6 +10,16 @@
 **Ascension Epoch:** Unknown  
 **Pantheon:** Pre-God Wars  
 **Trial:** 
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Silence | Copied City.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Copied City.mp4"
 
 ---
 

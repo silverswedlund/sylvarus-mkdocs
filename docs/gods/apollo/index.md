@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Half-elf  
 **Ascension Epoch:** Age of Unity  
 **Pantheon:** Demerans  
-**Trial:** Bathe All of Sylvarus in Daylight
+**Trial:** Bathe All of Sylvarus in Daylight  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Apollo | The Promised Neverland OST - Isabella’s Lullaby.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"The Promised Neverland OST - Isabella’s Lullaby.mp4"
 
 ---
 

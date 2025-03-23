@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** The God Wars  
 **Pantheon:** Demerans  
-**Trial:** Unknown
+**Trial:** Unknown  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Demeter | Halo 4 - Atonement.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Halo 4 - Atonement.mp4"
 
 ---
 

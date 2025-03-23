@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Creation  
 **Pantheon:** Athenians  
-**Trial:** Build the greatest weapon ever made
+**Trial:** Build the greatest weapon ever made  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Hepheastus | Another Medium.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Another Medium.mp4"
 
 ---
 

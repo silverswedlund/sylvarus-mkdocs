@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** Pre-God Wars  
 **Pantheon:** None  
-**Trial:** Unknown
+**Trial:** Unknown  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Death | Death's Sleep.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Death's Sleep.mp3"
 
 ---
 

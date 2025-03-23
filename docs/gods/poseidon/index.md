@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Dwarf  
 **Ascension Epoch:** Age of Creation  
 **Pantheon:** Fortunians  
-**Trial:** Kill the Leviathan
+**Trial:** Kill the Leviathan  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Poseidon | Divinity Original Sin 2 OST 33 The Queens High Seas.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Divinity Original Sin 2 OST 33 The Queens High Seas.mp4"
 
 ---
 

@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Orc  
 **Ascension Epoch:** The God Wars  
 **Pantheon:** Gilgamites  
-**Trial:** Unknown
+**Trial:** Unknown  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Virtue | Geralt of Rivia | The Witcher OST.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Geralt of Rivia | The Witcher OST.mp4"
 
 ---
 

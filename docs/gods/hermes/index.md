@@ -9,7 +9,17 @@
 **Pre-ascension Species:** human  
 **Ascension Epoch:** Age of Division  
 **Pantheon:** Zagarans  
-**Trial:** Deliver a message
+**Trial:** Deliver a message  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Hermes | Marvelous Battle OST's: Tsuna Awakes.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Marvelous Battle OST's: Tsuna Awakes.mp4"
 
 ---
 

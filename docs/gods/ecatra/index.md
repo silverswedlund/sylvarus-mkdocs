@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Mer  
 **Ascension Epoch:** Age of Chaos  
 **Pantheon:** Fortunians  
-**Trial:** Unknown
+**Trial:** Unknown  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Ecatra | MerFolk | Lullaby of Woe - Ashley Serena (LYRICS).mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"MerFolk | Lullaby of Woe - Ashley Serena (LYRICS).mp4"
 
 ---
 

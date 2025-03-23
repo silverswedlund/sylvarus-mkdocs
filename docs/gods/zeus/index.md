@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Magic  
 **Pantheon:** Demerans  
-**Trial:** Travel the equator in the duration of a lightning strike
+**Trial:** Travel the equator in the duration of a lightning strike  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Zeus | Great Grey Wolf Sif - Dark Souls Soundtrack.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Great Grey Wolf Sif - Dark Souls Soundtrack"
 
 ---
 

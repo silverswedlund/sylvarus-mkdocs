@@ -9,7 +9,17 @@
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Unity  
 **Pantheon:** Zagarans  
-**Trial:** Tell the greatest story ever told
+**Trial:** Tell the greatest story ever told  
+**LGBTQ+ Identifications:**   
+
+
+**Theme Music:**  
+<audio controls>
+  <source src="Dionysus | Pokémon Diamond and Pearl- Game Corner Remix v.II.mp4" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+"Pokémon Diamond and Pearl- Game Corner Remix v.II.mp4"
 
 ---
 
