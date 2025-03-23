@@ -11,6 +11,7 @@
 **Pantheon:** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Trial:** {{ trial }}
 **LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
+**Other Identifications:** {{ other_identifiers }}  
 
 
 **Theme Music:**  
