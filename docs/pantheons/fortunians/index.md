@@ -1,0 +1,10 @@
+# Fortunians
+## Members
+- [Asher](../../gods/asher/)
+- [Balbarash](../../gods/balbarash/)
+- [Ecatra](../../gods/ecatra/)
+- [Fortuna](../../gods/fortuna/)
+- [Poseidon](../../gods/poseidon/)
+- [Shal'nan](../../gods/shal'nan/)
+- [Valentina](../../gods/valentina/)
+- [Versengeterix](../../gods/versengeterix/)
