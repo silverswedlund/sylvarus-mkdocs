@@ -1,0 +1,11 @@
+{
+  "config": {
+    "base_path": "docs/locations/cities",
+    "template": "_templates/cities_template.md"
+  },
+  "items": {
+    "potatoville": {
+      "name": "potatoville y'all"
+    }
+  }
+}
