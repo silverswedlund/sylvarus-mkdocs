@@ -19,4 +19,17 @@ find docs/pantheons/*/ -type f -name "index.md" -exec rm -v {} \;
 echo "🧹 Cleaning docs/demigods/*/index.md..."
 find docs/demigods/*/ -type f -name "index.md" -exec rm -v {} \;
 
+# Delete index.md in each nations folder
+echo "🧹 Cleaning docs/locations/nations/*/index.md..."
+find docs/locations/nations/*/ -type f -name "index.md" -exec rm -v {} \;
+
+# Delete index.md in each cities folder
+echo "🧹 Cleaning docs/locations/cities/*/index.md..."
+find docs/locations/cities/*/ -type f -name "index.md" -exec rm -v {} \;
+
+# Delete index.md in each time_periods folder
+echo "🧹 Cleaning docs/history/time_periods/*/index.md..."
+find docs/history/time_periods/*/ -type f -name "index.md" -exec rm -v {} \;
+
+
 echo "🔥 All specified index.md files deleted."

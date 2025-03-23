@@ -7,3 +7,6 @@ venv/
 *.mp4
 *.mp3
 docs/*/*/index.md
+docs/locations/cities/*/index.md
+docs/locations/nations/*/index.md
+docs/locations/time_periods/*/index.md

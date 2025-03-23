@@ -1,0 +1,28 @@
+{
+  "config": {
+    "base_path": "docs/history/time_periods",
+    "template": "_templates/time_period_template.md"
+  },
+  "items": {
+    "Age_of_Blood": {
+      "name": "Age of Blood",
+      "type": "Epoch",
+      "start_year": "-1200",
+      "end_year": "-800",
+      "length": "400 years",
+      "preceded_by": "Age of Stone",
+      "followed_by": "Era of Rebirth",
+      "known_for": "Blood rituals, founding of Valmere, widespread war and godly intervention.",
+      "music_path": "Age of Blood | God of War - Memories of Mother.mp3",
+      "song_name": "God of War - Memories of Mother",
+      "custom_details": "Many historians refer to this period as 'the Red Shroud' due to the frequency of divine bloodshed and mortal sacrifices.",
+      "summary": "The Age of Blood was marked by unending war, the rise of blood magic, and the violent ascension of multiple gods. Nations fell and rose again under the shadow of divine avatars.",
+      "major_events": "- The Crimson Summit\n- Ascension of Redwater’s patron god\n- Fall of the Drossian Empire",
+      "notable_civilizations": "Valmere, Drossian Empire, Eastern Tribes",
+      "culture": "War-centric, ritualistic, with a focus on sacrifice, loyalty, and bloodline purity.",
+      "notable_figures": "Zeus (pre-divine), High Magister Voren, Matron Lys of the Bloodpact",
+      "legacy": "The foundational period of many modern bloodlines and political systems, still revered and feared in rituals today.",
+      "image_path": "images/age_of_blood.jpg"
+    }
+  }
+}
