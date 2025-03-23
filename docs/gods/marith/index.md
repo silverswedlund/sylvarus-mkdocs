@@ -1,15 +1,15 @@
-# Marith  --  (He/Him)
+# Marith — (He/Him)
 
-<!-- Optional  -->
-<img src="Marith.jpg" alt="Marith" style="width:400px;"/>
+<!-- Optional -->
+<img src="Marith.jpg" alt="Marith" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** The God Wars  
-**Pantheon:** Gilgamites  
-**Trial:** Perceive all of reality at once  
+**Pantheon:** [Gilgamites](../../pantheons/Gilgamites)  
+**Trial:** Perceive all of reality at once
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Dragon Quest IX Tokyo Suite - Angelic Land.mp4"
+"Dragon Quest IX Tokyo Suite - Angelic Land"
 
 ---
 

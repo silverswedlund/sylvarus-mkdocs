@@ -1,15 +1,15 @@
-# Orakothros  --  (He/Him)
+# Orakothros — (He/Him)
 
-<!-- Optional  -->
-<img src="Orakothros.jpg" alt="Orakothros" style="width:400px;"/>
+<!-- Optional -->
+<img src="Orakothros.jpg" alt="Orakothros" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Orc  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Athenians  
-**Trial:** Drive the Humans out of the Orcs' homeland  
+**Pantheon:** [Athenians](../../pantheons/Athenians)  
+**Trial:** Drive the Humans out of the Orcs' homeland
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"1. God of War | God of War OST.mp4"
+"1. God of War | God of War OST"
 
 ---
 

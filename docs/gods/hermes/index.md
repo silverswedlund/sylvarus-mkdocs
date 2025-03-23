@@ -1,15 +1,15 @@
-# Hermes  --  (He/Him)
+# Hermes — (He/Him)
 
-<!-- Optional  -->
-<img src="Hermes.jpg" alt="Hermes" style="width:400px;"/>
+<!-- Optional -->
+<img src="Hermes.jpg" alt="Hermes" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** human  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Zagarans  
-**Trial:** Deliver a message  
+**Pantheon:** [Zagarans](../../pantheons/Zagarans)  
+**Trial:** Deliver a message
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Marvelous Battle OST's: Tsuna Awakes.mp4"
+"Marvelous Battle OST's: Tsuna Awakes"
 
 ---
 

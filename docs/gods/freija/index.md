@@ -1,15 +1,15 @@
-# Freija  --  (She/Her)
+# Freija — (She/Her)
 
-<!-- Optional  -->
-<img src="Freija.jpg" alt="Freija" style="width:400px;"/>
+<!-- Optional -->
+<img src="Freija.jpg" alt="Freija" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Unity  
-**Pantheon:** Demerans  
-**Trial:** Unknown  
+**Pantheon:** [Demerans](../../pantheons/Demerans)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"SKÁLD - Ginnunga (Vikings Chant).mp4"
+"SKÁLD - Ginnunga (Vikings Chant)"
 
 ---
 

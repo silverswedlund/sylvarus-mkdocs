@@ -1,14 +1,14 @@
-# Shal'nan  --  (They/Them)
+# Shal'nan — (They/Them)
 
-<!-- Optional  -->
-<img src="Shal'nan.jpg" alt="Shal'nan" style="width:400px;"/>
+<!-- Optional -->
+<img src="Shal'nan.jpg" alt="Shal'nan" width="400" />
 ---
 
 **Pronouns:** They/Them  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Dragon  
 **Ascension Epoch:** Age of Unity  
-**Pantheon:** Fortunians  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
 **Trial:** 
 **LGBTQ+ Identifications:**   
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"| Dragon Lullaby.mp4"
+"| Dragon Lullaby"
 
 ---
 

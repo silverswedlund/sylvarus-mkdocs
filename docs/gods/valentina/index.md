@@ -1,15 +1,15 @@
-# Valentina  --  (She/Her)
+# Valentina — (She/Her)
 
-<!-- Optional  -->
-<img src="Valentina.jpg" alt="Valentina" style="width:400px;"/>
+<!-- Optional -->
+<img src="Valentina.jpg" alt="Valentina" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** human  
 **Ascension Epoch:** The God Wars  
-**Pantheon:** Fortunians  
-**Trial:** Unknown  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Chopin - Waltz in C Sharp Minor (Op. 64 No. 2).mp4"
+"Chopin - Waltz in C Sharp Minor (Op. 64 No. 2)"
 
 ---
 

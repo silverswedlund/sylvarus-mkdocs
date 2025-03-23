@@ -1,15 +1,15 @@
-# Thanatos  --  (They/Them)
+# Thanatos — (They/Them)
 
-<!-- Optional  -->
-<img src="Thanatos.jpg" alt="Thanatos" style="width:400px;"/>
+<!-- Optional -->
+<img src="Thanatos.jpg" alt="Thanatos" width="400" />
 ---
 
 **Pronouns:** They/Them  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Celestial  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** None  
-**Trial:** Kill the god of Death  
+**Pantheon:** [None](../../pantheons/None)  
+**Trial:** Kill the god of Death
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Medieval Chant 'Dies Irae' - Epic background sound edit slowed.mp3"
+"Medieval Chant 'Dies Irae' - Epic background sound edit slowed"
 
 ---
 

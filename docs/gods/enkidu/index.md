@@ -1,15 +1,15 @@
-# Enkidu  --  (He/Him)
+# Enkidu — (He/Him)
 
-<!-- Optional  -->
-<img src="Enkidu.jpg" alt="Enkidu" style="width:400px;"/>
+<!-- Optional -->
+<img src="Enkidu.jpg" alt="Enkidu" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Minotaur  
 **Ascension Epoch:** Age of Chaos  
-**Pantheon:** Underworlders  
-**Trial:** Create the Perfect Prison  
+**Pantheon:** [Underworlders](../../pantheons/Underworlders)  
+**Trial:** Create the Perfect Prison
 **LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
 
 

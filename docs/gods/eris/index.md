@@ -1,15 +1,15 @@
-# Eris  --  (She/Her)
+# Eris — (She/Her)
 
-<!-- Optional  -->
-<img src="Eris.jpg" alt="Eris" style="width:400px;"/>
+<!-- Optional -->
+<img src="Eris.jpg" alt="Eris" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Narn  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Underworlders  
-**Trial:** Conquer Sylvarus  
+**Pantheon:** [Underworlders](../../pantheons/Underworlders)  
+**Trial:** Conquer Sylvarus
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"BFG division.mp4"
+"BFG division"
 
 ---
 

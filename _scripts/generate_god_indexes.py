@@ -10,7 +10,7 @@ def normalize_name(name):
     return name.lower().replace("'", "").replace(" ", "")
 
 def ensure_directory_and_template(base_path, template_path, folder_name):
-    """Ensure the folder exists and has an index.md copied from the template if missing."""
+    """Ensure the folder exists and always overwrite index.md from template or blank."""
     full_path = os.path.join(base_path, folder_name)
     index_path = os.path.join(full_path, "index.md")
 
@@ -18,14 +18,14 @@ def ensure_directory_and_template(base_path, template_path, folder_name):
         os.makedirs(full_path)
         print(f"📁 Created folder: {full_path}")
 
-    if not os.path.exists(index_path):
-        if template_path and os.path.exists(template_path):
-            shutil.copy(template_path, index_path)
-            print(f"📄 Copied template to: {index_path}")
-        else:
-            with open(index_path, "w", encoding="utf-8") as f:
-                f.write("")
-            print(f"📄 Created blank index.md: {index_path}")
+    # Always overwrite index.md
+    if template_path and os.path.exists(template_path):
+        shutil.copy(template_path, index_path)
+        print(f"📄 Overwrote template to: {index_path}")
+    else:
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write("")
+        print(f"📄 Overwrote blank index.md: {index_path}")
 
     return index_path
 

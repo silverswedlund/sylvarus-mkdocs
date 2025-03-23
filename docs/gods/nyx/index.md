@@ -1,15 +1,15 @@
-# Nyx  --  (She/Her)
+# Nyx — (She/Her)
 
-<!-- Optional  -->
-<img src="Nyx.jpg" alt="Nyx" style="width:400px;"/>
+<!-- Optional -->
+<img src="Nyx.jpg" alt="Nyx" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** The God Wars  
-**Pantheon:** Gilgamites  
-**Trial:** Unknown  
+**Pantheon:** [Gilgamites](../../pantheons/Gilgamites)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Vivaldi Variation (arr. for piano from Concerto for Strings).mp4"
+"Vivaldi Variation (arr. for piano from Concerto for Strings)"
 
 ---
 

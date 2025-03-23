@@ -1,15 +1,15 @@
-# Zeus  --  (He/Him)
+# Zeus — (He/Him)
 
-<!-- Optional  -->
-<img src="Zeus.jpg" alt="Zeus" style="width:400px;"/>
+<!-- Optional -->
+<img src="Zeus.jpg" alt="Zeus" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Magic  
-**Pantheon:** Demerans  
-**Trial:** Travel the equator in the duration of a lightning strike  
+**Pantheon:** [Demerans](../../pantheons/Demerans)  
+**Trial:** Travel the equator in the duration of a lightning strike
 **LGBTQ+ Identifications:**   
 
 

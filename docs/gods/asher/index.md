@@ -1,15 +1,15 @@
-# Asher  --  (He/Him)
+# Asher — (He/Him)
 
-<!-- Optional  -->
-<img src="Asher.jpg" alt="Asher" style="width:400px;"/>
+<!-- Optional -->
+<img src="Asher.jpg" alt="Asher" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Fortunians  
-**Trial:** Drive the Dragons out of the Mortal Plane  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
+**Trial:** Drive the Dragons out of the Mortal Plane
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Halo 3 - Never Forget (Piano Cover).mp4"
+"Halo 3 - Never Forget (Piano Cover)"
 
 ---
 

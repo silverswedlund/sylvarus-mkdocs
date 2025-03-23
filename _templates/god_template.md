@@ -1,14 +1,14 @@
-# {{ name }}--  ({{ pronouns }} )
+# {{ name }} — ({{ pronouns }})
 
-<!-- Optional  -->
-![{{ name }}]({{ image_path }})
+<!-- Optional -->
+<img src="{{ image_path }}" alt="{{ name }}" width="400" />
 ---
 
 **Pronouns:** {{ pronouns }}  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** {{ species }}  
 **Ascension Epoch:** {{ ascension_epoch }}  
-**Pantheon:** {{ pantheon }}  
+**Pantheon:** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Trial:** {{ trial }}
 **LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
 

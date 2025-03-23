@@ -1,15 +1,15 @@
-# Apollo  --  (He/Him)
+# Apollo — (He/Him)
 
-<!-- Optional  -->
-<img src="Apollo.jpg" alt="Apollo" style="width:400px;"/>
+<!-- Optional -->
+<img src="Apollo.jpg" alt="Apollo" width="400" />
 ---
 
 **Pronouns:** He/Him  
-**Titles:** {{ titles }}  
+**Titles:** God of the Sun  
 **Pre-ascension Species:** Half-elf  
 **Ascension Epoch:** Age of Unity  
-**Pantheon:** Demerans  
-**Trial:** Bathe All of Sylvarus in Daylight  
+**Pantheon:** [Demerans](../../pantheons/Demerans)  
+**Trial:** Bathe All of Sylvarus in Daylight
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"The Promised Neverland OST - Isabella’s Lullaby.mp4"
+"The Promised Neverland OST - Isabella’s Lullaby"
 
 ---
 

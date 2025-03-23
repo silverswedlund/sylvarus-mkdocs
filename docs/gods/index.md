@@ -1,7 +1,7 @@
 
 Sort by clicking headers.
 
-| Name      | Species | Pantheon | Link                          |
+**Pantheon:** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 |-----------|---------|----------|-------------------------------|
 | Zeus      | God     | Greek    | [View](./zeus/index.md)       |
 | Anubis    | God     | Egyptian | [View](./anubis/index.md)     |

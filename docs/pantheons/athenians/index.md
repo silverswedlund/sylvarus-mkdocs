@@ -1,0 +1,11 @@
+# Athenians
+## Members
+- [Amun](../../gods/amun/)
+- [Athena](../../gods/athena/)
+- [Delinette](../../gods/delinette/)
+- [Halacaster](../../gods/halacaster/)
+- [Hephaestus](../../gods/hephaestus/)
+- [Inkozana](../../gods/inkozana/)
+- [Iranara](../../gods/iranara/)
+- [Orakothros](../../gods/orakothros/)
+- [Tyro](../../gods/tyro/)

@@ -1,15 +1,15 @@
-# Virtue  --  (He/Him)
+# Virtue — (He/Him)
 
-<!-- Optional  -->
-<img src="Virtue.jpg" alt="Virtue" style="width:400px;"/>
+<!-- Optional -->
+<img src="Virtue.jpg" alt="Virtue" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Orc  
 **Ascension Epoch:** The God Wars  
-**Pantheon:** Gilgamites  
-**Trial:** Unknown  
+**Pantheon:** [Gilgamites](../../pantheons/Gilgamites)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Geralt of Rivia | The Witcher OST.mp4"
+"Geralt of Rivia | The Witcher OST"
 
 ---
 

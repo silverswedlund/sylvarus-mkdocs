@@ -1,15 +1,15 @@
-# Hera  --  (She/Her)
+# Hera — (She/Her)
 
-<!-- Optional  -->
-<img src="Hera.jpg" alt="Hera" style="width:400px;"/>
+<!-- Optional -->
+<img src="Hera.jpg" alt="Hera" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Demerans  
-**Trial:** Build a harmonious state of people  
+**Pantheon:** [Demerans](../../pantheons/Demerans)  
+**Trial:** Build a harmonious state of people
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix).mp4"
+"Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix)"
 
 ---
 

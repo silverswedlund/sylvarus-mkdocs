@@ -1,14 +1,14 @@
-# Silence  --  (She/Her)
+# Silence — (She/Her)
 
-<!-- Optional  -->
-<img src="Silence.jpg" alt="Silence" style="width:400px;"/>
+<!-- Optional -->
+<img src="Silence.jpg" alt="Silence" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** Unknown  
-**Pantheon:** Pre-God Wars  
+**Pantheon:** [None](../../pantheons/None)  
 **Trial:** 
 **LGBTQ+ Identifications:**   
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Copied City.mp4"
+"Copied City"
 
 ---
 
@@ -39,5 +39,5 @@
 ---
 
 ## 🧩 Notable Relationships
-Not yet decided
+
 ---

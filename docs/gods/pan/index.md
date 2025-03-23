@@ -1,14 +1,14 @@
-# Pan  --  (He/Him)
+# Pan — (He/Him)
 
-<!-- Optional  -->
-<img src="Pan.jpg" alt="Pan" style="width:400px;"/>
+<!-- Optional -->
+<img src="Pan.jpg" alt="Pan" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Satyr  
 **Ascension Epoch:** Age of Chaos  
-**Pantheon:** Zagarans  
+**Pantheon:** [Zagarans](../../pantheons/Zagarans)  
 **Trial:** 
 **LGBTQ+ Identifications:**   
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Let's Dance, Boys! - Super Smash Bros. Ultimate.mp4"
+"Let's Dance, Boys! - Super Smash Bros. Ultimate"
 
 ---
 

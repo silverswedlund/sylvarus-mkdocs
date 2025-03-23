@@ -1,15 +1,15 @@
-# Tyro  --  (He/Him)
+# Tyro — (He/Him)
 
-<!-- Optional  -->
-<img src="Tyro.jpg" alt="Tyro" style="width:400px;"/>
+<!-- Optional -->
+<img src="Tyro.jpg" alt="Tyro" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** human  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Athenians  
-**Trial:** Give a Weapon a Mind  
+**Pantheon:** [Athenians](../../pantheons/Athenians)  
+**Trial:** Give a Weapon a Mind
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-".Goëtia. | Dark Magic Music.mp4"
+".Goëtia. | Dark Magic Music"
 
 ---
 

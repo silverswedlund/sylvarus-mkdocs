@@ -1,15 +1,15 @@
-# Hestia  --  (She/Her)
+# Hestia — (She/Her)
 
-<!-- Optional  -->
-<img src="Hestia.jpg" alt="Hestia" style="width:400px;"/>
+<!-- Optional -->
+<img src="Hestia.jpg" alt="Hestia" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Zagarans  
-**Trial:** Achieve Inner Piece  
+**Pantheon:** [Zagarans](../../pantheons/Zagarans)  
+**Trial:** Achieve Inner Piece
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Minecraft - Pigstep Orchestral Cover.mp4"
+"Minecraft - Pigstep Orchestral Cover"
 
 ---
 

@@ -1,15 +1,15 @@
-# Death  --  (He/Him)
+# Death — (He/Him)
 
-<!-- Optional  -->
-<img src="Death.jpg" alt="Death" style="width:400px;"/>
+<!-- Optional -->
+<img src="Death.jpg" alt="Death" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** Pre-God Wars  
-**Pantheon:** None  
-**Trial:** Unknown  
+**Pantheon:** [None](../../pantheons/None)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Death's Sleep.mp3"
+"Death's Sleep"
 
 ---
 

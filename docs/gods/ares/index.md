@@ -1,15 +1,15 @@
-# Ares  --  (He/Him)
+# Ares — (He/Him)
 
-<!-- Optional  -->
-<img src="Ares.jpg" alt="Ares" style="width:400px;"/>
+<!-- Optional -->
+<img src="Ares.jpg" alt="Ares" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Narn  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Gilgamites  
-**Trial:** Conquer Sylvarus  
+**Pantheon:** [Gilgamites](../../pantheons/Gilgamites)  
+**Trial:** Conquer Sylvarus
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"The only thing they fear is you.mp4"
+"The only thing they fear is you"
 
 ---
 

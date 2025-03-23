@@ -1,15 +1,15 @@
-# Orpheus  --  (He/They)
+# Orpheus — (he/they)
 
-<!-- Optional  -->
-<img src="Orpheus.jpg" alt="Orpheus" style="width:400px;"/>
+<!-- Optional -->
+<img src="Orpheus.jpg" alt="Orpheus" width="400" />
 ---
 
 **Pronouns:** he/they  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** half-elf  
 **Ascension Epoch:** Age of Magic  
-**Pantheon:** Zagarans  
-**Trial:** Replay the first song ever written  
+**Pantheon:** [Zagarans](../../pantheons/Zagarans)  
+**Trial:** Replay the first song ever written
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"The Epic Of Gilgamesh In Sumerian.mp3"
+"The Epic Of Gilgamesh In Sumerian"
 
 ---
 

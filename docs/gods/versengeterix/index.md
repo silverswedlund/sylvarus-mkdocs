@@ -1,15 +1,15 @@
-# Versengeterix  --  (He/Him)
+# Versengeterix — (He/Him)
 
-<!-- Optional  -->
-<img src="Versengeterix.jpg" alt="Versengeterix" style="width:400px;"/>
+<!-- Optional -->
+<img src="Versengeterix.jpg" alt="Versengeterix" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Centaur  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Fortunians  
-**Trial:** Replant the fields and forests of the astral plane  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
+**Trial:** Replant the fields and forests of the astral plane
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Pandora hearts OST - Will.mp4"
+"Pandora hearts OST - Will"
 
 ---
 

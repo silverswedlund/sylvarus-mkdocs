@@ -1,15 +1,15 @@
-# Hades  --  (He/Him)
+# Hades — (He/Him)
 
-<!-- Optional  -->
-<img src="Hades.jpg" alt="Hades" style="width:400px;"/>
+<!-- Optional -->
+<img src="Hades.jpg" alt="Hades" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Half-Elf  
 **Ascension Epoch:** The God Wars  
-**Pantheon:** Underworlders  
-**Trial:** Create A resting place for the dead  
+**Pantheon:** [Underworlders](../../pantheons/Underworlders)  
+**Trial:** Create A resting place for the dead
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Hades - God of the Dead.mp4"
+"Hades - God of the Dead"
 
 ---
 

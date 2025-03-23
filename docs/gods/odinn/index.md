@@ -1,16 +1,17 @@
-# Odinn  --  (He/Him)
+# Odinn — (He/Him)
 
-<!-- Optional  -->
-<img src="Odinn.jpg" alt="Odinn" style="width:400px;"/>
+<!-- Optional -->
+<img src="Odinn.jpg" alt="Odinn" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Narn  
 **Ascension Epoch:** Age of Chaos  
-**Pantheon:** Gilgamites  
-**Trial:** Live an Honorable life and die and Honorable death  
+**Pantheon:** [Gilgamites](../../pantheons/Gilgamites)  
+**Trial:** Live an Honorable life and die and Honorable death
 **LGBTQ+ Identifications:**   
+
 
 **Theme Music:**  
 <audio controls>

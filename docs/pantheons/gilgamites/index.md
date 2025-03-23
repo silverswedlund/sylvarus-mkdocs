@@ -1,0 +1,10 @@
+# Gilgamites
+## Members
+- [Ares](../../gods/ares/)
+- [Artemis](../../gods/artemis/)
+- [Gilgamesh](../../gods/gilgamesh/)
+- [Marith](../../gods/marith/)
+- [Nyx](../../gods/nyx/)
+- [Odinn](../../gods/odinn/)
+- [Quetzocoatl](../../gods/quetzocoatl/)
+- [Virtue](../../gods/virtue/)

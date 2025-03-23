@@ -1,15 +1,15 @@
-# Malice  --  (He/Him)
+# Malice — (He/Him)
 
-<!-- Optional  -->
-<img src="Malice.jpg" alt="Malice" style="width:400px;"/>
+<!-- Optional -->
+<img src="Malice.jpg" alt="Malice" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Unknown  
 **Ascension Epoch:** Pre-God Wars  
-**Pantheon:** Demerans  
-**Trial:** Unknown  
+**Pantheon:** [Demerans](../../pantheons/Demerans)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Tchaikovsky - Valse Sentimentale.mp4"
+"Tchaikovsky - Valse Sentimentale"
 
 ---
 

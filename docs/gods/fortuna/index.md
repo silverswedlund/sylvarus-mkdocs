@@ -1,15 +1,15 @@
-# Fortuna  --  (She/Her)
+# Fortuna — (She/Her)
 
-<!-- Optional  -->
-<img src="Fortuna.jpg" alt="Fortuna" style="width:400px;"/>
+<!-- Optional -->
+<img src="Fortuna.jpg" alt="Fortuna" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Pre-God Wars  
-**Pantheon:** Fortunians  
-**Trial:** Unknown  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
+**Trial:** Unknown
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"O Fortuna (Carmina Burana - Carl Orff).mp4"
+"O Fortuna (Carmina Burana - Carl Orff)"
 
 ---
 

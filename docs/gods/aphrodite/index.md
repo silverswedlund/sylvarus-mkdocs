@@ -1,15 +1,15 @@
-# Aphrodite  --  (She/Her)
+# Aphrodite — (She/Her)
 
-<!-- Optional  -->
-<img src="Aphrodite.jpg" alt="Aphrodite" style="width:400px;"/>
+<!-- Optional -->
+<img src="Aphrodite.jpg" alt="Aphrodite" width="400" />
 ---
 
 **Pronouns:** She/Her  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** Age of Magic  
-**Pantheon:** None  
-**Trial:** Create a new plane  
+**Pantheon:** [None](../../pantheons/None)  
+**Trial:** Create a new plane
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Spider Dance- Orchestral swing remix.mp4"
+"Spider Dance- Orchestral swing remix"
 
 ---
 

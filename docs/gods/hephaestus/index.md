@@ -1,15 +1,15 @@
-# Hephaestus  --  (Any/All)
+# Hephaestus — (any/all)
 
-<!-- Optional  -->
-<img src="Hephaestus.jpg" alt="Hephaestus" style="width:400px;"/>
+<!-- Optional -->
+<img src="Hephaestus.jpg" alt="Hephaestus" width="400" />
 ---
 
 **Pronouns:** any/all  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Human  
 **Ascension Epoch:** Age of Creation  
-**Pantheon:** Athenians  
-**Trial:** Build the greatest weapon ever made  
+**Pantheon:** [Athenians](../../pantheons/Athenians)  
+**Trial:** Build the greatest weapon ever made
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Another Medium.mp4"
+"Another Medium"
 
 ---
 

@@ -1,15 +1,15 @@
-# Amun  --  (He/Him)
+# Amun — (He/Him)
 
-<!-- Optional  -->
-<img src="Amun.jpg" alt="Amun" style="width:400px;"/>
+<!-- Optional -->
+<img src="Amun.jpg" alt="Amun" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Elf  
 **Ascension Epoch:** Age of Creation  
-**Pantheon:** Athenians  
-**Trial:** Invent Powered Flight  
+**Pantheon:** [Athenians](../../pantheons/Athenians)  
+**Trial:** Invent Powered Flight
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix).mp4"
+"Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix)"
 
 ---
 

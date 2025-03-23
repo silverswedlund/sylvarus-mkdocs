@@ -1,15 +1,15 @@
-# Loki  --  (He/Him)
+# Loki — (He/Him)
 
-<!-- Optional  -->
-<img src="Loki.jpg" alt="Loki" style="width:400px;"/>
+<!-- Optional -->
+<img src="Loki.jpg" alt="Loki" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Tiefling  
 **Ascension Epoch:** Age of Division  
-**Pantheon:** Underworlders  
-**Trial:** Make a permanent doorway to the fey wilds  
+**Pantheon:** [Underworlders](../../pantheons/Underworlders)  
+**Trial:** Make a permanent doorway to the fey wilds
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Corpse Party: Blood Covered OST - Chapter 1's Main Theme (Extended).mp4"
+"Corpse Party: Blood Covered OST - Chapter 1's Main Theme (Extended)"
 
 ---
 

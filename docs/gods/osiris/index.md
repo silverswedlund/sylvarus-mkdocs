@@ -1,15 +1,15 @@
-# Osiris  --  (He/Him)
+# Osiris — (He/Him)
 
-<!-- Optional  -->
-<img src="Osiris.jpg" alt="Osiris" style="width:400px;"/>
+<!-- Optional -->
+<img src="Osiris.jpg" alt="Osiris" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Dwarf  
 **Ascension Epoch:** Age of Magic  
-**Pantheon:** Underworlders  
-**Trial:** Create the Elixir of Life  
+**Pantheon:** [Underworlders](../../pantheons/Underworlders)  
+**Trial:** Create the Elixir of Life
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended).mp4"
+"Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended)"
 
 ---
 

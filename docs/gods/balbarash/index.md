@@ -1,15 +1,15 @@
-# Balbarash  --  (He/They)
+# Balbarash — (he/they)
 
-<!-- Optional  -->
-<img src="Balbarash.jpg" alt="Balbarash" style="width:400px;"/>
+<!-- Optional -->
+<img src="Balbarash.jpg" alt="Balbarash" width="400" />
 ---
 
 **Pronouns:** he/they  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Goliath  
 **Ascension Epoch:** Age of Unity  
-**Pantheon:** Fortunians  
-**Trial:** Stop the Wandering of the Goliaths  
+**Pantheon:** [Fortunians](../../pantheons/Fortunians)  
+**Trial:** Stop the Wandering of the Goliaths
 **LGBTQ+ Identifications:**   
 
 
@@ -19,7 +19,7 @@
   Your browser does not support the audio element.
 </audio>
 
-"Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek.mp4"
+"Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek"
 
 ---
 

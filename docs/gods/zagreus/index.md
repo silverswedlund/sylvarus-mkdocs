@@ -1,15 +1,15 @@
-# Zagreus  --  (He/Him)
+# Zagreus — (He/Him)
 
-<!-- Optional  -->
-<img src="Zagreus.jpg" alt="Zagreus" style="width:400px;"/>
+<!-- Optional -->
+<img src="Zagreus.jpg" alt="Zagreus" width="400" />
 ---
 
 **Pronouns:** He/Him  
 **Titles:** {{ titles }}  
 **Pre-ascension Species:** Tiefling  
 **Ascension Epoch:** Age of Chaos  
-**Pantheon:** Zagarans  
-**Trial:** Escape the underworld through diplomacy, not violence  
+**Pantheon:** [Zagarans](../../pantheons/Zagarans)  
+**Trial:** Escape the underworld through diplomacy, not violence
 **LGBTQ+ Identifications:** genderfluid
 gay wow  
 
@@ -20,7 +20,7 @@ gay wow
   Your browser does not support the audio element.
 </audio>
 
-"07 From Olympus.mp3"
+"07 From Olympus"
 
 ---
 
