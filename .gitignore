@@ -8,5 +8,5 @@ venv/
 *.mp3
 docs/*/*/index.md
 docs/locations/cities/*/index.md
-docs/locations/nations/*/index.md
+docs/locations/territories/*/index.md
 docs/history/time_periods/*

@@ -19,9 +19,9 @@ find docs/pantheons/*/ -type f -name "index.md" -exec rm -v {} \;
 echo "🧹 Cleaning docs/demigods/*/index.md..."
 find docs/demigods/*/ -type f -name "index.md" -exec rm -v {} \;
 
-# Delete index.md in each nations folder
-echo "🧹 Cleaning docs/locations/nations/*/index.md..."
-find docs/locations/nations/*/ -type f -name "index.md" -exec rm -v {} \;
+# Delete index.md in each territories folder
+echo "🧹 Cleaning docs/locations/territories/*/index.md..."
+find docs/locations/territories/*/ -type f -name "index.md" -exec rm -v {} \;
 
 # Delete index.md in each cities folder
 echo "🧹 Cleaning docs/locations/cities/*/index.md..."
