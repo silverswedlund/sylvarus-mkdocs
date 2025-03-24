@@ -9,4 +9,4 @@ venv/
 docs/*/*/index.md
 docs/locations/cities/*/index.md
 docs/locations/nations/*/index.md
-docs/locations/time_periods/*/index.md
+docs/history/time_periods/*

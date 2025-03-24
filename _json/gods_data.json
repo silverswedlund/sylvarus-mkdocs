@@ -8,10 +8,11 @@
       "name": "Amun",
       "pronouns": "He/Him",
       "species": "Elf",
-      "aliases": "God of Flight",
+      "aliases": [
+        "God of Flight"
+      ],
       "trial": "Invent Powered Flight",
       "ascension_time_period": "Age of Creation",
-      "ascension_time_period_link_name": "age_of_creation",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -28,10 +29,11 @@
       "name": "Anuke",
       "pronouns": "She/Her",
       "species": "Human",
-      "aliases": "God of Flight",
+      "aliases": [
+        "God of Flight"
+      ],
       "trial": "Fell a Narntree",
       "ascension_time_period": "Period of Rebirth",
-      "ascension_time_period_link_name": "period_of_rebirth",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -48,10 +50,11 @@
       "name": "Aphrodite",
       "pronouns": "She/Her",
       "species": "Elf",
-      "aliases": "The Pink God",
+      "aliases": [
+        "The Pink God"
+      ],
       "trial": "Create a new plane",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "None",
       "relationships": "  - [Hephaestus](../Hephaestus) - (partner)\n  - [Delinette](../Delinette) - (partner)\n  -  [Hades](../Hades) - (pseudo friend/stalker /joke)\n",
       "current_status": "Traveling the Multi-verse",
@@ -71,7 +74,6 @@
       "aliasess": "God of the Sun",
       "trial": "Bathe All of Sylvarus in Daylight",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Demerans",
       "relationships": "Artemis - Sister",
       "current_status": "Doing political moves in Olympia",
@@ -88,10 +90,11 @@
       "name": "Ares",
       "pronouns": "He/Him",
       "species": "Narn",
-      "aliases": "God of Warfare",
+      "aliases": [
+        "God of Warfare"
+      ],
       "trial": "Conquer Sylvarus",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -108,7 +111,9 @@
       "name": "Artemis",
       "pronouns": "She/Her",
       "species": "Halfelf",
-      "aliases": "God of Titanblood and the moon",
+      "aliases": [
+        "God of Titanblood and the moon"
+      ],
       "trial": "Rid the Feywilds of the Titans",
       "ascension_time_period": "Modern Age",
       "pantheon": "Gilgamites",
@@ -127,10 +132,11 @@
       "name": "Asher",
       "pronouns": "He/Him",
       "species": "Human",
-      "aliases": "God of Necromancy",
+      "aliases": [
+        "God of Necromancy"
+      ],
       "trial": "Drive the Dragons out of the Mortal Plane",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -147,10 +153,11 @@
       "name": "Athena",
       "pronouns": "She/Her",
       "species": "Elf",
-      "aliases": "God of Science and Regret",
+      "aliases": [
+        "God of Science and Regret"
+      ],
       "trial": "Build the greatest weapon ever made",
       "ascension_time_period": "Age of Creation",
-      "ascension_time_period_link_name": "age_of_creation",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -167,10 +174,11 @@
       "name": "Balbarash",
       "pronouns": "he/they",
       "species": "Goliath",
-      "aliases": "God of Asceticism and Healing",
+      "aliases": [
+        "God of Asceticism and Healing"
+      ],
       "trial": "Stop the Wandering of the Goliaths",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -187,10 +195,11 @@
       "name": "Death",
       "pronouns": "He/Him",
       "species": "Unknown",
-      "aliases": "N/A",
+      "aliases": [
+        "N/A"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
-      "ascension_time_period_link_name": "the_forgotten_age",
       "pantheon": "None",
       "relationships": "",
       "current_status": "Sleeping in the Vault of Death",
@@ -207,10 +216,11 @@
       "name": "Delinette",
       "pronouns": "she/they",
       "species": "Quall",
-      "aliases": "God of Space and Difficult Travel",
+      "aliases": [
+        "God of Space and Difficult Travel"
+      ],
       "trial": "Go to a different Universe",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -227,10 +237,12 @@
       "name": "Demeter",
       "pronouns": "She/Her",
       "species": "Elf",
-      "aliases": "\n  - God Of Diplomacy  \n  - Queen of the Gods\n",
+      "aliases": [
+        "God Of Diplomacy",
+        "Queen of the Gods"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "Ascended to the Divine (dead?)",
@@ -247,10 +259,11 @@
       "name": "Dionysus",
       "pronouns": "He/Him",
       "species": "Human",
-      "aliases": "God of Stories and Parties",
+      "aliases": [
+        "God of Stories and Parties"
+      ],
       "trial": "Tell the greatest story ever told",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -267,7 +280,9 @@
       "name": "Ecatra",
       "pronouns": "She/Her",
       "species": "Mer",
-      "aliases": "The Merqueen",
+      "aliases": [
+        "The Merqueen"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Fortunians",
@@ -286,7 +301,9 @@
       "name": "Enkidu",
       "pronouns": "He/Him",
       "species": "Minotaur",
-      "aliases": "The Warden of Tartarus",
+      "aliases": [
+        "The Warden of Tartarus"
+      ],
       "trial": "Create the Perfect Prison",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Underworlders",
@@ -299,10 +316,11 @@
       "name": "Eris",
       "pronouns": "She/Her",
       "species": "Narn",
-      "aliases": "God of Conflict",
+      "aliases": [
+        "God of Conflict"
+      ],
       "trial": "Conquer Sylvarus",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -319,10 +337,11 @@
       "name": "Fortuna",
       "pronouns": "She/Her",
       "species": "Human",
-      "aliases": "Mother Fortune",
+      "aliases": [
+        "Mother Fortune"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
-      "ascension_time_period_link_name": "the_forgotten_age",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -339,10 +358,11 @@
       "name": "Freija",
       "pronouns": "She/Her",
       "species": "Human",
-      "aliases": "",
+      "aliases": [
+        ""
+      ],
       "trial": "Unknown",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "",
@@ -359,10 +379,11 @@
       "name": "Gilgamesh",
       "pronouns": "He/Him",
       "species": "Human",
-      "aliases": "",
+      "aliases": [
+        ""
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -379,10 +400,11 @@
       "name": "Hades",
       "pronouns": "He/Him",
       "species": "Half-Elf",
-      "aliases": "God of the Underworld",
+      "aliases": [
+        "God of the Underworld"
+      ],
       "trial": "Create A resting place for the dead",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Underworlders",
       "relationships": "Persephone - (wife) Aphrodite - (curious acquaintance) Demeter - (friend former) Charon - (created construct and employee) Eris - (employee) Thanatos - (loosely connected contractor) Osiris - (employee)",
       "current_status": "Managing the Underworld",
@@ -399,10 +421,11 @@
       "name": "Halacaster",
       "pronouns": "They/Them",
       "species": "secret",
-      "aliases": "The God of Spellcraft",
+      "aliases": [
+        "The God of Spellcraft"
+      ],
       "trial": "Stop the growth of the planar leaks",
       "ascension_time_period": "Age of Magic",
-      "ascension_time_period_link_name": "age_of_magic",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -419,10 +442,11 @@
       "name": "Hephaestus",
       "pronouns": "any/all",
       "species": "Human",
-      "aliases": "God of Crafts and Perfectionism",
+      "aliases": [
+        "God of Crafts and Perfectionism"
+      ],
       "trial": "Build the greatest weapon ever made",
       "ascension_time_period": "Age of Creation",
-      "ascension_time_period_link_name": "age_of_creation",
       "pantheon": "Athenians",
       "relationships": "Athena - Friend",
       "current_status": "Traveling the multi-verse",
@@ -439,10 +463,11 @@
       "name": "Hera",
       "pronouns": "She/Her",
       "species": "Elf",
-      "aliases": "Godqueen",
+      "aliases": [
+        "Godqueen"
+      ],
       "trial": "Build a harmonious state of people",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Demerans",
       "relationships": "Zeus - Mentor",
       "current_status": "",
@@ -459,10 +484,11 @@
       "name": "Hermes",
       "pronouns": "He/Him",
       "species": "human",
-      "aliases": "God of Science and Regret",
+      "aliases": [
+        "God of Science and Regret"
+      ],
       "trial": "Deliver a message",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -479,10 +505,11 @@
       "name": "Hestia",
       "pronouns": "She/Her",
       "species": "Elf",
-      "aliases": "God of Fire and Peace",
+      "aliases": [
+        "God of Fire and Peace"
+      ],
       "trial": "Achieve Inner Piece",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -499,10 +526,11 @@
       "name": "Inkozana",
       "pronouns": "She/Her",
       "species": "Fey/human/Dragonborn",
-      "aliases": "God of Science and Regret",
+      "aliases": [
+        "God of Science and Regret"
+      ],
       "trial": "Save Sylvarus from the Shooting Star",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -519,10 +547,11 @@
       "name": "Iranara",
       "pronouns": "She/Her",
       "species": "Orc",
-      "aliases": "God of Politics and Order",
+      "aliases": [
+        "God of Politics and Order"
+      ],
       "trial": "Unify the orcs in philosophy and politics",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Athenians",
       "relationships": "Orakothros - (husband)",
       "current_status": "",
@@ -539,10 +568,11 @@
       "name": "Loki",
       "pronouns": "He/Him",
       "species": "Tiefling",
-      "aliases": "God of Dealmaking",
+      "aliases": [
+        "God of Dealmaking"
+      ],
       "trial": "Make a permanent doorway to the fey wilds",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -559,10 +589,11 @@
       "name": "Malice",
       "pronouns": "He/Him",
       "species": "Unknown",
-      "aliases": "",
+      "aliases": [
+        ""
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
-      "ascension_time_period_link_name": "the_forgotten_age",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "",
@@ -579,10 +610,11 @@
       "name": "Marith",
       "pronouns": "He/Him",
       "species": "Unknown",
-      "aliases": "God of Perception",
+      "aliases": [
+        "God of Perception"
+      ],
       "trial": "Perceive all of reality at once",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "Lives and meditates in the far fields of the astral plane Promotes the Marithian religious movement",
@@ -599,10 +631,11 @@
       "name": "Midas",
       "pronouns": "doesn't care",
       "species": "Unknown",
-      "aliases": "The God of a thousand eyes and ears",
+      "aliases": [
+        "The God of a thousand eyes and ears"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Midasians",
       "relationships": "",
       "current_status": "",
@@ -619,10 +652,11 @@
       "name": "Nyx",
       "pronouns": "She/Her",
       "species": "Unknown",
-      "aliases": "God of Secrets and Specifics",
+      "aliases": [
+        "God of Secrets and Specifics"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Gilgamites",
       "relationships": "  - [Valentina](../Valentina) - (Wife)",
       "current_status": "",
@@ -639,7 +673,9 @@
       "name": "Odinn",
       "pronouns": "He/Him",
       "species": "Narn",
-      "aliases": "The God of Honor and Temperance",
+      "aliases": [
+        "The God of Honor and Temperance"
+      ],
       "trial": "Live an Honorable life and die and Honorable death",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Gilgamites",
@@ -658,10 +694,11 @@
       "name": "Orakothros",
       "pronouns": "He/Him",
       "species": "Orc",
-      "aliases": "God of Defense and Vengeance",
+      "aliases": [
+        "God of Defense and Vengeance"
+      ],
       "trial": "Drive the Humans out of the Orcs' homeland",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Athenians",
       "relationships": "Iranara - (wife)",
       "current_status": "",
@@ -678,10 +715,11 @@
       "name": "Orpheus",
       "pronouns": "he/they",
       "species": "half-elf",
-      "aliases": "God of Music and Investigation",
+      "aliases": [
+        "God of Music and Investigation"
+      ],
       "trial": "Replay the first song ever written",
       "ascension_time_period": "Age of Magic",
-      "ascension_time_period_link_name": "age_of_magic",
       "pantheon": "Zagarans",
       "relationships": "Eurydice - (wife)",
       "current_status": "",
@@ -698,10 +736,11 @@
       "name": "Osiris",
       "pronouns": "He/Him",
       "species": "Dwarf",
-      "aliases": "God of Judgement and Justice",
+      "aliases": [
+        "God of Judgement and Justice"
+      ],
       "trial": "Create the Elixir of Life",
       "ascension_time_period": "Age of Magic",
-      "ascension_time_period_link_name": "age_of_magic",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -718,7 +757,9 @@
       "name": "Pan",
       "pronouns": "He/Him",
       "species": "Satyr",
-      "aliases": "God of Friendship",
+      "aliases": [
+        "God of Friendship"
+      ],
       "trial": "",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
@@ -737,10 +778,11 @@
       "name": "Poseidon",
       "pronouns": "He/Him",
       "species": "Dwarf",
-      "aliases": "God of Sailing and Tides",
+      "aliases": [
+        "God of Sailing and Tides"
+      ],
       "trial": "Kill the Leviathan",
       "ascension_time_period": "Age of Creation",
-      "ascension_time_period_link_name": "age_of_creation",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -757,10 +799,11 @@
       "name": "Quetzocoatl",
       "pronouns": "They/Them",
       "species": "Dragon",
-      "aliases": "The Feathered Serpent God",
+      "aliases": [
+        "The Feathered Serpent God"
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -777,10 +820,11 @@
       "name": "Shal'nan",
       "pronouns": "They/Them",
       "species": "Dragon",
-      "aliases": "God of The Draco Peninsula",
+      "aliases": [
+        "God of The Draco Peninsula"
+      ],
       "trial": "",
       "ascension_time_period": "Age of Unity",
-      "ascension_time_period_link_name": "age_of_unity",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -797,7 +841,9 @@
       "name": "Silence",
       "pronouns": "She/Her",
       "species": "Unknown",
-      "aliases": "God of Patience",
+      "aliases": [
+        "God of Patience"
+      ],
       "trial": "",
       "ascension_time_period": "Unknown",
       "pantheon": "None",
@@ -816,10 +862,11 @@
       "name": "Thanatos",
       "pronouns": "They/Them",
       "species": "Celestial",
-      "aliases": "Current God of Death",
+      "aliases": [
+        "Current God of Death"
+      ],
       "trial": "Kill the god of Death",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "None",
       "relationships": "",
       "current_status": "",
@@ -836,10 +883,11 @@
       "name": "Tyro",
       "pronouns": "He/Him",
       "species": "human",
-      "aliases": "God of Enchantment and Measure",
+      "aliases": [
+        "God of Enchantment and Measure"
+      ],
       "trial": "Give a Weapon a Mind",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -856,10 +904,11 @@
       "name": "Valentina",
       "pronouns": "She/Her",
       "species": "human",
-      "aliases": "",
+      "aliases": [
+        ""
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Fortunians",
       "relationships": "  - [Nyx](../nyx) - (Wife)\n  - Fortuna - (Boss/mentor)\n",
       "current_status": "",
@@ -876,10 +925,11 @@
       "name": "Versengeterix",
       "pronouns": "He/Him",
       "species": "Centaur",
-      "aliases": "God of Gardening and Crops",
+      "aliases": [
+        "God of Gardening and Crops"
+      ],
       "trial": "Replant the fields and forests of the astral plane",
       "ascension_time_period": "Age of Division",
-      "ascension_time_period_link_name": "age_of_division",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -896,10 +946,11 @@
       "name": "Virtue",
       "pronouns": "He/Him",
       "species": "Orc",
-      "aliases": "",
+      "aliases": [
+        ""
+      ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "ascension_time_period_link_name": "the_god_wars",
       "pantheon": "Gilgamites",
       "relationships": "Gilgamesh - Friend/Leader",
       "current_status": "",
@@ -916,7 +967,9 @@
       "name": "Zagreus",
       "pronouns": "He/Him",
       "species": "Tiefling",
-      "aliases": "The God of Pacifism",
+      "aliases": [
+        "The God of Pacifism"
+      ],
       "trial": "Escape the underworld through diplomacy, not violence",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
@@ -934,10 +987,11 @@
       "name": "Zeus",
       "pronouns": "He/Him",
       "species": "Human",
-      "aliases": "The God of Lightning",
+      "aliases": [
+        "The God of Lightning"
+      ],
       "trial": "Travel the equator in the duration of a lightning strike",
       "ascension_time_period": "Age of Magic",
-      "ascension_time_period_link_name": "age_of_magic",
       "pantheon": "Demerans",
       "relationships": "Hestia - Great friend Demeter - Partner (former)",
       "current_status": "Living in the city of Redwater, having very limited powers from healing the planes",

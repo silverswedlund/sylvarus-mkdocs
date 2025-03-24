@@ -1,7 +1,20 @@
 # {{ name }} — ({{ government_type }})
 
-<!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" width="400" />
+<div style="display: flex; gap: 20px; align-items: center; margin-top: 1rem; margin-bottom: 1rem;">
+  {% if flag_path %}
+    <div>
+      <strong>Flag</strong><br />
+      <img src="{{ flag_path }}" alt="{{ name }} Flag" width="200" />
+    </div>
+  {% endif %}
+  {% if image_path %}
+    <div>
+      <strong>Visual Example</strong><br />
+      <img src="{{ image_path }}" alt="{{ name }} Visual" width="400" />
+    </div>
+  {% endif %}
+</div>
+
 ---
 
 ## 🗺️ Basic Information
@@ -11,17 +24,15 @@
 **Major Cities:** {{ major_cities }}  
 **Government Type:** {{ government_type }}  
 **Ruling Power:** {{ ruling_power }}  
-**Founding Epoch:** {{ founding_epoch }}  
-**Dominant Species:** {{ dominant_species }}  
-**Magic Affinity:** {{ magic_affinity }}  
+**Founding Time Period:** [{{ founding_time_period }}](../../../history/time_periods/{{ founding_time_period_link_name }})  
+**Majority Species:** {{ majority_species }}  
 **Known For:** {{ known_for }}
 
-**Theme Music:**  
+**Anthem:**  
 <audio controls>
-  <source src="{{ music_path }}" type="audio/mpeg">
+  <source src="{{ anthem_path }}" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio>
-
+</audio>  
 "{{ song_name }}"  
 
 {{ custom_details }}
