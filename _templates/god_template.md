@@ -9,7 +9,7 @@
 **Titles/Aliases:** 
 {{ aliases }}  
 **Pre-ascension Species:** {{ species }}  
-**[Time Period](../../history/time_periods/) of Ascension:** {{ ascension_time_period }}  
+**[Time Period](../../history/time_periods/) of Ascension:** [{{ ascension_time_period }}](../../history/time_periods/{{ ascension_time_period_link_name }})  
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Divine Trial:** {{ trial }}  
 **LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
