@@ -6,7 +6,8 @@
 
 ## 📕 Details
 **Pronouns:** {{ pronouns }}  
-**Titles:** {{ titles }}  
+**Titles/Aliases:** 
+{{ aliases }}  
 **Pre-ascension Species:** {{ species }}  
 **Ascension Epoch:** {{ ascension_epoch }}  
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
