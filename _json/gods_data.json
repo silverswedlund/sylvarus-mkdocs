@@ -10,7 +10,7 @@
       "species": "Elf",
       "aliases": "God of Flight",
       "trial": "Invent Powered Flight",
-      "ascension_epoch": "Age of Creation",
+      "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -20,7 +20,8 @@
       "song_name": "Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Anuke": {
       "name": "Anuke",
@@ -28,7 +29,7 @@
       "species": "Human",
       "aliases": "God of Flight",
       "trial": "Fell a Narntree",
-      "ascension_epoch": "Period of Rebirth",
+      "ascension_time_period": "Period of Rebirth",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -36,9 +37,10 @@
       "history": "",
       "music_path": "Aphrodite | Spider Dance- Orchestral swing remix.mp4",
       "song_name": "Spider Dance- Orchestral swing remix",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
-      "custom_details": ""
+      "lgbtq_identifications": "Pansexual",
+      "other_identifiers": "Polyamorous",
+      "custom_details": "",
+      "physical_description": ""
     },
     "Aphrodite": {
       "name": "Aphrodite",
@@ -46,7 +48,7 @@
       "species": "Elf",
       "aliases": "The Pink God",
       "trial": "Create a new plane",
-      "ascension_epoch": "Age of Magic",
+      "ascension_time_period": "[Age of Magic](../../history/time_periods/age_of_magic/)",
       "pantheon": "None",
       "relationships": "Hephaestus - (partner) Delinette - (partner) Hades - (pseudo friend/stalker /joke)",
       "current_status": "Traveling the Multi-verse",
@@ -54,9 +56,10 @@
       "history": "Escaped the God Onboarding Room",
       "music_path": "Aphrodite | Spider Dance- Orchestral swing remix.mp4",
       "song_name": "Spider Dance- Orchestral swing remix",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
-      "custom_details": ""
+      "lgbtq_identifications": "\n\n  - Pansexual\n  - Transgender (MTF)\n\n",
+      "other_identifiers": "\n\n  - Polyamorous\n  - ADHD\n  - Autism\n",
+      "custom_details": "",
+      "physical_description": ""
     },
     "Apollo": {
       "name": "Apollo",
@@ -64,7 +67,7 @@
       "species": "Half-elf",
       "aliasess": "God of the Sun",
       "trial": "Bathe All of Sylvarus in Daylight",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
       "relationships": "Artemis - Sister",
       "current_status": "Doing political moves in Olympia",
@@ -74,7 +77,8 @@
       "song_name": "The Promised Neverland OST - Isabella’s Lullaby",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Ares": {
       "name": "Ares",
@@ -82,7 +86,7 @@
       "species": "Narn",
       "aliases": "God of Warfare",
       "trial": "Conquer Sylvarus",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -92,7 +96,8 @@
       "song_name": "The only thing they fear is you",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Artemis": {
       "name": "Artemis",
@@ -100,7 +105,7 @@
       "species": "Halfelf",
       "aliases": "God of Titanblood and the moon",
       "trial": "Rid the Feywilds of the Titans",
-      "ascension_epoch": "Modern Age",
+      "ascension_time_period": "Modern Age",
       "pantheon": "Gilgamites",
       "relationships": "Apollo - Brother",
       "current_status": "",
@@ -110,7 +115,8 @@
       "song_name": "Death Note- Kuroi Light EXTENDED",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Asher": {
       "name": "Asher",
@@ -118,7 +124,7 @@
       "species": "Human",
       "aliases": "God of Necromancy",
       "trial": "Drive the Dragons out of the Mortal Plane",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -128,7 +134,8 @@
       "song_name": "Halo 3 - Never Forget (Piano Cover)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Athena": {
       "name": "Athena",
@@ -136,7 +143,7 @@
       "species": "Elf",
       "aliases": "God of Science and Regret",
       "trial": "Build the greatest weapon ever made",
-      "ascension_epoch": "Age of Creation",
+      "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -146,7 +153,8 @@
       "song_name": "A Cruel Angel's Thesis but it's actually dark and depressive (Evangelion OP)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Balbarash": {
       "name": "Balbarash",
@@ -154,7 +162,7 @@
       "species": "Goliath",
       "aliases": "God of Asceticism and Healing",
       "trial": "Stop the Wandering of the Goliaths",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -164,7 +172,8 @@
       "song_name": "Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Death": {
       "name": "Death",
@@ -172,7 +181,7 @@
       "species": "Unknown",
       "aliases": "N/A",
       "trial": "Unknown",
-      "ascension_epoch": "Pre-God Wars",
+      "ascension_time_period": "Pre-God Wars",
       "pantheon": "None",
       "relationships": "",
       "current_status": "Sleeping in the Vault of Death",
@@ -182,7 +191,8 @@
       "song_name": "Death's Sleep",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Delinette": {
       "name": "Delinette",
@@ -190,7 +200,7 @@
       "species": "Quall",
       "aliases": "God of Space and Difficult Travel",
       "trial": "Go to a different Universe",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -200,7 +210,8 @@
       "song_name": "Halo 4 OST - 117",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Demeter": {
       "name": "Demeter",
@@ -208,7 +219,7 @@
       "species": "Elf",
       "aliases": "God Of Diplomacy Queen of the Gods",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "Ascended to the Divine (dead?)",
@@ -218,7 +229,8 @@
       "song_name": "Halo 4 - Atonement",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Dionysus": {
       "name": "Dionysus",
@@ -226,7 +238,7 @@
       "species": "Human",
       "aliases": "God of Stories and Parties",
       "trial": "Tell the greatest story ever told",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -236,7 +248,8 @@
       "song_name": "Pokémon Diamond and Pearl- Game Corner Remix v.II",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Ecatra": {
       "name": "Ecatra",
@@ -244,7 +257,7 @@
       "species": "Mer",
       "aliases": "The Merqueen",
       "trial": "Unknown",
-      "ascension_epoch": "Age of Chaos",
+      "ascension_time_period": "Age of Chaos",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -254,7 +267,8 @@
       "song_name": "MerFolk | Lullaby of Woe - Ashley Serena (LYRICS)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Enkidu": {
       "name": "Enkidu",
@@ -262,7 +276,7 @@
       "species": "Minotaur",
       "aliases": "The Warden of Tartarus",
       "trial": "Create the Perfect Prison",
-      "ascension_epoch": "Age of Chaos",
+      "ascension_time_period": "Age of Chaos",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -275,7 +289,7 @@
       "species": "Narn",
       "aliases": "God of Conflict",
       "trial": "Conquer Sylvarus",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -285,7 +299,8 @@
       "song_name": "BFG division",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Fortuna": {
       "name": "Fortuna",
@@ -293,7 +308,7 @@
       "species": "Human",
       "aliases": "Mother Fortune",
       "trial": "Unknown",
-      "ascension_epoch": "Pre-God Wars",
+      "ascension_time_period": "Pre-God Wars",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -303,7 +318,8 @@
       "song_name": "O Fortuna (Carmina Burana - Carl Orff)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Freija": {
       "name": "Freija",
@@ -311,7 +327,7 @@
       "species": "Human",
       "aliases": "",
       "trial": "Unknown",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "",
@@ -321,7 +337,8 @@
       "song_name": "SKÁLD - Ginnunga (Vikings Chant)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Gilgamesh": {
       "name": "Gilgamesh",
@@ -329,7 +346,7 @@
       "species": "Human",
       "aliases": "",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -339,7 +356,8 @@
       "song_name": "Hunter x Hunter (2011) OST - Restriction and Pledge",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Hades": {
       "name": "Hades",
@@ -347,7 +365,7 @@
       "species": "Half-Elf",
       "aliases": "God of the Underworld",
       "trial": "Create A resting place for the dead",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Underworlders",
       "relationships": "Persephone - (wife) Aphrodite - (curious acquaintance) Demeter - (friend former) Charon - (created construct and employee) Eris - (employee) Thanatos - (loosely connected contractor) Osiris - (employee)",
       "current_status": "Managing the Underworld",
@@ -357,7 +375,8 @@
       "song_name": "Hades - God of the Dead",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Halacaster": {
       "name": "Halacaster",
@@ -365,7 +384,7 @@
       "species": "secret",
       "aliases": "The God of Spellcraft",
       "trial": "Stop the growth of the planar leaks",
-      "ascension_epoch": "Age of Magic",
+      "ascension_time_period": "Age of Magic",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -375,7 +394,8 @@
       "song_name": "Carter Burwell – Main theme Mr. Holmes",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Hephaestus": {
       "name": "Hephaestus",
@@ -383,7 +403,7 @@
       "species": "Human",
       "aliases": "God of Crafts and Perfectionism",
       "trial": "Build the greatest weapon ever made",
-      "ascension_epoch": "Age of Creation",
+      "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
       "relationships": "Athena - Friend",
       "current_status": "Traveling the multi-verse",
@@ -393,7 +413,8 @@
       "song_name": "Another Medium",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Hera": {
       "name": "Hera",
@@ -401,7 +422,7 @@
       "species": "Elf",
       "aliases": "Godqueen",
       "trial": "Build a harmonious state of people",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Demerans",
       "relationships": "Zeus - Mentor",
       "current_status": "",
@@ -411,7 +432,8 @@
       "song_name": "Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Hermes": {
       "name": "Hermes",
@@ -419,7 +441,7 @@
       "species": "human",
       "aliases": "God of Science and Regret",
       "trial": "Deliver a message",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -429,7 +451,8 @@
       "song_name": "Marvelous Battle OST's: Tsuna Awakes",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Hestia": {
       "name": "Hestia",
@@ -437,7 +460,7 @@
       "species": "Elf",
       "aliases": "God of Fire and Peace",
       "trial": "Achieve Inner Piece",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -447,7 +470,8 @@
       "song_name": "Minecraft - Pigstep Orchestral Cover",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Inkozana": {
       "name": "Inkozana",
@@ -455,7 +479,7 @@
       "species": "Fey/human/Dragonborn",
       "aliases": "God of Science and Regret",
       "trial": "Save Sylvarus from the Shooting Star",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -465,7 +489,8 @@
       "song_name": "Halo 4 OST - Legacy",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Iranara": {
       "name": "Iranara",
@@ -473,7 +498,7 @@
       "species": "Orc",
       "aliases": "God of Politics and Order",
       "trial": "Unify the orcs in philosophy and politics",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
       "relationships": "Orakothros - (husband)",
       "current_status": "",
@@ -483,7 +508,8 @@
       "song_name": "Horn of Plenty (Preparing the Chariots w Tribute Parade from Catching Fire)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Loki": {
       "name": "Loki",
@@ -491,7 +517,7 @@
       "species": "Tiefling",
       "aliases": "God of Dealmaking",
       "trial": "Make a permanent doorway to the fey wilds",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -501,7 +527,8 @@
       "song_name": "Corpse Party: Blood Covered OST - Chapter 1's Main Theme (Extended)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Malice": {
       "name": "Malice",
@@ -509,7 +536,7 @@
       "species": "Unknown",
       "aliases": "",
       "trial": "Unknown",
-      "ascension_epoch": "Pre-God Wars",
+      "ascension_time_period": "Pre-God Wars",
       "pantheon": "Demerans",
       "relationships": "",
       "current_status": "",
@@ -519,7 +546,8 @@
       "song_name": "Tchaikovsky - Valse Sentimentale",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Marith": {
       "name": "Marith",
@@ -527,7 +555,7 @@
       "species": "Unknown",
       "aliases": "God of Perception",
       "trial": "Perceive all of reality at once",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "Lives and meditates in the far fields of the astral plane Promotes the Marithian religious movement",
@@ -537,7 +565,8 @@
       "song_name": "Dragon Quest IX Tokyo Suite - Angelic Land",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Midas": {
       "name": "Midas",
@@ -545,7 +574,7 @@
       "species": "Unknown",
       "aliases": "The God of a thousand eyes and ears",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Midasians",
       "relationships": "",
       "current_status": "",
@@ -555,7 +584,8 @@
       "song_name": "Pearl: Approaching Champion Cynthia Piano Etude (Extended)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Nyx": {
       "name": "Nyx",
@@ -563,17 +593,18 @@
       "species": "Unknown",
       "aliases": "God of Secrets and Specifics",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "Valentina - (Wife)",
+      "relationships": "  - [Valentina](../Valentina) - (Wife)",
       "current_status": "",
       "image_path": "Nyx.jpg",
       "history": "",
       "music_path": "Nyx | Vivaldi Variation (arr. for piano from Concerto for Strings).mp4",
       "song_name": "Vivaldi Variation (arr. for piano from Concerto for Strings)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
-      "custom_details": ""
+      "lgbtq_identifications": "\n\n  - Gay (lesbian)\n",
+      "other_identifiers": "\n\n  - Autistic\n",
+      "custom_details": "",
+      "physical_description": ""
     },
     "Odinn": {
       "name": "Odinn",
@@ -581,7 +612,7 @@
       "species": "Narn",
       "aliases": "The God of Honor and Temperance",
       "trial": "Live an Honorable life and die and Honorable death",
-      "ascension_epoch": "Age of Chaos",
+      "ascension_time_period": "Age of Chaos",
       "pantheon": "Gilgamites",
       "relationships": "Alytica - (husband)",
       "current_status": "Living in a cabin with Alytica in the far reaches of the Astral plane",
@@ -591,7 +622,8 @@
       "song_name": "Halo 3 ODST OST Disk 1 Track 6 Asphalt and Ablution",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Orakothros": {
       "name": "Orakothros",
@@ -599,7 +631,7 @@
       "species": "Orc",
       "aliases": "God of Defense and Vengeance",
       "trial": "Drive the Humans out of the Orcs' homeland",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
       "relationships": "Iranara - (wife)",
       "current_status": "",
@@ -609,7 +641,8 @@
       "song_name": "1. God of War | God of War OST",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Orpheus": {
       "name": "Orpheus",
@@ -617,7 +650,7 @@
       "species": "half-elf",
       "aliases": "God of Music and Investigation",
       "trial": "Replay the first song ever written",
-      "ascension_epoch": "Age of Magic",
+      "ascension_time_period": "Age of Magic",
       "pantheon": "Zagarans",
       "relationships": "Eurydice - (wife)",
       "current_status": "",
@@ -627,7 +660,8 @@
       "song_name": "The Epic Of Gilgamesh In Sumerian",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Osiris": {
       "name": "Osiris",
@@ -635,7 +669,7 @@
       "species": "Dwarf",
       "aliases": "God of Judgement and Justice",
       "trial": "Create the Elixir of Life",
-      "ascension_epoch": "Age of Magic",
+      "ascension_time_period": "Age of Magic",
       "pantheon": "Underworlders",
       "relationships": "",
       "current_status": "",
@@ -645,7 +679,8 @@
       "song_name": "Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Pan": {
       "name": "Pan",
@@ -653,7 +688,7 @@
       "species": "Satyr",
       "aliases": "God of Friendship",
       "trial": "",
-      "ascension_epoch": "Age of Chaos",
+      "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
       "relationships": "",
       "current_status": "",
@@ -663,7 +698,8 @@
       "song_name": "Let's Dance, Boys! - Super Smash Bros. Ultimate",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Poseidon": {
       "name": "Poseidon",
@@ -671,7 +707,7 @@
       "species": "Dwarf",
       "aliases": "God of Sailing and Tides",
       "trial": "Kill the Leviathan",
-      "ascension_epoch": "Age of Creation",
+      "ascension_time_period": "Age of Creation",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -681,7 +717,8 @@
       "song_name": "Divinity Original Sin 2 OST 33 The Queens High Seas",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Quetzocoatl": {
       "name": "Quetzocoatl",
@@ -689,7 +726,7 @@
       "species": "Dragon",
       "aliases": "The Feathered Serpent God",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": "",
       "current_status": "",
@@ -699,7 +736,8 @@
       "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Shal'nan": {
       "name": "Shal'nan",
@@ -707,7 +745,7 @@
       "species": "Dragon",
       "aliases": "God of The Draco Peninsula",
       "trial": "",
-      "ascension_epoch": "Age of Unity",
+      "ascension_time_period": "Age of Unity",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -717,7 +755,8 @@
       "song_name": "| Dragon Lullaby",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Silence": {
       "name": "Silence",
@@ -725,7 +764,7 @@
       "species": "Unknown",
       "aliases": "God of Patience",
       "trial": "",
-      "ascension_epoch": "Unknown",
+      "ascension_time_period": "Unknown",
       "pantheon": "None",
       "relationships": "",
       "current_status": "",
@@ -735,7 +774,8 @@
       "song_name": "Copied City",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Thanatos": {
       "name": "Thanatos",
@@ -743,7 +783,7 @@
       "species": "Celestial",
       "aliases": "Current God of Death",
       "trial": "Kill the god of Death",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "None",
       "relationships": "",
       "current_status": "",
@@ -753,7 +793,8 @@
       "song_name": "Medieval Chant 'Dies Irae' - Epic background sound edit slowed",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Tyro": {
       "name": "Tyro",
@@ -761,7 +802,7 @@
       "species": "human",
       "aliases": "God of Enchantment and Measure",
       "trial": "Give a Weapon a Mind",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
       "relationships": "",
       "current_status": "",
@@ -771,7 +812,8 @@
       "song_name": ".Goëtia. | Dark Magic Music",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Valentina": {
       "name": "Valentina",
@@ -779,9 +821,9 @@
       "species": "human",
       "aliases": "",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Fortunians",
-      "relationships": "Fortuna - (Boss/mentor) Nyx - (Wife)",
+      "relationships": "  - [Nyx](../nyx) - (Wife)\n  - Fortuna - (Boss/mentor)\n",
       "current_status": "",
       "image_path": "Valentina.jpg",
       "history": "",
@@ -789,7 +831,8 @@
       "song_name": "Chopin - Waltz in C Sharp Minor (Op. 64 No. 2)",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Versengeterix": {
       "name": "Versengeterix",
@@ -797,7 +840,7 @@
       "species": "Centaur",
       "aliases": "God of Gardening and Crops",
       "trial": "Replant the fields and forests of the astral plane",
-      "ascension_epoch": "Age of Division",
+      "ascension_time_period": "Age of Division",
       "pantheon": "Fortunians",
       "relationships": "",
       "current_status": "",
@@ -807,7 +850,8 @@
       "song_name": "Pandora hearts OST - Will",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Virtue": {
       "name": "Virtue",
@@ -815,7 +859,7 @@
       "species": "Orc",
       "aliases": "",
       "trial": "Unknown",
-      "ascension_epoch": "The God Wars",
+      "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": "Gilgamesh - Friend/Leader",
       "current_status": "",
@@ -825,7 +869,8 @@
       "song_name": "Geralt of Rivia | The Witcher OST",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Zagreus": {
       "name": "Zagreus",
@@ -833,7 +878,7 @@
       "species": "Tiefling",
       "aliases": "The God of Pacifism",
       "trial": "Escape the underworld through diplomacy, not violence",
-      "ascension_epoch": "Age of Chaos",
+      "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
       "relationships": "Dionysus - great friend Demeter - mentor (former) Hades - friend",
       "current_status": "Leader of the Zagarans",
@@ -842,7 +887,8 @@
       "music_path": "Zagreus | 07 From Olympus.mp3",
       "song_name": "07 From Olympus",
       "lgbtq_identifications": "genderfluid",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     },
     "Zeus": {
       "name": "Zeus",
@@ -850,7 +896,7 @@
       "species": "Human",
       "aliases": "The God of Lightning",
       "trial": "Travel the equator in the duration of a lightning strike",
-      "ascension_epoch": "Age of Magic",
+      "ascension_time_period": "Age of Magic",
       "pantheon": "Demerans",
       "relationships": "Hestia - Great friend Demeter - Partner (former)",
       "current_status": "Living in the city of Redwater, having very limited powers from healing the planes",
@@ -860,7 +906,8 @@
       "song_name": "Great Grey Wolf Sif - Dark Souls Soundtrack",
       "lgbtq_identifications": "none",
       "other_identifiers": "none",
-      "custom_details": ""
+      "custom_details": "",
+      "physical_description": ""
     }
   }
 }

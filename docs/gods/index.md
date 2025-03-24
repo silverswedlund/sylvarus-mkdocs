@@ -1,10 +1,10 @@
 # Gods of Sylvarus
 
-| Name | Pantheon | Ascension Epoch |
-|------|----------|-----------------|
+| Name | Pantheon | Time Period of Ascension|
+|------|----------|-------------------------|
 | [Amun](./amun/index.md) | [Athenians](../pantheons/athenians/index.md) | [Age of Creation](../history/time_periods/age_of_creation/index.md) |
 | [Anuke](./anuke/index.md) | [Underworlders](../pantheons/underworlders/index.md) | [Period of Rebirth](../history/time_periods/period_of_rebirth/index.md) |
-| [Aphrodite](./aphrodite/index.md) | [None](../pantheons/none/index.md) | [Age of Magic](../history/time_periods/age_of_magic/index.md) |
+| [Aphrodite](./aphrodite/index.md) | [None](../pantheons/none/index.md) | [[Age of Magic](../../history/time_periods/age_of_magic/)](../history/time_periods/[age_of_magic](../../history/time_periods/age_of_magic/)/index.md) |
 | [Apollo](./apollo/index.md) | [Demerans](../pantheons/demerans/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
 | [Ares](./ares/index.md) | [Gilgamites](../pantheons/gilgamites/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Artemis](./artemis/index.md) | [Gilgamites](../pantheons/gilgamites/index.md) | [Modern Age](../history/time_periods/modern_age/index.md) |
