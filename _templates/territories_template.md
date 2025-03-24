@@ -1,16 +1,16 @@
 # {{ name }} — ({{ world }})
 
 <div style="display: flex; gap: 20px; align-items: center; margin-top: 1rem; margin-bottom: 1rem;">
-  {% if flag_path %}
+  {% if flag_image_path %}
     <div>
       <strong>Flag</strong><br />
-      <img src="{{ flag_path }}" alt="{{ name }} Flag" width="200" />
+      <img src="{{ flag_image_path }}" alt="{{ name }} Flag Image" width="200" />
     </div>
   {% endif %}
-  {% if image_path %}
+  {% if aesthetic_image_path %}
     <div>
       <strong>Visual Example</strong><br />
-      <img src="{{ image_path }}" alt="{{ name }} Visual" width="400" />
+      <img src="{{ aesthetic_image_path }}" alt="{{ name }} Aesthetic Visual" width="400" />
     </div>
   {% endif %}
 </div>
@@ -28,14 +28,17 @@
 **Majority Species:** {{ majority_species }}  
 **Known For:** {{ known_for }}
 
-**Anthem:**  
-<audio controls>
-  <source src="{{ anthem_path }}" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>  
-"{{ song_name }}"  
+{% if anthem_name %}
+  **Anthem:** "{{ anthem_name }}"   
+  <audio controls>
+    <source src="{{ anthem_path }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>  
+  
+  "{{ song_title }}"
 
-{{ custom_details }}
+  {{ custom_details }}
+{% endif %}
 
 ---
 
