@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/locations/territories",
-    "template": "_templates/territories.md"
+    "template": "_templates/territories_template.md"
   },
   "items": {
     "Athenia": {
@@ -27,7 +27,9 @@
       "notes": "",
       "image_path": "images/nations/Athenia.jpg",
       "flag_path": "images/flags/Athenia.png",
-      "majority_species": "Orc"
+      "majority_species": "Orc",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Eton": {
       "name": "Eton",
@@ -52,7 +54,9 @@
       "notes": "",
       "image_path": "images/nations/Eton.jpg",
       "flag_path": "images/flags/Eton.png",
-      "majority_species": "Human"
+      "majority_species": "Human",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Kamboramm": {
       "name": "Kamboramm",
@@ -77,7 +81,9 @@
       "notes": "",
       "image_path": "images/nations/Kamboramm.jpg",
       "flag_path": "images/flags/Kamboramm.png",
-      "majority_species": "No Significant Majority"
+      "majority_species": "No Significant Majority",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Land_of_King": {
       "name": "Land of King",
@@ -102,7 +108,9 @@
       "notes": "",
       "image_path": "images/nations/Land_of_King.jpg",
       "flag_path": "images/flags/Land_of_King.png",
-      "majority_species": "Tiefling"
+      "majority_species": "Tiefling",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Mideer": {
       "name": "Mideer",
@@ -127,7 +135,9 @@
       "notes": "",
       "image_path": "images/nations/Mideer.jpg",
       "flag_path": "images/flags/Mideer.png",
-      "majority_species": "No Significant Majority"
+      "majority_species": "No Significant Majority",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "New_Noridge": {
       "name": "New Noridge",
@@ -152,7 +162,9 @@
       "notes": "",
       "image_path": "images/nations/New_Noridge.jpg",
       "flag_path": "images/flags/New_Noridge.png",
-      "majority_species": "Human"
+      "majority_species": "Human",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Noridge": {
       "name": "Noridge",
@@ -177,7 +189,9 @@
       "notes": "",
       "image_path": "images/nations/Noridge.jpg",
       "flag_path": "images/flags/Noridge.png",
-      "majority_species": "No Significant Population"
+      "majority_species": "No Significant Population",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Rositoria": {
       "name": "Rositoria",
@@ -202,16 +216,18 @@
       "notes": "",
       "image_path": "images/nations/Rositoria.jpg",
       "flag_path": "images/flags/Rositoria.png",
-      "majority_species": "Human"
+      "majority_species": "Human",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Titanrock": {
-      "name": "Titanrock",
-      "region": "",
-      "population": "",
-      "capital": "",
-      "major_cities": "",
-      "government_type": "",
-      "ruling_power": "",
+      "name": "The Kingdon of Titanrock",
+      "region": "Pheonix Sub-Coast",
+      "population": "7.3 million",
+      "capital": "Redwater",
+      "major_cities": "Redwater, Hollowbarrow, Caer Aurel",
+      "government_type": "Lotto-autocratic Kingdom",
+      "ruling_power": "Current Royal Family - The Andross Family",
       "founding_time_period": "",
       "founding_time_period_link_name": "",
       "known_for": "",
@@ -227,7 +243,9 @@
       "notes": "",
       "image_path": "images/nations/Titanrock.jpg",
       "flag_path": "images/flags/Titanrock.png",
-      "majority_species": "Elf"
+      "majority_species": "Elf",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "The_Selin_Flats": {
       "name": "The Selin Flats",
@@ -252,18 +270,19 @@
       "notes": "",
       "image_path": "images/nations/The_Selin_Flats.jpg",
       "flag_path": "images/flags/The_Selin_Flats.png",
-      "majority_species": "Human"
+      "majority_species": "Human",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Taliander": {
       "name": "Taliander",
-      "region": "",
-      "population": "",
-      "capital": "",
-      "major_cities": "",
-      "government_type": "",
-      "ruling_power": "",
-      "founding_time_period": "",
-      "founding_time_period_link_name": "",
+      "region": "South-Western ocean",
+      "population": "40 million",
+      "capital": "Tahlis",
+      "major_cities": "Tahlis, Cual-Shilon, Dehfleel-Ul",
+      "government_type": "Mayoral Mandate",
+      "ruling_power": "The Seven Mayors",
+      "founding_time_period": "Age Of Creation",
       "known_for": "",
       "music_path": "",
       "song_name": "",
@@ -276,7 +295,9 @@
       "geography": "",
       "notes": "",
       "image_path": "images/nations/Taliander.jpg",
-      "majority_species": "Elf"
+      "majority_species": "Elf",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "The_Aureate": {
       "name": "The Aureate",
@@ -301,7 +322,9 @@
       "notes": "",
       "image_path": "images/nations/The_Aureate.jpg",
       "flag_path": "images/flags/The_Aureate.png",
-      "majority_species": "No Significant Majority"
+      "majority_species": "No Significant Majority",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "The_Black_Islands": {
       "name": "The Black Islands",
@@ -326,7 +349,9 @@
       "notes": "",
       "image_path": "images/nations/The_Black_Islands.jpg",
       "flag_path": "images/flags/The_Black_Islands.png",
-      "majority_species": "No Significant Majority"
+      "majority_species": "No Significant Majority",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "The_Republic_of_Avia": {
       "name": "The Republic of Avia",
@@ -351,7 +376,9 @@
       "notes": "",
       "image_path": "images/nations/The_Republic_of_Avia.jpg",
       "flag_path": "images/flags/The_Republic_of_Avia.png",
-      "majority_species": "No Significant Majority"
+      "majority_species": "No Significant Majority",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Tyro": {
       "name": "Tyro",
@@ -376,7 +403,9 @@
       "notes": "",
       "image_path": "images/nations/Tyro.jpg",
       "flag_path": "images/flags/Tyro.png",
-      "majority_species": "Human"
+      "majority_species": "Human",
+      "type": "Nation",
+      "world": "Sylvarus"
     },
     "Isles_of_Tife": {
       "name": "Isles of Tife",
@@ -401,7 +430,9 @@
       "notes": "",
       "image_path": "images/nations/Isles_of_Tife.jpg",
       "flag_path": "images/flags/Isles_of_Tife.png",
-      "majority_species": "Tiefling"
+      "majority_species": "Tiefling",
+      "type": "Nation",
+      "world": "Sylvarus"
     }
   }
 }
