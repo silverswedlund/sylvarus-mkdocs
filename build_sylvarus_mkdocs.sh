@@ -24,19 +24,38 @@ done
 
 echo "🎉 Sylvarus MkDocs Build Complete!"
 
-# Convert non-jpg images into jpg and trash the non-jpg
-find . -type f \( -iname "*.png" -o -iname "*.jpeg" -o -iname "*.webp" \) -exec sh -c '
-  for img; do
-    new="${img%.*}.jpg"
-    magick "$img" "$new" && trash "$img"
-  done
-' sh {} +
+#!/bin/bash
 
-# Rename every file name with spaces to use underscore and make name lowercase
-find . -type f | while read -r file; do
-  dir=$(dirname "$file")
-  base=$(basename "$file")
-  new_base=$(echo "$base" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
-  new_path="$dir/$new_base"
-  [ "$file" != "$new_path" ] && mv "$file" "$new_path"
+echo "🔄 Converting non-JPG images to JPG and trashing originals..."
+
+find . -type f \( -iname "*.png" -o -iname "*.jpeg" -o -iname "*.webp" \) -print0 | while IFS= read -r -d '' img; do
+  new="${img%.*}.jpg"
+
+  echo "📷 Converting: $img → $new"
+  if magick "$img" "$new"; then
+    echo "🗑️ Trashing original: $img"
+    trash "$img"
+  else
+    echo "❌ Failed to convert: $img"
+  fi
 done
+
+echo ""
+echo "🔤 Renaming files (lowercase + replace spaces with underscores)..."
+
+find docs/ -type f -print0 | while IFS= read -r -d '' file; do
+  base=$(basename "$file")
+
+  # Only rename if filename contains uppercase letters or spaces
+  if echo "$base" | grep -q '[A-Z ]'; then
+    dir=$(dirname "$file")
+    new_base=$(echo "$base" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
+    new_path="$dir/$new_base"
+
+    echo "✏️ Renaming: $file → $new_path"
+    mv "$file" "$new_path"
+  fi
+done
+
+echo ""
+echo "✅ Done!"
