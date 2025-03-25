@@ -94,8 +94,8 @@
       "map_image_path": "eton_map.jpg",
       "world_location_image_path": "eton_location_map.jpg"
     },
-    "The_Haratur_Outpost": {
-      "name": "The Haratur Outpost",
+    "Haratur_Outpost": {
+      "name": "Haratur Outpost",
       "region": "",
       "population": "",
       "capital": "",
@@ -116,12 +116,9 @@
       "majority_species": "No Significant Majority",
       "type": "redion",
       "world": "Sylvarus",
-      "anthem_name": "",
-      "anthem_path": "kamboramm | concerto grosso for strings \"palladio\": i. allegretto.mp4",
-      "song_title": "concerto grosso for strings \"palladio\": i. allegretto",
-      "flag_image_path": "kamboramm.jpg",
-      "aesthetic_image_path": "kamboraam_aesthetic_image.jpg",
-      "map_image_path": "the_haratur_outpost_map.jpg",
+      "flag_image_path": "haratur_outpost_image.jpg",
+      "aesthetic_image_path": "haratur_outpost_aesthetic_image.jpg",
+      "map_image_path": "haratur_outpost_map.jpg",
       "world_location_image_path": "haratur_outpost_location_map.jpg"
     },
     "The_Isles_of_Tife": {
