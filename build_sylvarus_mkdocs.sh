@@ -31,3 +31,12 @@ find . -type f \( -iname "*.png" -o -iname "*.jpeg" -o -iname "*.webp" \) -exec 
     magick "$img" "$new" && trash "$img"
   done
 ' sh {} +
+
+# Rename every file name with spaces to use underscore and make name lowercase
+find . -type f | while read -r file; do
+  dir=$(dirname "$file")
+  base=$(basename "$file")
+  new_base=$(echo "$base" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
+  new_path="$dir/$new_base"
+  [ "$file" != "$new_path" ] && mv "$file" "$new_path"
+done
