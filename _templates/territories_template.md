@@ -1,9 +1,36 @@
 # {{ name }} — ({{ world }})
 
-<strong>Visual Example</strong><br />
-<img src="{{ aesthetic_image_path }}" alt="{{ name }} Aesthetic Visual" width="700" />
+{% if aesthetic_image_path or map_image_path or world_location_image_path %}
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
+    {% if map_image_path %}
+    <div>
+      <div><strong>Map</strong></div>
+      <img src="{{ map_image_path }}" alt="{{ name }} Map" width="400" />
+    </div>
+    {% endif %}
+
+    {% if world_location_image_path %}
+    <div>
+      <div><strong>World Location</strong></div>
+      <img src="{{ world_location_image_path }}" alt="{{ name }} World Location" width="400" />
+    </div>
+    {% endif %}
+  </div>
+
+  {% if aesthetic_image_path %}
+  <div>
+    <div><strong>Visual Example</strong></div>
+    <img src="{{ aesthetic_image_path }}" alt="{{ name }} Aesthetic Visual" width="500" />
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
 
 ---
+
 
 ## 🗺️ Basic Information
 **Region:** {{ region }}  
@@ -68,3 +95,4 @@
 
 ## 🧩 Additional Notes
 {{ notes }}
+

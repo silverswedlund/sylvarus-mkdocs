@@ -20,8 +20,12 @@
       "history": "",
       "music_path": "Amun | Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix).mp4",
       "song_name": "Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -41,8 +45,12 @@
       "history": "",
       "music_path": "Aphrodite | Spider Dance- Orchestral swing remix.mp4",
       "song_name": "Spider Dance- Orchestral swing remix",
-      "lgbtq_identifications": "Pansexual",
-      "other_identifiers": "Polyamorous",
+      "lgbtq_identifications": [
+        "Pansexual"
+      ],
+      "other_identifiers": [
+        "Polyamorous"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -62,8 +70,15 @@
       "history": "Escaped the God Onboarding Room",
       "music_path": "Aphrodite | Spider Dance- Orchestral swing remix.mp4",
       "song_name": "Spider Dance- Orchestral swing remix",
-      "lgbtq_identifications": "\n\n  - Pansexual\n  - Transgender (MTF)\n\n",
-      "other_identifiers": "\n\n  - Polyamorous\n  - ADHD\n  - Autism\n",
+      "lgbtq_identifications": [
+        "Pansexual",
+        "Transgender (MTF)"
+      ],
+      "other_identifiers": [
+        "Polyamorous",
+        "ADHD",
+        "Autism"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -81,8 +96,12 @@
       "history": "Doing pol",
       "music_path": "Apollo | The Promised Neverland OST - Isabella’s Lullaby.mp4",
       "song_name": "The Promised Neverland OST - Isabella’s Lullaby",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -102,8 +121,12 @@
       "history": "",
       "music_path": "Ares | The only thing they fear is you.mp4",
       "song_name": "The only thing they fear is you",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -123,8 +146,12 @@
       "history": "",
       "music_path": "Artemis | Death Note- Kuroi Light EXTENDED.mp4",
       "song_name": "Death Note- Kuroi Light EXTENDED",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -144,8 +171,12 @@
       "history": "",
       "music_path": "Asher | Halo 3 - Never Forget (Piano Cover).mp4",
       "song_name": "Halo 3 - Never Forget (Piano Cover)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -165,8 +196,12 @@
       "history": "",
       "music_path": "Athena | A Cruel Angel's Thesis but it's actually dark and depressive (Evangelion OP).mp4",
       "song_name": "A Cruel Angel's Thesis but it's actually dark and depressive (Evangelion OP)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -186,8 +221,12 @@
       "history": "",
       "music_path": "Balbarash | Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek.mp4",
       "song_name": "Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -207,8 +246,12 @@
       "history": "Usurped from Godking by advisors",
       "music_path": "Death | Death's Sleep.mp3",
       "song_name": "Death's Sleep",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -228,8 +271,12 @@
       "history": "",
       "music_path": "Delinette | Halo 4 OST - 117.mp4",
       "song_name": "Halo 4 OST - 117",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -250,8 +297,12 @@
       "history": "",
       "music_path": "Demeter | Halo 4 - Atonement.mp4",
       "song_name": "Halo 4 - Atonement",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -271,8 +322,12 @@
       "history": "",
       "music_path": "Dionysus | Pokémon Diamond and Pearl- Game Corner Remix v.II.mp4",
       "song_name": "Pokémon Diamond and Pearl- Game Corner Remix v.II",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -292,8 +347,12 @@
       "history": "",
       "music_path": "Ecatra | MerFolk | Lullaby of Woe - Ashley Serena (LYRICS).mp4",
       "song_name": "MerFolk | Lullaby of Woe - Ashley Serena (LYRICS)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -328,8 +387,12 @@
       "history": "",
       "music_path": "Eris | BFG division.mp4",
       "song_name": "BFG division",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -349,8 +412,12 @@
       "history": "",
       "music_path": "Fortuna | O Fortuna (Carmina Burana - Carl Orff).mp4",
       "song_name": "O Fortuna (Carmina Burana - Carl Orff)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -370,8 +437,12 @@
       "history": "",
       "music_path": "Freija | SKÁLD - Ginnunga (Vikings Chant).mp4",
       "song_name": "SKÁLD - Ginnunga (Vikings Chant)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -391,8 +462,12 @@
       "history": "",
       "music_path": "Gilgamesh | Hunter x Hunter (2011) OST - Restriction and Pledge.mp4",
       "song_name": "Hunter x Hunter (2011) OST - Restriction and Pledge",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -412,8 +487,12 @@
       "history": "",
       "music_path": "Hades | Hades - God of the Dead.mp4",
       "song_name": "Hades - God of the Dead",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -433,8 +512,12 @@
       "history": "",
       "music_path": "Halacaster | Carter Burwell – Main theme Mr. Holmes.mp4",
       "song_name": "Carter Burwell – Main theme Mr. Holmes",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -454,8 +537,12 @@
       "history": "",
       "music_path": "Hepheastus | Another Medium.mp4",
       "song_name": "Another Medium",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -475,8 +562,12 @@
       "history": "",
       "music_path": "Hera | Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix).mp4",
       "song_name": "Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -496,8 +587,12 @@
       "history": "",
       "music_path": "Hermes | Marvelous Battle OST's: Tsuna Awakes.mp4",
       "song_name": "Marvelous Battle OST's: Tsuna Awakes",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -517,8 +612,12 @@
       "history": "",
       "music_path": "Hestia | Minecraft - Pigstep Orchestral Cover.mp4",
       "song_name": "Minecraft - Pigstep Orchestral Cover",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -538,8 +637,12 @@
       "history": "",
       "music_path": "Inkozana | Halo 4 OST - Legacy.mp4",
       "song_name": "Halo 4 OST - Legacy",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -559,8 +662,12 @@
       "history": "",
       "music_path": "Iranara | Horn of Plenty (Preparing the Chariots w Tribute Parade from Catching Fire).mp4",
       "song_name": "Horn of Plenty (Preparing the Chariots w Tribute Parade from Catching Fire)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -580,8 +687,12 @@
       "history": "",
       "music_path": "Loki | Corpse Party: Blood Covered OST - Chapter 1's Main Theme (Extended).mp4",
       "song_name": "Corpse Party: Blood Covered OST - Chapter 1's Main Theme (Extended)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -601,8 +712,12 @@
       "history": "",
       "music_path": "Malice | Tchaikovsky - Valse Sentimentale.mp4",
       "song_name": "Tchaikovsky - Valse Sentimentale",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -622,8 +737,12 @@
       "history": "",
       "music_path": "Marith | Dragon Quest IX Tokyo Suite - Angelic Land.mp4",
       "song_name": "Dragon Quest IX Tokyo Suite - Angelic Land",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -643,8 +762,12 @@
       "history": "",
       "music_path": "Midas | Pearl: Approaching Champion Cynthia Piano Etude (Extended).mp4",
       "song_name": "Pearl: Approaching Champion Cynthia Piano Etude (Extended)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -664,8 +787,12 @@
       "history": "",
       "music_path": "Nyx | Vivaldi Variation (arr. for piano from Concerto for Strings).mp4",
       "song_name": "Vivaldi Variation (arr. for piano from Concerto for Strings)",
-      "lgbtq_identifications": "\n\n  - Gay (lesbian)\n",
-      "other_identifiers": "\n\n  - Autistic\n",
+      "lgbtq_identifications": [
+        "\n\n  - Gay (lesbian)\n"
+      ],
+      "other_identifiers": [
+        "\n\n  - Autistic\n"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -685,8 +812,12 @@
       "history": "",
       "music_path": "Odinn | Halo 3 ODST OST Disk 1 Track 6 Asphalt and Ablution.mp4",
       "song_name": "Halo 3 ODST OST Disk 1 Track 6 Asphalt and Ablution",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -706,8 +837,12 @@
       "history": "",
       "music_path": "Orakothros | 1. God of War | God of War OST.mp4",
       "song_name": "1. God of War | God of War OST",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -727,8 +862,12 @@
       "history": "",
       "music_path": "Orpheus | The Epic Of Gilgamesh In Sumerian.mp3",
       "song_name": "The Epic Of Gilgamesh In Sumerian",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -748,8 +887,12 @@
       "history": "",
       "music_path": "Osiris | Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended).mp4",
       "song_name": "Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -769,8 +912,12 @@
       "history": "",
       "music_path": "Pan | Let's Dance, Boys! - Super Smash Bros. Ultimate.mp4",
       "song_name": "Let's Dance, Boys! - Super Smash Bros. Ultimate",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -790,8 +937,12 @@
       "history": "",
       "music_path": "Poseidon | Divinity Original Sin 2 OST 33 The Queens High Seas.mp4",
       "song_name": "Divinity Original Sin 2 OST 33 The Queens High Seas",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -811,8 +962,12 @@
       "history": "",
       "music_path": "Quetzocoatl | Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix).mp4",
       "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -832,8 +987,12 @@
       "history": "",
       "music_path": "Shal'nan | Dragon Lullaby.mp4",
       "song_name": "| Dragon Lullaby",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -853,8 +1012,12 @@
       "history": "",
       "music_path": "Silence | Copied City.mp4",
       "song_name": "Copied City",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -874,8 +1037,12 @@
       "history": "",
       "music_path": "Thanatos - Medieval Chant 'Dies Irae' - Epic background sound edit slowed.mp3",
       "song_name": "Medieval Chant 'Dies Irae' - Epic background sound edit slowed",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -895,8 +1062,12 @@
       "history": "Invented Enchanting Founded the nation of Tyro",
       "music_path": "Tyro | .Goëtia. | Dark Magic Music.mp4",
       "song_name": ".Goëtia. | Dark Magic Music",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -916,8 +1087,12 @@
       "history": "",
       "music_path": "Valentina | Chopin - Waltz in C Sharp Minor (Op. 64 No. 2).mp4",
       "song_name": "Chopin - Waltz in C Sharp Minor (Op. 64 No. 2)",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -937,8 +1112,12 @@
       "history": "",
       "music_path": "Versengeterex | Pandora hearts OST - Will.mp4",
       "song_name": "Pandora hearts OST - Will",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -958,8 +1137,12 @@
       "history": "",
       "music_path": "Virtue | Geralt of Rivia | The Witcher OST.mp4",
       "song_name": "Geralt of Rivia | The Witcher OST",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -979,7 +1162,9 @@
       "history": "Convinced Hades to let him out of the last level of the Underworld",
       "music_path": "Zagreus | 07 From Olympus.mp3",
       "song_name": "07 From Olympus",
-      "lgbtq_identifications": "genderfluid",
+      "lgbtq_identifications": [
+        "genderfluid"
+      ],
       "custom_details": "",
       "physical_description": ""
     },
@@ -999,8 +1184,12 @@
       "history": "Sacrificed god powers after Demeter super-ascension to save mortal plane from chaos",
       "music_path": "Zeus | Great Grey Wolf Sif - Dark Souls Soundtrack.mp4",
       "song_name": "Great Grey Wolf Sif - Dark Souls Soundtrack",
-      "lgbtq_identifications": "none",
-      "other_identifiers": "none",
+      "lgbtq_identifications": [
+        "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
       "custom_details": "",
       "physical_description": ""
     }

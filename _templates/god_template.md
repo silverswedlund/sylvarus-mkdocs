@@ -6,19 +6,29 @@
 
 ## 📕 Details
 **Pronouns:** {{ pronouns }}  
-**Titles/Aliases:**  
+**Titles/Aliases:**
 <ul>
 {% for alias in aliases %}
   <li>{{ alias }}</li>
 {% endfor %}
 </ul>
 
-**Pre-ascension Species:** {{ species }}  
+**Pre-ascension Species:** [{{ species }}](../../species/{{ species }})  
 **[Time Period](../../history/time_periods/) of Ascension:** [{{ ascension_time_period }}](../../history/time_periods/{{ ascension_time_period | lower | replace(' ', '_') }})  
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Divine Trial:** {{ trial }}  
-**LGBTQ+ Identifications:** {{ lgbtq_identifications }}  
-**Other Identifications:** {{ other_identifiers }}  
+**LGBTQ+ Identifications:**
+<ul>
+{% for id in lgbtq_identifications %}
+  <li>{{ id }}</li>
+{% endfor %}
+</ul>
+
+**Other Identifications:**
+{% for id in other_identifiers %}
+  <li>{{ id }}</li>
+{% endfor %}
+</ul> 
 
 
 **Theme Music:**  
