@@ -1,7 +1,8 @@
 # {{ name }} — ({{ pronouns }})
 
 <!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" width="400" />
+<img src="{{ image_path }}" alt="{{ name }}" style="height: 600px; width: auto;" />
+
 ---
 
 ## 📕 Details
@@ -16,7 +17,7 @@
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Divine Trial:** {{ trial }}  
 **LGBTQ+ Identifications:**  
-{% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "gay(mlm)", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
+{% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
   {% for flag in lgbtq_identifications_with_images %}
     {% if flag in (id | lower | replace(' ', '_')) %}
