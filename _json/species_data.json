@@ -4,29 +4,65 @@
     "template": "_templates/species_template.md"
   },
   "items": {
-    "Elves": {
+    "Elf": {
       "name": "Elves",
       "type": "Humanoid",
       "origin": "Evolutionary Digergence",
-      "lifespan": "750\u20131000 years",
+      "lifespan": "750-1000 years",
       "physique": "Usually taller and more slender than humans, agile, with pointed ears and sharp facial features. Skin tones range from pale silver to deep forest green, to charcoal black depending on subrace.",
       "languages": [
         "Elvish",
         "Sylvaric"
       ],
       "custom_details": "",
-      "homelands": "[Taliander](../../locations/nations/taliander)",
+      "homelands": "[Taliander](../../locations/territories/taliander)",
       "other_regions": "Widely spread across Sylvarus, second only to humans - usually stays on the western continent",
       "distribution": "",
-      "history": "Elves are believed to be among the first sentient species to walk the world, shaped from song and moonlight by a forgotten celestial being. Their early history is closely tied to the Feywild.",
-      "religion": "Primarily worship deities of nature, stars, and the arcane. Many venerate moon gods or goddesses.",
-      "traditions": "Seasonal festivals, moon rites, coming-of-age vision quests.",
+      "history": "Elves are believed to be among the first sentient species to walk the surfce of Sylvarus. Their history claims they were shaped from song and moonlight by a forgotten celestial being. Their early history is closely tied to the Feywild.",
+      "religion": "Primarily worship deities of nature, stars, and the arcane.",
+      "traditions": "Seasonal festivals, moon rites, coming-of-age quests.",
       "notable_figures": [
-        "Aeriseth the Starlit",
-        "Queen Illyra",
-        "Vaelor the Dreambinder"
       ],
       "relationships": "Tense history with Dwarves due to resource disputes; relatively peaceful with Humans."
+    },
+    "Human": {
+      "name": "Humans",
+      "type": "Humanoid",
+      "origin": "Evolutionary Digergence",
+      "lifespan": "80-150 years",
+      "physique": "A mix of Dwarven and Elvish physiques, stockier than elves, less than dwarves. Known for their circled ears and running endurance. Skin tones have a relatively small range, from light pinkish to dark brown depending on the subrace",
+      "languages": [
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "[Noridge](../../locations/territories/noridge)",
+      "other_regions": "The most widespread species - you can find humans in every nation and territory outside of [Athenia](../../locations/territories/athenia), though there are concentrations of them in some nations",
+      "distribution": "",
+      "history": "Humans are believed to be a decendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
+      "religion": "Primarily worships the olypmians",
+      "traditions": "Bartering, humans love bartering and finding deals  \nWinter festivals  \n Gift Giving",
+      "notable_figures": [],
+      "relationships": "Tense history with [Orcs](../Orc) due to the (largely human) subjegation of the [Orcs](../Orc) during the [Age of Unity](../../history/time_periods/age_of_unity); most wars and conflicts are with other humans - they are seemingly more diplomatic with other species than their own"
+    },
+    "Orc": {
+      "name": "Orcs",
+      "type": "Humanoid",
+      "origin": "Evolutionary Digergence from Elves",
+      "lifespan": "80-150 years",
+      "physique": "They are like elves, in their height, but are signifigantly stockier and more muscular. Known for their green-grey skin and tusks that protrude from their lower jaw. Orcish Male and females are usually the same height around 6'2\" on average",
+      "languages": [
+        "Sylvaric",
+        "Orcish"
+      ],
+      "custom_details": "",
+      "homelands": "[Athenia](../../locations/territories/athenia)",
+      "other_regions": "The overwhelming majority of Sylvarus' Orcs live in [Athenia](../../locations/territories/athenia) - Though you can find wanderers, diplomats, and explorers here and there in every nation and region of Sylvarus. Most are temporary residents and will return to Athenia. The most common Orcs you will find outside of their homeland are hunters. They search for magical artifacts on the dime of the [Athenian](../../locations/territories/athenia) government and take them back home.",
+      "distribution": "",
+      "history": "Humans are believed to be a decendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
+      "religion": "Primarily worships the the Divine Parents, [Iranara](../../gods/Iranara) and [Orakothros](../../gods/Orakothros)",
+      "traditions": "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years",
+      "notable_figures": [],
+      "relationships": "Tense history with Humans due to the orcs subjegation by their hand during the [Age of Unity](../../history/time_periods/age_of_unity); The orcs, in general are very peaceful but guarded, if they are attacked they will hit back twice as hard, but will generally stay out of others' business"
     }
   }
 }
