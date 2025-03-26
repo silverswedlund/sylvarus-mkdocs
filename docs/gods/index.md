@@ -10,7 +10,7 @@
 | [Artemis](./artemis/index.md) | [Gilgamites](../pantheons/gilgamites/index.md) | [Modern Age](../history/time_periods/modern_age/index.md) |
 | [Asher](./asher/index.md) | [Fortunians](../pantheons/fortunians/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Athena](./athena/index.md) | [Athenians](../pantheons/athenians/index.md) | [Age of Creation](../history/time_periods/age_of_creation/index.md) |
-| [Balbarash](./balbarash/index.md) | [Fortunians](../pantheons/fortunians/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
+| [Balbarash](./balbarash/index.md) | [Demerans](../pantheons/demerans/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
 | [Death](./death/index.md) | [None](../pantheons/none/index.md) | [The Forgotten Age](../history/time_periods/the_forgotten_age/index.md) |
 | [Delinette](./delinette/index.md) | [Athenians](../pantheons/athenians/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
 | [Demeter](./demeter/index.md) | [Demerans](../pantheons/demerans/index.md) | [The God Wars](../history/time_periods/the_god_wars/index.md) |
@@ -27,7 +27,7 @@
 | [Hera](./hera/index.md) | [Demerans](../pantheons/demerans/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Hermes](./hermes/index.md) | [Zagarans](../pantheons/zagarans/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Hestia](./hestia/index.md) | [Zagarans](../pantheons/zagarans/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
-| [Inkozana](./inkozana/index.md) | [Athenians](../pantheons/athenians/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
+| [Inkozana](./inkozana/index.md) | [Demerans](../pantheons/demerans/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
 | [Iranara](./iranara/index.md) | [Athenians](../pantheons/athenians/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Loki](./loki/index.md) | [Underworlders](../pantheons/underworlders/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |
 | [Malice](./malice/index.md) | [Demerans](../pantheons/demerans/index.md) | [The Forgotten Age](../history/time_periods/the_forgotten_age/index.md) |

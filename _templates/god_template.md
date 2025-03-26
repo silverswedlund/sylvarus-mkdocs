@@ -16,13 +16,25 @@
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Divine Trial:** {{ trial }}  
 **LGBTQ+ Identifications:**  
+{% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "gay(mlm)", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender"] %}
 {% for id in lgbtq_identifications %}
-  - {{ id }}  
+  {% for flag in lgbtq_identifications_with_images %}
+    {% if flag in (id | lower | replace(' ', '_')) %}
+      <img src="../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
+    {% endif %}
+  {% endfor %}
+  {{ id }}  
 {% endfor %}
 
 **Other Identifications:**  
+{% set other_identifiers_with_images = ["adhd", "autism", "disabled", "polyamorous"] %}
 {% for id in other_identifiers %}
-  - {{ id }}  
+  {% for flag in other_identifiers_with_images %}
+    {% if flag in (id | lower | replace(' ', '_')) %}
+      <img src="../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
+    {% endif %}
+  {% endfor %}
+  {{ id }}  
 {% endfor %}
 
 **Theme Music:**  
@@ -52,8 +64,11 @@
 {{ physical_description }}
 
 ---
-
+{% if relationships %}
 ## 🧩 Notable Relationships
-{{ relationships }}
+{% for relationship in relationships %}
+  - {{ relationship }}  
+{% endfor %}
 
 ---
+{% endif %}

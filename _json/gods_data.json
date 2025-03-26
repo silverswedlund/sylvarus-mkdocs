@@ -14,7 +14,9 @@
       "trial": "Invent Powered Flight",
       "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "amun.jpg",
       "history": "",
@@ -39,12 +41,15 @@
       "trial": "Fell a Narntree",
       "ascension_time_period": "Period of Rebirth",
       "pantheon": "Underworlders",
-      "relationships": "",
+      "relationships": [
+        "[Halacaster](../Halacaster) - (partner)",
+        "[Versengeterix](../Versengeterix) - (partner)"
+      ],
       "current_status": "",
       "image_path": "anuke.jpg",
       "history": "",
       "music_path": "aphrodite_|_spider_dance-_orchestral_swing_remix.mp4",
-      "song_name": "Spider Dance- Orchestral swing remix",
+      "song_name": "Spider Dance - Orchestral swing remix",
       "lgbtq_identifications": [
         "Pansexual"
       ],
@@ -60,12 +65,17 @@
       "species": "Elf",
       "aliases": [
         "The Pink God",
-        "The God of Escapes"
+        "The God of Escapes",
+        "Creator of the Pink Plane"
       ],
       "trial": "Create a new plane",
       "ascension_time_period": "Age of Unity",
       "pantheon": "None",
-      "relationships": "  - [Hephaestus](../Hephaestus) - (partner)\n  - [Delinette](../Delinette) - (partner)\n  -  [Hades](../Hades) - (pseudo friend/stalker /joke)\n",
+      "relationships": [
+        "[Hephaestus](../Hephaestus) - (partner)",
+        "[Delinette](../Delinette) - (partner)",
+        "[Hades](../Hades) - (pseudo friend/stalker /joke)"
+      ],
       "current_status": "Traveling the Multi-verse",
       "image_path": "aphrodite.jpg",
       "history": "Escaped the God Onboarding Room",
@@ -91,7 +101,9 @@
       "trial": "Bathe All of Sylvarus in Daylight",
       "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
-      "relationships": "Artemis - Sister",
+      "relationships": [
+        "[Artemis](../Artemis) - Sister"
+      ],
       "current_status": "Doing political moves in Olympia",
       "image_path": "apollo.jpg",
       "history": "Doing pol",
@@ -116,7 +128,9 @@
       "trial": "Conquer Sylvarus",
       "ascension_time_period": "Age of Division",
       "pantheon": "Gilgamites",
-      "relationships": "",
+      "relationships": [
+        "[Eris](../Eris) - (Twin Sister)"
+      ],
       "current_status": "",
       "image_path": "ares.jpg",
       "history": "",
@@ -141,7 +155,9 @@
       "trial": "Rid the Feywilds of the Titans",
       "ascension_time_period": "Modern Age",
       "pantheon": "Gilgamites",
-      "relationships": "Apollo - Brother",
+      "relationships": [
+        "[Apollo](../Apollo) - Brother"
+      ],
       "current_status": "",
       "image_path": "artemis.jpg",
       "history": "",
@@ -166,7 +182,9 @@
       "trial": "Drive the Dragons out of the Mortal Plane",
       "ascension_time_period": "Age of Division",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "asher_rose.jpg",
       "history": "",
@@ -191,7 +209,9 @@
       "trial": "Build the greatest weapon ever made",
       "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
-      "relationships": "",
+      "relationships": [
+        "[Hephaestus](../Hephaestus) - (good freind)"
+      ],
       "current_status": "",
       "image_path": "athena.jpg",
       "history": "",
@@ -215,8 +235,10 @@
       ],
       "trial": "Stop the Wandering of the Goliaths",
       "ascension_time_period": "Age of Unity",
-      "pantheon": "Fortunians",
-      "relationships": "",
+      "pantheon": "Demerans",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "balbarash.jpg",
       "history": "",
@@ -241,7 +263,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
       "pantheon": "None",
-      "relationships": "",
+      "relationships": [
+        "[Tiamel](../../demigods/tiamel) - (daughter)"
+      ],
       "current_status": "Sleeping in the Vault of Death",
       "image_path": "death.jpg",
       "history": "Usurped from Godking by advisors",
@@ -266,7 +290,10 @@
       "trial": "Go to a different Universe",
       "ascension_time_period": "Age of Unity",
       "pantheon": "Athenians",
-      "relationships": "",
+      "relationships": [
+        "[Aphrodite](../Aphrodite) - (partner)",
+        "[Hephaestus](../Hephaestus) - (partner)"
+      ],
       "current_status": "",
       "image_path": "delinette.jpg",
       "history": "",
@@ -293,7 +320,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Demerans",
-      "relationships": "",
+      "relationships": [
+        "[Zeus](.../zeus) - (former partner)"
+      ],
       "current_status": "Ascended to the Divine (dead?)",
       "image_path": "demeter.jpg",
       "history": "",
@@ -318,7 +347,10 @@
       "trial": "Tell the greatest story ever told",
       "ascension_time_period": "Age of Unity",
       "pantheon": "Zagarans",
-      "relationships": "",
+      "relationships": [
+        "[Pan](../Pan) - (Best Friend)",
+        "[Zagreus](../Zagreus) - (mentor - good friend)"
+      ],
       "current_status": "",
       "image_path": "dionysus.jpg",
       "history": "",
@@ -343,7 +375,10 @@
       "trial": "Unknown",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        "[Versengeterix](../Versengeterix) - (ally)",
+        "[Enkidu](../Enkidu) - (ally)"
+      ],
       "current_status": "",
       "image_path": "ecatra.jpg",
       "history": "",
@@ -368,7 +403,9 @@
       "trial": "Create the Perfect Prison",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Underworlders",
-      "relationships": "",
+      "relationships": [
+        "[Ecatra](../Ecatra) - (ally)"
+      ],
       "current_status": "",
       "image_path": "enkidu.jpg",
       "history": ""
@@ -383,7 +420,9 @@
       "trial": "Conquer Sylvarus",
       "ascension_time_period": "Age of Division",
       "pantheon": "Underworlders",
-      "relationships": "",
+      "relationships": [
+        "[Ares](../Ares) - Twin Brother"
+      ],
       "current_status": "",
       "image_path": "eris.jpg",
       "history": "",
@@ -408,7 +447,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        "[Gilgamesh](../Gilgamesh) - (Rival)"
+      ],
       "current_status": "",
       "image_path": "fortuna.jpg",
       "history": "",
@@ -433,7 +474,9 @@
       "trial": "Unknown",
       "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "freija.jpg",
       "history": "",
@@ -458,7 +501,10 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "",
+      "relationships": [
+        "[Fortuna](../Fortuna) - (Rival)",
+        "[Virtue](../Virtue) - (Friend/Servant)"
+      ],
       "current_status": "",
       "image_path": "gilgamesh.jpg",
       "history": "",
@@ -484,7 +530,15 @@
       "trial": "Create A resting place for the dead",
       "ascension_time_period": "The God Wars",
       "pantheon": "Underworlders",
-      "relationships": "Persephone - (wife) Aphrodite - (curious acquaintance) Demeter - (friend former) Charon - (created construct and employee) Eris - (employee) Thanatos - (loosely connected contractor) Osiris - (employee)",
+      "relationships": [
+        "[Persephone](../Persephone) - (wife)",
+        "[Aphrodite](../Aphrodite) - (curious acquaintance)",
+        "[Demeter](../Demeter) - (friend former)",
+        "[Charon](../Charon) - (created construct and employee)",
+        "[Eris](../Eris) - (employee)",
+        "[Thanatos](../Thanatos) - (loosely connected contractor)",
+        "[Osiris](../Osiris) - (employee)"
+      ],
       "current_status": "Managing the Underworld",
       "image_path": "hades.jpg",
       "history": "",
@@ -509,7 +563,9 @@
       "trial": "Stop the growth of the planar leaks",
       "ascension_time_period": "Age of Magic",
       "pantheon": "Athenians",
-      "relationships": "",
+      "relationships": [
+        "[Anuke](../Anuke) - (partner)"
+      ],
       "current_status": "",
       "image_path": "halacaster.jpg",
       "history": "",
@@ -534,7 +590,9 @@
       "trial": "Build the greatest weapon ever made",
       "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
-      "relationships": "Athena - Friend",
+      "relationships": [
+        "[Athena](../Athena) - (Friend)"
+      ],
       "current_status": "Traveling the multi-verse",
       "image_path": "hephaestus.jpg",
       "history": "",
@@ -562,7 +620,9 @@
       "trial": "Build a harmonious state of people",
       "ascension_time_period": "Age of Division",
       "pantheon": "Demerans",
-      "relationships": "Zeus - Mentor",
+      "relationships": [
+        "[Zeus](../Zeus) - (Mentor)"
+      ],
       "current_status": "",
       "image_path": "hera.jpg",
       "history": "",
@@ -587,7 +647,9 @@
       "trial": "Deliver a message",
       "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
-      "relationships": "",
+      "relationships": [
+        "[Dionysus](../Dionysus) - (great freind (with sexual tension))"
+      ],
       "current_status": "",
       "image_path": "hermes.jpg",
       "history": "",
@@ -612,7 +674,9 @@
       "trial": "Achieve Inner Piece",
       "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
-      "relationships": "",
+      "relationships": [
+        "[Zeus](../Zeus) - Great friend"
+      ],
       "current_status": "",
       "image_path": "hestia.jpg",
       "history": "",
@@ -636,8 +700,10 @@
       ],
       "trial": "Save Sylvarus from the Shooting Star",
       "ascension_time_period": "Age of Unity",
-      "pantheon": "Athenians",
-      "relationships": "",
+      "pantheon": "Demerans",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "inkozana.jpg",
       "history": "",
@@ -662,7 +728,9 @@
       "trial": "Unify the orcs in philosophy and politics",
       "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
-      "relationships": "Orakothros - (husband)",
+      "relationships": [
+        "[Orakothros](../Orakothros) - (husband)"
+      ],
       "current_status": "",
       "image_path": "iranara.jpg",
       "history": "",
@@ -687,7 +755,9 @@
       "trial": "Make a permanent doorway to the fey wilds",
       "ascension_time_period": "Age of Division",
       "pantheon": "Underworlders",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "loki.jpg",
       "history": "",
@@ -712,7 +782,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
       "pantheon": "Demerans",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "malice.jpg",
       "history": "",
@@ -737,7 +809,9 @@
       "trial": "Perceive all of reality at once",
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "Lives and meditates in the far fields of the astral plane Promotes the Marithian religious movement",
       "image_path": "marith.jpg",
       "history": "",
@@ -762,7 +836,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Midasians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "midas.jpg",
       "history": "",
@@ -787,7 +863,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "  - [Valentina](../Valentina) - (Wife)",
+      "relationships": [
+        "  - [Valentina](../Valentina) - (Wife)"
+      ],
       "current_status": "",
       "image_path": "nyx.jpg",
       "history": "",
@@ -812,7 +890,9 @@
       "trial": "Live an Honorable life and die and Honorable death",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Gilgamites",
-      "relationships": "Alytica - (husband)",
+      "relationships": [
+        "[Alytica](../../immortals/Alytica) - (husband)"
+      ],
       "current_status": "Living in a cabin with Alytica in the far reaches of the Astral plane",
       "image_path": "odinn.jpg",
       "history": "",
@@ -837,7 +917,9 @@
       "trial": "Drive the Humans out of the Orcs' homeland",
       "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
-      "relationships": "Iranara - (wife)",
+      "relationships": [
+        "[Iranara](../Iranara) - (wife)"
+      ],
       "current_status": "",
       "image_path": "orakothros.jpg",
       "history": "",
@@ -862,7 +944,9 @@
       "trial": "Replay the first song ever written",
       "ascension_time_period": "Age of Magic",
       "pantheon": "Zagarans",
-      "relationships": "Eurydice - (wife)",
+      "relationships": [
+        "[Eurydice](../../demigods/Eurydice) - (wife)"
+      ],
       "current_status": "",
       "image_path": "orpheus.jpg",
       "history": "",
@@ -887,7 +971,9 @@
       "trial": "Create the Elixir of Life",
       "ascension_time_period": "Age of Magic",
       "pantheon": "Underworlders",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "osiris.jpg",
       "history": "",
@@ -912,7 +998,9 @@
       "trial": "",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "pan.jpg",
       "history": "",
@@ -937,7 +1025,9 @@
       "trial": "Kill the Leviathan",
       "ascension_time_period": "Age of Creation",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "poseidon.jpg",
       "history": "",
@@ -962,7 +1052,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "quetzocoatl.jpg",
       "history": "",
@@ -987,7 +1079,9 @@
       "trial": "",
       "ascension_time_period": "Age of Unity",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "shal'nan.jpg",
       "history": "",
@@ -1012,7 +1106,9 @@
       "trial": "",
       "ascension_time_period": "Unknown",
       "pantheon": "None",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "silence.jpg",
       "history": "",
@@ -1037,7 +1133,9 @@
       "trial": "Kill the god of Death",
       "ascension_time_period": "Age of Division",
       "pantheon": "None",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "thanatos.jpg",
       "history": "",
@@ -1062,7 +1160,9 @@
       "trial": "Give a Weapon a Mind",
       "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "image_path": "tyro.jpg",
       "history": "Invented Enchanting Founded the nation of Tyro",
@@ -1087,7 +1187,10 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Fortunians",
-      "relationships": "  - [Nyx](../nyx) - (Wife)\n  - Fortuna - (Boss/mentor)\n",
+      "relationships": [
+        "[Nyx](../nyx) - (Wife)",
+        "Fortuna - (Boss/mentor)"
+      ],
       "current_status": "",
       "image_path": "valentina.jpg",
       "history": "",
@@ -1112,7 +1215,11 @@
       "trial": "Replant the fields and forests of the astral plane",
       "ascension_time_period": "Age of Division",
       "pantheon": "Fortunians",
-      "relationships": "",
+      "relationships": [
+        "[Ecatra](../Ecatra) - (ally)",
+        "[Enkidu](../Enkidu) - (ally)",
+        "[Anuke](../Anuke) - (partner)"
+      ],
       "current_status": "",
       "image_path": "versengeterix.jpg",
       "history": "",
@@ -1137,7 +1244,9 @@
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
-      "relationships": "Gilgamesh - Friend/Leader",
+      "relationships": [
+        "Gilgamesh - Friend/Leader"
+      ],
       "current_status": "",
       "image_path": "virtue.jpg",
       "history": "",
@@ -1162,7 +1271,11 @@
       "trial": "Escape the underworld through diplomacy, not violence",
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
-      "relationships": "Dionysus - great friend Demeter - mentor (former) Hades - friend",
+      "relationships": [
+        "[Dionysus](../Dionysus) - (great friend)",
+        "[Demeter](../Demeter) - (mentor (former))",
+        "[Hades](../Hades) - (friend)"
+      ],
       "current_status": "Leader of the Zagarans",
       "image_path": "zagreus.jpg",
       "history": "Convinced Hades to let him out of the last level of the Underworld",
@@ -1184,7 +1297,10 @@
       "trial": "Travel the equator in the duration of a lightning strike",
       "ascension_time_period": "Age of Magic",
       "pantheon": "Demerans",
-      "relationships": "Hestia - Great friend Demeter - Partner (former)",
+      "relationships": [
+        "[Hestia](../Hestia) - Great friend",
+        "[Demeter](../Demeter) - Partner (former)"
+      ],
       "current_status": "Living in the city of Redwater, having very limited powers from healing the planes",
       "image_path": "zeus.jpg",
       "history": "Sacrificed god powers after Demeter super-ascension to save mortal plane from chaos",
