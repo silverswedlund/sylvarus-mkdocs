@@ -48,6 +48,7 @@ find docs/ -type f -print0 | while IFS= read -r -d '' file; do
 
   # Only rename if filename contains uppercase letters or spaces
   if echo "$base" | grep -q '[A-Z ]'; then
+    echo $basename
     dir=$(dirname "$file")
     new_base=$(echo "$base" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
     new_path="$dir/$new_base"
