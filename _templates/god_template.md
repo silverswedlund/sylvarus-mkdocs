@@ -16,7 +16,7 @@
 **[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
 **Divine Trial:** {{ trial }}  
 **LGBTQ+ Identifications:**  
-{% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "gay(mlm)", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender"] %}
+{% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "gay(mlm)", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
   {% for flag in lgbtq_identifications_with_images %}
     {% if flag in (id | lower | replace(' ', '_')) %}
@@ -27,7 +27,7 @@
 {% endfor %}
 
 **Other Identifications:**  
-{% set other_identifiers_with_images = ["adhd", "autism", "disabled", "polyamorous"] %}
+{% set other_identifiers_with_images = ["adhd", "autism", "disabled", "polyamorous", "neurodivergent"] %}
 {% for id in other_identifiers %}
   {% for flag in other_identifiers_with_images %}
     {% if flag in (id | lower | replace(' ', '_')) %}
