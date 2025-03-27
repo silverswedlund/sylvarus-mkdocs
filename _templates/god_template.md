@@ -12,9 +12,9 @@
   - {{ alias }}  
 {% endfor %}
 
-**Pre-ascension Species:** [{{ species }}](../../species/{{ species }})  
-**[Time Period](../../history/time_periods/) of Ascension:** [{{ ascension_time_period }}](../../history/time_periods/{{ ascension_time_period | lower | replace(' ', '_') }})  
-**[Pantheon](../../../pantheons):** [{{ pantheon }}](../../pantheons/{{ pantheon }})  
+**Pre-ascension Species:** {{ species }}  
+**[Time Period](../../history/time_periods/) of Ascension:** {{ ascension_time_period }}  
+**[Pantheon](../../../pantheons):** {{ pantheon }}  
 **Divine Trial:** {{ trial }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}

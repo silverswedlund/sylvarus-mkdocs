@@ -5,6 +5,9 @@
   },
   "items": {
     "Amun": {
+      "auto_link_strings": [
+        "Amun"
+      ],
       "name": "Amun",
       "pronouns": "He/Him",
       "species": "Elf",
@@ -29,12 +32,12 @@
         "none"
       ],
       "custom_details": "",
-      "physical_description": "",
-      "auto_link_strings": [
-        "Amun"
-      ]
+      "physical_description": ""
     },
     "Anuke": {
+      "auto_link_strings": [
+        "Anuke"
+      ],
       "name": "Anuke",
       "pronouns": "She/Her",
       "species": "Human",
@@ -45,8 +48,8 @@
       "ascension_time_period": "Period of Rebirth",
       "pantheon": "Underworlders",
       "relationships": [
-        "[Halacaster](../Halacaster) - (partner)",
-        "[Versengeterix](../Versengeterix) - (partner)"
+        "Halacaster - (partner)",
+        "Versengeterix - (partner)"
       ],
       "current_status": "",
       "image_path": "anuke.jpg",
@@ -63,6 +66,9 @@
       "physical_description": ""
     },
     "Aphrodite": {
+      "auto_link_strings": [
+        "Aphrodite"
+      ],
       "name": "Aphrodite",
       "pronouns": "She/Her",
       "species": "Elf",
@@ -75,9 +81,9 @@
       "ascension_time_period": "Age of Unity",
       "pantheon": "None",
       "relationships": [
-        "[Hephaestus](../Hephaestus) - (partner)",
-        "[Delinette](../Delinette) - (partner)",
-        "[Hades](../Hades) - (pseudo friend/stalker /joke)"
+        "Hephaestus - (partner)",
+        "Delinette - (partner)",
+        "Hades - (pseudo friend/stalker /joke)"
       ],
       "current_status": "Traveling the Multi-verse",
       "image_path": "aphrodite.jpg",
@@ -97,6 +103,9 @@
       "physical_description": ""
     },
     "Apollo": {
+      "auto_link_strings": [
+        "Apollo"
+      ],
       "name": "Apollo",
       "pronouns": "He/Him",
       "species": "Half-elf",
@@ -105,7 +114,7 @@
       "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
       "relationships": [
-        "[Artemis](../Artemis) - Twin Sister",
+        "Artemis - Twin Sister",
         "Amun - friend"
       ],
       "current_status": "Doing political moves in Olympia",
@@ -123,6 +132,9 @@
       "physical_description": ""
     },
     "Ares": {
+      "auto_link_strings": [
+        "Ares"
+      ],
       "name": "Ares",
       "pronouns": "He/Him",
       "species": "Narn",
@@ -133,7 +145,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Gilgamites",
       "relationships": [
-        "[Eris](../Eris) - (Twin Sister)"
+        "Eris - (Twin Sister)"
       ],
       "current_status": "",
       "image_path": "ares.jpg",
@@ -150,6 +162,9 @@
       "physical_description": ""
     },
     "Artemis": {
+      "auto_link_strings": [
+        "Artemis"
+      ],
       "name": "Artemis",
       "pronouns": "She/Her",
       "species": "Halfelf",
@@ -160,7 +175,7 @@
       "ascension_time_period": "Modern Age",
       "pantheon": "Gilgamites",
       "relationships": [
-        "[Apollo](../Apollo) - Brother"
+        "Apollo - Brother"
       ],
       "current_status": "",
       "image_path": "artemis.jpg",
@@ -177,6 +192,9 @@
       "physical_description": ""
     },
     "Asher": {
+      "auto_link_strings": [
+        "Asher"
+      ],
       "name": "Asher",
       "pronouns": "He/Him",
       "species": "Human",
@@ -204,6 +222,9 @@
       "physical_description": ""
     },
     "Athena": {
+      "auto_link_strings": [
+        "Athena"
+      ],
       "name": "Athena",
       "pronouns": "She/Her",
       "species": "Elf",
@@ -214,7 +235,7 @@
       "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
       "relationships": [
-        "[Hephaestus](../Hephaestus) - (good friend)"
+        "Hephaestus - (good friend)"
       ],
       "current_status": "",
       "image_path": "athena.jpg",
@@ -231,6 +252,9 @@
       "physical_description": ""
     },
     "Balbarash": {
+      "auto_link_strings": [
+        "Balbarash"
+      ],
       "name": "Balbarash",
       "pronouns": "he/they",
       "species": "Goliath",
@@ -260,6 +284,9 @@
       "physical_description": ""
     },
     "Death": {
+      "auto_link_strings": [
+        "Death (god)"
+      ],
       "name": "Death",
       "pronouns": "He/Him",
       "species": "Unknown",
@@ -270,7 +297,7 @@
       "ascension_time_period": "The Forgotten Age",
       "pantheon": "None",
       "relationships": [
-        "[Tiamel](../../demigods/tiamel) - (daughter)"
+        "Tiamel - (daughter)"
       ],
       "current_status": "Sleeping in the Vault of Death",
       "image_path": "death.jpg",
@@ -287,6 +314,9 @@
       "physical_description": ""
     },
     "Delinette": {
+      "auto_link_strings": [
+        "Delinette"
+      ],
       "name": "Delinette",
       "pronouns": "she/they",
       "species": "Quall",
@@ -297,8 +327,8 @@
       "ascension_time_period": "Age of Unity",
       "pantheon": "Athenians",
       "relationships": [
-        "[Aphrodite](../Aphrodite) - (partner)",
-        "[Hephaestus](../Hephaestus) - (partner)"
+        "Aphrodite - (partner)",
+        "Hephaestus - (partner)"
       ],
       "current_status": "",
       "image_path": "delinette.jpg",
@@ -316,6 +346,9 @@
       "physical_description": ""
     },
     "Demeter": {
+      "auto_link_strings": [
+        "Demeter"
+      ],
       "name": "Demeter",
       "pronouns": "She/Her",
       "species": "Elf",
@@ -327,7 +360,7 @@
       "ascension_time_period": "The God Wars",
       "pantheon": "Demerans",
       "relationships": [
-        "[Zeus](.../zeus) - (former partner)"
+        "Zeus - (former partner)"
       ],
       "current_status": "Ascended to the Divine (dead?)",
       "image_path": "demeter.jpg",
@@ -344,6 +377,9 @@
       "physical_description": ""
     },
     "Dionysus": {
+      "auto_link_strings": [
+        "Dionysus"
+      ],
       "name": "Dionysus",
       "pronouns": "He/Him",
       "species": "Human",
@@ -354,8 +390,8 @@
       "ascension_time_period": "Age of Unity",
       "pantheon": "Zagarans",
       "relationships": [
-        "[Pan](../Pan) - (Best Friend)",
-        "[Zagreus](../Zagreus) - (mentor - good friend)"
+        "Pan - (Best Friend)",
+        "Zagreus - (mentor - good friend)"
       ],
       "current_status": "",
       "image_path": "dionysus.jpg",
@@ -372,6 +408,9 @@
       "physical_description": ""
     },
     "Ecatra": {
+      "auto_link_strings": [
+        "Ecatra"
+      ],
       "name": "Ecatra",
       "pronouns": "She/Her",
       "species": "Mer",
@@ -382,8 +421,8 @@
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Fortunians",
       "relationships": [
-        "[Versengeterix](../Versengeterix) - (ally)",
-        "[Enkidu](../Enkidu) - (ally)"
+        "Versengeterix - (ally)",
+        "Enkidu - (ally)"
       ],
       "current_status": "",
       "image_path": "ecatra.jpg",
@@ -400,6 +439,9 @@
       "physical_description": ""
     },
     "Enkidu": {
+      "auto_link_strings": [
+        "Enkidu"
+      ],
       "name": "Enkidu",
       "pronouns": "He/Him",
       "species": "Minotaur",
@@ -410,13 +452,16 @@
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Underworlders",
       "relationships": [
-        "[Ecatra](../Ecatra) - (ally)"
+        "Ecatra - (ally)"
       ],
       "current_status": "",
       "image_path": "enkidu.jpg",
       "history": ""
     },
     "Eris": {
+      "auto_link_strings": [
+        "Eris"
+      ],
       "name": "Eris",
       "pronouns": "She/Her",
       "species": "Narn",
@@ -427,7 +472,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Underworlders",
       "relationships": [
-        "[Ares](../Ares) - Twin Brother"
+        "Ares - Twin Brother"
       ],
       "current_status": "",
       "image_path": "eris_cropped.jpg",
@@ -444,6 +489,9 @@
       "physical_description": ""
     },
     "Fortuna": {
+      "auto_link_strings": [
+        "Fortuna"
+      ],
       "name": "Fortuna",
       "pronouns": "She/Her",
       "species": "Human",
@@ -454,7 +502,7 @@
       "ascension_time_period": "The Forgotten Age",
       "pantheon": "Fortunians",
       "relationships": [
-        "[Gilgamesh](../Gilgamesh) - (Rival)"
+        "Gilgamesh - (Rival)"
       ],
       "current_status": "",
       "image_path": "fortuna.jpg",
@@ -471,6 +519,9 @@
       "physical_description": ""
     },
     "Freija": {
+      "auto_link_strings": [
+        "Freija"
+      ],
       "name": "Freija",
       "pronouns": "She/Her",
       "species": "Human",
@@ -498,6 +549,9 @@
       "physical_description": ""
     },
     "Gilgamesh": {
+      "auto_link_strings": [
+        "Gilgamesh"
+      ],
       "name": "Gilgamesh",
       "pronouns": "He/Him",
       "species": "Human",
@@ -508,8 +562,8 @@
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": [
-        "[Fortuna](../Fortuna) - (Rival)",
-        "[Virtue](../Virtue) - (Friend/Servant)"
+        "Fortuna - (Rival)",
+        "Virtue - (Friend/Servant)"
       ],
       "current_status": "",
       "image_path": "gilgamesh.jpg",
@@ -527,6 +581,9 @@
       "physical_description": ""
     },
     "Hades": {
+      "auto_link_strings": [
+        "Hades"
+      ],
       "name": "Hades",
       "pronouns": "He/Him",
       "species": "Half-Elf",
@@ -537,13 +594,13 @@
       "ascension_time_period": "The God Wars",
       "pantheon": "Underworlders",
       "relationships": [
-        "[Persephone](../Persephone) - (wife)",
-        "[Aphrodite](../Aphrodite) - (curious acquaintance)",
-        "[Demeter](../Demeter) - (friend former)",
-        "[Charon](../Charon) - (created construct and employee)",
-        "[Eris](../Eris) - (employee)",
-        "[Thanatos](../Thanatos) - (loosely connected contractor)",
-        "[Osiris](../Osiris) - (employee)"
+        "Persephone - (wife)",
+        "Aphrodite - (curious acquaintance)",
+        "Demeter - (friend former)",
+        "Charon - (created construct and employee)",
+        "Eris - (employee)",
+        "Thanatos - (loosely connected contractor)",
+        "Osiris - (employee)"
       ],
       "current_status": "Managing the Underworld",
       "image_path": "hades.jpg",
@@ -560,6 +617,9 @@
       "physical_description": ""
     },
     "Halacaster": {
+      "auto_link_strings": [
+        "Halacaster"
+      ],
       "name": "Halacaster",
       "pronouns": "They/Them",
       "species": "secret",
@@ -570,7 +630,7 @@
       "ascension_time_period": "Age of Magic",
       "pantheon": "Athenians",
       "relationships": [
-        "[Anuke](../Anuke) - (partner)"
+        "Anuke - (partner)"
       ],
       "current_status": "",
       "image_path": "halacaster.jpg",
@@ -587,6 +647,9 @@
       "physical_description": ""
     },
     "Hephaestus": {
+      "auto_link_strings": [
+        "Hephaestus"
+      ],
       "name": "Hephaestus",
       "pronouns": "any/all",
       "species": "Human",
@@ -597,7 +660,7 @@
       "ascension_time_period": "Age of Creation",
       "pantheon": "Athenians",
       "relationships": [
-        "[Athena](../Athena) - (Friend)"
+        "Athena - (Friend)"
       ],
       "current_status": "Traveling the multi-verse",
       "image_path": "hephaestus.jpg",
@@ -616,6 +679,9 @@
       "physical_description": ""
     },
     "Hera": {
+      "auto_link_strings": [
+        "Hera"
+      ],
       "name": "Hera",
       "pronouns": "She/Her",
       "species": "Elf",
@@ -626,7 +692,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Demerans",
       "relationships": [
-        "[Zeus](../Zeus) - (Mentor)"
+        "Zeus - (Mentor)"
       ],
       "current_status": "",
       "image_path": "hera_cropped.jpg",
@@ -643,6 +709,9 @@
       "physical_description": ""
     },
     "Hermes": {
+      "auto_link_strings": [
+        "Hermes"
+      ],
       "name": "Hermes",
       "pronouns": "He/Him",
       "species": "human",
@@ -653,7 +722,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
       "relationships": [
-        "[Dionysus](../Dionysus) - (great friend (with sexual tension))"
+        "Dionysus - (great friend (with sexual tension))"
       ],
       "current_status": "",
       "image_path": "hermes.jpg",
@@ -670,6 +739,9 @@
       "physical_description": ""
     },
     "Hestia": {
+      "auto_link_strings": [
+        "Hestia"
+      ],
       "name": "Hestia",
       "pronouns": "She/Her",
       "species": "Elf",
@@ -680,7 +752,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Zagarans",
       "relationships": [
-        "[Zeus](../Zeus) - Great friend"
+        "Zeus - Great friend"
       ],
       "current_status": "",
       "image_path": "hestia.jpg",
@@ -697,6 +769,9 @@
       "physical_description": ""
     },
     "Inkozana": {
+      "auto_link_strings": [
+        "Inkozana"
+      ],
       "name": "Inkozana",
       "pronouns": "She/Her",
       "species": "Fey/human/Dragonborn",
@@ -724,6 +799,9 @@
       "physical_description": ""
     },
     "Iranara": {
+      "auto_link_strings": [
+        "Iranara"
+      ],
       "name": "Iranara",
       "pronouns": "She/Her",
       "species": "Orc",
@@ -734,7 +812,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
       "relationships": [
-        "[Orakothros](../Orakothros) - (husband)"
+        "Orakothros - (husband)"
       ],
       "current_status": "",
       "image_path": "iranara.jpg",
@@ -751,6 +829,9 @@
       "physical_description": ""
     },
     "Loki": {
+      "auto_link_strings": [
+        "Loki"
+      ],
       "name": "Loki",
       "pronouns": "He/Him",
       "species": "Tiefling",
@@ -778,6 +859,9 @@
       "physical_description": ""
     },
     "Malice": {
+      "auto_link_strings": [
+        "Malice"
+      ],
       "name": "Malice",
       "pronouns": "He/Him",
       "species": "Unknown",
@@ -805,6 +889,9 @@
       "physical_description": ""
     },
     "Marith": {
+      "auto_link_strings": [
+        "Marith"
+      ],
       "name": "Marith",
       "pronouns": "He/Him",
       "species": "Unknown",
@@ -833,6 +920,9 @@
       "physical_description": ""
     },
     "Midas": {
+      "auto_link_strings": [
+        "Midas"
+      ],
       "name": "Midas",
       "pronouns": "doesn't care",
       "species": "Unknown",
@@ -860,6 +950,9 @@
       "physical_description": ""
     },
     "Nyx": {
+      "auto_link_strings": [
+        "Nyx"
+      ],
       "name": "Nyx",
       "pronouns": "She/Her",
       "species": "Unknown",
@@ -870,7 +963,7 @@
       "ascension_time_period": "The God Wars",
       "pantheon": "Gilgamites",
       "relationships": [
-        "  - [Valentina](../Valentina) - (Wife)"
+        "  - Valentina - (Wife)"
       ],
       "current_status": "",
       "image_path": "nyx.jpg",
@@ -887,6 +980,9 @@
       "physical_description": ""
     },
     "Odinn": {
+      "auto_link_strings": [
+        "Odinn"
+      ],
       "name": "Odinn",
       "pronouns": "He/Him",
       "species": "Narn",
@@ -897,7 +993,7 @@
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Gilgamites",
       "relationships": [
-        "[Alytica](../../immortals/Alytica) - (husband)"
+        "Alytica - (husband)"
       ],
       "current_status": "Living in a cabin with Alytica in the far reaches of the Astral plane",
       "image_path": "odinn.jpg",
@@ -914,6 +1010,9 @@
       "physical_description": ""
     },
     "Orakothros": {
+      "auto_link_strings": [
+        "Orakothros"
+      ],
       "name": "Orakothros",
       "pronouns": "He/Him",
       "species": "Orc",
@@ -924,7 +1023,7 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Athenians",
       "relationships": [
-        "[Iranara](../Iranara) - (wife)"
+        "Iranara - (wife)"
       ],
       "current_status": "",
       "image_path": "orakothros.jpg",
@@ -941,6 +1040,9 @@
       "physical_description": ""
     },
     "Orpheus": {
+      "auto_link_strings": [
+        "Orpheus"
+      ],
       "name": "Orpheus",
       "pronouns": "he/they",
       "species": "half-elf",
@@ -951,7 +1053,7 @@
       "ascension_time_period": "Age of Magic",
       "pantheon": "Zagarans",
       "relationships": [
-        "[Eurydice](../../demigods/Eurydice) - (wife)"
+        "Eurydice - (wife)"
       ],
       "current_status": "",
       "image_path": "orpheus.jpg",
@@ -968,6 +1070,9 @@
       "physical_description": ""
     },
     "Osiris": {
+      "auto_link_strings": [
+        "Osiris"
+      ],
       "name": "Osiris",
       "pronouns": "He/Him",
       "species": "Dwarf",
@@ -995,6 +1100,9 @@
       "physical_description": ""
     },
     "Pan": {
+      "auto_link_strings": [
+        "Pan"
+      ],
       "name": "Pan",
       "pronouns": "He/Him",
       "species": "Satyr",
@@ -1022,6 +1130,9 @@
       "physical_description": ""
     },
     "Poseidon": {
+      "auto_link_strings": [
+        "Poseidon"
+      ],
       "name": "Poseidon",
       "pronouns": "He/Him",
       "species": "Dwarf",
@@ -1049,6 +1160,9 @@
       "physical_description": ""
     },
     "Quetzocoatl": {
+      "auto_link_strings": [
+        "Quetzocoatl"
+      ],
       "name": "Quetzocoatl",
       "pronouns": "They/Them",
       "species": "Dragon",
@@ -1076,6 +1190,9 @@
       "physical_description": ""
     },
     "Shal'nan": {
+      "auto_link_strings": [
+        "Shal'nan"
+      ],
       "name": "Shal'nan",
       "pronouns": "They/Them",
       "species": "Dragon",
@@ -1103,6 +1220,9 @@
       "physical_description": ""
     },
     "Silence": {
+      "auto_link_strings": [
+        "Silence"
+      ],
       "name": "Silence",
       "pronouns": "She/Her",
       "species": "Unknown",
@@ -1130,6 +1250,9 @@
       "physical_description": ""
     },
     "Thanatos": {
+      "auto_link_strings": [
+        "Thanatos"
+      ],
       "name": "Thanatos",
       "pronouns": "They/Them",
       "species": "Celestial",
@@ -1157,6 +1280,9 @@
       "physical_description": ""
     },
     "Tyro": {
+      "auto_link_strings": [
+        "Tyro"
+      ],
       "name": "Tyro",
       "pronouns": "He/Him",
       "species": "human",
@@ -1184,6 +1310,9 @@
       "physical_description": ""
     },
     "Valentina": {
+      "auto_link_strings": [
+        "Valentina"
+      ],
       "name": "Valentina",
       "pronouns": "She/Her",
       "species": "human",
@@ -1194,7 +1323,7 @@
       "ascension_time_period": "The God Wars",
       "pantheon": "Fortunians",
       "relationships": [
-        "[Nyx](../nyx) - (Wife)",
+        "Nyx - (Wife)",
         "Fortuna - (Boss/mentor)"
       ],
       "current_status": "",
@@ -1212,6 +1341,9 @@
       "physical_description": ""
     },
     "Versengeterix": {
+      "auto_link_strings": [
+        "Versengeterix"
+      ],
       "name": "Versengeterix",
       "pronouns": "He/Him",
       "species": "Centaur",
@@ -1222,9 +1354,9 @@
       "ascension_time_period": "Age of Division",
       "pantheon": "Fortunians",
       "relationships": [
-        "[Ecatra](../Ecatra) - (ally)",
-        "[Enkidu](../Enkidu) - (ally)",
-        "[Anuke](../Anuke) - (partner)"
+        "Ecatra - (ally)",
+        "Enkidu - (ally)",
+        "Anuke - (partner)"
       ],
       "current_status": "",
       "image_path": "versengeterix.jpg",
@@ -1241,6 +1373,9 @@
       "physical_description": ""
     },
     "Virtue": {
+      "auto_link_strings": [
+        "Virtue"
+      ],
       "name": "Virtue",
       "pronouns": "He/Him",
       "species": "Orc",
@@ -1268,6 +1403,9 @@
       "physical_description": ""
     },
     "Zagreus": {
+      "auto_link_strings": [
+        "Zagreus"
+      ],
       "name": "Zagreus",
       "pronouns": "He/Him",
       "species": "Tiefling",
@@ -1278,9 +1416,9 @@
       "ascension_time_period": "Age of Chaos",
       "pantheon": "Zagarans",
       "relationships": [
-        "[Dionysus](../Dionysus) - (great friend)",
-        "[Demeter](../Demeter) - (mentor (former))",
-        "[Hades](../Hades) - (friend)"
+        "Dionysus - (great friend)",
+        "Demeter - (mentor (former))",
+        "Hades - (friend)"
       ],
       "current_status": "Leader of the Zagarans",
       "image_path": "zagreus.jpg",
@@ -1295,6 +1433,9 @@
       "physical_description": ""
     },
     "Zeus": {
+      "auto_link_strings": [
+        "Zeus"
+      ],
       "name": "Zeus",
       "pronouns": "He/Him",
       "species": "Human",
@@ -1305,8 +1446,8 @@
       "ascension_time_period": "Age of Magic",
       "pantheon": "Demerans",
       "relationships": [
-        "[Hestia](../Hestia) - Great friend",
-        "[Demeter](../Demeter) - Partner (former)"
+        "Hestia - Great friend",
+        "Demeter - Partner (former)"
       ],
       "current_status": "Living in the city of Redwater, having very limited powers from healing the planes",
       "image_path": "zeus.jpg",
