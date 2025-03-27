@@ -12,7 +12,10 @@
         "[Neurodivergent](../neurodivergent)",
         "[Autism](../autism)"
       ],
-      "image_path": "../../flags/adhd.jpg"
+      "image_path": "../../flags/adhd.jpg",
+      "auto_link_strings": [
+        "ADHD"
+      ]
     },
     "Agender": {
       "name": "Agender",
@@ -22,7 +25,10 @@
         "[Nonbinary](../nonbinary)",
         "[Genderqueer](../genderqueer)"
       ],
-      "image_path": "../../flags/agender.jpg"
+      "image_path": "../../flags/agender.jpg",
+      "auto_link_strings": [
+        "Agender"
+      ]
     },
     "Aromantic": {
       "name": "Aromantic",
@@ -31,7 +37,10 @@
       "related_identifiers": [
         "[Asexual](../asexual)"
       ],
-      "image_path": "../../flags/aromantic.jpg"
+      "image_path": "../../flags/aromantic.jpg",
+      "auto_link_strings": [
+        "Aromantic"
+      ]
     },
     "Asexual": {
       "name": "Asexual",
@@ -40,7 +49,10 @@
       "related_identifiers": [
         "[Aromantic](../aromantic)"
       ],
-      "image_path": "../../flags/asexual.jpg"
+      "image_path": "../../flags/asexual.jpg",
+      "auto_link_strings": [
+        "asexual"
+      ]
     },
     "Autism": {
       "name": "Autism",
@@ -50,7 +62,11 @@
         "[Neurodivergent](../neurodivergent)",
         "[ADHD](../adhd)"
       ],
-      "image_path": "../../flags/autism.jpg"
+      "image_path": "../../flags/autism.jpg",
+      "auto_link_strings": [
+        "autism",
+        "autistic"
+      ]
     },
     "Bicurious": {
       "name": "Bicurious",
@@ -59,7 +75,10 @@
       "related_identifiers": [
         "[Pansexual](../pansexual)"
       ],
-      "image_path": "../../flags/bicurious.jpg"
+      "image_path": "../../flags/bicurious.jpg",
+      "auto_link_strings": [
+        "Bicurious"
+      ]
     },
     "Demiboy": {
       "name": "Demiboy",
@@ -69,7 +88,10 @@
         "[Nonbinary](../nonbinary)",
         "[Demigirl](../demigirl)"
       ],
-      "image_path": "../../flags/demiboy.jpg"
+      "image_path": "../../flags/demiboy.jpg",
+      "auto_link_strings": [
+        "Demiboy"
+      ]
     },
     "Demigirl": {
       "name": "Demigirl",
@@ -79,14 +101,20 @@
         "[Nonbinary](../nonbinary)",
         "[Demiboy](../demiboy)"
       ],
-      "image_path": "../../flags/demigirl.jpg"
+      "image_path": "../../flags/demigirl.jpg",
+      "auto_link_strings": [
+        "Demigirl"
+      ]
     },
     "Disabled": {
       "name": "Disabled",
       "type": "Disability",
       "description": "Disabled refers to individuals with physical, mental, or emotional impairments that substantially limit one or more major life activities.",
       "related_identifiers": [],
-      "image_path": "../../flags/disabled.jpg"
+      "image_path": "../../flags/disabled.jpg",
+      "auto_link_strings": [
+        "Disabled"
+      ]
     },
     "Genderqueer": {
       "name": "Genderqueer",
@@ -96,17 +124,22 @@
         "[Nonbinary](../nonbinary)",
         "[Agender](../agender)"
       ],
-      "image_path": "../../flags/genderqueer.jpg"
+      "image_path": "../../flags/genderqueer.jpg",
+      "auto_link_strings": [
+        "Genderqueer"
+      ]
     },
     "Lesbian": {
       "name": "Lesbian (WLW)",
       "type": "LGBT",
       "description": "A lesbian is a woman or feminine-aligned person who is primarily romantically or sexually attracted to other women.",
       "related_identifiers": [
-        "[Wlw](../wlw)",
-        "[Gay](../gay)"
+        "[MLM](../mlm)"
       ],
-      "image_path": "../../flags/lesbian.jpg"
+      "image_path": "../../flags/lesbian.jpg",
+      "auto_link_strings": [
+        "Lesbian"
+      ]
     },
     "Mlm": {
       "name": "MLM",
@@ -116,7 +149,11 @@
         "[Gay](../gay)",
         "[Pansexual](../pansexual)"
       ],
-      "image_path": "../../flags/mlm.jpg"
+      "image_path": "../../flags/mlm.jpg",
+      "auto_link_strings": [
+        "MLM",
+        "Gay (MLM)"
+      ]
     },
     "Neurodivergent": {
       "name": "Neurodivergent",
@@ -126,7 +163,10 @@
         "[Autism](../autism)",
         "[ADHD](../adhd)"
       ],
-      "image_path": "../../flags/neurodivergent.jpg"
+      "image_path": "../../flags/neurodivergent.jpg",
+      "auto_link_strings": [
+        "Neurodivergent"
+      ]
     },
     "Nonbinary": {
       "name": "Nonbinary",
@@ -138,21 +178,31 @@
         "[Agender](../agender)",
         "[Genderqueer](../genderqueer)"
       ],
-      "image_path": "../../flags/nonbinary.jpg"
+      "image_path": "../../flags/nonbinary.jpg",
+      "auto_link_strings": [
+        "Nonbinary",
+        "enby"
+      ]
     },
     "Pansexual": {
       "name": "Pansexual",
       "type": "LGBT",
       "description": "Pansexuality is the romantic or sexual attraction toward people regardless of their gender identity.",
       "related_identifiers": [],
-      "image_path": "../../flags/pansexual.jpg"
+      "image_path": "../../flags/pansexual.jpg",
+      "auto_link_strings": [
+        "Pansexual"
+      ]
     },
     "Polyamorous": {
       "name": "Polyamorous",
       "type": "Romance",
       "description": "Polyamory is the practice of, or desire for, romantic relationships with more than one partner, with the informed consent of all partners involved.",
       "related_identifiers": [],
-      "image_path": "../../flags/polyamorous.jpg"
+      "image_path": "../../flags/polyamorous.jpg",
+      "auto_link_strings": [
+        "Polyamorous"
+      ]
     },
     "Transgender": {
       "name": "Transgender",
@@ -162,7 +212,10 @@
         "[Nonbinary](../nonbinary)",
         "[Genderqueer](../genderqueer)"
       ],
-      "image_path": "../../flags/transgender.jpg"
+      "image_path": "../../flags/transgender.jpg",
+      "auto_link_strings": [
+        "Transgender"
+      ]
     }
   }
 }

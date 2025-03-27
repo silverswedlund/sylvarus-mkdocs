@@ -9,7 +9,6 @@ def normalize_name(name):
     return name.lower().replace("'", "").replace(" ", "")
 
 def load_all_json_items(json_dir):
-    """Load all items from all JSON files, collecting both link targets and all index paths."""
     link_targets = []
     all_index_paths = []
 
@@ -29,10 +28,8 @@ def load_all_json_items(json_dir):
             folder_name = normalize_name(key)
             index_path = (Path(base_path) / folder_name / "index.md").resolve()
 
-            # Track all index files to scan
             all_index_paths.append(index_path)
 
-            # Track items that define auto_link_strings as link targets
             auto_links = item.get("auto_link_strings", [])
             if name and auto_links:
                 link_targets.append({
@@ -43,20 +40,22 @@ def load_all_json_items(json_dir):
 
     return link_targets, all_index_paths
 
-def linkify(content, string, link, added_links):
-    """Replace unlinked occurrences of a string with a Markdown link (case-insensitive)."""
+def linkify_safely(content, string, link, added_links):
+    """Replace strings surrounded by whitespace, ignoring already-linked or special cases."""
     escaped = re.escape(string)
-    pattern = r'(?<!\[)(' + escaped + r')(?![^\]]*\))'
+    # Match string surrounded by any kind of whitespace (start or end included)
+    pattern = re.compile(rf'(\s){escaped}(\s)', flags=re.IGNORECASE)
 
-    def replacer(match):
-        matched_text = match.group(1)
-        added_links.append((matched_text, link))
-        return f"[{matched_text}]({link})"
+    def safe_replacer(match):
+        start = match.start()
+        full = match.string
 
-    return re.sub(pattern, replacer, content, flags=re.IGNORECASE)
+        added_links.append((match.group(0), link))
+        return f"{match.group(1)}[{match.group(0).strip()}]({link}){match.group(2)}"
+
+    return pattern.sub(safe_replacer, content)
 
 def process_autolinks(link_targets, all_index_paths):
-    """For each index.md file, attempt to link to any known targets by alias."""
     for index_path in all_index_paths:
         if not index_path.exists():
             continue
@@ -66,18 +65,19 @@ def process_autolinks(link_targets, all_index_paths):
         except Exception as e:
             print(f"❌ Failed to read {index_path}: {e}")
             continue
-
+        
         original_content = content
         added_links = []
-
+        
         for target in link_targets:
             target_path = target["index_path"]
             if index_path.resolve() == target_path.resolve():
-                continue  # Don't link to self
+                print(index_path.resolve())
+                continue
 
             for alias in target["auto_link_strings"]:
                 rel_link = os.path.relpath(target_path, start=index_path.parent)
-                content = linkify(content, alias, rel_link, added_links)
+                content = linkify_safely(content, alias, rel_link, added_links)
 
         if content != original_content:
             try:
