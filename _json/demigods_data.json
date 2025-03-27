@@ -5,6 +5,9 @@
   },
   "items": {
     "Aurelius": {
+      "auto_link_strings": [
+        "Aurelius"
+      ],
       "name": "Aurelius",
       "pronouns": "He/Him",
       "divine_parent": "",
@@ -29,6 +32,9 @@
       ]
     },
     "Deimos": {
+      "auto_link_strings": [
+        "Deimos"
+      ],
       "name": "Deimos",
       "pronouns": "He/Him",
       "divine_parent": "",
@@ -53,6 +59,9 @@
       ]
     },
     "Phobos": {
+      "auto_link_strings": [
+        "Phobos"
+      ],
       "name": "Phobos",
       "pronouns": "He/Him",
       "divine_parent": "",
@@ -77,6 +86,9 @@
       ]
     },
     "Eurydice": {
+      "auto_link_strings": [
+        "Eurydice"
+      ],
       "name": "Eurydice",
       "pronouns": "She/Her",
       "divine_parent": "",
@@ -101,6 +113,9 @@
       ]
     },
     "Heracles": {
+      "auto_link_strings": [
+        "Heracles"
+      ],
       "name": "Heracles",
       "pronouns": "He/Him",
       "divine_parent": "",
@@ -125,6 +140,9 @@
       ]
     },
     "Tiamel": {
+      "auto_link_strings": [
+        "Tiamel"
+      ],
       "name": "Tiamel",
       "pronouns": "She/Her",
       "divine_parent": "",
@@ -149,6 +167,9 @@
       ]
     },
     "Sabazios": {
+      "auto_link_strings": [
+        "Sabazios"
+      ],
       "name": "Sabazios",
       "pronouns": "They/Them",
       "divine_parent": "",
@@ -173,6 +194,9 @@
       ]
     },
     "Ephyra": {
+      "auto_link_strings": [
+        "Ephyra"
+      ],
       "name": "Ephyra",
       "pronouns": "She/Her",
       "divine_parent": "",
@@ -197,6 +221,9 @@
       ]
     },
     "Atenael": {
+      "auto_link_strings": [
+        "Atenael"
+      ],
       "name": "Atenael",
       "pronouns": "He/Him",
       "divine_parent": "",
@@ -221,6 +248,9 @@
       ]
     },
     "Morax": {
+      "auto_link_strings": [
+        "Morax"
+      ],
       "name": "Morax",
       "pronouns": "She/Her",
       "divine_parent": "",
@@ -245,16 +275,19 @@
       ]
     },
     "Persephone": {
+      "auto_link_strings": [
+        "Persephone"
+      ],
       "name": "Persephone",
       "pronouns": "She/Her",
-      "divine_parent": "",
+      "divine_parent": "Demeter",
       "aliases": [
-        ""
+        "Queen of The Underworld"
       ],
       "species": "demi-god",
       "ascension_epoch": "",
       "relationships": [
-        ""
+        "Hades - (Husband)"
       ],
       "current_status": "",
       "history": "",

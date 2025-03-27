@@ -5,6 +5,9 @@
   },
   "items": {
     "Redwater": {
+      "auto_link_strings": [
+        "Redwater"
+      ],
       "name": "Redwater",
       "type": "City",
       "nation": "Valmere",
@@ -28,6 +31,9 @@
       "image_path": "images/redwater.jpg"
     },
     "Caelthas": {
+      "auto_link_strings": [
+        "Caelthas"
+      ],
       "name": "Caelthas",
       "type": "Floating City",
       "nation": "Skyreach Accord",

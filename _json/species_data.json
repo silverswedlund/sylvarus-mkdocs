@@ -5,6 +5,11 @@
   },
   "items": {
     "Elf": {
+      "auto_link_strings": [
+        "Elf",
+        "Elves",
+        "Elvish"
+      ],
       "name": "Elves",
       "type": "Humanoid",
       "origin": "Evolutionary Digergence",
@@ -15,7 +20,7 @@
         "Sylvaric"
       ],
       "custom_details": "",
-      "homelands": "[Taliander](../../locations/territories/taliander)",
+      "homelands": "Taliander",
       "other_regions": "Widely spread across Sylvarus, second only to humans - usually stays on the western continent",
       "distribution": "",
       "history": "Elves are believed to be among the first sentient species to walk the surfce of Sylvarus. Their history claims they were shaped from song and moonlight by a forgotten celestial being. Their early history is closely tied to the Feywild.",
@@ -26,6 +31,11 @@
       "relationships": "Tense history with Dwarves due to resource disputes; relatively peaceful with Humans."
     },
     "Human": {
+      "auto_link_strings": [
+        "Human",
+        "Humans",
+        "Humanity"
+      ],
       "name": "Humans",
       "type": "Humanoid",
       "origin": "Evolutionary Digergence",
@@ -35,16 +45,21 @@
         "Sylvaric"
       ],
       "custom_details": "",
-      "homelands": "[Noridge](../../locations/territories/noridge)",
-      "other_regions": "The most widespread species - you can find humans in every nation and territory outside of [Athenia](../../locations/territories/athenia), though there are concentrations of them in some nations",
+      "homelands": "Noridge",
+      "other_regions": "The most widespread species - you can find humans in every nation and territory outside of Athenia, though there are concentrations of them in some nations",
       "distribution": "",
       "history": "Humans are believed to be a decendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
       "religion": "Primarily worships the olypmians",
       "traditions": "Bartering, humans love bartering and finding deals  \nWinter festivals  \n Gift Giving",
       "notable_figures": [],
-      "relationships": "Tense history with [Orcs](../Orc) due to the (largely human) subjegation of the [Orcs](../Orc) during the [Age of Unity](../../history/time_periods/age_of_unity); most wars and conflicts are with other humans - they are seemingly more diplomatic with other species than their own"
+      "relationships": "Tense history with Orcs due to the (largely human) subjegation of the Orcs during the Age of Unity; most wars and conflicts are with other humans - they are seemingly more diplomatic with other species than their own"
     },
     "Orc": {
+      "auto_link_strings": [
+        "Orc",
+        "Orcish",
+        "Orcs"
+      ],
       "name": "Orcs",
       "type": "Humanoid",
       "origin": "Evolutionary Digergence from Elves",
@@ -55,14 +70,14 @@
         "Orcish"
       ],
       "custom_details": "",
-      "homelands": "[Athenia](../../locations/territories/athenia)",
-      "other_regions": "The overwhelming majority of Sylvarus' Orcs live in [Athenia](../../locations/territories/athenia) - Though you can find wanderers, diplomats, and explorers here and there in every nation and region of Sylvarus. Most are temporary residents and will return to Athenia. The most common Orcs you will find outside of their homeland are hunters. They search for magical artifacts on the dime of the [Athenian](../../locations/territories/athenia) government and take them back home.",
+      "homelands": "Athenia",
+      "other_regions": "The overwhelming majority of Sylvarus' Orcs live in Athenia - Though you can find wanderers, diplomats, and explorers here and there in every nation and region of Sylvarus. Most are temporary residents and will return to Athenia. The most common Orcs you will find outside of their homeland are hunters. They search for magical artifacts on the dime of the Athenian government and take them back home.",
       "distribution": "",
       "history": "Humans are believed to be a decendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
-      "religion": "Primarily worships the the Divine Parents, [Iranara](../../gods/Iranara) and [Orakothros](../../gods/Orakothros)",
+      "religion": "Primarily worships the the Divine Parents, Iranara and Orakothros",
       "traditions": "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years",
       "notable_figures": [],
-      "relationships": "Tense history with Humans due to the orcs subjegation by their hand during the [Age of Unity](../../history/time_periods/age_of_unity); The orcs, in general are very peaceful but guarded, if they are attacked they will hit back twice as hard, but will generally stay out of others' business"
+      "relationships": "Tense history with Humans due to the orcs subjegation by their hand during the Age of Unity; The orcs, in general are very peaceful but guarded, if they are attacked they will hit back twice as hard, but will generally stay out of others' business"
     }
   }
 }

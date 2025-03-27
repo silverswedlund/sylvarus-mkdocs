@@ -5,6 +5,9 @@
   },
   "items": {
     "Athenia": {
+      "auto_link_strings": [
+        "Athenia"
+      ],
       "name": "Athenia",
       "region": "",
       "population": "",
@@ -35,6 +38,9 @@
       "world_location_image_path": "athenia_location_map.jpg"
     },
     "Celestia": {
+      "auto_link_strings": [
+        "Celestia"
+      ],
       "name": "Celestia",
       "region": "",
       "population": "20 million",
@@ -65,6 +71,9 @@
       "world_location_image_path": "celestia_location_map.jpg"
     },
     "Eton": {
+      "auto_link_strings": [
+        "Eton"
+      ],
       "name": "Eton",
       "region": "",
       "population": "",
@@ -95,6 +104,9 @@
       "world_location_image_path": "eton_location_map.jpg"
     },
     "Haratur_Outpost": {
+      "auto_link_strings": [
+        "Haratur Outpost"
+      ],
       "name": "Haratur Outpost",
       "region": "",
       "population": "",
@@ -122,6 +134,10 @@
       "world_location_image_path": "haratur_outpost_location_map.jpg"
     },
     "The_Isles_of_Tife": {
+      "auto_link_strings": [
+        "The Isles of Tife",
+        "The Islands of Tife"
+      ],
       "name": "The Isles of Tife",
       "region": "",
       "population": "",
@@ -152,6 +168,9 @@
       "world_location_image_path": "isles_of_tife_location_map.jpg"
     },
     "Kamboramm": {
+      "auto_link_strings": [
+        "Kamboramm"
+      ],
       "name": "Kamboramm",
       "region": "",
       "population": "",
@@ -182,6 +201,10 @@
       "world_location_image_path": "kamboramm_location_map.jpg"
     },
     "Land_of_King": {
+      "auto_link_strings": [
+        "The Land of King",
+        "Land of King"
+      ],
       "name": "Land of King",
       "region": "",
       "population": "",
@@ -212,6 +235,9 @@
       "world_location_image_path": "land_of_king_location_map.jpg"
     },
     "Mideer": {
+      "auto_link_strings": [
+        "Mideer"
+      ],
       "name": "Mideer",
       "region": "",
       "population": "",
@@ -242,6 +268,9 @@
       "world_location_image_path": "mideer_location_map.jpg"
     },
     "Narnlund": {
+      "auto_link_strings": [
+        "Narnlund"
+      ],
       "name": "Narnlund",
       "region": "",
       "population": "",
@@ -272,6 +301,9 @@
       "world_location_image_path": "narnlund_location_map.jpg"
     },
     "New_Noridge": {
+      "auto_link_strings": [
+        "New Noridge"
+      ],
       "name": "New Noridge",
       "region": "",
       "population": "",
@@ -302,6 +334,9 @@
       "world_location_image_path": "new_noridge_location_map.jpg"
     },
     "Noridge": {
+      "auto_link_strings": [
+        "Noridge"
+      ],
       "name": "Noridge",
       "region": "",
       "population": "",
@@ -332,6 +367,9 @@
       "world_location_image_path": "noridge_location_map.jpg"
     },
     "Rositoria": {
+      "auto_link_strings": [
+        "Rositoria"
+      ],
       "name": "Rositoria",
       "region": "",
       "population": "",
@@ -362,6 +400,10 @@
       "world_location_image_path": "rositoria_location_map.jpg"
     },
     "Shalnan": {
+      "auto_link_strings": [
+        "Shal'nan (country)",
+        "Shalnan (country)"
+      ],
       "name": "Shal'nan",
       "region": "",
       "population": "~1 million",
@@ -388,6 +430,9 @@
       "world_location_image_path": "shalnan_location_map.jpg"
     },
     "Taliander": {
+      "auto_link_strings": [
+        "Taliander"
+      ],
       "name": "Taliander",
       "region": "South-Western ocean",
       "population": "40 million",
@@ -417,6 +462,9 @@
       "world_location_image_path": "taliander_location_map.jpg"
     },
     "The_Aureate": {
+      "auto_link_strings": [
+        "The Aureate"
+      ],
       "name": "The Aureate",
       "region": "",
       "population": "",
@@ -447,6 +495,9 @@
       "world_location_image_path": "the_aureate_location_map.jpg"
     },
     "The_Black_Islands": {
+      "auto_link_strings": [
+        "The Black Islands"
+      ],
       "name": "The Black Islands",
       "region": "",
       "population": "",
@@ -477,6 +528,9 @@
       "world_location_image_path": "the_black_islands_location_map.jpg"
     },
     "The_Frost": {
+      "auto_link_strings": [
+        "The Frost"
+      ],
       "name": "The Frost",
       "region": "",
       "population": "",
@@ -503,6 +557,9 @@
       "world_location_image_path": "the_frost_location_map.jpg"
     },
     "The_Northwest_Tundra": {
+      "auto_link_strings": [
+        "The Northwest Tundra"
+      ],
       "name": "The Northwest Tundra",
       "region": "",
       "population": "",
@@ -532,6 +589,9 @@
       "world_location_image_path": "the_northwest_tundra_location_map.jpg"
     },
     "The_Republic_of_Avia": {
+      "auto_link_strings": [
+        "The Republic of Avia"
+      ],
       "name": "The Republic of Avia",
       "region": "",
       "population": "",
@@ -562,6 +622,9 @@
       "world_location_image_path": "the_republic_of_avia_location_map.jpg"
     },
     "The_Selin_Flats": {
+      "auto_link_strings": [
+        "The Selin Flats"
+      ],
       "name": "The Selin Flats",
       "region": "",
       "population": "",
@@ -592,6 +655,9 @@
       "world_location_image_path": "the_selin_flats_location_map.jpg"
     },
     "The_Wastes": {
+      "auto_link_strings": [
+        "The Wastes"
+      ],
       "name": "The Wastes",
       "region": "",
       "population": "",
@@ -618,6 +684,9 @@
       "world_location_image_path": "the_wastes_location_map.jpg"
     },
     "Titanrock": {
+      "auto_link_strings": [
+        "Titanrock"
+      ],
       "name": "The Kingdon of Titanrock",
       "region": "Pheonix Sub-Coast",
       "population": "7.3 million",
@@ -648,6 +717,9 @@
       "world_location_image_path": "titanrock_location_map.jpg"
     },
     "Tyro": {
+      "auto_link_strings": [
+        "Tyro (Nation)"
+      ],
       "name": "Tyro",
       "region": "",
       "population": "",
@@ -678,6 +750,10 @@
       "world_location_image_path": "tyro_location_map.jpg"
     },
     "Olympia": {
+      "auto_link_strings": [
+        "Olympia",
+        "Olympus"
+      ],
       "name": "Olympia",
       "region": "The Astral Plane",
       "population": "~13,000",
