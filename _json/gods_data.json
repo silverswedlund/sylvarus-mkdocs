@@ -29,7 +29,10 @@
         "none"
       ],
       "custom_details": "",
-      "physical_description": ""
+      "physical_description": "",
+      "auto_link_strings": [
+        "Amun"
+      ]
     },
     "Anuke": {
       "name": "Anuke",
@@ -102,7 +105,8 @@
       "ascension_time_period": "Age of Unity",
       "pantheon": "Demerans",
       "relationships": [
-        "[Artemis](../Artemis) - Twin Sister"
+        "[Artemis](../Artemis) - Twin Sister",
+        "Amun - friend"
       ],
       "current_status": "Doing political moves in Olympia",
       "image_path": "apollo.jpg",
