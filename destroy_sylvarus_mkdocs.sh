@@ -33,3 +33,6 @@ find docs/history/time_periods/*/ -type f -name "index.md" -exec rm -v {} \;
 
 
 echo "🔥 All specified index.md files deleted."
+
+trash _scripts/pickles/*
+echo "🔥🥒 All pickles deleted."
