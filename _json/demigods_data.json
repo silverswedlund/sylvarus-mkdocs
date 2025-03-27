@@ -7,132 +7,266 @@
     "Aurelius": {
       "name": "Aurelius",
       "pronouns": "He/Him",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "aurelius.jpg",
       "description": "",
-      "custom_details": "custom deets for aur-y"
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Deimos": {
       "name": "Deimos",
       "pronouns": "He/Him",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "deimos.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Phobos": {
       "name": "Phobos",
       "pronouns": "He/Him",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "phobos.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Eurydice": {
       "name": "Eurydice",
       "pronouns": "She/Her",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "eurydice.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Heracles": {
       "name": "Heracles",
       "pronouns": "He/Him",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "heracles.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Tiamel": {
       "name": "Tiamel",
       "pronouns": "She/Her",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "tiamel.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Sabazios": {
       "name": "Sabazios",
       "pronouns": "They/Them",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        "The Death Child"
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "sabazios.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Ephyra": {
       "name": "Ephyra",
       "pronouns": "She/Her",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "ephyra.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Atenael": {
       "name": "Atenael",
       "pronouns": "He/Him",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "atenael.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     },
     "Morax": {
       "name": "Morax",
       "pronouns": "She/Her",
-      "titles": "",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
       "species": "demi-god",
       "ascension_epoch": "",
-      "relationships": "",
+      "relationships": [
+        ""
+      ],
       "current_status": "",
       "history": "",
       "image_path": "morax.jpg",
       "description": "",
-      "custom_details": ""
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
+    },
+    "Persephone": {
+      "name": "Persephone",
+      "pronouns": "She/Her",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
+      "species": "demi-god",
+      "ascension_epoch": "",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "morax.jpg",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     }
   }
 }
