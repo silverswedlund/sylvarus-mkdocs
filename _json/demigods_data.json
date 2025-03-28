@@ -1,6 +1,6 @@
 {
   "config": {
-    "base_path": "docs/demigods",
+    "base_path": "docs/entities/demigods",
     "template": "_templates/demigod_template.md"
   },
   "items": {

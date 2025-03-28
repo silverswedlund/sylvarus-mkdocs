@@ -3,7 +3,7 @@ import os
 
 # Path to JSON and markdown
 json_path = "_json/gods_data.json"
-output_md_path = "docs/gods/index.md"
+output_md_path = "docs/entities/gods/index.md"
 
 # Load gods data
 with open(json_path, "r", encoding="utf-8") as file:
