@@ -62,6 +62,11 @@
 
 ---
 
+{% if relationships %}
 ## 🧩 Notable Relationships
-{{ relationships }}
+{% for relationship in relationships %}
+  - {{ relationship }}  
+{% endfor %}
+
 ---
+{% endif %}

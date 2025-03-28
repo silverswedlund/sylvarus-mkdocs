@@ -72,7 +72,6 @@ def process_autolinks(link_targets, all_index_paths):
         for target in link_targets:
             target_path = target["index_path"]
             if index_path.resolve() == target_path.resolve():
-                print(index_path.resolve())
                 continue
 
             for alias in target["auto_link_strings"]:
