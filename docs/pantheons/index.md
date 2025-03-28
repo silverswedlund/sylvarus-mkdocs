@@ -8,6 +8,7 @@ Pantheons are coalitions of gods, akin to political parties. These divine groups
 |----------|
 | [Athenians](athenians/index.md) |
 | [Demerans](demerans/index.md) |
+| [Dragongods](dragongods/index.md) |
 | [Fortunians](fortunians/index.md) |
 | [Gilgamites](gilgamites/index.md) |
 | [Midasians](midasians/index.md) |

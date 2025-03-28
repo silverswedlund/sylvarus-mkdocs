@@ -5,6 +5,10 @@ import json
 import re
 from pathlib import Path
 
+# 🔧 Add any extra markdown files you want processed here
+ADDITIONAL_MD_FILES = [
+    "docs/articles_of_olympus/pact_of_olympus.md",
+]
 def normalize_name(name):
     return name.lower().replace("'", "").replace(" ", "")
 
@@ -43,15 +47,11 @@ def load_all_json_items(json_dir):
 def linkify_safely(content, string, link, added_links):
     """Replace strings surrounded by whitespace, ignoring already-linked or special cases."""
     escaped = re.escape(string)
-    # Match string surrounded by any kind of whitespace (start or end included)
-    pattern = re.compile(rf'(\s){escaped}(\s)', flags=re.IGNORECASE)
+    pattern = re.compile(rf'(\s|,)({escaped})(\s|,)', flags=re.IGNORECASE)
 
     def safe_replacer(match):
-        start = match.start()
-        full = match.string
-
         added_links.append((match.group(0), link))
-        return f"{match.group(1)}[{match.group(0).strip()}]({link}){match.group(2)}"
+        return f"{match.group(1)}[{match.group(2).strip()}]({link}){match.group(3)}"
 
     return pattern.sub(safe_replacer, content)
 
@@ -90,5 +90,13 @@ def process_autolinks(link_targets, all_index_paths):
 if __name__ == "__main__":
     json_dir = "_json"
     link_targets, all_index_paths = load_all_json_items(json_dir)
+
+    # 🔁 Include additional markdown files from the constant list
+    additional_paths = [Path(p).resolve() for p in ADDITIONAL_MD_FILES]
+    all_index_paths.extend(additional_paths)
+
+    # 🧹 Deduplicate just in case
+    all_index_paths = list(set(all_index_paths))
+
     process_autolinks(link_targets, all_index_paths)
     print("✅ Auto-linking complete.")

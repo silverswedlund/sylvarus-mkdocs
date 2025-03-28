@@ -1,14 +1,14 @@
-# Pact of Olympus
+# Pact of [Olympus](../locations/territories/olympia/index.md)
 
-*Authored by Demeter, during the Time of the God wars
+*Authored by [Demeter](../gods/demeter/index.md), during the Time of the God wars
 
 ## Preamble
 
-In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of Olympus stands as a cornerstone of celestial order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
+In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../locations/territories/olympia/index.md) stands as a cornerstone of celestial order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
 
 This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no god stand above the order enshrined herein.
 
-**Signed by:** Fortuna, Midas, Gilgamesh, Hades, Quetzalcoatl
+**Signed by:** [Fortuna](../gods/fortuna/index.md), [Midas](../gods/midas/index.md), [Gilgamesh](../gods/gilgamesh/index.md), [Hades](../gods/hades/index.md), Quetzalcoatl
 
 ---
 
@@ -119,9 +119,9 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 ## Article VIII: Midasian Exception
 
 1. **Midas** is granted permanent exception from Articles IV and VI.
-2. The **Midasian Pantheon** is established as a single-member pantheon with Midas as its sole eternal member.
+2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../gods/midas/index.md) as its sole eternal member.
 3. The Midasian Pantheon shall retain **one-eighth of the total vote share** on the Council (see Article I).
-4. No other god may join the Midasian Pantheon, nor is Midas required to join another.
+4. No other god may join the Midasian Pantheon, nor is [Midas](../gods/midas/index.md) required to join another.
 
 ---
 
@@ -191,19 +191,19 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 3. Time shall be categorized in two eras:
 
-    -  Before the Pact of Olympus (BPO) for any time preceding ratification.
+    -  Before the Pact of [Olympus](../locations/territories/olympia/index.md) (BPO) for any time preceding ratification.
 
-    - Age of the Pact of Olympus (APO) for any time following ratification.
+    - Age of the Pact of [Olympus](../locations/territories/olympia/index.md) (APO) for any time following ratification.
 
 4. This calendar shall be binding in all divine documentation, Council records, and pantheon charters.
 
-5. Let the Pact of Olympus stand eternal as the guardian of divine order and the bulwark against celestial chaos.
+5. Let the Pact of [Olympus](../locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.
 
 ---
 
 ## Article XII: Protection of the Pact and Its Amendments
 
-1. A copy of the Pact of Olympus, including all current amendments, must be held by each pantheonic leader within their respective pantheon’s sanctum.
+1. A copy of the Pact of [Olympus](../locations/territories/olympia/index.md), including all current amendments, must be held by each pantheonic leader within their respective pantheon’s sanctum.
 2. Newly ascended gods and reawakened ancient gods shall be presented with and provided their own official copy of the Pact upon entering the Onboarding Room (see Article X).
 3. The **Demerans** are charged with the eternal stewardship of the original signed document.
 4. The primary copy shall be stored in a specially warded and reinforced vault located in a chamber expressly constructed for its protection by the Demerans.
@@ -213,7 +213,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article XIII: Amendment Procedures
 
-1. Amendments to the Pact of Olympus may only be ratified through a **supermajority vote** by each of the following three groups:
+1. Amendments to the Pact of [Olympus](../locations/territories/olympia/index.md) may only be ratified through a **supermajority vote** by each of the following three groups:
 
     - The **Council of Pantheonic Leaders** (see Article I).
     - The collective body of **Pantheonic Second-in-Commands**.
@@ -230,7 +230,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 6. Proposed amendments must be written clearly and submitted to the Council for distribution and deliberation prior to vote.
 
 
-*Let the Pact of Olympus stand eternal as the guardian of divine order and the bulwark against celestial chaos.*
+*Let the Pact of [Olympus](../locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.*
 
 ---
 

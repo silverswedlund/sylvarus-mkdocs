@@ -1171,7 +1171,7 @@
       ],
       "trial": "Unknown",
       "ascension_time_period": "The God Wars",
-      "pantheon": "Gilgamites",
+      "pantheon": "Dragongods",
       "relationships": [
         ""
       ],
@@ -1191,7 +1191,8 @@
     },
     "Shal'nan": {
       "auto_link_strings": [
-        "Shal'nan"
+        "Shal'nan (god)",
+        "Shalnan (god)"
       ],
       "name": "Shal'nan",
       "pronouns": "They/Them",
@@ -1201,7 +1202,7 @@
       ],
       "trial": "",
       "ascension_time_period": "Age of Unity",
-      "pantheon": "Fortunians",
+      "pantheon": "Dragongods",
       "relationships": [
         ""
       ],
@@ -1209,7 +1210,7 @@
       "image_path": "shal'nan.jpg",
       "history": "",
       "music_path": "shal'nan_|_dragon_lullaby.mp4",
-      "song_name": "| Dragon Lullaby",
+      "song_name": "Dragon Lullaby",
       "lgbtq_identifications": [
         "Agender"
       ],
