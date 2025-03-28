@@ -3,12 +3,16 @@ import os
 import re
 from pathlib import Path
 
-# === CONFIGURABLE LIST OF DIRECTORIES TO SEARCH ===
-search_dirs = ["gods", "demigods"]  # Add more like "immortals" if needed
+# === CONFIGURABLE EXCEPTIONS ===
+EXCLUDED_PATHS = [
+    "docs/identifiers",  # Don't search identifier pages themselves
+    # Add more full paths to exclude as needed, e.g.:
+    # "docs/templates",
+    # "docs/system", 
+]
 
 # === PATHS ===
 base_docs = Path("docs")
-search_paths = [base_docs / d for d in search_dirs]
 identifier_json_path = Path("_json/identifiers_data.json")
 identifiers_base_path = base_docs / "identifiers"
 
@@ -23,6 +27,11 @@ def extract_title(path: Path) -> str:
     match = re.search(r"^#\s+(.+)", content, re.MULTILINE)
     return match.group(1).strip() if match else path.parent.name
 
+# === HELPER: Check if path should be excluded ===
+def should_exclude(path: Path) -> bool:
+    path_str = str(path)
+    return any(excl in path_str for excl in EXCLUDED_PATHS)
+
 # === PROCESS EACH IDENTIFIER ===
 for identifier_key, info in identifiers.items():
     identifier_name = info["name"]
@@ -33,15 +42,20 @@ for identifier_key, info in identifiers.items():
 
     matches = []
 
-    # Search for identifier name in content of other index.md files
-    for search_path in search_paths:
-        for index_file in search_path.rglob("index.md"):
+    # Search ALL index.md files in docs directory
+    for index_file in base_docs.rglob("index.md"):
+        if should_exclude(index_file):
+            continue
+            
+        try:
             content = index_file.read_text(encoding="utf-8").lower()
-            if identifier_name in content:
-                print("replacing!", search_path, index_file)
+            if identifier_name.lower() in content:
+                print(f"Found match in: {index_file}")
                 title = extract_title(index_file)
                 rel_path = os.path.relpath(index_file, identifier_dir)
                 matches.append(f"| [{title}]({rel_path}) |")
+        except Exception as e:
+            print(f"Error processing {index_file}: {e}")
 
     # Build markdown table (single column)
     table = ["| Related Pages |", "|----------------|"] + matches if matches else ["| Related Pages |", "|----------------|", "| _No references found_ |"]
