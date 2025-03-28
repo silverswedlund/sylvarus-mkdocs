@@ -29,7 +29,9 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ]
+      ],
+      "music_path": "aurelius_|_flames_to_dust.mp4",
+      "song_name": "flames to dust"
     },
     "Deimos": {
       "auto_link_strings": [
@@ -56,7 +58,9 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ]
+      ],
+      "music_path": "deimos_|__gaster_electro_swing.mp4",
+      "song_name": " gaster electro swing"
     },
     "Phobos": {
       "auto_link_strings": [
@@ -83,7 +87,9 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ]
+      ],
+      "music_path": "phobos_|_undertale_-_'here_we_are'_remix.mp4",
+      "song_name": "undertale - 'here we are' remix"
     },
     "Eurydice": {
       "auto_link_strings": [
@@ -137,7 +143,9 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ]
+      ],
+      "music_path": "heracles_|_bleach_ost_1_#7_creeping_shadows.mp4",
+      "song_name": "bleach ost 1 #7 creeping shadows"
     },
     "Tiamel": {
       "auto_link_strings": [
@@ -299,7 +307,17 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ]
+      ],
+      "music_path": "persephone_|_relic_forest.mp4",
+      "song_name": "relic forest"
     }
   }
 }
+
+
+
+
+
+
+
+
