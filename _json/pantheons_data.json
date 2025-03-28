@@ -40,9 +40,10 @@
       ],
       "name": "Dragongods"
     },
-    "no_pantheon": {
+    "None": {
       "auto_link_strings": [
-        "none (no pantheon affiliation)"
+        "(No Pantheon Affiliation)",
+        "no pantheon affiliation"
       ],
       "name": "None"
     },

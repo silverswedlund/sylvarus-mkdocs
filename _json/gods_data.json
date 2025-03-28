@@ -54,8 +54,8 @@
       "current_status": "",
       "image_path": "anuke.jpg",
       "history": "",
-      "music_path": "aphrodite_|_spider_dance-_orchestral_swing_remix.mp4",
-      "song_name": "Spider Dance - Orchestral swing remix",
+      "music_path": "",
+      "song_name": "",
       "lgbtq_identifications": [
         "Pansexual"
       ],
@@ -79,7 +79,7 @@
       ],
       "trial": "Create a new plane",
       "ascension_time_period": "Age of Unity",
-      "pantheon": "None",
+      "pantheon": "(No Pantheon Affiliation)",
       "relationships": [
         "Hephaestus - (partner)",
         "Delinette - (partner)",
@@ -295,7 +295,7 @@
       ],
       "trial": "Unknown",
       "ascension_time_period": "The Forgotten Age",
-      "pantheon": "None",
+      "pantheon": "(No Pantheon Affiliation)",
       "relationships": [
         "Tiamel - (daughter)"
       ],
@@ -1222,7 +1222,7 @@
     },
     "Silence": {
       "auto_link_strings": [
-        "Silence"
+        "Silence (god)"
       ],
       "name": "Silence",
       "pronouns": "She/Her",
@@ -1232,7 +1232,7 @@
       ],
       "trial": "",
       "ascension_time_period": "Unknown",
-      "pantheon": "None",
+      "pantheon": "Gilgamites",
       "relationships": [
         ""
       ],
@@ -1262,7 +1262,7 @@
       ],
       "trial": "Kill the god of Death",
       "ascension_time_period": "Age of Division",
-      "pantheon": "None",
+      "pantheon": "(No Pantheon Affiliation)",
       "relationships": [
         ""
       ],
