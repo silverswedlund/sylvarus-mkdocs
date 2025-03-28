@@ -70,7 +70,7 @@
 
 ## 📍 Basic Information
 **Type:** {{ type }}  
-**Nation:** [{{ nation }}](../../../locations/nations/{{ nation }})  
+**Nation:** {{ nation }}  
 **Region:** {{ region }}  
 **Population:** {{ population }}  
 **Known For:** {{ known_for }}  

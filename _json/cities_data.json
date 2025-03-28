@@ -1,6 +1,6 @@
 {
   "config": {
-    "base_path": "docs/locations/cities",
+    "base_path": "docs/planes/material/sylvarus/locations/cities",
     "template": "_templates/city_template.md"
   },
   "items": {

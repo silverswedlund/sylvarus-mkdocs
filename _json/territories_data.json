@@ -1,6 +1,6 @@
 {
   "config": {
-    "base_path": "docs/locations/territories",
+    "base_path": "docs/planes/material/sylvarus/locations/territories",
     "template": "_templates/territories_template.md"
   },
   "items": {
