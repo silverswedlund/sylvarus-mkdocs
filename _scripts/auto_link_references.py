@@ -47,7 +47,7 @@ def load_all_json_items(json_dir):
 def linkify_safely(content, string, link, added_links):
     """Replace strings surrounded by whitespace, ignoring already-linked or special cases."""
     escaped = re.escape(string)
-    pattern = re.compile(rf'(\s|,)({escaped})(\s|,)', flags=re.IGNORECASE)
+    pattern = re.compile(rf'(\s|^|\*)({escaped})(\s|,|\.|\*|$)', flags=re.IGNORECASE)
 
     def safe_replacer(match):
         added_links.append((match.group(0), link))

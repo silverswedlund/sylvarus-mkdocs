@@ -40,7 +40,7 @@
 | [Osiris](./osiris/index.md) | [Underworlders](../pantheons/underworlders/index.md) | [Age of Magic](../history/time_periods/age_of_magic/index.md) |
 | [Pan](./pan/index.md) | [Zagarans](../pantheons/zagarans/index.md) | [Age of Chaos](../history/time_periods/age_of_chaos/index.md) |
 | [Poseidon](./poseidon/index.md) | [Fortunians](../pantheons/fortunians/index.md) | [Age of Creation](../history/time_periods/age_of_creation/index.md) |
-| [Quetzocoatl](./quetzocoatl/index.md) | [Dragongods](../pantheons/dragongods/index.md) | [The God Wars](../history/time_periods/the_god_wars/index.md) |
+| [quetzalcoatl](./quetzalcoatl/index.md) | [Dragongods](../pantheons/dragongods/index.md) | [The God Wars](../history/time_periods/the_god_wars/index.md) |
 | [Shal'nan](./shal'nan/index.md) | [Dragongods](../pantheons/dragongods/index.md) | [Age of Unity](../history/time_periods/age_of_unity/index.md) |
 | [Silence](./silence/index.md) | [None](../pantheons/none/index.md) | [Unknown](../history/time_periods/unknown/index.md) |
 | [Thanatos](./thanatos/index.md) | [None](../pantheons/none/index.md) | [Age of Division](../history/time_periods/age_of_division/index.md) |

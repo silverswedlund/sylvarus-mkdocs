@@ -8,7 +8,7 @@ In the wake of endless conflict, unchecked divine ambition, and growing instabil
 
 This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no god stand above the order enshrined herein.
 
-**Signed by:** [Fortuna](../gods/fortuna/index.md), [Midas](../gods/midas/index.md), [Gilgamesh](../gods/gilgamesh/index.md), [Hades](../gods/hades/index.md), Quetzalcoatl
+**Signed by:** [Fortuna](../gods/fortuna/index.md), [Midas](../gods/midas/index.md), [Gilgamesh](../gods/gilgamesh/index.md), [Hades](../gods/hades/index.md), [Quetzalcoatl](../gods/quetzalcoatl/index.md)
 
 ---
 
@@ -82,11 +82,11 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 ## Article VI: Pantheon Recognition and Management
 
 1. The following pantheons are officially recognized:
-    - **The Gilgamites**
-    - **The Demerans**
-    - **The Fortunians**
-    - **The Underworlders**
-    - **The Dragongods**
+    - **The [Gilgamites](../pantheons/gilgamites/index.md)**
+    - **The [Demerans](../pantheons/demerans/index.md)**
+    - **The [Fortunians](../pantheons/fortunians/index.md)**
+    - **The [Underworlders](../pantheons/underworlders/index.md)**
+    - **The [Dragongods](../pantheons/dragongods/index.md)**
     - **The Midasian Pantheon** *(Special Clause Applied; See Article VIII)*
 2. Any group of **three or more gods** may form a new pantheon by submitting a formal declaration to the Council.
 3. Gods may swap pantheons, subject only to approval by the pantheon they wish to join.
@@ -118,7 +118,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article VIII: Midasian Exception
 
-1. **Midas** is granted permanent exception from Articles IV and VI.
+1. **[Midas](../gods/midas/index.md)** is granted permanent exception from Articles IV and VI.
 2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../gods/midas/index.md) as its sole eternal member.
 3. The Midasian Pantheon shall retain **one-eighth of the total vote share** on the Council (see Article I).
 4. No other god may join the Midasian Pantheon, nor is [Midas](../gods/midas/index.md) required to join another.
@@ -131,7 +131,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 2. Tartarus imprisonment is considered a capital-level punishment, intended to be **eternal by default**, and requires a **supermajority vote** of the Council.
  
-3. The **Warden of Tartarus**, under oversight of the **Leader of the Underworlders**, must design and maintain each cell for:
+3. The **Warden of Tartarus**, under oversight of the **Leader of the [Underworlders](../pantheons/underworlders/index.md)**, must design and maintain each cell for:
 
     - Maximum comfort.
     - Highest potential for rehabilitation.
@@ -142,9 +142,9 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 5. Comprehensive audits shall be conducted on every Tartarus cell once per Sylvaren cycle to ensure safety, compliance with this Pact, and adherence to standards of humane containment and security integrity.
 
     1. Each audit shall be carried out by **two pantheonic leaders**, appointed by the Council.
-    2. The **Leader of the Underworlders** shall participate in every audit by default and **may not** be one of the two appointed pantheonic leaders.
+    2. The **Leader of the [Underworlders](../pantheons/underworlders/index.md)** shall participate in every audit by default and **may not** be one of the two appointed pantheonic leaders.
 
-6. The **Warden of Tartarus** and **Leader of the Underworlders** are jointly responsible for:
+6. The **Warden of Tartarus** and **Leader of the [Underworlders](../pantheons/underworlders/index.md)** are jointly responsible for:
 
     - Reporting cell conditions and security vulnerabilities to the Council.
     - Addressing and correcting deficiencies without delay.
@@ -153,13 +153,13 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 7. Release from Tartarus may only occur through:
 
     - A **unanimous vote** of the Council, or
-    - A **supermajority vote** when presented for appeal/pardon from both the **Warden of Tartarus** (currently Enkidu) and the **Leader of the Underworlders** (currently Hades).
+    - A **supermajority vote** when presented for appeal/pardon from both the **Warden of Tartarus** (currently Enkidu) and the **Leader of the [Underworlders](../pantheons/underworlders/index.md)** (currently Hades).
     - If approved for release, the imprisoned entity may be released or subjected to a different punishment or imprisonment as decided by the council.
 
 8. If capture or containment of a subject is deemed too dangerous, costly, difficult, or slow, the Council may authorize a **Kill Order**, subject to:
 
     - A **supermajority vote** of the Council.
-    - Endorsement by the **Leader of the Underworlders**.
+    - Endorsement by the **Leader of the [Underworlders](../pantheons/underworlders/index.md)**.
     - Formal presentation to the **God of Death**, who holds right of first refusal.
 
 9. If declined by the God of Death, execution may be carried out by any god, construct, or divine agent designated by the Council.
@@ -170,13 +170,13 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article X: The Onboarding Room
 
-1. The **Onboarding Room** shall be constructed and maintained by **Hades and the Underworlders**.
+1. The **Onboarding Room** shall be constructed and maintained by **[Hades](../gods/hades/index.md) and the [Underworlders](../pantheons/underworlders/index.md)**.
 2. It is a magically sealed chamber, resistant to escape and unauthorized magic use.
 3. Newly ascended or returning gods are brought here via magical pipeline at the moment of divine ignition.
 4. Gods remain in the Room until:
-    - The **Pact of Olympus** is read in full.
+    - The **Pact of [Olympus](../locations/territories/olympia/index.md)** is read in full.
     - A pantheon agrees to accept them (see Article IV).
-    - If no pantheon agrees, the **Demerans** accept them temporarily.
+    - If no pantheon agrees, the **[Demerans](../pantheons/demerans/index.md)** accept them temporarily.
 5. The Room provides:
     - Educational content on divine etiquette, vessel creation, and responsibilities.
     - Temporary vessels to ease transition.
@@ -205,9 +205,9 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 1. A copy of the Pact of [Olympus](../locations/territories/olympia/index.md), including all current amendments, must be held by each pantheonic leader within their respective pantheon’s sanctum.
 2. Newly ascended gods and reawakened ancient gods shall be presented with and provided their own official copy of the Pact upon entering the Onboarding Room (see Article X).
-3. The **Demerans** are charged with the eternal stewardship of the original signed document.
-4. The primary copy shall be stored in a specially warded and reinforced vault located in a chamber expressly constructed for its protection by the Demerans.
-5. The Demerans are further responsible for ensuring the preservation and secure replication of the document as needed across epochs.
+3. The **[Demerans](../pantheons/demerans/index.md)** are charged with the eternal stewardship of the original signed document.
+4. The primary copy shall be stored in a specially warded and reinforced vault located in a chamber expressly constructed for its protection by the [Demerans](../pantheons/demerans/index.md).
+5. The [Demerans](../pantheons/demerans/index.md) are further responsible for ensuring the preservation and secure replication of the document as needed across epochs.
 
 ---
 
@@ -223,7 +223,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 3. Voting periods must remain open for no fewer than **40 Sylvaren days** to ensure adequate participation.
 
-4. Votes must be recorded and auditable by the Demerans and entered into the official Divine Ledger.
+4. Votes must be recorded and auditable by the [Demerans](../pantheons/demerans/index.md) and entered into the official Divine Ledger.
 
 5. Dissenting opinions or statements of disagreement may be formally submitted for inclusion in the divine record, similar to judicial dissents, and will be archived alongside the amendment for historical and deliberative context.
 
@@ -250,7 +250,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 5. The **Godruler** serves as **head of state** in all matters of diplomacy between pantheons, divine factions, or otherworldly entities. All diplomatic decisions or declarations are made in the name of the **Godruler**, with Council oversight as needed.
 
-6. The **Godruler** also holds **mayoral authority** over the divine city-state of **Olympia**, including:
+6. The **Godruler** also holds **mayoral authority** over the divine city-state of **[Olympia](../locations/territories/olympia/index.md)**, including:
     - Oversight of infrastructure and public order.
     - Civic administration and divine residency.
     - Hosting of summits, rituals, and universal assemblies.
@@ -301,7 +301,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ### Amendment III – The Sparkbearer Protection Clause
 
-*Ratified following the murder of Set by the hand of Athena*
+*Ratified following the murder of Set by the hand of [Athena](../gods/athena/index.md)*
 
 1. Gods may not, directly or indirectly, harm **spark-bearers**.
 2. Gods may not aid spark-bearers in their divine trial, directly or indirectlly.

@@ -1,0 +1,62 @@
+{
+  "description": "Contains information on the pantheons exclusively for auto-linking",
+  "config": {
+    "base_path": "docs/pantheons"
+  },
+  "items": {
+    "Demerans": {
+      "auto_link_strings": [
+        "Demerans"
+      ],
+      "name": "Demerans"
+    },
+    "Zagarans": {
+      "auto_link_strings": [
+        "Zagarans"
+      ],
+      "name": "Zagarans"
+    },
+    "Gilgamites": {
+      "auto_link_strings": [
+        "Gilgamites"
+      ],
+      "name": "Gilgamites"
+    },
+    "Fortunians": {
+      "auto_link_strings": [
+        "Fortunians"
+      ],
+      "name": "Fortunians"
+    },
+    "Dragongods": {
+      "auto_link_strings": [
+        "Dragongods"
+      ],
+      "name": "Dragongods"
+    },
+    "Midasians": {
+      "auto_link_strings": [
+        "Dragongods"
+      ],
+      "name": "Dragongods"
+    },
+    "no_pantheon": {
+      "auto_link_strings": [
+        "none (no pantheon affiliation)"
+      ],
+      "name": "None"
+    },
+    "Underworlders": {
+      "auto_link_strings": [
+        "Underworlders"
+      ],
+      "name": "Underworlders"
+    },
+    "Athenians": {
+      "auto_link_strings": [
+        "Athenians"
+      ],
+      "name": "Athenians"
+    }
+  }
+}

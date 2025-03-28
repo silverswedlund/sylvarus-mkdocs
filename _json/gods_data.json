@@ -1159,11 +1159,11 @@
       "custom_details": "",
       "physical_description": ""
     },
-    "Quetzocoatl": {
+    "quetzalcoatl": {
       "auto_link_strings": [
-        "Quetzocoatl"
+        "quetzalcoatl"
       ],
-      "name": "Quetzocoatl",
+      "name": "quetzalcoatl",
       "pronouns": "They/Them",
       "species": "Dragon",
       "aliases": [
@@ -1176,9 +1176,9 @@
         ""
       ],
       "current_status": "",
-      "image_path": "quetzocoatl.jpg",
+      "image_path": "quetzalcoatl.jpg",
       "history": "",
-      "music_path": "quetzocoatl_|_pokemon_route_42-43-44-lake_of_rage_(epic_orchestral_remix).mp4",
+      "music_path": "quetzalcoatl_|_pokemon_route_42-43-44-lake_of_rage_(epic_orchestral_remix).mp4",
       "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
       "lgbtq_identifications": [
         "Agender"

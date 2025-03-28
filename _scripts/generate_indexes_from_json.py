@@ -69,6 +69,9 @@ def has_git_changes(path):
 def run_template_fill(json_file, json_data, replace_script):
     config = json_data.get("config", {})
     base_path = config.get("base_path")
+    if(not config.get("template")):
+        print("🌕 Missing 'template' in config - skipping")
+        return
     template_file = config.get("template")
     items = json_data.get("items", {})
 
