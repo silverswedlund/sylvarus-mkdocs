@@ -4,6 +4,33 @@
     "template": "_templates/demigod_template.md"
   },
   "items": {
+    "Atenael": {
+      "auto_link_strings": [
+        "Atenael"
+      ],
+      "name": "Atenael",
+      "pronouns": "He/Him",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
+      "species": "demi-god",
+      "ascension_epoch": "",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "atenael.jpg",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
+    },
     "Aurelius": {
       "auto_link_strings": [
         "Aurelius"
@@ -62,12 +89,12 @@
       "music_path": "deimos_|__gaster_electro_swing.mp4",
       "song_name": " gaster electro swing"
     },
-    "Phobos": {
+    "Ephyra": {
       "auto_link_strings": [
-        "Phobos"
+        "Ephyra"
       ],
-      "name": "Phobos",
-      "pronouns": "He/Him",
+      "name": "Ephyra",
+      "pronouns": "She/Her",
       "divine_parent": "",
       "aliases": [
         ""
@@ -79,7 +106,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "phobos.jpg",
+      "image_path": "ephyra.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -87,9 +114,7 @@
       ],
       "other_identifiers": [
         "Neurodivergent"
-      ],
-      "music_path": "phobos_|_undertale_-_'here_we_are'_remix.mp4",
-      "song_name": "undertale - 'here we are' remix"
+      ]
     },
     "Eurydice": {
       "auto_link_strings": [
@@ -147,114 +172,6 @@
       "music_path": "heracles_|_bleach_ost_1_#7_creeping_shadows.mp4",
       "song_name": "bleach ost 1 #7 creeping shadows"
     },
-    "Tiamel": {
-      "auto_link_strings": [
-        "Tiamel"
-      ],
-      "name": "Tiamel",
-      "pronouns": "She/Her",
-      "divine_parent": "",
-      "aliases": [
-        ""
-      ],
-      "species": "demi-god",
-      "ascension_epoch": "",
-      "relationships": [
-        ""
-      ],
-      "current_status": "",
-      "history": "",
-      "image_path": "tiamel.jpg",
-      "description": "",
-      "custom_details": "",
-      "lgbtq_identifications": [
-        ""
-      ],
-      "other_identifiers": [
-        "Neurodivergent"
-      ]
-    },
-    "Sabazios": {
-      "auto_link_strings": [
-        "Sabazios"
-      ],
-      "name": "Sabazios",
-      "pronouns": "They/Them",
-      "divine_parent": "",
-      "aliases": [
-        "The Death Child"
-      ],
-      "species": "demi-god",
-      "ascension_epoch": "",
-      "relationships": [
-        ""
-      ],
-      "current_status": "",
-      "history": "",
-      "image_path": "sabazios.jpg",
-      "description": "",
-      "custom_details": "",
-      "lgbtq_identifications": [
-        "Nonbinary"
-      ],
-      "other_identifiers": [
-        "Neurodivergent"
-      ]
-    },
-    "Ephyra": {
-      "auto_link_strings": [
-        "Ephyra"
-      ],
-      "name": "Ephyra",
-      "pronouns": "She/Her",
-      "divine_parent": "",
-      "aliases": [
-        ""
-      ],
-      "species": "demi-god",
-      "ascension_epoch": "",
-      "relationships": [
-        ""
-      ],
-      "current_status": "",
-      "history": "",
-      "image_path": "ephyra.jpg",
-      "description": "",
-      "custom_details": "",
-      "lgbtq_identifications": [
-        ""
-      ],
-      "other_identifiers": [
-        "Neurodivergent"
-      ]
-    },
-    "Atenael": {
-      "auto_link_strings": [
-        "Atenael"
-      ],
-      "name": "Atenael",
-      "pronouns": "He/Him",
-      "divine_parent": "",
-      "aliases": [
-        ""
-      ],
-      "species": "demi-god",
-      "ascension_epoch": "",
-      "relationships": [
-        ""
-      ],
-      "current_status": "",
-      "history": "",
-      "image_path": "atenael.jpg",
-      "description": "",
-      "custom_details": "",
-      "lgbtq_identifications": [
-        ""
-      ],
-      "other_identifiers": [
-        "Neurodivergent"
-      ]
-    },
     "Morax": {
       "auto_link_strings": [
         "Morax"
@@ -310,14 +227,89 @@
       ],
       "music_path": "persephone_|_relic_forest.mp4",
       "song_name": "relic forest"
+    },
+    "Phobos": {
+      "auto_link_strings": [
+        "Phobos"
+      ],
+      "name": "Phobos",
+      "pronouns": "He/Him",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
+      "species": "demi-god",
+      "ascension_epoch": "",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "phobos.jpg",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ],
+      "music_path": "phobos_|_undertale_-_'here_we_are'_remix.mp4",
+      "song_name": "undertale - 'here we are' remix"
+    },
+    "Sabazios": {
+      "auto_link_strings": [
+        "Sabazios"
+      ],
+      "name": "Sabazios",
+      "pronouns": "They/Them",
+      "divine_parent": "",
+      "aliases": [
+        "The Death Child"
+      ],
+      "species": "demi-god",
+      "ascension_epoch": "",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "sabazios.jpg",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        "Nonbinary"
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
+    },
+    "Tiamel": {
+      "auto_link_strings": [
+        "Tiamel"
+      ],
+      "name": "Tiamel",
+      "pronouns": "She/Her",
+      "divine_parent": "",
+      "aliases": [
+        ""
+      ],
+      "species": "demi-god",
+      "ascension_epoch": "",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "tiamel.jpg",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        ""
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ]
     }
   }
 }
-
-
-
-
-
-
-
-

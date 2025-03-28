@@ -4,23 +4,23 @@
     "base_path": "docs/pantheons"
   },
   "items": {
+    "Athenians": {
+      "auto_link_strings": [
+        "Athenians"
+      ],
+      "name": "Athenians"
+    },
     "Demerans": {
       "auto_link_strings": [
         "Demerans"
       ],
       "name": "Demerans"
     },
-    "Zagarans": {
+    "Dragongods": {
       "auto_link_strings": [
-        "Zagarans"
+        "Dragongods"
       ],
-      "name": "Zagarans"
-    },
-    "Gilgamites": {
-      "auto_link_strings": [
-        "Gilgamites"
-      ],
-      "name": "Gilgamites"
+      "name": "Dragongods"
     },
     "Fortunians": {
       "auto_link_strings": [
@@ -28,11 +28,11 @@
       ],
       "name": "Fortunians"
     },
-    "Dragongods": {
+    "Gilgamites": {
       "auto_link_strings": [
-        "Dragongods"
+        "Gilgamites"
       ],
-      "name": "Dragongods"
+      "name": "Gilgamites"
     },
     "Midasians": {
       "auto_link_strings": [
@@ -53,11 +53,11 @@
       ],
       "name": "Underworlders"
     },
-    "Athenians": {
+    "Zagarans": {
       "auto_link_strings": [
-        "Athenians"
+        "Zagarans"
       ],
-      "name": "Athenians"
+      "name": "Zagarans"
     }
   }
 }

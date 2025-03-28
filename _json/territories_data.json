@@ -133,40 +133,6 @@
       "map_image_path": "haratur_outpost_map.jpg",
       "world_location_image_path": "haratur_outpost_location_map.jpg"
     },
-    "The_Isles_of_Tife": {
-      "auto_link_strings": [
-        "The Isles of Tife",
-        "The Islands of Tife"
-      ],
-      "name": "The Isles of Tife",
-      "region": "",
-      "population": "",
-      "capital": "",
-      "major_cities": "",
-      "government_type": "",
-      "ruling_power": "",
-      "founding_time_period": "",
-      "founding_time_period_link_name": "",
-      "known_for": "",
-      "custom_details": "",
-      "description": "",
-      "history": "",
-      "culture": "",
-      "politics": "",
-      "relationships": "",
-      "geography": "",
-      "notes": "",
-      "majority_species": "Teifling",
-      "type": "Nation",
-      "world": "Sylvarus",
-      "anthem_name": "",
-      "anthem_path": "",
-      "song_title": "",
-      "flag_image_path": "",
-      "aesthetic_image_path": "",
-      "map_image_path": "the_isles_of_tife_map.jpg",
-      "world_location_image_path": "isles_of_tife_location_map.jpg"
-    },
     "Kamboramm": {
       "auto_link_strings": [
         "Kamboramm"
@@ -366,6 +332,40 @@
       "map_image_path": "noridge_map.jpg",
       "world_location_image_path": "noridge_location_map.jpg"
     },
+    "Olympia": {
+      "auto_link_strings": [
+        "Olympia",
+        "Olympus"
+      ],
+      "name": "Olympia",
+      "region": "The Astral Plane",
+      "population": "~13,000",
+      "capital": "",
+      "major_cities": "",
+      "government_type": "",
+      "ruling_power": "",
+      "founding_time_period": "",
+      "founding_time_period_link_name": "",
+      "known_for": "",
+      "custom_details": "",
+      "description": "",
+      "history": "",
+      "culture": "",
+      "politics": "",
+      "relationships": "",
+      "geography": "",
+      "notes": "",
+      "majority_species": "Astral",
+      "type": "City-State",
+      "world": "The Astral Plane",
+      "anthem_name": "",
+      "anthem_path": "olympia_|_pyotr_ilyich_tchaikovsky_-_hymn_of_the_cherubim.mp4",
+      "song_title": "Pyotr Ilyich Tchaikovsky - Hymn of the Cherubim",
+      "flag_image_path": "olympia.jpg",
+      "aesthetic_image_path": "olympia_aesthetic_image.jpg",
+      "map_image_path": "",
+      "world_location_image_path": ""
+    },
     "Rositoria": {
       "auto_link_strings": [
         "Rositoria"
@@ -555,6 +555,40 @@
       "aesthetic_image_path": "republic_of_avia_aesthetic_image.jpg",
       "map_image_path": "the_frost_map.jpg",
       "world_location_image_path": "the_frost_location_map.jpg"
+    },
+    "The_Isles_of_Tife": {
+      "auto_link_strings": [
+        "The Isles of Tife",
+        "The Islands of Tife"
+      ],
+      "name": "The Isles of Tife",
+      "region": "",
+      "population": "",
+      "capital": "",
+      "major_cities": "",
+      "government_type": "",
+      "ruling_power": "",
+      "founding_time_period": "",
+      "founding_time_period_link_name": "",
+      "known_for": "",
+      "custom_details": "",
+      "description": "",
+      "history": "",
+      "culture": "",
+      "politics": "",
+      "relationships": "",
+      "geography": "",
+      "notes": "",
+      "majority_species": "Teifling",
+      "type": "Nation",
+      "world": "Sylvarus",
+      "anthem_name": "",
+      "anthem_path": "",
+      "song_title": "",
+      "flag_image_path": "",
+      "aesthetic_image_path": "",
+      "map_image_path": "the_isles_of_tife_map.jpg",
+      "world_location_image_path": "isles_of_tife_location_map.jpg"
     },
     "The_Northwest_Tundra": {
       "auto_link_strings": [
@@ -748,40 +782,6 @@
       "aesthetic_image_path": "tyro_aesthetic_image.jpg",
       "map_image_path": "tyro_map.jpg",
       "world_location_image_path": "tyro_location_map.jpg"
-    },
-    "Olympia": {
-      "auto_link_strings": [
-        "Olympia",
-        "Olympus"
-      ],
-      "name": "Olympia",
-      "region": "The Astral Plane",
-      "population": "~13,000",
-      "capital": "",
-      "major_cities": "",
-      "government_type": "",
-      "ruling_power": "",
-      "founding_time_period": "",
-      "founding_time_period_link_name": "",
-      "known_for": "",
-      "custom_details": "",
-      "description": "",
-      "history": "",
-      "culture": "",
-      "politics": "",
-      "relationships": "",
-      "geography": "",
-      "notes": "",
-      "majority_species": "Astral",
-      "type": "City-State",
-      "world": "The Astral Plane",
-      "anthem_name": "",
-      "anthem_path": "olympia_|_pyotr_ilyich_tchaikovsky_-_hymn_of_the_cherubim.mp4",
-      "song_title": "Pyotr Ilyich Tchaikovsky - Hymn of the Cherubim",
-      "flag_image_path": "olympia.jpg",
-      "aesthetic_image_path": "olympia_aesthetic_image.jpg",
-      "map_image_path": "",
-      "world_location_image_path": ""
     }
   }
 }

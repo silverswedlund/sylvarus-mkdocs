@@ -1159,36 +1159,6 @@
       "custom_details": "",
       "physical_description": ""
     },
-    "quetzalcoatl": {
-      "auto_link_strings": [
-        "quetzalcoatl"
-      ],
-      "name": "quetzalcoatl",
-      "pronouns": "They/Them",
-      "species": "Dragon",
-      "aliases": [
-        "The Feathered Serpent God"
-      ],
-      "trial": "Unknown",
-      "ascension_time_period": "The God Wars",
-      "pantheon": "Dragongods",
-      "relationships": [
-        ""
-      ],
-      "current_status": "",
-      "image_path": "quetzalcoatl.jpg",
-      "history": "",
-      "music_path": "quetzalcoatl_|_pokemon_route_42-43-44-lake_of_rage_(epic_orchestral_remix).mp4",
-      "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
-      "lgbtq_identifications": [
-        "Agender"
-      ],
-      "other_identifiers": [
-        "none"
-      ],
-      "custom_details": "",
-      "physical_description": ""
-    },
     "Shal'nan": {
       "auto_link_strings": [
         "Shal'nan (god)",
@@ -1457,6 +1427,36 @@
       "song_name": "Great Grey Wolf Sif - Dark Souls Soundtrack",
       "lgbtq_identifications": [
         "none"
+      ],
+      "other_identifiers": [
+        "none"
+      ],
+      "custom_details": "",
+      "physical_description": ""
+    },
+    "quetzalcoatl": {
+      "auto_link_strings": [
+        "quetzalcoatl"
+      ],
+      "name": "quetzalcoatl",
+      "pronouns": "They/Them",
+      "species": "Dragon",
+      "aliases": [
+        "The Feathered Serpent God"
+      ],
+      "trial": "Unknown",
+      "ascension_time_period": "The God Wars",
+      "pantheon": "Dragongods",
+      "relationships": [
+        ""
+      ],
+      "current_status": "",
+      "image_path": "quetzalcoatl.jpg",
+      "history": "",
+      "music_path": "quetzalcoatl_|_pokemon_route_42-43-44-lake_of_rage_(epic_orchestral_remix).mp4",
+      "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
+      "lgbtq_identifications": [
+        "Agender"
       ],
       "other_identifiers": [
         "none"
