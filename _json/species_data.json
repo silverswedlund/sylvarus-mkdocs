@@ -4,6 +4,78 @@
     "template": "_templates/species_template.md"
   },
   "items": {
+    "Celestial": {
+      "auto_link_strings": [
+        "Celestial",
+        "Celestials"
+      ],
+      "name": "Celestials",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "750-1000 years",
+      "physique": "",
+      "languages": [
+        "Celestial",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "Celestia",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Dragonborn": {
+      "auto_link_strings": [
+        "Dragonborn"
+      ],
+      "name": "Dragonborn",
+      "type": "Humanoid",
+      "origin": "Divine Blessing placed by the dragon god Shal'nan on her human followers",
+      "lifespan": "80-150 years",
+      "physique": "Humanoid with reptilian features including scales, which provide natural magical resilience. Their appearance is a result of the Dragongift blessing.",
+      "languages": [
+        "Draconic",
+        "Sylvaric"
+      ],
+      "custom_details": "The Dragongift not only transformed their physical appearance but also granted them innate knowledge of dragon magic.",
+      "homelands": "Shal'nan (nation)",
+      "other_regions": "About half of the Dragonborn population lives outside Shal'nan, scattered across various regions of the world. Very few Dragonborn live in the celestia though, Given the tensions between the two species.",
+      "distribution": "Tend to live in small village communities, even outside their homeland",
+      "history": "The Dragonborn came into being when the dragon god Shal'nan blessed her human followers with what is now known as the Dragongift.",
+      "religion": "Most Dragonborn worship either nature deities or the Dragongods pantheon, particularly Quetzalcoatl and Shal'nan",
+      "traditions": "The Journey of Insight - Young Dragonborn (ages 20-25) often embark on worldwide travels with friends to gain understanding of different cultures and peoples",
+      "notable_figures": [],
+      "relationships": "Generally maintain good relations with most species. The notable exception is with Celestials, with whom they've had several territorial disputes."
+    },
+    "Dwarf": {
+      "auto_link_strings": [
+        "Dwarf",
+        "Dwarves",
+        "Dwarven"
+      ],
+      "name": "Dwarves",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "200-400 years",
+      "physique": "",
+      "languages": [
+        "Dwarven",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "Kamboramm",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
     "Elf": {
       "auto_link_strings": [
         "Elf",
@@ -28,6 +100,30 @@
       "traditions": "Seasonal festivals, moon rites, coming-of-age quests.",
       "notable_figures": [],
       "relationships": "Tense history with Dwarves due to resource disputes; relatively peaceful with Humans."
+    },
+    "Fairy": {
+      "auto_link_strings": [
+        "Fairy",
+        "Fairies"
+      ],
+      "name": "Fairies",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "Immortal",
+      "physique": "",
+      "languages": [
+        "Feyspeak",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "The Feywilds",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
     },
     "Human": {
       "auto_link_strings": [
@@ -77,6 +173,144 @@
       "traditions": "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years",
       "notable_figures": [],
       "relationships": "Tense history with Humans due to the orcs subjegation by their hand during the Age of Unity; The orcs, in general are very peaceful but guarded, if they are attacked they will hit back twice as hard, but will generally stay out of others' business"
+    },
+    "Quall": {
+      "auto_link_strings": [
+        "Quall"
+      ],
+      "name": "Quall",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "80-150 years",
+      "physique": "",
+      "languages": [
+        "Quallish",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "Parallel Sylvarus",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Tiefling": {
+      "auto_link_strings": [
+        "Tiefling",
+        "Tieflings"
+      ],
+      "name": "Tieflings",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "750-1000 years",
+      "physique": "",
+      "languages": [
+        "Infernal",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "The Isles of Tife",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Demigod": {
+      "auto_link_strings": [
+        "Demigod",
+        "Demigods"
+      ],
+      "name": "Demigods",
+      "type": "Amorphous",
+      "origin": "",
+      "lifespan": "",
+      "physique": "",
+      "languages": [
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Dragon": {
+      "auto_link_strings": [
+        "Dragon",
+        "Dragons"
+      ],
+      "name": "Dragons",
+      "type": "Beast",
+      "origin": "",
+      "lifespan": "Immortal",
+      "physique": "",
+      "languages": [
+        "Draconic",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "The Astral Plane",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Fey": {
+      "auto_link_strings": [
+        "Fey"
+      ],
+      "name": "Fey",
+      "type": "Fey",
+      "origin": "",
+      "lifespan": "Immortal",
+      "physique": "",
+      "languages": [
+        "Feyspeak",
+        "Sylvaric"
+      ],
+      "custom_details": "",
+      "homelands": "The Feywilds",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
+    },
+    "Slothturtle": {
+      "auto_link_strings": [
+        "Slothturtle",
+        "Slothturtles"
+      ],
+      "name": "Slothturtles",
+      "type": "Beast",
+      "origin": "",
+      "lifespan": "Immortal",
+      "physique": "",
+      "languages": [],
+      "custom_details": "",
+      "homelands": "",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": ""
     }
   }
 }
