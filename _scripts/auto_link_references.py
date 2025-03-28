@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 import os
 import json
@@ -9,6 +8,7 @@ from pathlib import Path
 ADDITIONAL_MD_FILES = [
     "docs/articles_of_olympus/pact_of_olympus.md",
 ]
+
 def normalize_name(name):
     return name.lower().replace("'", "").replace(" ", "")
 
@@ -55,6 +55,17 @@ def linkify_safely(content, string, link, added_links):
 
     return pattern.sub(safe_replacer, content)
 
+def update_existing_links(content, string, new_link, added_links):
+    """Replace existing markdown links with updated links."""
+    escaped = re.escape(string)
+    pattern = re.compile(rf'\[({escaped})\]\([^)]+\)', flags=re.IGNORECASE)
+    
+    def link_replacer(match):
+        added_links.append((match.group(0), new_link))
+        return f"[{match.group(1)}]({new_link})"
+        
+    return pattern.sub(link_replacer, content)
+
 def process_autolinks(link_targets, all_index_paths):
     for index_path in all_index_paths:
         if not index_path.exists():
@@ -76,6 +87,9 @@ def process_autolinks(link_targets, all_index_paths):
 
             for alias in target["auto_link_strings"]:
                 rel_link = os.path.relpath(target_path, start=index_path.parent)
+                # First update any existing links
+                content = update_existing_links(content, alias, rel_link, added_links)
+                # Then add new links where needed
                 content = linkify_safely(content, alias, rel_link, added_links)
 
         if content != original_content:

@@ -9,8 +9,8 @@ echo "🔧 Starting Sylvarus MkDocs Build..."
 # List of scripts to run in order
 SCRIPTS=(
   "_scripts/generate_indexes_from_json.py"
-  "_scripts/generate_main_gods_main.py"
-  "_scripts/generate_main_pantheon_index.py"
+  "_scripts/generate_main_gods_page.py"
+  "_scripts/generate_main_pantheon_page.py"
   "_scripts/generate_pantheon_indexes.py"
   "_scripts/insert_identifier_tables.py"
   "_scripts/auto_link_references.py"

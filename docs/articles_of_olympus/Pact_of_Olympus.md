@@ -1,14 +1,14 @@
-# Pact of [Olympus](../locations/territories/olympia/index.md)
+# Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md)
 
-*Authored by [Demeter](../gods/demeter/index.md), during the Time of the God wars
+*Authored by [Demeter](../entities/gods/demeter/index.md), during the Time of the God wars
 
 ## Preamble
 
-In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../locations/territories/olympia/index.md) stands as a cornerstone of celestial order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
+In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stands as a cornerstone of celestial order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
 
 This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no god stand above the order enshrined herein.
 
-**Signed by:** [Fortuna](../gods/fortuna/index.md), [Midas](../gods/midas/index.md), [Gilgamesh](../gods/gilgamesh/index.md), [Hades](../gods/hades/index.md), [Quetzalcoatl](../gods/quetzalcoatl/index.md)
+**Signed by:** [Fortuna](../entities/gods/fortuna/index.md), [Midas](../entities/gods/midas/index.md), [Gilgamesh](../entities/gods/gilgamesh/index.md), [Hades](../entities/gods/hades/index.md), [Quetzalcoatl](../entities/gods/quetzalcoatl/index.md)
 
 ---
 
@@ -86,7 +86,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
     - **The [Demerans](../pantheons/demerans/index.md)**
     - **The [Fortunians](../pantheons/fortunians/index.md)**
     - **The [Underworlders](../pantheons/underworlders/index.md)**
-    - **The [Dragongods](../pantheons/dragongods/index.md)**
+    - **The [Dragongods](../pantheons/midasians/index.md)**
     - **The Midasian Pantheon** *(Special Clause Applied; See Article VIII)*
 2. Any group of **three or more gods** may form a new pantheon by submitting a formal declaration to the Council.
 3. Gods may swap pantheons, subject only to approval by the pantheon they wish to join.
@@ -118,10 +118,10 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article VIII: Midasian Exception
 
-1. **[Midas](../gods/midas/index.md)** is granted permanent exception from Articles IV and VI.
-2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../gods/midas/index.md) as its sole eternal member.
+1. **[Midas](../entities/gods/midas/index.md)** is granted permanent exception from Articles IV and VI.
+2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../entities/gods/midas/index.md) as its sole eternal member.
 3. The Midasian Pantheon shall retain **one-eighth of the total vote share** on the Council (see Article I).
-4. No other god may join the Midasian Pantheon, nor is [Midas](../gods/midas/index.md) required to join another.
+4. No other god may join the Midasian Pantheon, nor is [Midas](../entities/gods/midas/index.md) required to join another.
 
 ---
 
@@ -170,11 +170,11 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article X: The Onboarding Room
 
-1. The **Onboarding Room** shall be constructed and maintained by **[Hades](../gods/hades/index.md) and the [Underworlders](../pantheons/underworlders/index.md)**.
+1. The **Onboarding Room** shall be constructed and maintained by **[Hades](../entities/gods/hades/index.md) and the [Underworlders](../pantheons/underworlders/index.md)**.
 2. It is a magically sealed chamber, resistant to escape and unauthorized magic use.
 3. Newly ascended or returning gods are brought here via magical pipeline at the moment of divine ignition.
 4. Gods remain in the Room until:
-    - The **Pact of [Olympus](../locations/territories/olympia/index.md)** is read in full.
+    - The **Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md)** is read in full.
     - A pantheon agrees to accept them (see Article IV).
     - If no pantheon agrees, the **[Demerans](../pantheons/demerans/index.md)** accept them temporarily.
 5. The Room provides:
@@ -191,19 +191,19 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 3. Time shall be categorized in two eras:
 
-    -  Before the Pact of [Olympus](../locations/territories/olympia/index.md) (BPO) for any time preceding ratification.
+    -  Before the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) (BPO) for any time preceding ratification.
 
-    - Age of the Pact of [Olympus](../locations/territories/olympia/index.md) (APO) for any time following ratification.
+    - Age of the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) (APO) for any time following ratification.
 
 4. This calendar shall be binding in all divine documentation, Council records, and pantheon charters.
 
-5. Let the Pact of [Olympus](../locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.
+5. Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.
 
 ---
 
 ## Article XII: Protection of the Pact and Its Amendments
 
-1. A copy of the Pact of [Olympus](../locations/territories/olympia/index.md), including all current amendments, must be held by each pantheonic leader within their respective pantheon’s sanctum.
+1. A copy of the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md), including all current amendments, must be held by each pantheonic leader within their respective pantheon’s sanctum.
 2. Newly ascended gods and reawakened ancient gods shall be presented with and provided their own official copy of the Pact upon entering the Onboarding Room (see Article X).
 3. The **[Demerans](../pantheons/demerans/index.md)** are charged with the eternal stewardship of the original signed document.
 4. The primary copy shall be stored in a specially warded and reinforced vault located in a chamber expressly constructed for its protection by the [Demerans](../pantheons/demerans/index.md).
@@ -213,7 +213,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article XIII: Amendment Procedures
 
-1. Amendments to the Pact of [Olympus](../locations/territories/olympia/index.md) may only be ratified through a **supermajority vote** by each of the following three groups:
+1. Amendments to the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) may only be ratified through a **supermajority vote** by each of the following three groups:
 
     - The **Council of Pantheonic Leaders** (see Article I).
     - The collective body of **Pantheonic Second-in-Commands**.
@@ -230,7 +230,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 6. Proposed amendments must be written clearly and submitted to the Council for distribution and deliberation prior to vote.
 
 
-*Let the Pact of [Olympus](../locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.*
+*Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.*
 
 ---
 
@@ -250,7 +250,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 5. The **Godruler** serves as **head of state** in all matters of diplomacy between pantheons, divine factions, or otherworldly entities. All diplomatic decisions or declarations are made in the name of the **Godruler**, with Council oversight as needed.
 
-6. The **Godruler** also holds **mayoral authority** over the divine city-state of **[Olympia](../locations/territories/olympia/index.md)**, including:
+6. The **Godruler** also holds **mayoral authority** over the divine city-state of **[Olympia](../planes/material/sylvarus/locations/territories/olympia/index.md)**, including:
     - Oversight of infrastructure and public order.
     - Civic administration and divine residency.
     - Hosting of summits, rituals, and universal assemblies.
@@ -301,7 +301,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ### Amendment III – The Sparkbearer Protection Clause
 
-*Ratified following the murder of Set by the hand of [Athena](../gods/athena/index.md)*
+*Ratified following the murder of Set by the hand of [Athena](../entities/gods/athena/index.md)*
 
 1. Gods may not, directly or indirectly, harm **spark-bearers**.
 2. Gods may not aid spark-bearers in their divine trial, directly or indirectlly.
