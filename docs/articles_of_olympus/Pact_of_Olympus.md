@@ -8,8 +8,7 @@ In the wake of endless conflict, unchecked divine ambition, and growing instabil
 
 This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no god stand above the order enshrined herein.
 
-**Signed by:** Fortuna, Midas, Gilgamesh, Hades, Quetzalcoatl\
-**Ratified on:** Sylvaren Equinox, 9th Epoch
+**Signed by:** Fortuna, Midas, Gilgamesh, Hades, Quetzalcoatl
 
 ---
 
@@ -87,6 +86,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
     - **The Demerans**
     - **The Fortunians**
     - **The Underworlders**
+    - **The Dragongods**
     - **The Midasian Pantheon** *(Special Clause Applied; See Article VIII)*
 2. Any group of **three or more gods** may form a new pantheon by submitting a formal declaration to the Council.
 3. Gods may swap pantheons, subject only to approval by the pantheon they wish to join.
@@ -281,7 +281,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 3. Permitted actions include:
     - Receiving ambient magical energy and goodwill offered in worship.
     - Granting minor favors or boons in return.
-    
+
 4. All divine activity on the Mortal Plane is subject to retroactive review by the Council.
 
 ### Amendment II – The Demi-God Accord
