@@ -6,9 +6,5 @@ __pycache__/
 venv/
 *.mp4
 *.mp3
-docs/*/*/index.md
-docs/entities/*/*/index.md
-docs/locations/cities/*/index.md
-docs/locations/territories/*/index.md
-docs/history/time_periods/*
+**/index.md
 _scripts/pickles/*
