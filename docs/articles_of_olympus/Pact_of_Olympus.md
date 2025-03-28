@@ -234,13 +234,55 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ---
 
+## Article XIV: The Godruler
+
+1. The **Godruler** (also can be known as **Godking** or **Godqueen** by ruler choice) shall serve as the official head of the **Pantheonic Council** and supreme executive figure of the divine collective.
+
+2. The **Godruler** must be a current **Pantheonic Leader** and is elected exclusively by the **Pantheonic Council**.
+
+3. The election of the **Godruler** follows a **ranked-choice voting system**:
+    - Each **Pantheonic Leader** shall submit a ranked list of all other **Pantheonic Leaders**, ordered by preference. Self-votes are disallowed.
+    - Votes are first tallied based on first-choice rankings.
+    - If no candidate receives a majority, the lowest-ranked candidate is eliminated, and their votes are redistributed to the next-ranked choice on each ballot.
+    - This process continues until one candidate achieves a majority and is declared the **Godruler**.
+
+4. The **Godruler** shall cast the **tie-breaking vote** in any Council matter where a vote results in a deadlock.
+
+5. The **Godruler** serves as **head of state** in all matters of diplomacy between pantheons, divine factions, or otherworldly entities. All diplomatic decisions or declarations are made in the name of the **Godruler**, with Council oversight as needed.
+
+6. The **Godruler** also holds **mayoral authority** over the divine city-state of **Olympia**, including:
+    - Oversight of infrastructure and public order.
+    - Civic administration and divine residency.
+    - Hosting of summits, rituals, and universal assemblies.
+
+7. The **Godruler** is responsible for **presenting new laws, proposals, and amendments** to the **Pantheonic Council** for deliberation and ratification. These may be proposed by any god or pantheon but must be formally introduced by the **Godruler**.
+
+8. The **Godruler** must maintain **impartiality** when presenting legislative matters and is strictly forbidden from suppressing or obstructing proposals due to personal or pantheonic affiliations.
+
+9. The **Godruler** shall nominate divine **Judges of Limited Authority** to preside over minor divine legal matters—such as inter-pantheon small claims, low-impact offenses, and administrative disputes. These judges must be confirmed by a **simple majority vote** of the **Pantheonic Council** before being seated.
+
+10. If a god ruler is dies, goes missing, or is otherwise unavailable, ties will remain unbroken and decisions will occur only when the ruler is available or a new ruler is elected
+    - if unavailable for more than one sylvaric year, a new election for god ruler must be held
+
+11. All declarations, rulings, judicial appointments, and diplomatic communications issued by the **Godruler** must be entered into the **Divine Ledger** and made accessible to all pantheons upon request.
+
+---
+
 ## Amendments
 
 ### Amendment I – Mortal Realm Reintroduction Act
-
 *Ratified in the wake of the Sylvaric Nuclear War*
+1. As of the ratification of Amendment III, gods may act upon the Mortal Plane under strict limitations.
 
-(See Article III for details.)
+2. Prohibited actions include:
+    - Founding or endorsing cults, sects, or organized religions.
+    - Accepting or consuming mortal souls.
+
+3. Permitted actions include:
+    - Receiving ambient magical energy and goodwill offered in worship.
+    - Granting minor favors or boons in return.
+    
+4. All divine activity on the Mortal Plane is subject to retroactive review by the Council.
 
 ### Amendment II – The Demi-God Accord
 
