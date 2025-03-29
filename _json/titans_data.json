@@ -1,0 +1,185 @@
+{
+  "config": {
+    "base_path": "docs/entities/titans",
+    "template": "_templates/titan_template.md"
+  },
+  "items": {
+    "Aliqotash": {
+      "auto_link_strings": [
+        "Aliqotash"
+      ],
+      "name": "Aliqotash",
+      "pronouns": "he/him",
+      "aliases": [
+        "The Willing Prisoner"
+      ],
+      "species": "Titan",
+      "time_period_of_fall": "",
+      "relationships": [
+        "Served as advisor to Hades",
+        "Executed by Thanatos per own request"
+      ],
+      "current_status": "Deceased - Executed by Thanatos",
+      "history": "The most powerful titan ever held in captivity, who voluntarily submitted to imprisonment in Tartarus. Served as Hades' advisor on titan matters before eventually succumbing to madness.",
+      "image_path": "aliqotash.jpg",
+      "description": "A powerful titan who chose imprisonment to protect others from potential harm",
+      "custom_details": "Requested his own execution by Thanatos should he lose his sanity, which eventually came to pass",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Tiefling"
+    },
+    "Hydraxus": {
+      "auto_link_strings": [
+        "The Stoic Dragon"
+      ],
+      "name": "Hydraxus",
+      "pronouns": "they/them",
+      "aliases": [
+        "The Peaceful Titan"
+      ],
+      "species": "Dragon Titan",
+      "time_period_of_fall": "",
+      "relationships": [
+        "Known for peaceful interactions with other beings"
+      ],
+      "current_status": "Active - Peaceful",
+      "history": "A former sparkbearing dragon who refused to complete their trial on moral grounds, believed to involve conquest or killing. Maintained their pacifist nature even after becoming a titan.",
+      "image_path": "hydraxus.jpg",
+      "description": "A pacifist dragon titan who refused their trial on moral grounds",
+      "custom_details": "One of the few titans who remain calm and communicative, maintaining their peaceful nature even in titan form - and has kept from succumbing to titan madness ",
+      "lgbtq_identifications": [],
+      "other_identifiers": [
+        "Pacifist"
+      ],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Dragon"
+    },
+    "Krella": {
+      "auto_link_strings": [
+        "Krella"
+      ],
+      "name": "Krella",
+      "pronouns": "she/her",
+      "aliases": [],
+      "species": "Titan",
+      "time_period_of_fall": "Pre-Thanatos Era",
+      "relationships": [
+        "Killed by twin sister (a sparkbearer who's name is lost to history)",
+        "Executed by Hades"
+      ],
+      "current_status": "Deceased - Executed by Hades",
+      "history": "A young sparkbearer turned titan after being killed by their twin sister. Lost all rationality and rampaged through the Feywilds seeking revenge before being personally executed by Hades.",
+      "image_path": "krella.jpg",
+      "description": "A young titan driven mad by betrayal, killed by Hades before Thanatos took on the role of titan executioner",
+      "custom_details": "One of the few titans personally killed by Hades rather than Thanatos",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Human"
+    },
+    "Nemia": {
+      "auto_link_strings": [
+        "Nemia"
+      ],
+      "name": "Nemia",
+      "pronouns": "she/her",
+      "aliases": [],
+      "species": "Titan",
+      "time_period_of_fall": "",
+      "relationships": [
+        "Last surviving titan after Artemis's purge"
+      ],
+      "current_status": "Active - Last living titan",
+      "history": "The final remaining titan in the modern era, having survived numerous attempts on their life during Artemis's systematic elimination of titans. Known for their extraordinary power and resilience.",
+      "image_path": "nemia.jpg",
+      "description": "An incredibly powerful titan who has managed to survive numerous attempts on their life",
+      "custom_details": "Possesses extraordinary power that has allowed them to survive where other titans have fallen",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Dwarf"
+    },
+    "Odysseus": {
+      "auto_link_strings": [
+        "Odysseus"
+      ],
+      "name": "Odysseus",
+      "pronouns": "he/him",
+      "aliases": [
+        "The Uncorrupted"
+      ],
+      "species": "Titan",
+      "time_period_of_fall": "The Period of Rebirth",
+      "relationships": [
+        "Maintains peaceful relations with Hades",
+        "Has agreed to voluntary imprisonment if corruption manifests"
+      ],
+      "current_status": "Active - Uncorrupted",
+      "history": "A unique case among titans, Odysseus somehow avoided the corruption typically associated with the fall. He lives peacefully in the Astral Plane, though maintains an agreement with Hades for voluntary imprisonment should he ever begin to show signs of madness.",
+      "image_path": "odysseus.jpg",
+      "description": "A titan who mysteriously avoided the corruption of the fall",
+      "custom_details": "The reason for his immunity to titan corruption remains unknown, making him a subject of great interest to those studying titan nature",
+      "lgbtq_identifications": [
+        "Pansexual"
+      ],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Human"
+    },
+    "Ombrim": {
+      "auto_link_strings": [
+        "Ombrim"
+      ],
+      "name": "Ombrim",
+      "pronouns": "he/him",
+      "aliases": [
+        "The Split One",
+        "The Burning Skeleton"
+      ],
+      "species": "Titan/Lich Hybrid",
+      "time_period_of_fall": "",
+      "relationships": [
+        "Spared by Artemis due to unique nature"
+      ],
+      "current_status": "Active - Split between titan and lich forms",
+      "history": "A sparkbearer who attempted to escape titanhood by becoming a lich, resulting in a split existence between a flaming skeletal titan form and a lich form retaining his original personality.",
+      "image_path": "ombrim.jpg",
+      "description": "An eternally burning skeletal titan whose soul is split between their titan form and lich form",
+      "custom_details": "His split nature often results in internal conflict, making decisive action difficult",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Elf"
+    },
+    "Set": {
+      "auto_link_strings": [
+        "Set (titan)"
+      ],
+      "name": "Set",
+      "pronouns": "he/him",
+      "aliases": [],
+      "species": "Titan",
+      "time_period_of_fall": "Pre-Divine Law Era",
+      "relationships": [
+        "Destroyed Athena's city, leading to their execution"
+      ],
+      "current_status": "Deceased - Executed by Athena",
+      "history": "A sparkbearer who became a titan and destroyed one of Athena's cities. His actions and subsequent execution by Athena led to the creation of divine laws preventing gods from directly interfering with sparkbearers.",
+      "image_path": "set.jpg",
+      "description": "A titan whose actions and subsequent execution by Athena resulted in significant changes to divine law",
+      "custom_details": "His death marked a significant change in divine law, establishing the prohibition of gods interfering with sparkbearers",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": "",
+      "pre_fall_species": "Human"
+    }
+  }
+}
