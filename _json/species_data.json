@@ -35,6 +35,69 @@
       "example_image_paths": [],
       "average_size_range": "height: 160-206 cm (5'3\"-6'9\")"
     },
+    "Demigod": {
+      "auto_link_strings": [
+        "Demigod",
+        "Demigods"
+      ],
+      "name": "Demigods",
+      "type": "Amorphous",
+      "origin": "Born from the union of gods and mortals",
+      "lifespan": "Immortal",
+      "physique": "In their natural form, they appear as black amorphous sludge. Most use control masks (typically white porcelain) to maintain humanoid form, though these aren't required. Their 'clothing' is actually formed from their own substance, usually appearing as black garments with no visible skin.",
+      "languages": [
+        "Sylvaric"
+      ],
+      "custom_details": "Completely invulnerable to all forms of damage or harm. While control masks help maintain humanoid form, Demigods can shape their amorphous bodies at will. The white porcelain mask and black clothing appearance is their most common chosen form.",
+      "homelands": "",
+      "other_regions": "",
+      "distribution": "",
+      "history": "",
+      "religion": "",
+      "traditions": "",
+      "notable_figures": [],
+      "relationships": [
+        "Complex relationships with their divine and mortal parentage",
+        "Very often seen with distrust because of their chaotic and unpredictable nature also because of their fondness of alchemy",
+        "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
+      ],
+      "example_image_paths": [],
+      "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100kg"
+    },
+    "Dragon": {
+      "auto_link_strings": [
+        "Dragon",
+        "Dragons"
+      ],
+      "name": "Dragons",
+      "type": "Beast",
+      "origin": "All dragons are descendants of the primordial dragon Fafnir, native to the Astral Plane",
+      "lifespan": "Immortal",
+      "physique": "Come in several distinct forms: serpentine dragons with four limbs, long bodies and multiple wing sets; stocky four-limbed dragons with two wings; and two-legged variants with prehensile wing-appendages.",
+      "languages": [
+        "Draconic",
+        "Sylvaric"
+      ],
+      "custom_details": "Highly intelligent and magical beings who reproduce asexually and do not associate with gender. Like other the slothturtles, they continue growing throughout their immortal lives. Their proud and noble nature has shaped much of their history and interactions with other species.",
+      "homelands": "The Astral Plane",
+      "other_regions": "no dragons permanently live outside of the astral plane due to self-imposed exile",
+      "distribution": "Primarily inhabit the Astral Plane, though historically some groups migrated to the material plane. Those who remained in the mortal realm became tyrannical rulers until their eventual defeat.",
+      "history": "Originally all dragons lived in the Astral Plane. Millennia ago, some migrated to the material plane where they established dominion over large territories. The more cruel among them remained to rule over mortals, leading to their eventual disownment by their Astral kin. These terrestrial dragons were ultimately defeated by the sparkbearer Asher, whose revolution ended their reign. The region most affected by dragon rule became Rositoria, named after Asher.",
+      "religion": "The dragons are not religious, but they do hold the sparkbearer Asher in high regard - they are also practicers of necromancy and talk with the dead often in religious ceremonies - there are also sections who worship the members of the dragongod pantheon - though they are not worshipped as gods, but as legendary or wise figures",
+      "traditions": "Have complex customs regarding territory, hierarchy, and interaction with mortals. Most traditions stem from preventing the abuse of power that led to the fall of the material plane dragons.",
+      "notable_figures": [],
+      "relationships": [
+        "Share special connection with Dragonborn due to the dragongift blessing",
+        "Generally maintain far distance from mortal affairs due to historical conflicts",
+        "Respected and often feared by most species",
+        "Sometimes serve as neutral mediators in major conflicts",
+        "Maintain strict separation between Astral and former material plane dragons",
+        "Hold deep respect for the sparkbearer Asher despite his role in ending dragon rule"
+      ],
+      "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. They believe dragons should be judged by their own kind, not by mortals.",
+      "example_image_paths": [],
+      "average_size_range": "length: 366-1219 cm (12'0\"-40'0\") with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
+    },
     "Dragonborn": {
       "auto_link_strings": [
         "Dragonborn"
@@ -173,6 +236,74 @@
       "example_image_paths": [],
       "average_size_range": "height: 91-107 cm (3'0\"-3'6\")"
     },
+    "Fey": {
+      "auto_link_strings": [
+        "Fey"
+      ],
+      "name": "Fey",
+      "type": "Amorphous",
+      "origin": "Transformed mortal souls from before the creation of the Underworld",
+      "lifespan": "Immortal",
+      "physique": "Extremely varied in form, but universally characterized by very dark grey, almost black flesh and unnaturally thin bodies. They also all exclusively have eyes which glow a dim white constantly. Forms range from nearly humanoid to wildly alien, featuring multiple limbs, tentacles, or other unusual appendages.",
+      "languages": [
+        "Feyspeak",
+        "Sylvaric"
+      ],
+      "custom_details": "Cannot reproduce among themselves but the more humanoid fey can breed with most mortal species, resulting in Fairy offspring. Possess powerful innate chaos magic. Most Fey have lost memories of their mortal lives due to the corrupting influence of the Feywilds over time, though they retain their core personalities and names. Their otherworldly nature and the loss of their past often makes them seem unsettling to mortals.",
+      "homelands": "The Feywilds",
+      "other_regions": "",
+      "distribution": "Most Fey now reside in the central city of the Feywilds, where chaos beasts are less common. Their population is slowly declining since the creation of the Underworld halted the formation of new Fey.",
+      "history": "Before Hades constructed the Underworld, mortal souls would fall into the Feywilds upon death. These souls, corrupted by the plane's inherent chaos, were transformed into the first Fey. The chaos surrounding their souls formed their varied physical forms.",
+      "religion": "Their relationship with death and chaos shapes their worldview, though traditional religious worship is uncommon among them.",
+      "traditions": "Heavily focused on entertainment and artistic pursuits. Having no need for food, they spend much of their time drinking, using various substances, engaging with literature and music, or gambling.",
+      "notable_figures": [],
+      "relationships": [
+        "Maintain a mutual distance with Dwarves, who avoid their realm",
+        "Find their mistrust somewhat entertaining",
+        "Share close bonds with Fairies due to their hybrid nature",
+        "Generally avoided by most mortal species due to their unsettling nature",
+        "Known to occasionally trade with brave merchants seeking exotic goods"
+      ],
+      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts.",
+      "example_image_paths": [
+        "fey_example1.jpg",
+        "fey_example2.jpg"
+      ],
+      "average_size_range": "height: typically 91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
+    },
+    "Halfling": {
+      "auto_link_strings": [
+        "Halfling",
+        "Halflings"
+      ],
+      "name": "Halflings",
+      "type": "Humanoid",
+      "origin": "Descended from humans in ancient times",
+      "lifespan": "180-200 years",
+      "physique": "Hardy constitution despite their small size, with resistance to cold weather. Unlike their human ancestors, they have proportionally larger hands and feet, but retain rounded ears.",
+      "languages": [
+        "Sylvaric"
+      ],
+      "custom_details": "Possess a natural affinity for magic and are known for their exceptional cooking abilities. Their underground homes are marvels of engineering, combining comfort with protection from the harsh tundra climate. Skilled at adapting to their harsh environment, particularly notable in their persistent attempts to grow tropical spices in cold climates. Their primary import is exotic spices, though they've had varying success in cultivating their own. When forced to defend themselves, they rely on their natural magical aptitude and skill with quarterstaffs. Obtain most of their metal goods and jewelry through lumber trade with the Dwarves. Practice strict veganism, avoiding all products that require animal death, though they do consume eggs from quail and chickens, and goat milk.",
+      "homelands": "Northwest Tundra",
+      "other_regions": "",
+      "distribution": "Live primarily in small, interconnected underground towns across the tundra region. Their settlements are connected by elaborate tunnel networks.",
+      "history": "",
+      "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life. Their vegan lifestyle extends to avoiding leather, furs, and other animal products that require killing.",
+      "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
+      "notable_figures": [],
+      "relationships": [
+        "Universally respected by other species for their peaceful way of life",
+        "Remote location and non-confrontational nature has helped avoid most conflicts",
+        "Have a particularly strong relationship with the Dwarves through lumber trade",
+        "Receive military protection from Dwarves in exchange for regulated lumber access",
+        "Known for fair and honest dealings in all trade relationships"
+      ],
+      "example_image_paths": [
+        "halfling_example1.jpg"
+      ],
+      "average_size_range": "height: 100-150 cm (3.3-4.9 ft)"
+    },
     "Human": {
       "auto_link_strings": [
         "Human",
@@ -263,6 +394,36 @@
       "example_image_paths": [],
       "average_size_range": "height: 152 cm (5'0\") with no sexual dimorphism"
     },
+    "Slothturtle": {
+      "auto_link_strings": [
+        "Slothturtle",
+        "Slothturtles"
+      ],
+      "name": "Slothturtles",
+      "type": "Beast",
+      "origin": "",
+      "lifespan": "Immortal",
+      "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age.",
+      "languages": [],
+      "custom_details": "Possess powerful divine energy despite their peaceful herbivorous nature. Their method of reproduction remains a mystery to all other species. While believed to be sentient and capable of telepathic communication among themselves, they have never been observed attempting communication with other species. They are completely immune to all forms of damage, illness, or injury - similar to demigods and Olympic items, but even more absolute in their invulnerability.",
+      "homelands": "The Astral Plane",
+      "other_regions": "Never found outside the Astral Plane. Some scholars believe their eggs manifest directly from the divine source itself, though this is not yet proven.",
+      "distribution": "Rarely seen but found in various locations across Sylvarus, typically in peaceful, isolated areas. Most commonly found in the Astral Plane, living solitary lives without any form of government or civilization.",
+      "history": "Their origins are unknown, though they are believed to be one of the oldest species in existence. The only known end to their existence is through divine ascension, a process similar to enlightenment that occurs randomly throughout their lives.",
+      "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence.",
+      "religion": "Though divine in nature themselves, they show no observable religious practices",
+      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years.",
+      "notable_figures": [],
+      "relationships": [
+        "Peaceful coexistence with all species",
+        "Never show aggression or attempt communication",
+        "Often treated with reverence due to their divine nature",
+        "Protected by most civilized societies due to their peaceful nature",
+        "The Gods, though not legislatively bound to do so, will be known to act harshly against anyone who captures or otherwise interferes with a slothturtle in an excessive manner"
+      ],
+      "example_image_paths": [],
+      "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
+    },
     "Tiefling": {
       "auto_link_strings": [
         "Tiefling",
@@ -294,167 +455,6 @@
       "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion.",
       "example_image_paths": [],
       "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
-    },
-    "Demigod": {
-      "auto_link_strings": [
-        "Demigod",
-        "Demigods"
-      ],
-      "name": "Demigods",
-      "type": "Amorphous",
-      "origin": "Born from the union of gods and mortals",
-      "lifespan": "Immortal",
-      "physique": "In their natural form, they appear as black amorphous sludge. Most use control masks (typically white porcelain) to maintain humanoid form, though these aren't required. Their 'clothing' is actually formed from their own substance, usually appearing as black garments with no visible skin.",
-      "languages": [
-        "Sylvaric"
-      ],
-      "custom_details": "Completely invulnerable to all forms of damage or harm. While control masks help maintain humanoid form, Demigods can shape their amorphous bodies at will. The white porcelain mask and black clothing appearance is their most common chosen form.",
-      "homelands": "",
-      "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
-      "notable_figures": [],
-      "relationships": [
-        "Complex relationships with their divine and mortal parentage",
-        "Very often seen with distrust because of their chaotic and unpredictable nature also because of their fondness of alchemy",
-        "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
-      ],
-      "example_image_paths": [],
-      "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100kg"
-    },
-    "Dragon": {
-      "auto_link_strings": [
-        "Dragon",
-        "Dragons"
-      ],
-      "name": "Dragons",
-      "type": "Beast",
-      "origin": "All dragons are descendants of the primordial dragon Fafnir, native to the Astral Plane",
-      "lifespan": "Immortal",
-      "physique": "Come in several distinct forms: serpentine dragons with four limbs, long bodies and multiple wing sets; stocky four-limbed dragons with two wings; and two-legged variants with prehensile wing-appendages.",
-      "languages": [
-        "Draconic",
-        "Sylvaric"
-      ],
-      "custom_details": "Highly intelligent and magical beings who reproduce asexually and do not associate with gender. Like other the slothturtles, they continue growing throughout their immortal lives. Their proud and noble nature has shaped much of their history and interactions with other species.",
-      "homelands": "The Astral Plane",
-      "other_regions": "no dragons permanently live outside of the astral plane due to self-imposed exile",
-      "distribution": "Primarily inhabit the Astral Plane, though historically some groups migrated to the material plane. Those who remained in the mortal realm became tyrannical rulers until their eventual defeat.",
-      "history": "Originally all dragons lived in the Astral Plane. Millennia ago, some migrated to the material plane where they established dominion over large territories. The more cruel among them remained to rule over mortals, leading to their eventual disownment by their Astral kin. These terrestrial dragons were ultimately defeated by the sparkbearer Asher, whose revolution ended their reign. The region most affected by dragon rule became Rositoria, named after Asher.",
-      "religion": "The dragons are not religious, but they do hold the sparkbearer Asher in high regard - they are also practicers of necromancy and talk with the dead often in religious ceremonies - there are also sections who worship the members of the dragongod pantheon - though they are not worshipped as gods, but as legendary or wise figures",
-      "traditions": "Have complex customs regarding territory, hierarchy, and interaction with mortals. Most traditions stem from preventing the abuse of power that led to the fall of the material plane dragons.",
-      "notable_figures": [],
-      "relationships": [
-        "Share special connection with Dragonborn due to the dragongift blessing",
-        "Generally maintain far distance from mortal affairs due to historical conflicts",
-        "Respected and often feared by most species",
-        "Sometimes serve as neutral mediators in major conflicts",
-        "Maintain strict separation between Astral and former material plane dragons",
-        "Hold deep respect for the sparkbearer Asher despite his role in ending dragon rule"
-      ],
-      "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. They believe dragons should be judged by their own kind, not by mortals.",
-      "example_image_paths": [],
-      "average_size_range": "length: 366-1219 cm (12'0\"-40'0\") with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
-    },
-    "Fey": {
-      "auto_link_strings": [
-        "Fey"
-      ],
-      "name": "Fey",
-      "type": "Amorphous",
-      "origin": "Transformed mortal souls from before the creation of the Underworld",
-      "lifespan": "Immortal",
-      "physique": "Extremely varied in form, but universally characterized by very dark grey, almost black flesh and unnaturally thin bodies. They also all exclusively have eyes which glow a dim white constantly. Forms range from nearly humanoid to wildly alien, featuring multiple limbs, tentacles, or other unusual appendages.",
-      "languages": [
-        "Feyspeak",
-        "Sylvaric"
-      ],
-      "custom_details": "Cannot reproduce among themselves but the more humanoid fey can breed with most mortal species, resulting in Fairy offspring. Possess powerful innate chaos magic. Most Fey have lost memories of their mortal lives due to the corrupting influence of the Feywilds over time, though they retain their core personalities and names. Their otherworldly nature and the loss of their past often makes them seem unsettling to mortals.",
-      "homelands": "The Feywilds",
-      "other_regions": "",
-      "distribution": "Most Fey now reside in the central city of the Feywilds, where chaos beasts are less common. Their population is slowly declining since the creation of the Underworld halted the formation of new Fey.",
-      "history": "Before Hades constructed the Underworld, mortal souls would fall into the Feywilds upon death. These souls, corrupted by the plane's inherent chaos, were transformed into the first Fey. The chaos surrounding their souls formed their varied physical forms.",
-      "religion": "Their relationship with death and chaos shapes their worldview, though traditional religious worship is uncommon among them.",
-      "traditions": "Heavily focused on entertainment and artistic pursuits. Having no need for food, they spend much of their time drinking, using various substances, engaging with literature and music, or gambling.",
-      "notable_figures": [],
-      "relationships": [
-        "Maintain a mutual distance with Dwarves, who avoid their realm",
-        "Find their mistrust somewhat entertaining",
-        "Share close bonds with Fairies due to their hybrid nature",
-        "Generally avoided by most mortal species due to their unsettling nature",
-        "Known to occasionally trade with brave merchants seeking exotic goods"
-      ],
-      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts.",
-      "example_image_paths": [
-        "fey_example1.jpg",
-        "fey_example2.jpg"
-      ],
-      "average_size_range": "height: typically 91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
-    },
-    "Slothturtle": {
-      "auto_link_strings": [
-        "Slothturtle",
-        "Slothturtles"
-      ],
-      "name": "Slothturtles",
-      "type": "Beast",
-      "origin": "",
-      "lifespan": "Immortal",
-      "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age.",
-      "languages": [],
-      "custom_details": "Possess powerful divine energy despite their peaceful herbivorous nature. Their method of reproduction remains a mystery to all other species. While believed to be sentient and capable of telepathic communication among themselves, they have never been observed attempting communication with other species. They are completely immune to all forms of damage, illness, or injury - similar to demigods and Olympic items, but even more absolute in their invulnerability.",
-      "homelands": "The Astral Plane",
-      "other_regions": "Never found outside the Astral Plane. Some scholars believe their eggs manifest directly from the divine source itself, though this is not yet proven.",
-      "distribution": "Rarely seen but found in various locations across Sylvarus, typically in peaceful, isolated areas. Most commonly found in the Astral Plane, living solitary lives without any form of government or civilization.",
-      "history": "Their origins are unknown, though they are believed to be one of the oldest species in existence. The only known end to their existence is through divine ascension, a process similar to enlightenment that occurs randomly throughout their lives.",
-      "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence.",
-      "religion": "Though divine in nature themselves, they show no observable religious practices",
-      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years.",
-      "notable_figures": [],
-      "relationships": [
-        "Peaceful coexistence with all species",
-        "Never show aggression or attempt communication",
-        "Often treated with reverence due to their divine nature",
-        "Protected by most civilized societies due to their peaceful nature",
-        "The Gods, though not legislatively bound to do so, will be known to act harshly against anyone who captures or otherwise interferes with a slothturtle in an excessive manner"
-      ],
-      "example_image_paths": [],
-      "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
-    },
-    "Halfling": {
-      "auto_link_strings": [
-        "Halfling",
-        "Halflings"
-      ],
-      "name": "Halflings",
-      "type": "Humanoid",
-      "origin": "Descended from humans in ancient times",
-      "lifespan": "180-200 years",
-      "physique": "Hardy constitution despite their small size, with resistance to cold weather. Unlike their human ancestors, they have proportionally larger hands and feet, but retain rounded ears.",
-      "languages": [
-        "Sylvaric"
-      ],
-      "custom_details": "Possess a natural affinity for magic and are known for their exceptional cooking abilities. Their underground homes are marvels of engineering, combining comfort with protection from the harsh tundra climate. Skilled at adapting to their harsh environment, particularly notable in their persistent attempts to grow tropical spices in cold climates. Their primary import is exotic spices, though they've had varying success in cultivating their own. When forced to defend themselves, they rely on their natural magical aptitude and skill with quarterstaffs. Obtain most of their metal goods and jewelry through lumber trade with the Dwarves. Practice strict veganism, avoiding all products that require animal death, though they do consume eggs from quail and chickens, and goat milk.",
-      "homelands": "Northwest Tundra",
-      "other_regions": "",
-      "distribution": "Live primarily in small, interconnected underground towns across the tundra region. Their settlements are connected by elaborate tunnel networks.",
-      "history": "",
-      "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life. Their vegan lifestyle extends to avoiding leather, furs, and other animal products that require killing.",
-      "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
-      "notable_figures": [],
-      "relationships": [
-        "Universally respected by other species for their peaceful way of life",
-        "Remote location and non-confrontational nature has helped avoid most conflicts",
-        "Have a particularly strong relationship with the Dwarves through lumber trade",
-        "Receive military protection from Dwarves in exchange for regulated lumber access",
-        "Known for fair and honest dealings in all trade relationships"
-      ],
-      "example_image_paths": [
-        "halfling_example1.jpg"
-      ],
-      "average_size_range": "height: 100-150 cm (3.3-4.9 ft)"
     }
   }
 }
