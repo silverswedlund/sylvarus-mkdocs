@@ -4,7 +4,7 @@
 
 ## Preamble
 
-In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stands as a cornerstone of celestial order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
+In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stands as a cornerstone of [celestial](../species/celestial/index.md) order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
 
 This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no god stand above the order enshrined herein.
 
@@ -127,7 +127,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 ## Article IX: Capital and Containment Punishment – Tartarus
 
-1. **Tartarus** is a realm of divine isolation, invoked when a god, mortal, immortal, fey, or any other entity is deemed too dangerous, unstable, or destructive for ordinary exile.
+1. **Tartarus** is a realm of divine isolation, invoked when a god, mortal, immortal, [fey](../species/fey/index.md), or any other entity is deemed too dangerous, unstable, or destructive for ordinary exile.
 
 2. Tartarus imprisonment is considered a capital-level punishment, intended to be **eternal by default**, and requires a **supermajority vote** of the Council.
  
@@ -197,7 +197,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 
 4. This calendar shall be binding in all divine documentation, Council records, and pantheon charters.
 
-5. Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.
+5. Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against [celestial](../species/celestial/index.md) chaos.
 
 ---
 
@@ -230,7 +230,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 6. Proposed amendments must be written clearly and submitted to the Council for distribution and deliberation prior to vote.
 
 
-*Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against celestial chaos.*
+*Let the Pact of [Olympus](../planes/material/sylvarus/locations/territories/olympia/index.md) stand eternal as the guardian of divine order and the bulwark against [celestial](../species/celestial/index.md) chaos.*
 
 ---
 
