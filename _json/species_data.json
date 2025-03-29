@@ -11,7 +11,7 @@
       ],
       "name": "Celestials",
       "type": "Humanoid",
-      "origin": "",
+      "origin": "Transformed Elves, blessed by interdimensional beings known as angels",
       "lifespan": "750-1000 years",
       "physique": "",
       "languages": [
@@ -69,7 +69,7 @@
       ],
       "name": "Dwarves",
       "type": "Humanoid",
-      "origin": "",
+      "origin": "Share a common ancestor with Elves, believed to be the second oldest sentient species after Elves",
       "lifespan": "200-400 years",
       "physique": "",
       "languages": [
@@ -171,7 +171,7 @@
       ],
       "name": "Humans",
       "type": "Humanoid",
-      "origin": "Evolutionary Digergence",
+      "origin": "Evolutionary Divergence, more closely related to Dwarves than Elves",
       "lifespan": "80-150 years",
       "physique": "A mix of Dwarven and Elvish physiques, stockier than elves, less than dwarves. Known for their circled ears and running endurance. Skin tones have a relatively small range, from light pinkish to dark brown depending on the subrace",
       "languages": [
@@ -200,7 +200,7 @@
       ],
       "name": "Orcs",
       "type": "Humanoid",
-      "origin": "Evolutionary Digergence from Elves",
+      "origin": "Evolutionary Divergence from a common ancestor with Elves, more closely related to Elves than to Dwarves",
       "lifespan": "80-150 years",
       "physique": "They are like elves, in their height, but are signifigantly stockier and more muscular. Known for their green-grey skin and tusks that protrude from their lower jaw. Unlike most species, orcish height is not influenced by sex, with an average height of 190cm (6'2\")",
       "languages": [
@@ -236,11 +236,11 @@
       ],
       "custom_details": "",
       "homelands": "Parallel Sylvarus",
-      "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "other_regions": "None known",
+      "distribution": "They live in a parallel version of Sylvarus, which exists in a parallel universe",
+      "history": "They are the only sentient species in their world",
+      "religion": "The power of the quall gods is immense due to the quall devotion to them, quallish gods historically have established cults and theocracies, and also known to kill sparkbearers. This is done to avoid competition from any new gods",
+      "traditions": "full devotion to the quall gods which influences their culture and traditions, including religious ceremonies, traditions, and holidays. The clergy class is the most powerful class in quall society, and they are the only ones who can communicate with the quall gods. The clergy class is also the only class that can use the divine magic of the quall gods.",
       "notable_figures": [],
       "relationships": [
         "No major relationships with other species as they are the only sentient species in their world",
@@ -254,27 +254,28 @@
       ],
       "name": "Tieflings",
       "type": "Humanoid",
-      "origin": "",
+      "origin": "Descended from an Orcish tribe that made dealings with creatures of the Feywilds",
       "lifespan": "750-1000 years",
-      "physique": "",
+      "physique": "Extremely varied in appearance, with the most physical diversity among mortal species. Skin tones span a wide spectrum including reds, oranges, purples, blues, and greens. All Tieflings possess horns, and their height varies dramatically, ranging from 4 to 8 feet tall. This variety is attributed to their inherent connection to chaos energy.",
       "languages": [
         "Infernal",
         "Sylvaric"
       ],
-      "custom_details": "",
+      "custom_details": "The only mortal species that regularly practices chaos magic, though it remains rare and difficult even among them. Their society is structured around seven ancient families who maintain control over the Isles of Tife. Family heads are chosen by the chaos gods themselves and receive power and boons in exchange for their service.",
       "homelands": "The Isles of Tife",
       "other_regions": "",
       "distribution": "",
       "history": "",
       "religion": "",
-      "traditions": "",
+      "traditions": "Family loyalty is paramount in Tiefling culture. Each of the seven families maintains its own traditions and ceremonies, though all share a common reverence for their chaos god patrons. Leadership succession within families is determined by divine selection rather than heredity.",
       "notable_figures": [],
       "relationships": [
         "Face some prejudice in certain regions due to their infernal heritage - specifically in celestia where they are seen as a threat to the peace of the celestials, and they are not allowed to live in the celestian nation as permanent residents",
         "Maintain strong diplomatic ties with coastal nations through the Isles of Tife, mainly the humans in the land of kind and the elves in titanrock",
         "Generally respected for their magical abilities and cultural achievements",
         "Share particularly good relations with humans and elves due to similar physical ability to interbreed with them - also "
-      ]
+      ],
+      "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion."
     },
     "Demigod": {
       "auto_link_strings": [
@@ -310,27 +311,30 @@
       ],
       "name": "Dragons",
       "type": "Beast",
-      "origin": "",
+      "origin": "All dragons are descendants of the primordial dragon Fafnir, native to the Astral Plane",
       "lifespan": "Immortal",
-      "physique": "",
+      "physique": "Come in several distinct forms: serpentine dragons with four limbs, long bodies and multiple wing sets; stocky four-limbed dragons with two wings; and two-legged variants with prehensile wing-appendages. They never stop growing - newly hatched dragons weigh 2-3 pounds, average adults reach about 2 tons, with the oldest reaching several dozen tons.",
       "languages": [
         "Draconic",
         "Sylvaric"
       ],
-      "custom_details": "",
+      "custom_details": "Highly intelligent and magical beings who reproduce asexually and do not associate with gender. Like other the slothturtles, they continue growing throughout their immortal lives. Their proud and noble nature has shaped much of their history and interactions with other species.",
       "homelands": "The Astral Plane",
-      "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "other_regions": "no dragons are permanently live outside of the astral plane due to selfimposed exile",
+      "distribution": "Primarily inhabit the Astral Plane, though historically some groups migrated to the material plane. Those who remained in the mortal realm became tyrannical rulers until their eventual defeat.",
+      "history": "Originally all dragons lived in the Astral Plane. Millennia ago, some migrated to the material plane where they established dominion over large territories. The more cruel among them remained to rule over mortals, leading to their eventual disownment by their Astral kin. These terrestrial dragons were ultimately defeated by the sparkbearer Asher, whose revolution ended their reign. The region most affected by dragon rule became Rositoria, named after Asher.",
+      "religion": "The dragons are not religious, but they do hold the sparkbearer Asher in high regard - they are also practicers of necromancy and talk with the dead often in religious ceremonies - there are also sections who worship the members of the dragongod pantheon - though they are not worshipped as gods, but as legendary or wise figures",
+      "traditions": "Have complex customs regarding territory, hierarchy, and interaction with mortals. Most traditions stem from preventing the abuse of power that led to the fall of the material plane dragons.",
       "notable_figures": [],
       "relationships": [
         "Share special connection with Dragonborn due to the dragongift blessing",
-        "Generally maintain far distance from mortal affairs",
+        "Generally maintain far distance from mortal affairs due to historical conflicts",
         "Respected and often feared by most species",
-        "Sometimes serve as neutral mediators in major conflicts"
-      ]
+        "Sometimes serve as neutral mediators in major conflicts",
+        "Maintain strict separation between Astral and former material plane dragons",
+        "Hold deep respect for the sparkbearer Asher despite his role in ending dragon rule"
+      ],
+      "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. they beleive dragons should be judged by their own kind, not by mortals."
     },
     "Fey": {
       "auto_link_strings": [
@@ -365,18 +369,23 @@
       "type": "Beast",
       "origin": "",
       "lifespan": "Immortal",
-      "physique": "",
+      "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Their size increases gradually over their long maturation period, never stopping growth. The oldest specimens can reach the size of small islands, with shells approximately 100 meters across. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age.",
       "languages": [],
-      "custom_details": "",
-      "homelands": "",
-      "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "custom_details": "Possess powerful divine energy despite their peaceful herbivorous nature. Their method of reproduction remains a mystery to all other species. While believed to be sentient and capable of telepathic communication among themselves, they have never been observed attempting communication with other species. They are completely immune to all forms of damage, illness, or injury - similar to demigods and Olympic items, but even more absolute in their invulnerability.",
+      "homelands": "The Astral Plane",
+      "other_regions": "Never found outside the Astral Plane. Some scholars believe their eggs manifest directly from the divine source itself, though this is not yet proven.",
+      "distribution": "Rarely seen but found in various locations across Sylvarus, typically in peaceful, isolated areas. Most commonly found in the Astral Plane, living solitary lives without any form of government or civilization.",
+      "history": "Their origins are unknown, though they are believed to be one of the oldest species in existence. The only known end to their existence is through divine ascension, a process similar to enlightenment that occurs randomly throughout their lives.",
+      "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence.",
+      "religion": "Though divine in nature themselves, they show no observable religious practices",
+      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years.",
       "notable_figures": [],
       "relationships": [
-        ""
+        "Peaceful coexistence with all species",
+        "Never show aggression or attempt communication",
+        "Often treated with reverence due to their divine nature",
+        "Protected by most civilized societies due to their peaceful nature",
+        "The Gods, though not legistlatively bound to do so, will be known to act harshly against any anyone captures or otherwise interferes with a slothturtle in an excessive manner"
       ]
     },
     "Halfling": {
@@ -392,12 +401,12 @@
       "languages": [
         "Sylvaric"
       ],
-      "custom_details": "Possess a natural affinity for magic and are known for their exceptional cooking abilities. Their underground homes are marvels of engineering, combining comfort with protection from the harsh tundra climate. Skilled at adapting to their harsh environment, particularly notable in their persistent attempts to grow tropical spices in cold climates. Their primary import is exotic spices, though they've had varying success in cultivating their own. When forced to defend themselves, they rely on their natural magical aptitude and skill with quarterstaffs. Obtain most of their metal goods and jewelry through lumber trade with the Dwarves.",
+      "custom_details": "Possess a natural affinity for magic and are known for their exceptional cooking abilities. Their underground homes are marvels of engineering, combining comfort with protection from the harsh tundra climate. Skilled at adapting to their harsh environment, particularly notable in their persistent attempts to grow tropical spices in cold climates. Their primary import is exotic spices, though they've had varying success in cultivating their own. When forced to defend themselves, they rely on their natural magical aptitude and skill with quarterstaffs. Obtain most of their metal goods and jewelry through lumber trade with the Dwarves. Practice strict veganism, avoiding all products that require animal death, though they do consume eggs from quail and chickens, and goat milk.",
       "homelands": "Northwest Tundra",
       "other_regions": "",
       "distribution": "Live primarily in small, interconnected underground towns across the tundra region. Their settlements are connected by elaborate tunnel networks.",
       "history": "",
-      "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life.",
+      "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life. Their vegan lifestyle extends to avoiding leather, furs, and other animal products that require killing.",
       "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
       "notable_figures": [],
       "relationships": "Universally respected by other species for their peaceful way of life. Their remote location and non-confrontational nature has helped them avoid most conflicts throughout history. Have a particularly strong relationship with the Dwarves, who provide military protection and metal goods in exchange for regulated access to tundra lumber."
