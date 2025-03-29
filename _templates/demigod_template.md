@@ -17,7 +17,7 @@
 {% for id in lgbtq_identifications %}
   {% for flag in lgbtq_identifications_with_images %}
     {% if flag in (id | lower | replace(' ', '_')) %}
-      <img src="../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
+      <img src="../../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
     {% endif %}
   {% endfor %}
   {{ id }}  
@@ -28,7 +28,7 @@
 {% for id in other_identifiers %}
   {% for flag in other_identifiers_with_images %}
     {% if flag in (id | lower | replace(' ', '_')) %}
-      <img src="../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
+      <img src="../../../flags/{{ flag }}.jpg" alt="{{ id }} flag" width="30" style="vertical-align: middle; margin-right: 6px;">
     {% endif %}
   {% endfor %}
   {{ id }}  
@@ -45,9 +45,6 @@
 "{{ song_name }}"  
 {% endif %}
 {% endif %}
-
-"{{ song_name }}"  
-
 
 {{ custom_details }}
 
