@@ -6,12 +6,13 @@
   "items": {
     "Aliqotash": {
       "auto_link_strings": [
-        "Aliqotash"
+        "Aliqotash",
+        "The Wise Titan"
       ],
       "name": "Aliqotash",
       "pronouns": "he/him",
       "aliases": [
-        "The Willing Prisoner"
+        "The Wise Titan"
       ],
       "species": "Titan",
       "time_period_of_fall": "",
@@ -28,16 +29,18 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Tiefling"
+      "pre_fall_species": "Tiefling",
+      "divine_trial": "Unknown"
     },
     "Hydraxus": {
       "auto_link_strings": [
+        "Hydraxus",
         "The Stoic Dragon"
       ],
       "name": "Hydraxus",
       "pronouns": "they/them",
       "aliases": [
-        "The Peaceful Titan"
+        "The Stoic Dragon"
       ],
       "species": "Dragon Titan",
       "time_period_of_fall": "",
@@ -55,15 +58,19 @@
       ],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Dragon"
+      "pre_fall_species": "Dragon",
+      "divine_trial": "Unknown"
     },
     "Krella": {
       "auto_link_strings": [
-        "Krella"
+        "Krella",
+        "The Mad Spider"
       ],
       "name": "Krella",
       "pronouns": "she/her",
-      "aliases": [],
+      "aliases": [
+        "The Mad Spider"
+      ],
       "species": "Titan",
       "time_period_of_fall": "Pre-Thanatos Era",
       "relationships": [
@@ -79,30 +86,38 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Human"
+      "pre_fall_species": "Human",
+      "divine_trial": "Unknown"
     },
     "Nemia": {
       "auto_link_strings": [
-        "Nemia"
+        "Nemia",
+        "The Nemian Lion"
       ],
       "name": "Nemia",
-      "pronouns": "she/her",
-      "aliases": [],
+      "pronouns": "she/they",
+      "aliases": [
+        "The Nemian Lion"
+      ],
       "species": "Titan",
       "time_period_of_fall": "",
       "relationships": [
-        "Last surviving titan after Artemis's purge"
+        "Last titan encountered by Artemis during Artemis's divine trial",
+        "Captured and banished to the Astral Plane by Artemis"
       ],
-      "current_status": "Active - Last living titan",
-      "history": "The final remaining titan in the modern era, having survived numerous attempts on their life during Artemis's systematic elimination of titans. Known for their extraordinary power and resilience.",
+      "current_status": "Active - Safely in Tartarus",
+      "history": "The final titan encountered by Artemis during Her divine trial to eliminate titans from the Feywilds. Unlike all other titans who were slain, Nemia was uniquely spared and instead captured and banished to the Astral Plane. Artemis believed the gods would contain Nemia there, preventing any threat to the Feywilds. And she was right - Nemia was captured by Hades and Eris and imprisoned in Tartarus. Despite being consumed by titan madness and reduced to a near-bestial state mentally, they retain their formidable spellcasting abilities and magical knowledge. Nemia is known for her extraordinary power and resilience, and they are the only surviving titan from Artemis's purge of the feywilds.",
       "image_path": "nemia.jpg",
-      "description": "An incredibly powerful titan who has managed to survive numerous attempts on their life",
-      "custom_details": "Possesses extraordinary power that has allowed them to survive where other titans have fallen",
-      "lgbtq_identifications": [],
+      "description": "An incredibly powerful titan who was banished to the Astral Plane rather than slain during Artemis's purge. Has nearly invincible skin and is known to be able to withstand attack from even the gods. Despite their beast-like mental state from titan madness, they retain their vast spellcraft knowledge and capabilities.",
+      "custom_details": "Possesses extraordinary power that has allowed them to survive where other titans have fallen. Unique among titans for maintaining their magical abilities despite succumbing to titan madness.",
+      "lgbtq_identifications": [
+        "Demigirl"
+      ],
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Dwarf"
+      "pre_fall_species": "Dwarf",
+      "divine_trial": "Unknown"
     },
     "Odysseus": {
       "auto_link_strings": [
@@ -130,17 +145,18 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Human"
+      "pre_fall_species": "Human",
+      "divine_trial": "Unknown"
     },
     "Ombrim": {
       "auto_link_strings": [
-        "Ombrim"
+        "Ombrim",
+        "The Split One"
       ],
       "name": "Ombrim",
       "pronouns": "he/him",
       "aliases": [
-        "The Split One",
-        "The Burning Skeleton"
+        "The Split One"
       ],
       "species": "Titan/Lich Hybrid",
       "time_period_of_fall": "",
@@ -156,7 +172,8 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Elf"
+      "pre_fall_species": "Elf",
+      "divine_trial": "Unknown"
     },
     "Set": {
       "auto_link_strings": [
@@ -168,7 +185,7 @@
       "species": "Titan",
       "time_period_of_fall": "Pre-Divine Law Era",
       "relationships": [
-        "Destroyed Athena's city, leading to their execution"
+        "Attempted to destroy Athena's city, leading to his execution"
       ],
       "current_status": "Deceased - Executed by Athena",
       "history": "A sparkbearer who became a titan and destroyed one of Athena's cities. His actions and subsequent execution by Athena led to the creation of divine laws preventing gods from directly interfering with sparkbearers.",
@@ -179,7 +196,8 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": "",
-      "pre_fall_species": "Human"
+      "pre_fall_species": "Human",
+      "divine_trial": "Unknown"
     }
   }
 }

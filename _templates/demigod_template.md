@@ -34,11 +34,17 @@
   {{ id }}  
 {% endfor %}
 
+{% if song_name and music_path %}
+{% if song_name != "" and music_path != "" %}
 **Theme Music:**  
 <audio controls>
   <source src="{{ music_path }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+"{{ song_name }}"  
+{% endif %}
+{% endif %}
 
 "{{ song_name }}"  
 

@@ -35,6 +35,8 @@
   {{ id }}  
 {% endfor %}
 
+{% if song_name and music_path %}
+{% if song_name != "" and music_path != "" %}
 **Theme Music:**  
 <audio controls>
   <source src="{{ music_path }}" type="audio/mpeg">
@@ -42,7 +44,8 @@
 </audio>
 
 "{{ song_name }}"  
-
+{% endif %}
+{% endif %}
 
 {{ custom_details }}
 
