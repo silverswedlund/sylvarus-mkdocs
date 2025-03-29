@@ -26,7 +26,12 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        "Ongoing territorial disputes with Dragonborn",
+        "Viewed as arrogant by many species, particularly Dwarves",
+        "Maintain diplomatic but distant relations with most other species",
+        "Often seen as aloof by mortal races"
+      ]
     },
     "Dragonborn": {
       "auto_link_strings": [
@@ -47,9 +52,14 @@
       "distribution": "Tend to live in small village communities, even outside their homeland",
       "history": "The Dragonborn came into being when the dragon god Shal'nan blessed her human followers with what is now known as the Dragongift.",
       "religion": "Most Dragonborn worship either nature deities or the Dragongods pantheon, particularly Quetzalcoatl and Shal'nan",
-      "traditions": "The Journey of Insight - Young Dragonborn (ages 20-25) often embark on worldwide travels with friends to gain understanding of different cultures and peoples",
+      "traditions": "The Journey of Insight - Young Dragonborn (ages 20-25) embark on worldwide travels",
       "notable_figures": [],
-      "relationships": "Generally maintain good relations with most species. The notable exception is with Celestials, with whom they've had several territorial disputes."
+      "relationships": [
+        "Generally maintain good relations with most species",
+        "Have ongoing territorial disputes with Celestials",
+        "Share mutual respect with Dwarves for their respective crafts",
+        "Maintain peaceful trade relations with most other nations"
+      ]
     },
     "Dwarf": {
       "auto_link_strings": [
@@ -66,17 +76,32 @@
         "Dwarven",
         "Sylvaric"
       ],
-      "custom_details": "Masters of metalwork and maritime trade, Dwarves have established themselves as the premier craftspeople of Sylvarus, particularly in metallurgy and stonework. Their influence on global trade through their powerful merchant fleets is nearly as significant as their mastery of crafting.",
+      "custom_details": "Masters of metalwork and maritime trade, Dwarves have established themselves as the premier craftspeople of Sylvarus, particularly in metallurgy and stonework. Their influence on global trade through their powerful merchant fleets is nearly as significant as their mastery of crafting. Have detailed treaties with Halflings regarding lumber harvesting in the Northwest Tundra, including strict sustainability rules requiring two trees planted for each one cut and limits on trees per acre.",
       "homelands": "Kamboramm",
       "other_regions": "Outside of Kamboramm, significant Dwarven populations can be found in Rositoria and Mideer, with smaller communities scattered throughout other nations.",
       "distribution": "While primarily concentrated in Kamboramm, Dwarven craftspeople can be found throughout most nations, typically working as smiths, masons, and other skilled trades. Though capable in all professions, they culturally prefer hands-on work over administrative roles.",
       "history": "The Dwarves built their civilization on the twin pillars of craftsmanship and seafaring, developing into one of the most economically influential species through their control of maritime trade routes and high-quality metalwork production.",
       "culture": "Dwarven culture emphasizes durability and permanence, reflected in their stone architecture and metalwork. Despite their reputation for stoic craftsmanship, they are known for their warm hospitality and becoming particularly friendly when drinking.",
-      "traditions": "Celebrate numerous festivals based on their lunar calendar, with many celebrations centered around historical anniversaries. These gatherings typically feature extensive drinking and feasting. Their architectural tradition notably favors stone over wood, considering lumber too temporary for their tastes, with ships being the primary exception.",
+      "traditions": [
+        "Lunar calendar celebrations throughout the year",
+        "Historical anniversary commemorations",
+        "Extensive drinking festivals",
+        "Crafting competitions and exhibitions",
+        "Maritime trade festivals"
+      ],
       "architecture": "Dwarven cities are masterworks of stone architecture, with minimal use of wood except in their impressive naval fleets. Their settlements are known for their durability and impressive engineering.",
       "religion": "Generally secular in outlook, viewing gods more as powerful wizards than divine beings. While they honor their ancestors and celebrate legendary craftspeople and heroes, they typically don't worship them. Their respect for achievement and mastery tends to be practical rather than religious in nature.",
       "notable_figures": [],
-      "relationships": "Historically tense relations with Elves due to cultural differences, resource disputes, and a long history of conflicts. View Humans as weak or foolish, though without serious animosity and will happily work together, but not often beneath unless respect is earned first. Consider Celestials to be even more arrogant and disagreeable than Elves. Hold respect for Halfling magic, Dragonborn courage and strength, and particularly admire Orcish craftsmanship. Regard Fey and Fairies with deep suspicion and generally avoid the Feywilds."
+      "relationships": [
+        "Historical tensions with Elves over resource disputes and cultural differences",
+        "View Humans as capable but naive, willing to work together but rarely under human leadership",
+        "Consider Celestials to be even more arrogant than Elves",
+        "Hold deep respect for Halfling magic and peaceful, sustainable, and self-sufficient ways",
+        "Admire Dragonborn courage and martial prowess",
+        "Particularly respect Orcish craftsmanship",
+        "Maintain strong suspicion of Fey and Fairies",
+        "Protect Halfling territories in exchange for regulated lumber access"
+      ]
     },
     "Elf": {
       "auto_link_strings": [
@@ -101,7 +126,11 @@
       "religion": "Primarily worship deities of nature, stars, and the arcane.",
       "traditions": "Seasonal festivals, moon rites, coming-of-age quests.",
       "notable_figures": [],
-      "relationships": "Tense history with Dwarves due to resource disputes and cultural clashes; relatively peaceful with Humans. The conflict with Dwarves stems from fundamentally different approaches to nature and resources."
+      "relationships": [
+        "Tense history with Dwarves due to resource disputes and cultural clashes",
+        "Relatively peaceful relations with Humans",
+        "Ongoing conflict with Dwarves stems from fundamentally different approaches to nature and resources"
+      ]
     },
     "Fairy": {
       "auto_link_strings": [
@@ -110,22 +139,29 @@
       ],
       "name": "Fairies",
       "type": "Humanoid",
-      "origin": "",
+      "origin": "Hybrid offspring of Fey and mortals",
       "lifespan": "Immortal",
-      "physique": "",
+      "physique": "Small in stature, combining traits of their mortal parent with Fey characteristics - notably thin builds and dark blood. Their appearance varies widely based on their mortal parentage.",
       "languages": [
         "Feyspeak",
         "Sylvaric"
       ],
-      "custom_details": "",
+      "custom_details": "Possess an innate connection to chaos magic, allowing them limited influence over probability. This connection is inherited from their Fey parent but is typically less potent than pure Fey abilities.",
       "homelands": "The Feywilds",
       "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "distribution": "Most Fairies congregate in the central city of the Feywilds, where the chaos beasts are less prevalent. This creates a vibrant community mixing Fey and Fairy culture.",
+      "history": "Fairies emerged as a species through the union of Fey with various mortal races. Their existence bridges the gap between the chaotic nature of the Feywilds and the ordered world of mortals.",
+      "religion": "Varied, often influenced by their mortal parent's culture, though many maintain a deep spiritual connection to the chaotic forces of the Feywilds.",
+      "traditions": "Like their Fey parents, they have a strong affinity for celebration, gambling, and artistic pursuits. Their fashion sense is distinctly bold and colorful, with hats being particularly important in their attire.",
       "notable_figures": [],
-      "relationships": "Find Dwarven distrust amusing but generally respect their wishes to be left alone. Most Fairies avoid Dwarven settlements out of courtesy. though some of them are known to be quite intentionally mischievous and cause minor annoyances to dwarves at any opportunity."
+      "relationships": [
+        "Find Dwarven distrust amusing but generally respect their wishes to be left alone",
+        "Most Fairies avoid Dwarven settlements out of courtesy",
+        "Some are known to be quite intentionally mischievous towards dwarves",
+        "Share close bonds with Fey communities",
+        "Generally welcomed in most mortal settlements due to their magical abilities"
+      ],
+      "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences."
     },
     "Human": {
       "auto_link_strings": [
@@ -149,7 +185,12 @@
       "religion": "Primarily worships the olypmians",
       "traditions": "Bartering, humans love bartering and finding deals  \nWinter festivals  \n Gift Giving",
       "notable_figures": [],
-      "relationships": "Tense history with Orcs due to the (largely human) subjegation of the Orcs during the Age of Unity; most wars and conflicts are with other humans - they are seemingly more diplomatic with other species than their own"
+      "relationships": [
+        "Tense history with Orcs due to human subjugation of Orcs during the Age of Unity",
+        "Most conflicts occur between human nations rather than with other species",
+        "Generally more diplomatic with other species than with their own kind",
+        "Maintain peaceful trade relations with most races"
+      ]
     },
     "Orc": {
       "auto_link_strings": [
@@ -174,7 +215,12 @@
       "religion": "Primarily worships the the Divine Parents, Iranara and Orakothros",
       "traditions": "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years",
       "notable_figures": [],
-      "relationships": "Tense history with Humans due to the orcs subjegation by their hand during the Age of Unity; The orcs, in general are very peaceful but guarded, if they are attacked they will hit back twice as hard, but will generally stay out of others' business"
+      "relationships": [
+        "Historical tension with Humans due to subjugation during the Age of Unity",
+        "Generally peaceful but guarded in their dealings with other species",
+        "Known to respond with overwhelming force if attacked",
+        "Prefer to stay out of others' conflicts"
+      ]
     },
     "Quall": {
       "auto_link_strings": [
@@ -186,8 +232,7 @@
       "lifespan": "80-150 years",
       "physique": "",
       "languages": [
-        "Quallish",
-        "Sylvaric"
+        "Quallish"
       ],
       "custom_details": "",
       "homelands": "Parallel Sylvarus",
@@ -197,7 +242,10 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        "No major relationships with other species as they are the only sentient species in their world",
+        "Only really known due to the experience of multiversal travelers - especialy the Quall God Delinette, who ascending in Sylvarus after he travels"
+      ]
     },
     "Tiefling": {
       "auto_link_strings": [
@@ -221,7 +269,12 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        "Face some prejudice in certain regions due to their infernal heritage - specifically in celestia where they are seen as a threat to the peace of the celestials, and they are not allowed to live in the celestian nation as permanent residents",
+        "Maintain strong diplomatic ties with coastal nations through the Isles of Tife, mainly the humans in the land of kind and the elves in titanrock",
+        "Generally respected for their magical abilities and cultural achievements",
+        "Share particularly good relations with humans and elves due to similar physical ability to interbreed with them - also "
+      ]
     },
     "Demigod": {
       "auto_link_strings": [
@@ -244,7 +297,11 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        "Complex relationships with their divine and mortal parentage",
+        "Very often seen with distrust because of their chaotic and unpredictable nature also because of their fondness of alchemy",
+        "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
+      ]
     },
     "Dragon": {
       "auto_link_strings": [
@@ -268,30 +325,36 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        "Share special connection with Dragonborn due to the dragongift blessing",
+        "Generally maintain far distance from mortal affairs",
+        "Respected and often feared by most species",
+        "Sometimes serve as neutral mediators in major conflicts"
+      ]
     },
     "Fey": {
       "auto_link_strings": [
         "Fey"
       ],
       "name": "Fey",
-      "type": "Fey",
-      "origin": "",
+      "type": "Amorphous",
+      "origin": "Transformed mortal souls from before the creation of the Underworld",
       "lifespan": "Immortal",
-      "physique": "",
+      "physique": "Extremely varied in form, but universally characterized by very dark grey, almost black flesh and unnaturally thin bodies. They also all exclusively have eyes which glow a dim white constantly. Forms range from nearly humanoid to wildly alien, featuring multiple limbs, tentacles, or other unusual appendages.",
       "languages": [
         "Feyspeak",
         "Sylvaric"
       ],
-      "custom_details": "",
+      "custom_details": "Cannot reproduce among themselves but the more humanoid fey can breed with most mortal species, resulting in Fairy offspring. Possess powerful innate chaos magic. Most Fey have lost memories of their mortal lives due to the corrupting influence of the Feywilds over time, though they retain their core personalities and names. Their otherworldly nature and the loss of their past often makes them seem unsettling to mortals.",
       "homelands": "The Feywilds",
       "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "distribution": "Most Fey now reside in the central city of the Feywilds, where chaos beasts are less common. Their population is slowly declining since the creation of the Underworld halted the formation of new Fey.",
+      "history": "Before Hades constructed the Underworld, mortal souls would fall into the Feywilds upon death. These souls, corrupted by the plane's inherent chaos, were transformed into the first Fey. The chaos surrounding their souls formed their varied physical forms.",
+      "religion": "Their relationship with death and chaos shapes their worldview, though traditional religious worship is uncommon among them.",
+      "traditions": "Heavily focused on entertainment and artistic pursuits. Having no need for food, they spend much of their time drinking, using various substances, engaging with literature and music, or gambling.",
       "notable_figures": [],
-      "relationships": "Maintain a mutual distance with Dwarves, who avoid their realm. Find their mistrust somewhat entertaining."
+      "relationships": "Maintain a mutual distance with Dwarves, who avoid their realm. Find their mistrust somewhat entertaining.",
+      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts."
     },
     "Slothturtle": {
       "auto_link_strings": [
@@ -312,7 +375,32 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": [
+        ""
+      ]
+    },
+    "Halfling": {
+      "auto_link_strings": [
+        "Halfling",
+        "Halflings"
+      ],
+      "name": "Halflings",
+      "type": "Humanoid",
+      "origin": "",
+      "lifespan": "",
+      "physique": "Small in stature, typically around half the height of humans. Known for their hardy constitution despite their size, and their resistance to cold weather.",
+      "languages": [
+        "Sylvaric"
+      ],
+      "custom_details": "Possess a natural affinity for magic and are known for their exceptional cooking abilities. Their underground homes are marvels of engineering, combining comfort with protection from the harsh tundra climate. Skilled at adapting to their harsh environment, particularly notable in their persistent attempts to grow tropical spices in cold climates. Their primary import is exotic spices, though they've had varying success in cultivating their own. When forced to defend themselves, they rely on their natural magical aptitude and skill with quarterstaffs. Obtain most of their metal goods and jewelry through lumber trade with the Dwarves.",
+      "homelands": "Northwest Tundra",
+      "other_regions": "",
+      "distribution": "Live primarily in small, interconnected underground towns across the tundra region. Their settlements are connected by elaborate tunnel networks.",
+      "history": "",
+      "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life.",
+      "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
+      "notable_figures": [],
+      "relationships": "Universally respected by other species for their peaceful way of life. Their remote location and non-confrontational nature has helped them avoid most conflicts throughout history. Have a particularly strong relationship with the Dwarves, who provide military protection and metal goods in exchange for regulated access to tundra lumber."
     }
   }
 }
