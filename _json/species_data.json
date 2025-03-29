@@ -66,15 +66,17 @@
         "Dwarven",
         "Sylvaric"
       ],
-      "custom_details": "",
+      "custom_details": "Masters of metalwork and maritime trade, Dwarves have established themselves as the premier craftspeople of Sylvarus, particularly in metallurgy and stonework. Their influence on global trade through their powerful merchant fleets is nearly as significant as their mastery of crafting.",
       "homelands": "Kamboramm",
-      "other_regions": "",
-      "distribution": "",
-      "history": "",
-      "religion": "",
-      "traditions": "",
+      "other_regions": "Outside of Kamboramm, significant Dwarven populations can be found in Rositoria and Mideer, with smaller communities scattered throughout other nations.",
+      "distribution": "While primarily concentrated in Kamboramm, Dwarven craftspeople can be found throughout most nations, typically working as smiths, masons, and other skilled trades. Though capable in all professions, they culturally prefer hands-on work over administrative roles.",
+      "history": "The Dwarves built their civilization on the twin pillars of craftsmanship and seafaring, developing into one of the most economically influential species through their control of maritime trade routes and high-quality metalwork production.",
+      "culture": "Dwarven culture emphasizes durability and permanence, reflected in their stone architecture and metalwork. Despite their reputation for stoic craftsmanship, they are known for their warm hospitality and becoming particularly friendly when drinking.",
+      "traditions": "Celebrate numerous festivals based on their lunar calendar, with many celebrations centered around historical anniversaries. These gatherings typically feature extensive drinking and feasting. Their architectural tradition notably favors stone over wood, considering lumber too temporary for their tastes, with ships being the primary exception.",
+      "architecture": "Dwarven cities are masterworks of stone architecture, with minimal use of wood except in their impressive naval fleets. Their settlements are known for their durability and impressive engineering.",
+      "religion": "Generally secular in outlook, viewing gods more as powerful wizards than divine beings. While they honor their ancestors and celebrate legendary craftspeople and heroes, they typically don't worship them. Their respect for achievement and mastery tends to be practical rather than religious in nature.",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": "Historically tense relations with Elves due to cultural differences, resource disputes, and a long history of conflicts. View Humans as weak or foolish, though without serious animosity and will happily work together, but not often beneath unless respect is earned first. Consider Celestials to be even more arrogant and disagreeable than Elves. Hold respect for Halfling magic, Dragonborn courage and strength, and particularly admire Orcish craftsmanship. Regard Fey and Fairies with deep suspicion and generally avoid the Feywilds."
     },
     "Elf": {
       "auto_link_strings": [
@@ -99,7 +101,7 @@
       "religion": "Primarily worship deities of nature, stars, and the arcane.",
       "traditions": "Seasonal festivals, moon rites, coming-of-age quests.",
       "notable_figures": [],
-      "relationships": "Tense history with Dwarves due to resource disputes; relatively peaceful with Humans."
+      "relationships": "Tense history with Dwarves due to resource disputes and cultural clashes; relatively peaceful with Humans. The conflict with Dwarves stems from fundamentally different approaches to nature and resources."
     },
     "Fairy": {
       "auto_link_strings": [
@@ -123,7 +125,7 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": "Find Dwarven distrust amusing but generally respect their wishes to be left alone. Most Fairies avoid Dwarven settlements out of courtesy. though some of them are known to be quite intentionally mischievous and cause minor annoyances to dwarves at any opportunity."
     },
     "Human": {
       "auto_link_strings": [
@@ -289,7 +291,7 @@
       "religion": "",
       "traditions": "",
       "notable_figures": [],
-      "relationships": ""
+      "relationships": "Maintain a mutual distance with Dwarves, who avoid their realm. Find their mistrust somewhat entertaining."
     },
     "Slothturtle": {
       "auto_link_strings": [
