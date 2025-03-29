@@ -31,7 +31,8 @@
         "Viewed as arrogant by many species, particularly Dwarves",
         "Maintain diplomatic but distant relations with most other species",
         "Often seen as aloof by mortal races"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Dragonborn": {
       "auto_link_strings": [
@@ -59,7 +60,8 @@
         "Have ongoing territorial disputes with Celestials",
         "Share mutual respect with Dwarves for their respective crafts",
         "Maintain peaceful trade relations with most other nations"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Dwarf": {
       "auto_link_strings": [
@@ -101,7 +103,8 @@
         "Particularly respect Orcish craftsmanship",
         "Maintain strong suspicion of Fey and Fairies",
         "Protect Halfling territories in exchange for regulated lumber access"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Elf": {
       "auto_link_strings": [
@@ -130,7 +133,8 @@
         "Tense history with Dwarves due to resource disputes and cultural clashes",
         "Relatively peaceful relations with Humans",
         "Ongoing conflict with Dwarves stems from fundamentally different approaches to nature and resources"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Fairy": {
       "auto_link_strings": [
@@ -161,7 +165,8 @@
         "Share close bonds with Fey communities",
         "Generally welcomed in most mortal settlements due to their magical abilities"
       ],
-      "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences."
+      "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences.",
+      "example_image_paths": []
     },
     "Human": {
       "auto_link_strings": [
@@ -190,7 +195,8 @@
         "Most conflicts occur between human nations rather than with other species",
         "Generally more diplomatic with other species than with their own kind",
         "Maintain peaceful trade relations with most races"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Orc": {
       "auto_link_strings": [
@@ -220,7 +226,8 @@
         "Generally peaceful but guarded in their dealings with other species",
         "Known to respond with overwhelming force if attacked",
         "Prefer to stay out of others' conflicts"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Quall": {
       "auto_link_strings": [
@@ -245,7 +252,8 @@
       "relationships": [
         "No major relationships with other species as they are the only sentient species in their world",
         "Only really known due to the experience of multiversal travelers - especialy the Quall God Delinette, who ascending in Sylvarus after he travels"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Tiefling": {
       "auto_link_strings": [
@@ -275,7 +283,8 @@
         "Generally respected for their magical abilities and cultural achievements",
         "Share particularly good relations with humans and elves due to similar physical ability to interbreed with them - also "
       ],
-      "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion."
+      "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion.",
+      "example_image_paths": []
     },
     "Demigod": {
       "auto_link_strings": [
@@ -302,7 +311,8 @@
         "Complex relationships with their divine and mortal parentage",
         "Very often seen with distrust because of their chaotic and unpredictable nature also because of their fondness of alchemy",
         "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Dragon": {
       "auto_link_strings": [
@@ -334,7 +344,8 @@
         "Maintain strict separation between Astral and former material plane dragons",
         "Hold deep respect for the sparkbearer Asher despite his role in ending dragon rule"
       ],
-      "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. they beleive dragons should be judged by their own kind, not by mortals."
+      "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. they beleive dragons should be judged by their own kind, not by mortals.",
+      "example_image_paths": []
     },
     "Fey": {
       "auto_link_strings": [
@@ -358,7 +369,11 @@
       "traditions": "Heavily focused on entertainment and artistic pursuits. Having no need for food, they spend much of their time drinking, using various substances, engaging with literature and music, or gambling.",
       "notable_figures": [],
       "relationships": "Maintain a mutual distance with Dwarves, who avoid their realm. Find their mistrust somewhat entertaining.",
-      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts."
+      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts.",
+      "example_image_paths": [
+        "fey_example1.jpg",
+        "fey_example2.jpg"
+      ]
     },
     "Slothturtle": {
       "auto_link_strings": [
@@ -386,7 +401,8 @@
         "Often treated with reverence due to their divine nature",
         "Protected by most civilized societies due to their peaceful nature",
         "The Gods, though not legistlatively bound to do so, will be known to act harshly against any anyone captures or otherwise interferes with a slothturtle in an excessive manner"
-      ]
+      ],
+      "example_image_paths": []
     },
     "Halfling": {
       "auto_link_strings": [
@@ -409,7 +425,10 @@
       "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life. Their vegan lifestyle extends to avoiding leather, furs, and other animal products that require killing.",
       "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
       "notable_figures": [],
-      "relationships": "Universally respected by other species for their peaceful way of life. Their remote location and non-confrontational nature has helped them avoid most conflicts throughout history. Have a particularly strong relationship with the Dwarves, who provide military protection and metal goods in exchange for regulated access to tundra lumber."
+      "relationships": "Universally respected by other species for their peaceful way of life. Their remote location and non-confrontational nature has helped them avoid most conflicts throughout history. Have a particularly strong relationship with the Dwarves, who provide military protection and metal goods in exchange for regulated access to tundra lumber.",
+      "example_image_paths": [
+        "halfling_example1.jpg"
+      ]
     }
   }
 }
