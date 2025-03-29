@@ -8,6 +8,7 @@
 **Type:** {{ type }}  
 **Origin:** {{ origin }}  
 **Average Lifespan:** {{ lifespan }}  
+**Average Size:** {{ average_size_range }}  
 **Typical Physique:** {{ physique }}  
 **Common Languages:**  
 {% for language in languages %}
