@@ -1,0 +1,26 @@
+{
+  "config": {
+    "base_path": "docs/stories",
+    "template": "_templates/story_template.md"
+  },
+  "items": {
+    "The_Narnking_and_the_Dragonborn": {
+      "auto_link_strings": [
+        "Odinn & Alytica",
+        "Odinn & Alytica love story",
+        "Odinn's ascension",
+        "The Love Story of Odinn and Alytica",
+        "The Narnking and the Dragonborn"
+      ],
+      "name": "The Narnking and the Dragonborn",
+      "image_path": "narnking_and_dragonborn.jpg",
+      "story_path": "_content._md",
+      "character_names": [
+        "Odinn",
+        "Alytica",
+        "Apollo",
+        "Inkozna"
+      ]
+    }
+  }
+}

@@ -13,6 +13,7 @@ SCRIPTS=(
   "_scripts/generate_main_pantheon_page.py"
   "_scripts/generate_pantheon_indexes.py"
   "_scripts/insert_identifier_tables.py"
+  "_scripts/insert_story_content.py"
   "_scripts/auto_link_references.py"
   "_scripts/sort_json_items.py"
 )

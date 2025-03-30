@@ -14,3 +14,6 @@ theme:
 
 extra_css:
   - assets/custom.css
+
+exclude:
+  - "_*.md"
