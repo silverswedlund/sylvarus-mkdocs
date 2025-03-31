@@ -14,12 +14,18 @@
       ],
       "name": "The Narnking and the Dragonborn",
       "image_path": "narnking_and_dragonborn.jpg",
-      "story_path": "_content._md",
+      "story_path": "_odinn_and_alytica_content._md",
       "character_names": [
         "Odinn",
         "Alytica",
+        "Inkozana",
         "Apollo",
-        "Inkozna"
+        "Hera",
+        "Gilgamesh",
+        "Athena",
+        "Midas",
+        "Fortuna",
+        "Halacaster (not named as such in the story, he was the onboarding god for Odinn)"
       ]
     }
   }

@@ -12,5 +12,5 @@
 {% endif %}
 
 
-## 📕 Details
+## 📕 Story
 |story_placeholder|
