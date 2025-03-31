@@ -9,8 +9,8 @@
       "type": "Neuro Atypical",
       "description": "ADHD (Attention Deficit Hyperactivity Disorder) is a neurodevelopmental condition characterized by inattention, hyperactivity, and impulsivity.",
       "related_identifiers": [
-        "[Neurodivergent](../neurodivergent)",
-        "[Autism](../autism)"
+        "Neurodivergent",
+        "Autism"
       ],
       "image_path": "../../flags/adhd.jpg",
       "auto_link_strings": [
@@ -22,8 +22,8 @@
       "type": "LGBT",
       "description": "Agender refers to someone who identifies as having no gender or being gender-neutral.",
       "related_identifiers": [
-        "[Nonbinary](../nonbinary)",
-        "[Genderqueer](../genderqueer)"
+        "Nonbinary",
+        "Genderqueer"
       ],
       "image_path": "../../flags/agender.jpg",
       "auto_link_strings": [
@@ -35,7 +35,7 @@
       "type": "LGBT",
       "description": "Aromantic people experience little or no romantic attraction to others.",
       "related_identifiers": [
-        "[Asexual](../asexual)"
+        "Asexual"
       ],
       "image_path": "../../flags/aromantic.jpg",
       "auto_link_strings": [
@@ -47,7 +47,7 @@
       "type": "LGBT",
       "description": "Asexuality is the lack of sexual attraction to others, or low or absent interest in sexual activity.",
       "related_identifiers": [
-        "[Aromantic](../aromantic)"
+        "Aromantic"
       ],
       "image_path": "../../flags/asexual.jpg",
       "auto_link_strings": [
@@ -59,8 +59,8 @@
       "type": "Neuro Atypical",
       "description": "Autism is a neurodevelopmental condition that affects communication, behavior, and social interaction.",
       "related_identifiers": [
-        "[Neurodivergent](../neurodivergent)",
-        "[ADHD](../adhd)"
+        "Neurodivergent",
+        "ADHD"
       ],
       "image_path": "../../flags/autism.jpg",
       "auto_link_strings": [
@@ -73,7 +73,7 @@
       "type": "LGBT",
       "description": "Bicurious refers to someone exploring or curious about experiencing attraction to more than one gender.",
       "related_identifiers": [
-        "[Pansexual](../pansexual)"
+        "Pansexual"
       ],
       "image_path": "../../flags/bicurious.jpg",
       "auto_link_strings": [
@@ -85,8 +85,8 @@
       "type": "LGBT",
       "description": "A demiboy is someone who partially, but not wholly, identifies as a boy or man.",
       "related_identifiers": [
-        "[Nonbinary](../nonbinary)",
-        "[Demigirl](../demigirl)"
+        "Nonbinary",
+        "Demigirl"
       ],
       "image_path": "../../flags/demiboy.jpg",
       "auto_link_strings": [
@@ -98,8 +98,8 @@
       "type": "LGBT",
       "description": "A demigirl is someone who partially, but not wholly, identifies as a girl or woman.",
       "related_identifiers": [
-        "[Nonbinary](../nonbinary)",
-        "[Demiboy](../demiboy)"
+        "Nonbinary",
+        "Demiboy"
       ],
       "image_path": "../../flags/demigirl.jpg",
       "auto_link_strings": [
@@ -121,8 +121,8 @@
       "type": "LGBT",
       "description": "Genderqueer is a broad identity that encompasses gender identities that are not exclusively male or female.",
       "related_identifiers": [
-        "[Nonbinary](../nonbinary)",
-        "[Agender](../agender)"
+        "Nonbinary",
+        "Agender"
       ],
       "image_path": "../../flags/genderqueer.jpg",
       "auto_link_strings": [
@@ -134,7 +134,7 @@
       "type": "LGBT",
       "description": "A lesbian is a woman or feminine-aligned person who is primarily romantically or sexually attracted to other women.",
       "related_identifiers": [
-        "[MLM](../mlm)"
+        "Gay (MLM)"
       ],
       "image_path": "../../flags/lesbian.jpg",
       "auto_link_strings": [
@@ -146,12 +146,10 @@
       "type": "LGBT",
       "description": "MLM (men loving men) refers to men or masculine-aligned individuals who are romantically or sexually attracted to other men.",
       "related_identifiers": [
-        "[Gay](../gay)",
-        "[Pansexual](../pansexual)"
+        "Pansexual"
       ],
       "image_path": "../../flags/mlm.jpg",
       "auto_link_strings": [
-        "MLM",
         "Gay (MLM)"
       ]
     },
@@ -160,8 +158,8 @@
       "type": "Neuro Atypical",
       "description": "Neurodivergent is an umbrella term for people whose neurological development is atypical, including autism, ADHD, dyslexia, and others.",
       "related_identifiers": [
-        "[Autism](../autism)",
-        "[ADHD](../adhd)"
+        "Autism",
+        "ADHD"
       ],
       "image_path": "../../flags/neurodivergent.jpg",
       "auto_link_strings": [
@@ -173,10 +171,10 @@
       "type": "LGBT",
       "description": "Nonbinary is a gender identity that does not fit within the traditional binary of male or female.",
       "related_identifiers": [
-        "[Demiboy](../demiboy)",
-        "[Demigirl](../demigirl)",
-        "[Agender](../agender)",
-        "[Genderqueer](../genderqueer)"
+        "Demiboy",
+        "Demigirl",
+        "Agender",
+        "Genderqueer"
       ],
       "image_path": "../../flags/nonbinary.jpg",
       "auto_link_strings": [
@@ -209,8 +207,8 @@
       "type": "LGBT",
       "description": "Transgender refers to individuals whose gender identity differs from the sex they were assigned at birth.",
       "related_identifiers": [
-        "[Nonbinary](../nonbinary)",
-        "[Genderqueer](../genderqueer)"
+        "Nonbinary",
+        "Genderqueer"
       ],
       "image_path": "../../flags/transgender.jpg",
       "auto_link_strings": [
