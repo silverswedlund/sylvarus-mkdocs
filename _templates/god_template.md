@@ -53,6 +53,10 @@
 
 {{ custom_details }}
 
+**Relevant Stories:**  
+|relevant_story_table|  
+
+
 ---
 
 ## 🌀 Current Status

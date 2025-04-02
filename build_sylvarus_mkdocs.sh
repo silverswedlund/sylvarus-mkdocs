@@ -16,6 +16,7 @@ SCRIPTS=(
   "_scripts/insert_story_content.py"
   "_scripts/auto_link_references.py"
   "_scripts/sort_json_items.py"
+  "_scripts/insert_relevant_stories.py"
 )
 
 # Run Scripts

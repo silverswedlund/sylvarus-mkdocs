@@ -45,6 +45,9 @@
 {% endif %}
 {% endif %}
 
+**Relevant Stories:**  
+|relevant_story_table|  
+
 {{ custom_details }}
 
 ---

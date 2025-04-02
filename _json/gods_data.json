@@ -770,7 +770,8 @@
     },
     "Inkozana": {
       "auto_link_strings": [
-        "Inkozana"
+        "Inkozana",
+        "Inko"
       ],
       "name": "Inkozana",
       "pronouns": "She/Her",
@@ -860,7 +861,7 @@
     },
     "Malice": {
       "auto_link_strings": [
-        "Malice"
+        "Malice (god)"
       ],
       "name": "Malice",
       "pronouns": "He/Him",
@@ -1345,7 +1346,7 @@
     },
     "Virtue": {
       "auto_link_strings": [
-        "Virtue"
+        "Virtue (god)"
       ],
       "name": "Virtue",
       "pronouns": "He/Him",
