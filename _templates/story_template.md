@@ -1,7 +1,10 @@
 # {{ name }}
 
 <!-- Optional -->
+{% if image_path %}
 <img src="{{ image_path }}" alt="{{ name }}" width="400" />
+{% endif %}
+
 ---
 {% if character_names %}
 ## 📕 Characters
