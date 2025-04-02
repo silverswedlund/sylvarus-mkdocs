@@ -224,27 +224,31 @@
       "type": "Humanoid",
       "origin": "Hybrid offspring of Fey and mortals",
       "lifespan": "Immortal",
-      "physique": "Small in stature, combining traits of their mortal parent with Fey characteristics - notably thin builds and dark blood. Their appearance varies widely based on their mortal parentage.",
+      "physique": "Small in stature, combining traits of their mortal parent with Fey characteristics - notably thin builds, slightly pointed ears, and dark blood that appears almost black. Their appearance varies widely based on their mortal parentage, with skin tones ranging from pale blue to deep purple. Many have subtle luminescence that becomes more pronounced in darkness or when experiencing strong emotions.",
       "languages": [
         "Feyspeak",
         "Sylvaric"
       ],
-      "custom_details": "Possess an innate connection to chaos magic, allowing them limited influence over probability. This connection is inherited from their Fey parent but is typically less potent than pure Fey abilities.",
+      "custom_details": "Possess an innate connection to chaos magic, allowing them limited influence over probability and natural elements. This connection is inherited from their Fey parent but is typically less potent than pure Fey abilities. Many Fairies develop specialized talents based on their lineage and personal affinities - some excel at plant growth, others at weather manipulation, and some at emotional influence. Unlike their Fey parents, Fairies retain clear memories throughout their immortal lives and often serve as historians and storytellers. Their wings, which typically manifest during adolescence, vary greatly in appearance from butterfly-like to dragonfly patterns, and can be retracted when not in use.",
       "homelands": "The Feywilds",
-      "other_regions": "",
-      "distribution": "Most Fairies congregate in the central city of the Feywilds, where the chaos beasts are less prevalent. This creates a vibrant community mixing Fey and Fairy culture.",
+      "other_regions": "Small communities can be found in most forested regions of Sylvarus, particularly in ancient groves and areas with strong magical resonance. Notable settlements exist in the forests of Taliander and some of the northern valleys of Shal'nan.",
+      "distribution": "Most Fairies congregate in the central city of the Feywilds, where the chaos beasts are less prevalent. This creates a vibrant community mixing Fey and Fairy culture. Those living in the mortal realm tend to establish small, hidden communities in ancient forests or near ley line intersections. They often serve as guardians of these magical locations, maintaining the balance between the natural and supernatural worlds.",
       "history": "Fairies emerged as a species through the union of Fey with various mortal races. Their existence bridges the gap between the chaotic nature of the Feywilds and the ordered world of mortals.",
-      "religion": "Varied, often influenced by their mortal parent's culture, though many maintain a deep spiritual connection to the chaotic forces of the Feywilds.",
-      "traditions": "Like their Fey parents, they have a strong affinity for celebration, gambling, and artistic pursuits. Their fashion sense is distinctly bold and colorful, with hats being particularly important in their attire.",
+      "religion": "Varied, often influenced by their mortal parent's culture, though many maintain a deep spiritual connection to the chaotic forces of the Feywilds. Rather than worshipping specific deities, many Fairies practice a form of animism, honoring the spirits of nature and the fundamental forces of chaos and order. Many observe seasonal rituals tied to natural cycles, with particular emphasis on solstices and equinoxes in the mortal realm.",
+      "traditions": "Like their Fey parents, they have a strong affinity for celebration, gambling, and artistic pursuits. Their fashion sense is distinctly bold and colorful, with hats being particularly important in their attire. Fairy celebrations are renowned for their elaborate decorations, enchanted music that can play for days without repetition, and food that changes flavor with each bite. They mark significant life events with gift exchanges where the value lies not in the object's worth but in how difficult it was to obtain. Many Fairies undertake a 'Grand Wandering' in their youth, traveling throughout both the Feywilds and mortal realms to discover their unique talents and gather stories.",
       "notable_figures": [],
       "relationships": [
         "Find Dwarven distrust amusing but generally respect their wishes to be left alone",
         "Most Fairies avoid Dwarven settlements out of courtesy",
         "Some are known to be quite intentionally mischievous towards dwarves",
         "Share close bonds with Fey communities",
-        "Generally welcomed in most mortal settlements due to their magical abilities"
+        "Generally welcomed in most mortal settlements due to their magical abilities",
+        "Maintain particularly close relationships with Elves, who often seek their guidance in matters of ancient magic",
+        "Serve as advisors to many species, on the matters of the feywilds and the fey",
+        "Often form mutually beneficial arrangements with Orcs, exchanging magical knowledge artifacts for information about technology and gold",
+        "Regarded with cautious respect by Humans, who value their magical talents but remain wary of their chaotic nature"
       ],
-      "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences.",
+      "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences. Fairy society values creativity, spontaneity, and individual expression above all else. They organize themselves in loose collectives rather than rigid hierarchies, with leadership roles shifting based on specific needs and talents. Their homes are often architectural marvels that blend seamlessly with natural surroundings, incorporating living plants and magical enhancements. Fairy markets are famous throughout the realms for offering rare magical items, enchanted crafts, and experiences that cannot be found elsewhere. Despite their chaotic nature, Fairies maintain a strong ethical code regarding their interactions with mortals, believing that their magic should bring wonder and beauty rather than harm.",
       "example_image_paths": [
         "fairy_example.jpg"
       ],
@@ -263,22 +267,26 @@
         "Feyspeak",
         "Sylvaric"
       ],
-      "custom_details": "Cannot reproduce among themselves but the more humanoid fey can breed with most mortal species, resulting in Fairy offspring. Possess powerful innate chaos magic. Most Fey have lost memories of their mortal lives due to the corrupting influence of the Feywilds over time, though they retain their core personalities and names. Their otherworldly nature and the loss of their past often makes them seem unsettling to mortals.",
+      "custom_details": "Possess an innate connection to chaos magic, allowing them to manipulate probability and reality itself to varying degrees. This connection makes them unpredictable and sometimes dangerous to interact with. Some of the more powerful Fey can use chaos magic to perceive multiple potential futures simultaneously. Though all have reflexes of such and sometimes respond to events that haven't yet occurred or react supernaturally quickly. Their memories are still that of the mortals they once were, but their vast lifespans mean most dont remember their mortal lives or the majority of their pasts. Fairies, their offspring, are valued as historians - they retain the linear memory that Fey lack. Fey bodies are partially composed of raw chaos energy, allowing some to reshape themselves at will, though most maintain a consistent form for convenience when interacting with other species.",
       "homelands": "The Feywilds",
-      "other_regions": "",
-      "distribution": "Most Fey now reside in the central city of the Feywilds, where chaos beasts are less common. Their population is slowly declining since the creation of the Underworld halted the formation of new Fey.",
-      "history": "Before Hades constructed the Underworld, mortal souls would fall into the Feywilds upon death. These souls, corrupted by the plane's inherent chaos, were transformed into the first Fey. The chaos surrounding their souls formed their varied physical forms.",
-      "religion": "Their relationship with death and chaos shapes their worldview, though traditional religious worship is uncommon among them.",
-      "traditions": "Heavily focused on entertainment and artistic pursuits. Having no need for food, they spend much of their time drinking, using various substances, engaging with literature and music, or gambling.",
+      "other_regions": "Rarely found outside the Feywilds except during specific celestial alignments or at ancient sites where the boundary between realms is thin. Some Fey maintain permanent residences at these boundary locations, serving as guardians or gatekeepers.",
+      "distribution": "Primarily confined to the Feywilds, though occasionally venture into the mortal realm for brief periods. Within the Feywilds, they tend to cluster in regions that resonate with their particular affinity for certain aspects of chaos. Some are drawn to areas of wild growth and natural abundance, while others prefer zones of constant change and transformation. The most powerful Fey often claim territories in the far reaches of the Feywilds, where chaos energy is more concentrated.",
+      "history": "The Fey came into existence when mortal souls, untethered after death in an era before the Underworld's creation, were transformed by exposure to raw chaos energy. This transformation granted them immortality.",
+      "religion": "Do not worship gods in the conventional sense, though they acknowledge and sometimes interact with divine beings. Instead of religion, many Fey practice a form of reverence toward the fundamental forces of chaos itself. They recognize patterns within randomness and find meaning in the ever-changing nature of existence. Some elder Fey are themselves worshipped as minor deities by certain mortal cults, though they rarely encourage such behavior directly.",
+      "traditions": "Highly individualistic with few shared customs beyond a love for games of chance, bargains, and celebrations. The most universal Fey tradition is the Carnival of Possibilities, a gathering that occurs at unpredictable intervals when the chaos energies of the Feywilds reach particular intensities. During these events, Fey exchange experiences, forge new alliances, and participate in elaborate games where sometimes the probablistic influence over the future itself is a prize. Another common practice is the creation of 'chaos gardens' - spaces where multiple potential realities overlap, creating impossible landscapes that shift and transform based on the observer's perspective. For those who remember their mortal lives, Fey also practice 'name-keeping' - the careful guarding of their true names, which for unknown reasons can be used to bind or influence them if known.",
       "notable_figures": [],
       "relationships": [
-        "Maintain a mutual distance with Dwarves, who avoid their realm",
-        "Find their mistrust somewhat entertaining",
-        "Share close bonds with Fairies due to their hybrid nature",
-        "Generally avoided by most mortal species due to their unsettling nature",
-        "Known to occasionally trade with brave merchants seeking exotic goods"
+        "Viewed with extreme caution by most mortal species",
+        "Maintain complex relationships with Fairies, their offspring with mortals",
+        "Often enter into bargains with mortals seeking power or knowledge",
+        "Generally avoid direct conflict with gods and other powerful entities",
+        "Share a mutual fascination with Demigods, whose amorphous nature resonates with their own",
+        "Maintain an ancient pact with Dragons that limits their direct interference in mortal affairs",
+        "View Tieflings with particular interest due to their capacity to channel chaos magic",
+        "Regarded with deep suspicion and fear by Dwarves, who find their unpredictable nature antithetical to dwarven values of stability and craftsmanship",
+        "Often form temporary alliances with Elves for purposes that remain obscure to mortal understanding"
       ],
-      "culture": "Despite their dark appearance, Fey are known for wearing extremely colorful and uniquely styled clothing, with hats being particularly important in their fashion. They have a deep appreciation for music and the arts.",
+      "culture": "Fey society defies conventional understanding, operating on principles that seem contradictory or impossible to outside observers. Status among Fey is determined by a complex interplay of age, power, and the uniqueness of one's experiences. They organize themselves into 'courts' that are not geographic or political entities but rather philosophical alignments based on their relationship to different aspects of chaos. These courts are fluid, with Fey moving between them as their nature evolves. Art is central to Fey existence, though their creations often incorporate elements that change or transform the viewer in subtle ways. Music, in particular, holds special significance, with Fey compositions containing harmonies that mortals find extremely catchy and often cathartic. Some of the more advanced composers can create music that, somehow  realm that can alter the fabric of reality when performed correctly. Despite their chaotic nature, Fey adhere strictly to the terms of agreements they make, though they are notorious for exploiting loopholes and unexpected interpretations.",
       "example_image_paths": [
         "fey_example1.jpg",
         "fey_example2.jpg"
