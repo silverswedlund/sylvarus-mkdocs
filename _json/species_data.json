@@ -267,7 +267,7 @@
         "Feyspeak",
         "Sylvaric"
       ],
-      "custom_details": "Possess an innate connection to chaos magic, allowing them to manipulate probability and reality itself to varying degrees. This connection makes them unpredictable and sometimes dangerous to interact with. Some of the more powerful Fey can use chaos magic to perceive multiple potential futures simultaneously. Though all have reflexes of such and sometimes respond to events that haven't yet occurred or react supernaturally quickly. Their memories are still that of the mortals they once were, but their vast lifespans mean most dont remember their mortal lives or the majority of their pasts. Fairies, their offspring, are valued as historians - they retain the linear memory that Fey lack. Fey bodies are partially composed of raw chaos energy, allowing some to reshape themselves at will, though most maintain a consistent form for convenience when interacting with other species.",
+      "custom_details": "Possess an innate connection to chaos magic, allowing them to manipulate probability and reality itself to varying degrees. This connection makes them unpredictable and sometimes dangerous to interact with. Some of the more powerful Fey can use chaos magic to perceive multiple potential futures simultaneously. Though all have reflexes of such and sometimes respond to events that haven't yet occurred or react supernaturally quickly. Their memories are still that of the mortals they once were, but their vast lifespans mean most dont remember their mortal lives or the majority of their pasts. Fairies, their offspring, are valued as historians -. Fey bodies are partially composed of raw chaos energy, allowing some to reshape themselves at will, though most maintain a consistent form for convenience when interacting with other species.",
       "homelands": "The Feywilds",
       "other_regions": "Rarely found outside the Feywilds except during specific celestial alignments or at ancient sites where the boundary between realms is thin. Some Fey maintain permanent residences at these boundary locations, serving as guardians or gatekeepers.",
       "distribution": "Primarily confined to the Feywilds, though occasionally venture into the mortal realm for brief periods. Within the Feywilds, they tend to cluster in regions that resonate with their particular affinity for certain aspects of chaos. Some are drawn to areas of wild growth and natural abundance, while others prefer zones of constant change and transformation. The most powerful Fey often claim territories in the far reaches of the Feywilds, where chaos energy is more concentrated.",
@@ -484,7 +484,8 @@
         "Dragons share a special kinship with them, as both species are immortal and continue growing throughout their lives"
       ],
       "example_image_paths": [
-        "slothturtle_example.jpg"
+        "slothturtle_example.jpg",
+        "slothturtle_example2.jpg"
       ],
       "average_size_range": "height: 30-1500 cm (1-50 ft), with the youngest being the size of a small dog and the oldest reaching sizes comparable to small buildings"
     },
