@@ -46,6 +46,7 @@
 ---
 
 ## 🔗 Relationships with Other Species
-{{ relationships }}
-
+{% for relationship in relationships %}
+  - {{ relationship }}  
+{% endfor %}
 ---

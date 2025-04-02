@@ -32,7 +32,9 @@
         "Maintain diplomatic but distant relations with most other species",
         "Often seen as aloof by mortal races"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "celestial_example.jpg"
+      ],
       "average_size_range": "height: 160-206 cm (5'3\"-6'9\")"
     },
     "Demigod": {
@@ -61,7 +63,9 @@
         "Very often seen with distrust because of their chaotic and unpredictable nature also because of their fondness of alchemy",
         "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "demigod_example.jpg"
+      ],
       "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100kg"
     },
     "Dragon": {
@@ -95,7 +99,9 @@
         "Hold deep respect for the sparkbearer Asher despite his role in ending dragon rule"
       ],
       "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. They believe dragons should be judged by their own kind, not by mortals.",
-      "example_image_paths": [],
+      "example_image_paths": [
+        "dragon_example.jpg"
+      ],
       "average_size_range": "length: 366-1219 cm (12'0\"-40'0\") with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
     },
     "Dragonborn": {
@@ -125,7 +131,9 @@
         "Share mutual respect with Dwarves for their respective crafts",
         "Maintain peaceful trade relations with most other nations"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "dragonborn_example.jpg"
+      ],
       "average_size_range": "height: males 188 cm (6'2\"), females 201 cm (6'7\")"
     },
     "Dwarf": {
@@ -169,7 +177,9 @@
         "Maintain strong suspicion of Fey and Fairies",
         "Protect Halfling territories in exchange for regulated lumber access"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "dwarf_example.jpg"
+      ],
       "average_size_range": "height: 107-137 cm (3'6\"-4'6\")"
     },
     "Elf": {
@@ -200,7 +210,9 @@
         "Relatively peaceful relations with Humans",
         "Ongoing conflict with Dwarves stems from fundamentally different approaches to nature and resources"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "elf_example.jpg"
+      ],
       "average_size_range": "height: 160-206 cm (5'3\"-6'9\")"
     },
     "Fairy": {
@@ -233,7 +245,9 @@
         "Generally welcomed in most mortal settlements due to their magical abilities"
       ],
       "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences.",
-      "example_image_paths": [],
+      "example_image_paths": [
+        "fairy_example.jpg"
+      ],
       "average_size_range": "height: 91-107 cm (3'0\"-3'6\")"
     },
     "Fey": {
@@ -332,7 +346,9 @@
         "Generally more diplomatic with other species than with their own kind",
         "Maintain peaceful trade relations with most races"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "human_example.jpg"
+      ],
       "average_size_range": "height: 152-198 cm (5'0\"-6'6\")"
     },
     "Narn": {
@@ -343,15 +359,15 @@
       "name": "Narns",
       "type": "Humanoid",
       "origin": "Native to southern Sylvarus",
-      "lifespan": "Extended compared to humans",
+      "lifespan": "1100-1400 years",
       "physique": "Giants with immense physical strength and durability. Significantly larger than most other humanoid species.",
       "languages": [
         "Narnish",
         "Sylvaric"
       ],
       "custom_details": "Practitioners of a unique form of magic that binds the soul to the bloodstream, igniting divine energy within the body. This Narn magic is sacred, dangerous, and rarely taught to outsiders. Adult Narns are immune to most poisons and illnesses, though their children remain susceptible. Like all sentient beings, Narns can be chosen as Sparkbearers - individuals with divine sparks destined for godhood if they complete their unique trials.",
-      "homelands": "Southern regions of Sylvarus, particularly Narnlund",
-      "other_regions": "",
+      "homelands": "Narnlund",
+      "other_regions": "No major concentrations outside of Narnlund",
       "distribution": "Primarily concentrated in their homeland, with few venturing far from their territories",
       "history": "The Narns have a long history of honorable kingship and adherence to strict codes of conduct. Their society has remained relatively stable due to their emphasis on wisdom in leadership.",
       "religion": "While they acknowledge the gods, their primary spiritual focus is on living and dying with honor. Sparkbearers among them are treated with respect but not worshipped.",
@@ -363,7 +379,9 @@
         "Generally cold and distant toward most other species",
         "Value honor and strength in their interactions with all races"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "narn_example.jpg"
+      ],
       "average_size_range": "height: 300-400 cm (9'10\"-13'1\")"
     },
     "Orc": {
@@ -395,7 +413,9 @@
         "Known to respond with overwhelming force if attacked",
         "Prefer to stay out of others' conflicts"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "orc_example.jpg"
+      ],
       "average_size_range": "height: 188 cm (6'2\") with no sexual dimorphism"
     },
     "Quall": {
@@ -422,7 +442,9 @@
         "No major relationships with other species as they are the only sentient species in their world",
         "Only really known due to the experience of multiversal travelers - especialy the Quall God Delinette, who ascending in Sylvarus after he travels"
       ],
-      "example_image_paths": [],
+      "example_image_paths": [
+        "quall_example.jpg"
+      ],
       "average_size_range": "height: 152 cm (5'0\") with no sexual dimorphism"
     },
     "Slothturtle": {
@@ -432,28 +454,31 @@
       ],
       "name": "Slothturtles",
       "type": "Beast",
-      "origin": "",
+      "origin": "Unknown, believed to be one of the oldest species in existence",
       "lifespan": "Immortal",
-      "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age.",
+      "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age. Like Dragons, they continue growing throughout their immortal lives, with the oldest specimens reaching enormous sizes.",
       "languages": [],
-      "custom_details": "Possess powerful divine energy despite their peaceful herbivorous nature. Their method of reproduction remains a mystery to all other species. While believed to be sentient and capable of telepathic communication among themselves, they have never been observed attempting communication with other species. They are completely immune to all forms of damage, illness, or injury - similar to demigods and Olympic items, but even more absolute in their invulnerability.",
+      "custom_details": "Possess powerful divine energy despite their peaceful herbivorous nature. Their method of reproduction remains a mystery to all other species. While believed to be sentient and capable of telepathic communication among themselves, they have never been observed attempting communication with other species. They are completely immune to all forms of damage, illness, or injury - similar to demigods and Olympic items, but even more absolute in their invulnerability. The oldest and largest specimens are so rarely seen that many consider them mythical, though their existence has been confirmed by dragons and gods alike.",
       "homelands": "The Astral Plane",
       "other_regions": "Never found outside the Astral Plane. Some scholars believe their eggs manifest directly from the divine source itself, though this is not yet proven.",
-      "distribution": "Rarely seen but found in various locations across Sylvarus, typically in peaceful, isolated areas. Most commonly found in the Astral Plane, living solitary lives without any form of government or civilization.",
+      "distribution": "Rarely seen but found in various locations across the Astral Plane, typically in peaceful, isolated areas. They live solitary lives without any form of government or civilization. The largest specimens tend to inhabit the deepest, most remote regions of the Astral Plane.",
       "history": "Their origins are unknown, though they are believed to be one of the oldest species in existence. The only known end to their existence is through divine ascension, a process similar to enlightenment that occurs randomly throughout their lives.",
-      "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence.",
+      "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence. Despite their (evident) lack of communication, they appear to possess a deep wisdom that even the gods respect.",
       "religion": "Though divine in nature themselves, they show no observable religious practices",
-      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years.",
+      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years. Some scholars believe the largest specimens are those closest to ascension, though this remains unproven.",
       "notable_figures": [],
       "relationships": [
         "Peaceful coexistence with all species",
         "Never show aggression or attempt communication",
         "Often treated with reverence due to their divine nature",
         "Protected by most civilized societies due to their peaceful nature",
-        "The Gods, though not legislatively bound to do so, will be known to act harshly against anyone who captures or otherwise interferes with a slothturtle in an excessive manner"
+        "The Gods, though not legislatively bound to do so, will be known to act harshly against anyone who captures or otherwise interferes with a slothturtle in an excessive manner",
+        "Dragons share a special kinship with them, as both species are immortal and continue growing throughout their lives"
       ],
-      "example_image_paths": [],
-      "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
+      "example_image_paths": [
+        "slothturtle_example.jpg"
+      ],
+      "average_size_range": "height: 30-1500 cm (1-50 ft), with the youngest being the size of a small dog and the oldest reaching sizes comparable to small buildings"
     },
     "Tiefling": {
       "auto_link_strings": [
@@ -484,8 +509,10 @@
         "Share particularly good relations with humans and elves due to similar physical ability to interbreed with them - also "
       ],
       "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion.",
-      "example_image_paths": [],
-      "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
+      "example_image_paths": [
+        "tiefling_example.jpg"
+      ],
+      "average_size_range": "height: 150-230 cm"
     }
   }
 }
