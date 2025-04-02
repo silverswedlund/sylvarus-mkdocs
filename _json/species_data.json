@@ -455,6 +455,37 @@
       "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion.",
       "example_image_paths": [],
       "average_size_range": "height: 150-200 cm (4.9-6.6 ft)"
+    },
+    "Narn": {
+      "auto_link_strings": [
+        "Narn",
+        "Narns"
+      ],
+      "name": "Narns",
+      "type": "Humanoid",
+      "origin": "Native to southern Sylvarus",
+      "lifespan": "Extended compared to humans",
+      "physique": "Giants with immense physical strength and durability. Significantly larger than most other humanoid species.",
+      "languages": [
+        "Narnish",
+        "Sylvaric"
+      ],
+      "custom_details": "Practitioners of a unique form of magic that binds the soul to the bloodstream, igniting divine energy within the body. This Narn magic is sacred, dangerous, and rarely taught to outsiders. Adult Narns are immune to most poisons and illnesses, though their children remain susceptible. Like all sentient beings, Narns can be chosen as Sparkbearers - individuals with divine sparks destined for godhood if they complete their unique trials.",
+      "homelands": "Southern regions of Sylvarus, particularly Narnlund",
+      "other_regions": "",
+      "distribution": "Primarily concentrated in their homeland, with few venturing far from their territories",
+      "history": "The Narns have a long history of honorable kingship and adherence to strict codes of conduct. Their society has remained relatively stable due to their emphasis on wisdom in leadership.",
+      "religion": "While they acknowledge the gods, their primary spiritual focus is on living and dying with honor. Sparkbearers among them are treated with respect but not worshipped.",
+      "traditions": "Open challenges to leadership through honorable combat, where defeating a king grants the challenger the king's treasures. Emphasis on honorable life and death permeates all aspects of their culture.",
+      "notable_figures": [],
+      "relationships": [
+        "Closest alliance with Humans, with whom they share mutual respect",
+        "Hold fierce respect for Dragonborn warriors and their martial prowess",
+        "Generally cold and distant toward most other species",
+        "Value honor and strength in their interactions with all races"
+      ],
+      "example_image_paths": [],
+      "average_size_range": "height: 300-400 cm (9'10\"-13'1\")"
     }
   }
 }
