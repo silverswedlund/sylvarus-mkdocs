@@ -24,7 +24,9 @@
       "distribution": "",
       "history": "",
       "religion": "",
-      "traditions": "",
+      "traditions": [
+        ""
+      ],
       "notable_figures": [],
       "relationships": [
         "Ongoing territorial disputes with Dragonborn",
@@ -56,7 +58,9 @@
       "distribution": "",
       "history": "",
       "religion": "",
-      "traditions": "",
+      "traditions": [
+        ""
+      ],
       "notable_figures": [],
       "relationships": [
         "Complex relationships with their divine and mortal parentage",
@@ -88,7 +92,10 @@
       "distribution": "Primarily inhabit the Astral Plane, though historically some groups migrated to the material plane. Those who remained in the mortal realm became tyrannical rulers until their eventual defeat.",
       "history": "Originally all dragons lived in the Astral Plane. Millennia ago, some migrated to the material plane where they established dominion over large territories. The more cruel among them remained to rule over mortals, leading to their eventual disownment by their Astral kin. These terrestrial dragons were ultimately defeated by the sparkbearer Asher, whose revolution ended their reign. The region most affected by dragon rule became Rositoria, named after Asher.",
       "religion": "The dragons are not religious, but they do hold the sparkbearer Asher in high regard - they are also practicers of necromancy and talk with the dead often in religious ceremonies - there are also sections who worship the members of the dragongod pantheon - though they are not worshipped as gods, but as legendary or wise figures",
-      "traditions": "Have complex customs regarding territory, hierarchy, and interaction with mortals. Most traditions stem from preventing the abuse of power that led to the fall of the material plane dragons.",
+      "traditions": [
+        "Have complex customs regarding territory, hierarchy, and interaction with mortals.",
+        "Most traditions stem from preventing the abuse of power that led to the fall of the material plane dragons."
+      ],
       "notable_figures": [],
       "relationships": [
         "Share special connection with Dragonborn due to the dragongift blessing",
@@ -123,7 +130,9 @@
       "distribution": "Tend to live in small village communities, even outside their homeland",
       "history": "The Dragonborn came into being when the dragon god Shal'nan blessed her human followers with what is now known as the Dragongift.",
       "religion": "Most Dragonborn worship either nature deities or the Dragongods pantheon, particularly Quetzalcoatl and Shal'nan",
-      "traditions": "The Journey of Insight - Young Dragonborn (ages 20-25) embark on worldwide travels",
+      "traditions": [
+        "The Journey of Insight - Young Dragonborn (ages 20-25) embark on worldwide travels."
+      ],
       "notable_figures": [],
       "relationships": [
         "Generally maintain good relations with most species",
@@ -158,11 +167,11 @@
       "history": "The Dwarves built their civilization on the twin pillars of craftsmanship and seafaring, developing into one of the most economically influential species through their control of maritime trade routes and high-quality metalwork production.",
       "culture": "Dwarven culture emphasizes durability and permanence, reflected in their stone architecture and metalwork. Despite their reputation for stoic craftsmanship, they are known for their warm hospitality and becoming particularly friendly when drinking.",
       "traditions": [
-        "Lunar calendar celebrations throughout the year",
-        "Historical anniversary commemorations",
-        "Extensive drinking festivals",
-        "Crafting competitions and exhibitions",
-        "Maritime trade festivals"
+        "Lunar calendar celebrations throughout the year.",
+        "Historical anniversary commemorations.",
+        "Extensive drinking festivals.",
+        "Crafting competitions and exhibitions.",
+        "Maritime trade festivals."
       ],
       "architecture": "Dwarven cities are masterworks of stone architecture, with minimal use of wood except in their impressive naval fleets. Their settlements are known for their durability and impressive engineering.",
       "religion": "Generally secular in outlook, viewing gods more as powerful wizards than divine beings. While they honor their ancestors and celebrate legendary craftspeople and heroes, they typically don't worship them. Their respect for achievement and mastery tends to be practical rather than religious in nature.",
@@ -203,7 +212,11 @@
       "distribution": "",
       "history": "Elves are believed to be among the first sentient species to walk the surface of Sylvarus. Their history claims they were shaped from song and moonlight by a forgotten celestial being. Their early history is closely tied to the Feywild.",
       "religion": "Primarily worship deities of nature, stars, and the arcane.",
-      "traditions": "Seasonal festivals, moon rites, coming-of-age quests.",
+      "traditions": [
+        "Seasonal festivals.",
+        "Moon rites.",
+        "Coming-of-age quests."
+      ],
       "notable_figures": [],
       "relationships": [
         "Tense history with Dwarves due to resource disputes and cultural clashes",
@@ -235,7 +248,12 @@
       "distribution": "Most Fairies congregate in the central city of the Feywilds, where the chaos beasts are less prevalent. This creates a vibrant community mixing Fey and Fairy culture. Those living in the mortal realm tend to establish small, hidden communities in ancient forests or near ley line intersections. They often serve as guardians of these magical locations, maintaining the balance between the natural and supernatural worlds.",
       "history": "Fairies emerged as a species through the union of Fey with various mortal races. Their existence bridges the gap between the chaotic nature of the Feywilds and the ordered world of mortals.",
       "religion": "Varied, often influenced by their mortal parent's culture, though many maintain a deep spiritual connection to the chaotic forces of the Feywilds. Rather than worshipping specific deities, many Fairies practice a form of animism, honoring the spirits of nature and the fundamental forces of chaos and order. Many observe seasonal rituals tied to natural cycles, with particular emphasis on solstices and equinoxes in the mortal realm.",
-      "traditions": "Like their Fey parents, they have a strong affinity for celebration, gambling, and artistic pursuits. Their fashion sense is distinctly bold and colorful, with hats being particularly important in their attire. Fairy celebrations are renowned for their elaborate decorations, enchanted music that can play for days without repetition, and food that changes flavor with each bite. They mark significant life events with gift exchanges where the value lies not in the object's worth but in how difficult it was to obtain. Many Fairies undertake a 'Grand Wandering' in their youth, traveling throughout both the Feywilds and mortal realms to discover their unique talents and gather stories.",
+      "traditions": [
+        "Have a strong affinity for celebration, gambling, and artistic pursuits.",
+        "Fairy celebrations are renowned for their elaborate decorations, enchanted music, and food that changes flavor with each bite.",
+        "Mark significant life events with gift exchanges.",
+        "Many Fairies undertake a 'Grand Wandering' in their youth."
+      ],
       "notable_figures": [],
       "relationships": [
         "Find Dwarven distrust amusing but generally respect their wishes to be left alone",
@@ -273,7 +291,12 @@
       "distribution": "Primarily confined to the Feywilds, though occasionally venture into the mortal realm for brief periods. Within the Feywilds, they tend to cluster in regions that resonate with their particular affinity for certain aspects of chaos. Some are drawn to areas of wild growth and natural abundance, while others prefer zones of constant change and transformation. The most powerful Fey often claim territories in the far reaches of the Feywilds, where chaos energy is more concentrated.",
       "history": "The Fey came into existence when mortal souls, untethered after death in an era before the Underworld's creation, were transformed by exposure to raw chaos energy. This transformation granted them immortality.",
       "religion": "Do not worship gods in the conventional sense, though they acknowledge and sometimes interact with divine beings. Instead of religion, many Fey practice a form of reverence toward the fundamental forces of chaos itself. They recognize patterns within randomness and find meaning in the ever-changing nature of existence. Some elder Fey are themselves worshipped as minor deities by certain mortal cults, though they rarely encourage such behavior directly.",
-      "traditions": "Highly individualistic with few shared customs beyond a love for games of chance, bargains, and celebrations. The most universal Fey tradition is the Carnival of Possibilities, a gathering that occurs at unpredictable intervals when the chaos energies of the Feywilds reach particular intensities. During these events, Fey exchange experiences, forge new alliances, and participate in elaborate games where sometimes the probablistic influence over the future itself is a prize. Another common practice is the creation of 'chaos gardens' - spaces where multiple potential realities overlap, creating impossible landscapes that shift and transform based on the observer's perspective. For those who remember their mortal lives, Fey also practice 'name-keeping' - the careful guarding of their true names, which for unknown reasons can be used to bind or influence them if known.",
+      "traditions": [
+        "Highly individualistic with few shared customs beyond a love for games of chance, bargains, and celebrations.",
+        "The Carnival of Possibilities is a gathering that occurs at unpredictable intervals.",
+        "Creation of 'chaos gardens' - spaces where multiple potential realities overlap.",
+        "Practice 'name-keeping' - the careful guarding of their true names."
+      ],
       "notable_figures": [],
       "relationships": [
         "Viewed with extreme caution by most mortal species",
@@ -312,7 +335,11 @@
       "distribution": "Live primarily in small, interconnected underground towns across the tundra region. Their settlements are connected by elaborate tunnel networks.",
       "history": "",
       "culture": "Value comfort, good food, and peaceful living. Their society revolves around communal gatherings and celebrations, with cooking and crafting being central to their way of life. Their vegan lifestyle extends to avoiding leather, furs, and other animal products that require killing.",
-      "traditions": "Host elaborate multi-day celebrations for weddings, births, and funerals. Mark the equinoxes and solstices with grand feasts and drinking celebrations. Known for their ability to turn any gathering into a feast.",
+      "traditions": [
+        "Host elaborate multi-day celebrations for weddings, births, and funerals.",
+        "Mark the equinoxes and solstices with grand feasts and drinking celebrations.",
+        "Known for their ability to turn any gathering into a feast."
+      ],
       "notable_figures": [],
       "relationships": [
         "Universally respected by other species for their peaceful way of life",
@@ -341,12 +368,20 @@
         "Sylvaric"
       ],
       "custom_details": "",
-      "homelands": "Noridge",
-      "other_regions": "The most widespread species - you can find humans in every nation and territory outside of Athenia, though there are concentrations of them in some nations",
+      "homelands": "Noridge and New Noridge - the only two nations founded and ruled primarily by humans. New Noridge was originally a colony of Noridge that fought for and won its independence many generations ago.",
+      "other_regions": "The most widespread species - you can find humans in every nation and territory outside of Athenia. While humans make up significant populations in nations like Tyro, Mideer and Eton, these were not founded by humans alone - Eton was established primarily by elves, while the others were founded by mixed coalitions of different species.",
       "distribution": "",
       "history": "Humans are believed to be a descendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
       "religion": "Primarily worships the olypmians",
-      "traditions": "Bartering, humans love bartering and finding deals  \nWinter festivals  \n Gift Giving",
+      "traditions": [
+        "Bartering is deeply ingrained in human culture, with marketplaces and trade fairs being major social events.",
+        "Winter festivals are elaborate multi-day celebrations featuring feasts, music, dancing and gift exchanges.",
+        "Gift giving is a core tradition, with presents exchanged not just on special occasions but as a way to strengthen social bonds.",
+        "Naming ceremonies for newborns are community celebrations where the child receives blessings and symbolic gifts from family and neighbors.",
+        "Harvest festivals in autumn feature competitions in farming, crafting and cooking, with winners earning prestige in their communities.",
+        "The Night of Spirits, known as 'Ghosttide', occurs during the autumn equinox when the veil between worlds is believed to be thinnest.",
+        "Coming of age ceremonies vary by region but typically occur around age 16, involving tests of skill and wisdom before the young person is considered an adult."
+      ],
       "notable_figures": [],
       "relationships": [
         "Tense history with Orcs due to human subjugation of Orcs during the Age of Unity",
@@ -379,7 +414,10 @@
       "distribution": "Primarily concentrated in their homeland, with few venturing far from their territories",
       "history": "The Narns have a long history of honorable kingship and adherence to strict codes of conduct. Their society has remained relatively stable due to their emphasis on wisdom in leadership.",
       "religion": "While they acknowledge the gods, their primary spiritual focus is on living and dying with honor. Sparkbearers among them are treated with respect but not worshipped.",
-      "traditions": "Open challenges to leadership through honorable combat, where defeating a king grants the challenger the king's treasures. Emphasis on honorable life and death permeates all aspects of their culture.",
+      "traditions": [
+        "Open challenges to leadership through honorable combat.",
+        "Emphasis on honorable life and death permeates all aspects of their culture."
+      ],
       "notable_figures": [],
       "relationships": [
         "Closest alliance with Humans, with whom they share mutual respect",
@@ -413,7 +451,9 @@
       "distribution": "",
       "history": "Humans are believed to be a decendant species of the elves, the reason for their short life-spans is unknown, a long time legend is that they were blessed by an ancient god to give them a sense of urgency and importance around time",
       "religion": "Primarily worships the the Divine Parents, Iranara and Orakothros",
-      "traditions": "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years",
+      "traditions": [
+        "Homecoming - The Orcish homecoming is a tradition where Orcs who are outside of their hometown return to give birth and stay there for 4 years."
+      ],
       "notable_figures": [],
       "relationships": [
         "Historical tension with Humans due to subjugation during the Age of Unity",
@@ -444,7 +484,9 @@
       "distribution": "They live in a parallel version of Sylvarus, which exists in a parallel universe",
       "history": "They are the only sentient species in their world",
       "religion": "The power of the quall gods is immense due to the quall devotion to them, quallish gods historically have established cults and theocracies, and also known to kill sparkbearers. This is done to avoid competition from any new gods",
-      "traditions": "full devotion to the quall gods which influences their culture and traditions, including religious ceremonies, traditions, and holidays. The clergy class is the most powerful class in quall society, and they are the only ones who can communicate with the quall gods. The clergy class is also the only class that can use the divine magic of the quall gods.",
+      "traditions": [
+        "Full devotion to the quall gods influences their culture and traditions, including religious ceremonies, traditions, and holidays."
+      ],
       "notable_figures": [],
       "relationships": [
         "No major relationships with other species as they are the only sentient species in their world",
@@ -473,7 +515,10 @@
       "history": "Their origins are unknown, though they are believed to be one of the oldest species in existence. The only known end to their existence is through divine ascension, a process similar to enlightenment that occurs randomly throughout their lives.",
       "culture": "Solitary and contemplative. Show no interest in interaction with other species beyond peaceful coexistence. Despite their (evident) lack of communication, they appear to possess a deep wisdom that even the gods respect.",
       "religion": "Though divine in nature themselves, they show no observable religious practices",
-      "traditions": "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth. The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light. Sites of ascension become areas of extraordinary fertility and healing, with accelerated plant growth and enhanced healing properties that can last up to ten years. Some scholars believe the largest specimens are those closest to ascension, though this remains unproven.",
+      "traditions": [
+        "Take approximately 1000 years to reach maturity, spending their early life in deep meditation and slow growth.",
+        "The process of ascension involves the Slothturtle becoming completely motionless for several days before disappearing in a silent flash of white light."
+      ],
       "notable_figures": [],
       "relationships": [
         "Peaceful coexistence with all species",
@@ -509,7 +554,11 @@
       "distribution": "",
       "history": "",
       "religion": "",
-      "traditions": "Family loyalty is paramount in Tiefling culture. Each of the seven families maintains its own traditions and ceremonies, though all share a common reverence for their chaos god patrons. Leadership succession within families is determined by divine selection rather than heredity.",
+      "traditions": [
+        "Family loyalty is paramount in Tiefling culture.",
+        "Each of the seven families maintains its own traditions and ceremonies.",
+        "Leadership succession within families is determined by divine selection rather than heredity."
+      ],
       "notable_figures": [],
       "relationships": [
         "Face some prejudice in certain regions due to their infernal heritage - specifically in celestia where they are seen as a threat to the peace of the celestials, and they are not allowed to live in the celestian nation as permanent residents",
