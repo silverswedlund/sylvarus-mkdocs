@@ -17,6 +17,7 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 ## 🌟 Featured Species
 | Species Name | Type |
 |--------------|------|
+| Angel | Divine |
 | Celestials | Humanoid |
 | Demigods | Amorphous |
 | Dragons | Beast |
