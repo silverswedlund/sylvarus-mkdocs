@@ -14,7 +14,11 @@
 {% for language in languages %}
   - {{ language }}  
 {% endfor %}
-{{ custom_details }}
+
+{% if custom_details %}
+**Additional Details:**  
+  - {{ custom_details }}
+{% endif %}
 
 ---
 
@@ -39,8 +43,6 @@
 {% for tradition in traditions %}
   - {{ tradition }}  
 {% endfor %}
-
-{{ custom_details }}
 
 ---
 
