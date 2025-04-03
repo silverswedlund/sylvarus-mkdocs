@@ -4,6 +4,48 @@
     "template": "_templates/story_template.md"
   },
   "items": {
+    "Internal_Peace": {
+      "auto_link_strings": [
+        "Internal Peace",
+        "The Ascension of the Hestia"
+      ],
+      "name": "Internal Peace",
+      "story_path": "_internal_peace._md",
+      "character_names": [
+        "Hestia"
+      ]
+    },
+    "The_God_of_Regret": {
+      "auto_link_strings": [
+        "God of Regret",
+        "Regretful God",
+        "The Ascension of the Athena"
+      ],
+      "name": "The God of Regret",
+      "story_path": "_the_god_of_regret._md",
+      "character_names": [
+        "Athena",
+        "Set (titan)",
+        "Demeter"
+      ]
+    },
+    "The_Life_and_Works_of_Demeter": {
+      "auto_link_strings": [
+        "Life and Works of Demeter",
+        "Demeter's Life",
+        "The Ascension of the Demeter"
+      ],
+      "name": "The Life and Works of Demeter",
+      "story_path": "_the_life_and_works_of_demeter._md",
+      "character_names": [
+        "Demeter",
+        "Fortuna",
+        "Midas",
+        "Hades",
+        "Virtue (god)",
+        "Gilgamesh"
+      ]
+    },
     "The_Narnking_and_the_Dragonborn": {
       "auto_link_strings": [
         "Odinn & Alytica",
@@ -25,6 +67,44 @@
         "Midas",
         "Fortuna",
         "Halacaster (not named as such in the story, he was the onboarding god for Odinn)"
+      ]
+    },
+    "The_Phoenix_War_An_Introduction": {
+      "auto_link_strings": [
+        "Phoenix War",
+        "Introduction to the Phoenix War"
+      ],
+      "name": "The Phoenix War - An Introduction",
+      "story_path": "_the_phoenix_war_an_introduction._md",
+      "character_names": [
+        "Serinvlad Blackiron",
+        "Hawk Graewind",
+        ""
+      ]
+    },
+    "The_Thunder_God": {
+      "auto_link_strings": [
+        "The Thunder God",
+        "The Ascension of the Zeus"
+      ],
+      "name": "The God of Regret",
+      "story_path": "_the_god_of_regret._md",
+      "character_names": [
+        "Athena",
+        "Set (titan)",
+        "Demeter"
+      ]
+    },
+    "The_Turn_of_Virtue": {
+      "auto_link_strings": [
+        "Turn of Virtue",
+        "Virtue's Turn"
+      ],
+      "name": "The Turn of Virtue",
+      "story_path": "_the_turn_of_virtue._md",
+      "character_names": [
+        "Virtue (god)",
+        "Gilgamesh"
       ]
     }
   }
