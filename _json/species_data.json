@@ -571,6 +571,42 @@
         "tiefling_example.jpg"
       ],
       "average_size_range": "height: 150-230 cm"
+    },
+    "Angels": {
+      "auto_link_strings": [
+        "Angels",
+        "Angel",
+        "Angelic"
+      ],
+      "name": "Angels",
+      "type": "Divine",
+      "origin": "The Spaces Between Universes",
+      "lifespan": "Immortal",
+      "average_size_range": "5ft to 40ft",
+      "physique": "Varies widely; often appearing as surreal, a mix of metal and divine energy'",
+      "languages": [
+        "Angeltongue - A language similar to Celestial, but with a more complex grammar and syntax",
+        "All languages (through telepathy)"
+      ],
+      "homelands": "The Void Between Realms",
+      "other_regions": "Occasionally manifest within universes when pursuing multiversal travelers",
+      "history": "Angels emerged in the spaces between universes, possibly as a natural defense mechanism of the multiverse itself. Their origins are shrouded in mystery, but they appear to have existed since the earliest days of the multiverse, serving as guardians and enforcers of cosmic boundaries.",
+      "religion": "Unknown if they worship any higher power; they may consider themselves servants of the multiverse's natural order",
+      "traditions": [
+        "Enforcing multiversal boundaries",
+        "Returning travelers to their home realms",
+        "Eliminating persistent boundary-breakers"
+      ],
+      "notable_figures": [
+        "Archangels (names unknown) - Leaders of the various hiveminds"
+      ],
+      "relationships": [
+        "Hostile toward multiversal travelers",
+        "Neutral toward beings that remain in their designated realms",
+        "Relationship with gods is complex and largely undocumented"
+      ],
+      "custom_details": "Angels operate as multiple hiveminds, each controlled by an Archangel. These Archangels appear to lead different 'divisions' with specific functions, though the exact nature of these divisions remains unknown. Their appearance is often described as 'surreal' or 'impossible,' with forms that defy conventional physics and biology. They communicate telepathically within their hivemind and can access the collective knowledge of their division. Despite their name, they bear little resemblance to the benevolent guardians of human mythology, instead functioning as cosmic enforcers with a seemingly cold, mechanical dedication to maintaining the separation between universes.",
+      "distribution": "Angels primarily exist in the void between universes, though they can manifest within any realm when pursuing those who have crossed universal boundaries. They seem capable of traversing the multiverse with ease, suggesting an innate understanding of its structure that surpasses most other beings."
     }
   }
 }
