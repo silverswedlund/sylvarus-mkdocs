@@ -46,14 +46,25 @@ def load_all_json_items(json_dir):
 
 def linkify_safely(content, string, link, added_links):
     """Replace strings surrounded by whitespace, ignoring already-linked or special cases."""
-    escaped = re.escape(string)
-    pattern = re.compile(rf'(\s|^|\*)({escaped})(\s|,|\.|\*|$)', flags=re.IGNORECASE)
+    if '^' in string:
+        display_text, _ = string.split('^', 1)
+        escaped = re.escape(string)
+        pattern = re.compile(rf'(\s|^|\*)({escaped})(\s|,|\.|\*|$)', flags=re.IGNORECASE)
 
-    def safe_replacer(match):
-        added_links.append((match.group(0), link))
-        return f"{match.group(1)}[{match.group(2).strip()}]({link}){match.group(3)}"
+        def safe_replacer(match):
+            added_links.append((match.group(0), link))
+            return f"{match.group(1)}[{display_text}]({link}){match.group(3)}"
 
-    return pattern.sub(safe_replacer, content)
+        return pattern.sub(safe_replacer, content)
+    else:
+        escaped = re.escape(string)
+        pattern = re.compile(rf'(\s|^|\*)({escaped})(\s|,|\.|\*|$)', flags=re.IGNORECASE)
+
+        def safe_replacer(match):
+            added_links.append((match.group(0), link))
+            return f"{match.group(1)}[{match.group(2).strip()}]({link}){match.group(3)}"
+
+        return pattern.sub(safe_replacer, content)
 
 def update_existing_links(content, string, new_link, added_links):
     """Replace existing markdown links with updated links."""

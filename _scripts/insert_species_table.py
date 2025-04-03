@@ -19,7 +19,7 @@ def load_species_data(species_json_path):
 def construct_species_table(species_items):
     table_header = "| Species Name | Type |\n|--------------|------|"
     table_rows = [
-        f"| [{info['name']}](./{info['name'].lower()}/index.md) | {info['type']} |"
+        f"| {info['name']} | {info['type']} |"
         for info in species_items.values()
     ]
     return "\n".join([table_header] + table_rows)
@@ -46,7 +46,7 @@ def main(species_json_path, species_md_path):
 if __name__ == "__main__":
     # Default paths
     species_json_path = Path("_json/species_data.json")
-    species_md_path = Path("docs/species/species.md")
+    species_md_path = Path("docs/species/species_disambiguation.md")
 
     # Run the main function
     main(species_json_path, species_md_path)

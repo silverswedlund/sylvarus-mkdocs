@@ -5,7 +5,7 @@ import os
 
 # Define paths (adjust if necessary)
 gods_json_path = os.path.join("_json", "gods_data.json")
-pantheon_index_md_path = os.path.join("docs", "pantheons", "index.md")
+pantheon_index_md_path = os.path.join("docs", "pantheons", "pantheon_disambiguation.md")
 
 # Load gods data
 with open(gods_json_path, 'r') as file:

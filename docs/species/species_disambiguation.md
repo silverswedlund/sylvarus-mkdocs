@@ -17,18 +17,18 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 ## 🌟 Featured Species
 | Species Name | Type |
 |--------------|------|
-| [Celestials](./celestials/index.md) | Humanoid |
-| [Demigods](./demigods/index.md) | Amorphous |
-| [Dragons](./dragons/index.md) | Beast |
-| [Dragonborn](./dragonborn/index.md) | Humanoid |
-| [Dwarves](./dwarves/index.md) | Humanoid |
-| [Elves](./elves/index.md) | Humanoid |
-| [Fairies](./fairies/index.md) | Humanoid |
-| [Fey](./fey/index.md) | Amorphous |
-| [Halflings](./halflings/index.md) | Humanoid |
-| [Humans](./humans/index.md) | Humanoid |
-| [Narns](./narns/index.md) | Humanoid |
-| [Orcs](./orcs/index.md) | Humanoid |
-| [Quall](./quall/index.md) | Humanoid |
-| [Slothturtles](./slothturtles/index.md) | Beast |
-| [Tieflings](./tieflings/index.md) | Humanoid |
+| Celestials | Humanoid |
+| Demigods | Amorphous |
+| Dragons | Beast |
+| Dragonborn | Humanoid |
+| Dwarves | Humanoid |
+| Elves | Humanoid |
+| Fairies | Humanoid |
+| Fey | Amorphous |
+| Halflings | Humanoid |
+| Humans | Humanoid |
+| Narns | Humanoid |
+| Orcs | Humanoid |
+| Quall | Humanoid |
+| Slothturtles | Beast |
+| Tieflings | Humanoid |

@@ -86,7 +86,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
     - **The [Demerans](../pantheons/demerans/index.md)**
     - **The [Fortunians](../pantheons/fortunians/index.md)**
     - **The [Underworlders](../pantheons/underworlders/index.md)**
-    - **The [Dragongods](../pantheons/midasians/index.md)**
+    - **The [Dragongods](../pantheons/dragongods/index.md)**
     - **The Midasian Pantheon** *(Special Clause Applied; See Article VIII)*
 2. Any group of **three or more gods** may form a new pantheon by submitting a formal declaration to the Council.
 3. Gods may swap pantheons, subject only to approval by the pantheon they wish to join.

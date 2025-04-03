@@ -42,7 +42,7 @@
         "Fortuna",
         "Midas",
         "Hades",
-        "Virtue (god)",
+        "Virtue^god",
         "Gilgamesh"
       ]
     },
@@ -103,7 +103,7 @@
       "name": "The Turn of Virtue",
       "story_path": "_the_turn_of_virtue._md",
       "character_names": [
-        "Virtue (god)",
+        "Virtue^god",
         "Gilgamesh"
       ]
     }

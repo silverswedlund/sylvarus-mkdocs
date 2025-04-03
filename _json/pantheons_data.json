@@ -1,63 +1,99 @@
 {
-  "description": "Contains information on the pantheons exclusively for auto-linking",
   "config": {
-    "base_path": "docs/pantheons"
+    "base_path": "docs/pantheons",
+    "template": "_templates/pantheon_template.md"
   },
   "items": {
     "Athenians": {
       "auto_link_strings": [
         "Athenians"
       ],
-      "name": "Athenians"
+      "name": "Athenians",
+      "era_of_creation": "Classical Era",
+      "founding_member": "Athena",
+      "current_leader": "Athena",
+      "custom_details": "Known for wisdom and strategic warfare."
     },
     "Demerans": {
       "auto_link_strings": [
         "Demerans"
       ],
-      "name": "Demerans"
+      "name": "Demerans",
+      "era_of_creation": "Ancient Era",
+      "founding_member": "Demeter",
+      "current_leader": "Demeter",
+      "custom_details": "Associated with agriculture and fertility."
     },
     "Dragongods": {
       "auto_link_strings": [
         "Dragongods"
       ],
-      "name": "Dragongods"
+      "name": "Dragongods",
+      "era_of_creation": "Mythic Era",
+      "founding_member": "Shal'nan",
+      "current_leader": "Quetzalcoatl",
+      "custom_details": "Revered by Dragonborn and dragons alike."
     },
     "Fortunians": {
       "auto_link_strings": [
         "Fortunians"
       ],
-      "name": "Fortunians"
+      "name": "Fortunians",
+      "era_of_creation": "Renaissance Era",
+      "founding_member": "Fortuna",
+      "current_leader": "Fortuna",
+      "custom_details": "Patrons of luck and fortune."
     },
     "Gilgamites": {
       "auto_link_strings": [
         "Gilgamites"
       ],
-      "name": "Gilgamites"
+      "name": "Gilgamites",
+      "era_of_creation": "Heroic Era",
+      "founding_member": "Gilgamesh",
+      "current_leader": "Gilgamesh",
+      "custom_details": "Known for strength and epic quests."
     },
     "Midasians": {
       "auto_link_strings": [
-        "Dragongods"
+        "Midasians"
       ],
-      "name": "Dragongods"
+      "name": "Midasians",
+      "era_of_creation": "Golden Era",
+      "founding_member": "Midas",
+      "current_leader": "Midas",
+      "custom_details": "Famous for wealth and the golden touch."
     },
     "None": {
       "auto_link_strings": [
         "(No Pantheon Affiliation)",
         "no pantheon affiliation"
       ],
-      "name": "None"
+      "name": "None",
+      "era_of_creation": "N/A",
+      "founding_member": "N/A",
+      "current_leader": "N/A",
+      "custom_details": "Represents those without pantheon ties."
     },
     "Underworlders": {
       "auto_link_strings": [
         "Underworlders"
       ],
-      "name": "Underworlders"
+      "name": "Underworlders",
+      "era_of_creation": "Underworld Era",
+      "founding_member": "Hades",
+      "current_leader": "Hades",
+      "custom_details": "Rulers of the underworld and afterlife."
     },
     "Zagarans": {
       "auto_link_strings": [
         "Zagarans"
       ],
-      "name": "Zagarans"
+      "name": "Zagarans",
+      "era_of_creation": "Mystic Era",
+      "founding_member": "Zagara",
+      "current_leader": "Zagara",
+      "custom_details": "Mystics and seers of the divine."
     }
   }
 }

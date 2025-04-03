@@ -6,7 +6,8 @@
   "items": {
     "Amun": {
       "auto_link_strings": [
-        "Amun"
+        "Amun",
+        "Amun^god"
       ],
       "name": "Amun",
       "pronouns": "He/Him",
@@ -36,7 +37,8 @@
     },
     "Anuke": {
       "auto_link_strings": [
-        "Anuke"
+        "Anuke",
+        "Anuke^god"
       ],
       "name": "Anuke",
       "pronouns": "She/Her",
@@ -67,7 +69,8 @@
     },
     "Aphrodite": {
       "auto_link_strings": [
-        "Aphrodite"
+        "Aphrodite",
+        "Aphrodite^god"
       ],
       "name": "Aphrodite",
       "pronouns": "She/Her",
@@ -104,7 +107,8 @@
     },
     "Apollo": {
       "auto_link_strings": [
-        "Apollo"
+        "Apollo",
+        "Apollo^god"
       ],
       "name": "Apollo",
       "pronouns": "He/Him",
@@ -120,8 +124,8 @@
       "current_status": "Doing political moves in Olympia",
       "image_path": "apollo.jpg",
       "history": "Doing pol",
-      "music_path": "apollo_|_the_promised_neverland_ost_-_isabella’s_lullaby.mp4",
-      "song_name": "The Promised Neverland OST - Isabella’s Lullaby",
+      "music_path": "apollo_|_the_promised_neverland_ost_-_isabella's_lullaby.mp4",
+      "song_name": "The Promised Neverland OST - Isabella's Lullaby",
       "lgbtq_identifications": [
         "none"
       ],
@@ -133,7 +137,8 @@
     },
     "Ares": {
       "auto_link_strings": [
-        "Ares"
+        "Ares",
+        "Ares^god"
       ],
       "name": "Ares",
       "pronouns": "He/Him",
@@ -163,7 +168,8 @@
     },
     "Artemis": {
       "auto_link_strings": [
-        "Artemis"
+        "Artemis",
+        "Artemis^god"
       ],
       "name": "Artemis",
       "pronouns": "She/Her",
@@ -193,7 +199,8 @@
     },
     "Asher": {
       "auto_link_strings": [
-        "Asher"
+        "Asher",
+        "Asher^god"
       ],
       "name": "Asher",
       "pronouns": "He/Him",
@@ -223,7 +230,8 @@
     },
     "Athena": {
       "auto_link_strings": [
-        "Athena"
+        "Athena",
+        "Athena^god"
       ],
       "name": "Athena",
       "pronouns": "She/Her",
@@ -253,7 +261,8 @@
     },
     "Balbarash": {
       "auto_link_strings": [
-        "Balbarash"
+        "Balbarash",
+        "Balbarash^god"
       ],
       "name": "Balbarash",
       "pronouns": "he/they",
@@ -285,7 +294,7 @@
     },
     "Death": {
       "auto_link_strings": [
-        "Death (god)"
+        "Death^god"
       ],
       "name": "Death",
       "pronouns": "He/Him",
@@ -315,7 +324,8 @@
     },
     "Delinette": {
       "auto_link_strings": [
-        "Delinette"
+        "Delinette",
+        "Delinette^god"
       ],
       "name": "Delinette",
       "pronouns": "she/they",
@@ -347,7 +357,8 @@
     },
     "Demeter": {
       "auto_link_strings": [
-        "Demeter"
+        "Demeter",
+        "Demeter^god"
       ],
       "name": "Demeter",
       "pronouns": "She/Her",
@@ -378,7 +389,8 @@
     },
     "Dionysus": {
       "auto_link_strings": [
-        "Dionysus"
+        "Dionysus",
+        "Dionysus^god"
       ],
       "name": "Dionysus",
       "pronouns": "He/Him",
@@ -409,7 +421,8 @@
     },
     "Ecatra": {
       "auto_link_strings": [
-        "Ecatra"
+        "Ecatra",
+        "Ecatra^god"
       ],
       "name": "Ecatra",
       "pronouns": "She/Her",
@@ -440,7 +453,8 @@
     },
     "Enkidu": {
       "auto_link_strings": [
-        "Enkidu"
+        "Enkidu",
+        "Enkidu^god"
       ],
       "name": "Enkidu",
       "pronouns": "He/Him",
@@ -460,7 +474,8 @@
     },
     "Eris": {
       "auto_link_strings": [
-        "Eris"
+        "Eris",
+        "Eris^god"
       ],
       "name": "Eris",
       "pronouns": "She/Her",
@@ -490,7 +505,8 @@
     },
     "Fortuna": {
       "auto_link_strings": [
-        "Fortuna"
+        "Fortuna",
+        "Fortuna^god"
       ],
       "name": "Fortuna",
       "pronouns": "She/Her",
@@ -520,7 +536,8 @@
     },
     "Freija": {
       "auto_link_strings": [
-        "Freija"
+        "Freija",
+        "Freija^god"
       ],
       "name": "Freija",
       "pronouns": "She/Her",
@@ -550,7 +567,8 @@
     },
     "Gilgamesh": {
       "auto_link_strings": [
-        "Gilgamesh"
+        "Gilgamesh",
+        "Gilgamesh^god"
       ],
       "name": "Gilgamesh",
       "pronouns": "He/Him",
@@ -582,7 +600,8 @@
     },
     "Hades": {
       "auto_link_strings": [
-        "Hades"
+        "Hades",
+        "Hades^god"
       ],
       "name": "Hades",
       "pronouns": "He/Him",
@@ -618,7 +637,8 @@
     },
     "Halacaster": {
       "auto_link_strings": [
-        "Halacaster"
+        "Halacaster",
+        "Halacaster^god"
       ],
       "name": "Halacaster",
       "pronouns": "They/Them",
@@ -648,7 +668,8 @@
     },
     "Hephaestus": {
       "auto_link_strings": [
-        "Hephaestus"
+        "Hephaestus",
+        "Hephaestus^god"
       ],
       "name": "Hephaestus",
       "pronouns": "any/all",
@@ -680,7 +701,8 @@
     },
     "Hera": {
       "auto_link_strings": [
-        "Hera"
+        "Hera",
+        "Hera^god"
       ],
       "name": "Hera",
       "pronouns": "She/Her",
@@ -710,7 +732,8 @@
     },
     "Hermes": {
       "auto_link_strings": [
-        "Hermes"
+        "Hermes",
+        "Hermes^god"
       ],
       "name": "Hermes",
       "pronouns": "He/Him",
@@ -740,7 +763,8 @@
     },
     "Hestia": {
       "auto_link_strings": [
-        "Hestia"
+        "Hestia",
+        "Hestia^god"
       ],
       "name": "Hestia",
       "pronouns": "She/Her",
@@ -771,7 +795,7 @@
     "Inkozana": {
       "auto_link_strings": [
         "Inkozana",
-        "Inko"
+        "Inkozana^god"
       ],
       "name": "Inkozana",
       "pronouns": "She/Her",
@@ -801,7 +825,8 @@
     },
     "Iranara": {
       "auto_link_strings": [
-        "Iranara"
+        "Iranara",
+        "Iranara^god"
       ],
       "name": "Iranara",
       "pronouns": "She/Her",
@@ -831,7 +856,8 @@
     },
     "Loki": {
       "auto_link_strings": [
-        "Loki"
+        "Loki",
+        "Loki^god"
       ],
       "name": "Loki",
       "pronouns": "He/Him",
@@ -861,7 +887,7 @@
     },
     "Malice": {
       "auto_link_strings": [
-        "Malice (god)"
+        "Malice^god"
       ],
       "name": "Malice",
       "pronouns": "He/Him",
@@ -891,7 +917,8 @@
     },
     "Marith": {
       "auto_link_strings": [
-        "Marith"
+        "Marith",
+        "Marith^god"
       ],
       "name": "Marith",
       "pronouns": "He/Him",
@@ -922,7 +949,8 @@
     },
     "Midas": {
       "auto_link_strings": [
-        "Midas"
+        "Midas",
+        "Midas^god"
       ],
       "name": "Midas",
       "pronouns": "doesn't care",
@@ -952,7 +980,8 @@
     },
     "Nyx": {
       "auto_link_strings": [
-        "Nyx"
+        "Nyx",
+        "Nyx^god"
       ],
       "name": "Nyx",
       "pronouns": "She/Her",
@@ -982,7 +1011,8 @@
     },
     "Odinn": {
       "auto_link_strings": [
-        "Odinn"
+        "Odinn",
+        "Odinn^god"
       ],
       "name": "Odinn",
       "pronouns": "He/Him",
@@ -1012,7 +1042,8 @@
     },
     "Orakothros": {
       "auto_link_strings": [
-        "Orakothros"
+        "Orakothros",
+        "Orakothros^god"
       ],
       "name": "Orakothros",
       "pronouns": "He/Him",
@@ -1042,7 +1073,8 @@
     },
     "Orpheus": {
       "auto_link_strings": [
-        "Orpheus"
+        "Orpheus",
+        "Orpheus^god"
       ],
       "name": "Orpheus",
       "pronouns": "he/they",
@@ -1072,7 +1104,8 @@
     },
     "Osiris": {
       "auto_link_strings": [
-        "Osiris"
+        "Osiris",
+        "Osiris^god"
       ],
       "name": "Osiris",
       "pronouns": "He/Him",
@@ -1102,7 +1135,8 @@
     },
     "Pan": {
       "auto_link_strings": [
-        "Pan"
+        "Pan",
+        "Pan^god"
       ],
       "name": "Pan",
       "pronouns": "He/Him",
@@ -1132,7 +1166,8 @@
     },
     "Poseidon": {
       "auto_link_strings": [
-        "Poseidon"
+        "Poseidon",
+        "Poseidon^god"
       ],
       "name": "Poseidon",
       "pronouns": "He/Him",
@@ -1162,8 +1197,10 @@
     },
     "Shal'nan": {
       "auto_link_strings": [
-        "Shal'nan (god)",
-        "Shalnan (god)"
+        "Shal'nan",
+        "Shal'nan^god",
+        "Shalnan",
+        "Shalnan^god"
       ],
       "name": "Shal'nan",
       "pronouns": "They/Them",
@@ -1193,7 +1230,7 @@
     },
     "Silence": {
       "auto_link_strings": [
-        "Silence (god)"
+        "Silence^god"
       ],
       "name": "Silence",
       "pronouns": "She/Her",
@@ -1223,7 +1260,8 @@
     },
     "Thanatos": {
       "auto_link_strings": [
-        "Thanatos"
+        "Thanatos",
+        "Thanatos^god"
       ],
       "name": "Thanatos",
       "pronouns": "They/Them",
@@ -1253,7 +1291,8 @@
     },
     "Tyro": {
       "auto_link_strings": [
-        "Tyro"
+        "Tyro",
+        "Tyro^god"
       ],
       "name": "Tyro",
       "pronouns": "He/Him",
@@ -1283,7 +1322,8 @@
     },
     "Valentina": {
       "auto_link_strings": [
-        "Valentina"
+        "Valentina",
+        "Valentina^god"
       ],
       "name": "Valentina",
       "pronouns": "She/Her",
@@ -1314,7 +1354,8 @@
     },
     "Versengeterix": {
       "auto_link_strings": [
-        "Versengeterix"
+        "Versengeterix",
+        "Versengeterix^god"
       ],
       "name": "Versengeterix",
       "pronouns": "He/Him",
@@ -1346,7 +1387,7 @@
     },
     "Virtue": {
       "auto_link_strings": [
-        "Virtue (god)"
+        "Virtue^god"
       ],
       "name": "Virtue",
       "pronouns": "He/Him",
@@ -1376,7 +1417,8 @@
     },
     "Zagreus": {
       "auto_link_strings": [
-        "Zagreus"
+        "Zagreus",
+        "Zagreus^god"
       ],
       "name": "Zagreus",
       "pronouns": "He/Him",
@@ -1406,7 +1448,8 @@
     },
     "Zeus": {
       "auto_link_strings": [
-        "Zeus"
+        "Zeus",
+        "Zeus^god"
       ],
       "name": "Zeus",
       "pronouns": "He/Him",
@@ -1437,7 +1480,8 @@
     },
     "quetzalcoatl": {
       "auto_link_strings": [
-        "quetzalcoatl"
+        "quetzalcoatl",
+        "quetzalcoatl^god"
       ],
       "name": "quetzalcoatl",
       "pronouns": "They/Them",
