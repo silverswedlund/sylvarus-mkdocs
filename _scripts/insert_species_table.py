@@ -2,7 +2,6 @@ import json
 import logging
 from pathlib import Path
 import sys
-import re
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -24,29 +23,27 @@ def construct_species_table(species_items):
     ]
     return "\n".join([table_header] + table_rows)
 
-def update_species_md(species_md_path, species_table):
+def write_species_table_insert(insert_file_path, species_table):
     try:
-        species_md_content = species_md_path.read_text(encoding="utf-8")
+        # Create parent directories if they don't exist
+        insert_file_path.parent.mkdir(parents=True, exist_ok=True)
         
-        # Use regex to find and replace the existing table
-        table_pattern = r"\| Species Name \| Type \|\n\|--------------\|------\|(?:\n\| .+ \| .+ \|)*"
-        updated_content = re.sub(table_pattern, species_table, species_md_content)
-        
-        species_md_path.write_text(updated_content, encoding="utf-8")
-        logging.info("Species table inserted into species.md.")
+        # Write the table to the insert file
+        insert_file_path.write_text(species_table, encoding="utf-8")
+        logging.info(f"Species table written to {insert_file_path}")
     except Exception as e:
-        logging.error(f"Failed to update species.md: {e}")
+        logging.error(f"Failed to write to {insert_file_path}: {e}")
         sys.exit(1)
 
-def main(species_json_path, species_md_path):
+def main(species_json_path, insert_file_path):
     species_items = load_species_data(species_json_path)
     species_table = construct_species_table(species_items)
-    update_species_md(species_md_path, species_table)
+    write_species_table_insert(insert_file_path, species_table)
 
 if __name__ == "__main__":
     # Default paths
     species_json_path = Path("_json/species_data.json")
-    species_md_path = Path("docs/species/species_disambiguation.md")
+    insert_file_path = Path("docs/species/species_table.md_insert")
 
     # Run the main function
-    main(species_json_path, species_md_path)
+    main(species_json_path, insert_file_path)

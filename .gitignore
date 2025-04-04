@@ -8,3 +8,4 @@ venv/
 *.mp3
 **/index.md
 _scripts/pickles/*
+**/*.md_insert

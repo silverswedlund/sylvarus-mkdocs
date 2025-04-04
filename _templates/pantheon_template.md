@@ -19,4 +19,7 @@
 
 
 ## 🧙 Members
-|members_table|
+{% include "pantheons/{{name|lower}}/members_table.md_insert" %}
+
+## History
+{{history}}

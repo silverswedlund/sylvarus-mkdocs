@@ -15,21 +15,4 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 - **Inter-Species Relationships**: Explore the complex web of relationships between species. Whether it's the longstanding alliances or the historical tensions, these interactions are crucial to understanding the dynamics of Sylvarus.
 
 ## 🌟 Featured Species
-| Species Name | Type |
-|--------------|------|
-| [Angel](angel/index.md) | Divine |
-| [Celestials](celestial/index.md) | Humanoid |
-| [Demigods](demigod/index.md) | Amorphous |
-| [Dragons](dragon/index.md) | Beast |
-| [Dragonborn](dragonborn/index.md) | Humanoid |
-| [Dwarves](dwarf/index.md) | Humanoid |
-| [Elves](elf/index.md) | Humanoid |
-| [Fairies](fairy/index.md) | Humanoid |
-| [Fey](fey/index.md) | Amorphous |
-| [Halflings](halfling/index.md) | Humanoid |
-| [Humans](human/index.md) | Humanoid |
-| [Narns](narn/index.md) | Humanoid |
-| [Orcs](orc/index.md) | Humanoid |
-| [Quall](quall/index.md) | Humanoid |
-| [Slothturtles](slothturtle/index.md) | Beast |
-| [Tieflings](tiefling/index.md) | Humanoid |
+{% include "species/species_table.md_insert" %}

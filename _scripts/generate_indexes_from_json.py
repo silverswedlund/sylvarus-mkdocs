@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 import os
 import json
@@ -7,6 +6,8 @@ import argparse
 import glob
 import shutil
 import pickle
+import re
+import tempfile
 
 PICKLE_DIR = "_scripts/pickles"
 PICKLE_EXCLUDED_JSON_FILES = ["identifiers_data.json"]  # JSON files to exclude from pickle tracking
@@ -66,6 +67,48 @@ def has_git_changes(path):
         print(f"❌ Git status error in {path}: {e}")
         return True
 
+def protect_jinja_includes(file_path):
+    """Encode Jinja includes with special markers"""
+    if not os.path.exists(file_path):
+        return file_path, False
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Find all {% include ... %} patterns
+    include_pattern = r'{%\s*include\s+(.*?)\s*%}'
+    
+    # Check if there are any includes to process
+    if not re.search(include_pattern, content):
+        return file_path, False
+    
+    # Replace includes with markers
+    modified_content = re.sub(
+        include_pattern,
+        r"|include_prefix|\1|include_postfix|",
+        content
+    )
+    
+    # Create a temporary file with encoded includes
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.md')
+    temp_path = temp_file.name
+    
+    with open(temp_path, 'w', encoding='utf-8') as f:
+        f.write(modified_content)
+    
+    return temp_path, True
+
+def restore_jinja_includes(file_path):
+    """Restore Jinja includes from markers"""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Replace markers with original Jinja syntax
+    modified_content = content.replace("|include_prefix|", "{% include ").replace("|include_postfix|", " %}")
+    
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(modified_content)
+
 def run_template_fill(json_file, json_data, replace_script):
     config = json_data.get("config", {})
     base_path = config.get("base_path")
@@ -119,7 +162,11 @@ def run_template_fill(json_file, json_data, replace_script):
 
         if global_change or item_changed or folder_has_changes:
             file_path = ensure_directory_and_template(base_path, template_file, folder_name)
-            args = [file_path]
+            
+            # Protect Jinja includes before processing
+            temp_file, has_includes = protect_jinja_includes(file_path)
+            
+            args = [temp_file]
             for key in sorted(all_keys):
                 value = fields.get(key, "")
                 if isinstance(value, (list, dict)):
@@ -128,8 +175,21 @@ def run_template_fill(json_file, json_data, replace_script):
             print(f"✏️ Running template fill for '{entry_name}' in {file_path}")
             try:
                 subprocess.run(["python3", replace_script, *args], check=True)
+                
+                # If we used a temp file, copy it back to the original
+                if temp_file != file_path:
+                    shutil.copy(temp_file, file_path)
+                    os.unlink(temp_file)
+                
+                # Restore Jinja includes if needed
+                if has_includes:
+                    restore_jinja_includes(file_path)
+                
             except subprocess.CalledProcessError as e:
                 print(f"❌ Error running replace script for '{entry_name}': {e}")
+                # Clean up temp file if there was an error
+                if temp_file != file_path and os.path.exists(temp_file):
+                    os.unlink(temp_file)
         else:
             print(f"Skipping '{entry_name}': no changes detected.")
 

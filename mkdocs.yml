@@ -17,3 +17,10 @@ extra_css:
 
 exclude:
   - "_*.md"
+
+markdown_extensions:
+    - markdown_include.include
+
+plugins:
+  - search
+  - include-markdown
