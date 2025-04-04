@@ -101,65 +101,40 @@ def construct_entity_markdown_table(dry_run=False):
     
     return "\n".join(rows)
 
-def update_entity_disambiguation(disambiguation_path, dry_run=False):
-    """Update the entity disambiguation file with the entity table."""
+def write_entities_table_insert(insert_file_path, markdown_table, dry_run=False):
+    """Write the entity table to the insert file."""
     try:
-        # Read the current content
-        content = disambiguation_path.read_text(encoding="utf-8")
-        original_content = content
+        # Create parent directories if they don't exist
+        insert_file_path.parent.mkdir(parents=True, exist_ok=True)
         
-        # Generate the table rows
-        markdown_table = construct_entity_markdown_table(dry_run)
-        
-        # Check if the placeholder exists
-        if "|entity_table_rows|" in content or "|entities_table|" in content:
-            content = content.replace("|entity_table_rows|", markdown_table)
-            content = content.replace("|entities_table|", markdown_table)
-            logging.info("Replacing entity table rows placeholder")
+        if not dry_run:
+            # Write the table to the insert file
+            insert_file_path.write_text(markdown_table, encoding="utf-8")
+            logging.info(f"✅ Entity table written to {insert_file_path}")
         else:
-            # Look for existing table
-            table_pattern = re.compile(r'(Gods \| Demigods \| Titans.*?\n[-|]+\n)(.*?)(\n\n|\Z)', re.DOTALL)
-            match = table_pattern.search(content)
-            if match:
-                # Replace the existing table rows
-                header = match.group(1)
-                table_end = match.end()
-                table_start = match.start()
-                # Keep the header and replace the rest
-                content = content[:table_start] + markdown_table + content[table_end:]
-                logging.info("Replacing existing entity table rows")
-            else:
-                logging.warning("Could not find entity table or placeholder in the file")
-                return
-        
-        # Write the updated content if changes were made
-        if content != original_content and not dry_run:
-            disambiguation_path.write_text(content, encoding="utf-8")
-            logging.info(f"✅ Updated entity table in {disambiguation_path}")
-        else:
-            if dry_run:
-                logging.info(f"🔍 Would update entity table in {disambiguation_path}")
-            else:
-                logging.info(f"ℹ️ No changes needed in {disambiguation_path}")
+            logging.info(f"🔍 Would write entity table to {insert_file_path}")
             
     except Exception as e:
-        logging.error(f"Failed to update {disambiguation_path}: {e}")
+        logging.error(f"Failed to write to {insert_file_path}: {e}")
         sys.exit(1)
 
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Update entity table in the entity disambiguation file.')
+    parser = argparse.ArgumentParser(description='Generate entity table and write to insert file.')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
     args = parser.parse_args()
     
     if args.dry_run:
         logging.info("🔍 DRY RUN: No files will be modified")
     
-    # Path to the entity disambiguation file
-    entity_disambiguation_path = Path("docs/entities/entity_disambiguation.md")
+    # Path to the entity table insert file
+    insert_file_path = Path("docs/entities/entities_table.md_insert")
     
-    # Update the entity disambiguation file
-    update_entity_disambiguation(entity_disambiguation_path, args.dry_run)
+    # Generate the entity table
+    markdown_table = construct_entity_markdown_table(args.dry_run)
+    
+    # Write the table to the insert file
+    write_entities_table_insert(insert_file_path, markdown_table, args.dry_run)
 
 if __name__ == "__main__":
     main()

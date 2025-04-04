@@ -19,6 +19,10 @@ find docs/pantheons/*/ -type f -name "index.md" -exec rm -v {} \;
 echo "🧹 Cleaning docs/demigods/*/index.md..."
 find docs/entities/demigods/*/ -type f -name "index.md" -exec rm -v {} \;
 
+# Delete index.md in each titan folder
+echo "🧹 Cleaning docs/titans/*/index.md..."
+find docs/entities/titans/*/ -type f -name "index.md" -exec rm -v {} \;
+
 # Delete index.md in each territories folder
 echo "🧹 Cleaning docs/planes/material/sylvarus/locations/territories/*/index.md..."
 find docs/planes/material/sylvarus/locations/territories/*/ -type f -name "index.md" -exec rm -v {} \;
@@ -27,11 +31,17 @@ find docs/planes/material/sylvarus/locations/territories/*/ -type f -name "index
 echo "🧹 Cleaning docs/planes/material/sylvarus/locations/cities/*/index.md..."
 find docs/planes/material/sylvarus/locations/cities/*/ -type f -name "index.md" -exec rm -v {} \;
 
+# Clear all .md_insert files
+echo "🧹 Clearing all .md_insert files..."
+find docs/ -type f -name "*.md_insert" -exec sh -c 'echo -n "" > "$1"' sh {} \;
+
 # Delete index.md in each time_periods folder
 echo "🧹 Cleaning docs/history/time_periods/*/index.md..."
 find docs/history/time_periods/*/ -type f -name "index.md" -exec rm -v {} \;
 
 echo "🔥 All specified index.md files deleted."
 
-trash _scripts/pickles/*
-echo "🔥🥒 All pickles deleted."
+if [ -d "_scripts/pickles" ] && [ "$(ls -A _scripts/pickles/)" ]; then
+    trash _scripts/pickles/*
+    echo "🔥🥒 All pickles deleted."
+fi
