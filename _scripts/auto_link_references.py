@@ -7,6 +7,8 @@ from pathlib import Path
 # 🔧 Add any extra markdown files you want processed here
 ADDITIONAL_MD_FILES = [
     "docs/articles_of_olympus/pact_of_olympus.md",
+    "docs/pantheons/pantheon_disambiguation.md",
+    "docs/species/species_disambiguation.md",
 ]
 
 def normalize_name(name):

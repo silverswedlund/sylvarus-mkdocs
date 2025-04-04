@@ -8,7 +8,7 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 
 - **Detailed Profiles**: Each species has a dedicated page that delves into their origins, physical characteristics, cultural practices, and more. You'll find information on their typical lifespans, languages, and societal structures.
 
-- **Cultural Insights**: Discover the traditions, customs, and religious beliefs that shape the lives of each species. From the grand celebrations of the Dwarves to the mystical rituals of the Elves, each culture offers a unique perspective on life in Sylvarus.
+- **Cultural Insights**: Discover the traditions, customs, and religious beliefs that shape the lives of each species. From the grand celebrations of the [Dwarves](dwarf/index.md) to the mystical rituals of the [Elves](elf/index.md), each culture offers a unique perspective on life in Sylvarus.
 
 - **Historical Context**: Learn about the historical events that have influenced the development and interactions of these species. Understand the alliances, conflicts, and migrations that have shaped the current landscape.
 
@@ -17,19 +17,19 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 ## 🌟 Featured Species
 | Species Name | Type |
 |--------------|------|
-| Angel | Divine |
-| Celestials | Humanoid |
-| Demigods | Amorphous |
-| Dragons | Beast |
-| Dragonborn | Humanoid |
-| Dwarves | Humanoid |
-| Elves | Humanoid |
-| Fairies | Humanoid |
-| Fey | Amorphous |
-| Halflings | Humanoid |
-| Humans | Humanoid |
-| Narns | Humanoid |
-| Orcs | Humanoid |
-| Quall | Humanoid |
-| Slothturtles | Beast |
-| Tieflings | Humanoid |
+| [Angel](angel/index.md) | Divine |
+| [Celestials](celestial/index.md) | Humanoid |
+| [Demigods](demigod/index.md) | Amorphous |
+| [Dragons](dragon/index.md) | Beast |
+| [Dragonborn](dragonborn/index.md) | Humanoid |
+| [Dwarves](dwarf/index.md) | Humanoid |
+| [Elves](elf/index.md) | Humanoid |
+| [Fairies](fairy/index.md) | Humanoid |
+| [Fey](fey/index.md) | Amorphous |
+| [Halflings](halfling/index.md) | Humanoid |
+| [Humans](human/index.md) | Humanoid |
+| [Narns](narn/index.md) | Humanoid |
+| [Orcs](orc/index.md) | Humanoid |
+| [Quall](quall/index.md) | Humanoid |
+| [Slothturtles](slothturtle/index.md) | Beast |
+| [Tieflings](tiefling/index.md) | Humanoid |
