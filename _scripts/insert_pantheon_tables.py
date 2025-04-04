@@ -27,13 +27,20 @@ def get_pantheon_data(json_path):
     
     pantheons = []
     for pantheon_key, pantheon_info in data.get("items", {}).items():
-        name = pantheon_info.get("name", pantheon_key)
+        # Use auto_link_strings if available, otherwise use name or key
+        display_name = pantheon_key
+        if "name" in pantheon_info:
+            display_name = pantheon_info["name"]
+        if "auto_link_strings" in pantheon_info and pantheon_info["auto_link_strings"]:
+            display_name = pantheon_info["auto_link_strings"][0]
+            
         description = pantheon_info.get("description", "")
         leader = pantheon_info.get("leader", "")
         members = pantheon_info.get("members", [])
         
         pantheons.append({
-            "name": name,
+            "name": display_name,
+            "key": pantheon_key,
             "description": description,
             "leader": leader,
             "members": members
@@ -52,11 +59,20 @@ def get_pantheon_members(gods_json_path, pantheon_name):
     members = []
     for god_key, god_info in data.get("items", {}).items():
         if god_info.get("pantheon") == pantheon_name:
-            name = god_info.get("name", god_key)
-            members.append(name)
+            # Use auto_link_strings if available, otherwise use name or key
+            display_name = god_key
+            if "name" in god_info:
+                display_name = god_info["name"]
+            if "auto_link_strings" in god_info and god_info["auto_link_strings"]:
+                display_name = god_info["auto_link_strings"][0]
+                
+            members.append({
+                "name": display_name,
+                "key": god_key
+            })
     
-    # Sort members alphabetically
-    members.sort()
+    # Sort members alphabetically by name
+    members.sort(key=lambda x: x["name"])
     return members
 
 def construct_pantheon_markdown_table(pantheons):
@@ -73,13 +89,10 @@ def construct_pantheon_markdown_table(pantheons):
         name = pantheon["name"]
         description = pantheon["description"]
         leader = pantheon["leader"]
-        members = ", ".join(pantheon["members"])
+        members = ", ".join([m for m in pantheon["members"]])
         
-        # Create links for pantheon names
-        pantheon_path = name.lower().replace(" ", "").replace("'", "")
-        name_link = f"[{name}](pantheons/{pantheon_path}/index.md)"
-        
-        table += f"| {name_link} | {description} | {leader} | {members} |\n"
+        # Use plain text without links
+        table += f"| {name} | {description} | {leader} | {members} |\n"
     
     return table
 
@@ -97,14 +110,8 @@ def construct_members_markdown_table(members, pantheon_name):
     
     # Add rows for each member
     for member in members:
-        # Create links for god names
-        god_path = member.lower().replace(" ", "").replace("'", "").replace("(", "").replace(")", "")
-        if "^" in god_path:
-            god_path, _ = god_path.split("^", 1)
-        name_link = f"[{member}](../../entities/gods/{god_path}/index.md)"
-        
-        # For now, leave role and status empty - these could be populated from god data
-        table += f"| {name_link} | | |\n"
+        name = member["name"]
+        table += f"| {name} | | |\n"
     
     return table
 
@@ -116,6 +123,10 @@ def update_pantheon_table(pantheons_json_path, table_insert_path, dry_run=False)
         
         # Construct the markdown table
         table = construct_pantheon_markdown_table(pantheons)
+        
+        # Create parent directories if they don't exist
+        if not dry_run:
+            table_insert_path.parent.mkdir(parents=True, exist_ok=True)
         
         # Write to the insert file
         if not dry_run:
@@ -138,7 +149,8 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
         
         for pantheon in pantheons:
             pantheon_name = pantheon["name"]
-            pantheon_dir = pantheon_name.lower().replace(" ", "").replace("'", "")
+            pantheon_key = pantheon["key"]
+            pantheon_dir = pantheon_key.lower().replace(" ", "").replace("'", "")
             
             # Create the pantheon directory if it doesn't exist
             pantheon_path = Path(base_path) / pantheon_dir
@@ -152,7 +164,7 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
                 logging.info(f"Created directory for {pantheon_name}: {pantheon_path}")
             
             # Get members for this pantheon
-            members = get_pantheon_members(gods_json_path, pantheon_name)
+            members = get_pantheon_members(gods_json_path, pantheon_key)
             
             # Construct the members table
             table = construct_members_markdown_table(members, pantheon_name)
@@ -175,7 +187,7 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
 
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Update pantheon table in the pantheon disambiguation file.')
+    parser = argparse.ArgumentParser(description='Generate pantheon tables and write to insert files.')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
     args = parser.parse_args()
     

@@ -51,7 +51,7 @@
     },
     "Justice": {
       "auto_link_strings": [
-        "Justice (construct)"
+        "Justice^construct"
       ],
       "name": "Justice",
       "pronouns": "she/her",

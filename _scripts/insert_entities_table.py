@@ -14,6 +14,7 @@ ENTITY_CATEGORIES = [
     {"name": "Gods", "json_file": "_json/gods_data.json"},
     {"name": "Demigods", "json_file": "_json/demigods_data.json"},
     {"name": "Titans", "json_file": "_json/titans_data.json"},
+    {"name": "Immortals", "json_file": "_json/immortals_data.json"},
     {"name": "Primordial Beings", "json_file": ""},
     {"name": "Mortals", "json_file": ""},
     {"name": "Beasts", "json_file": ""},
@@ -41,17 +42,22 @@ def get_entity_names(json_path):
     if not data:
         return []
     
-    entity_names = []
-    for entity_key, entity_info in data.get("items", {}).items():
-        auto_link_strings = entity_info.get("auto_link_strings", [])
-        if auto_link_strings:
-            # Use the first auto_link_string
-            entity_name = auto_link_strings[0]
-            entity_names.append(entity_name)
+    entity_info = []
+    for entity_key, entity_data in data.get("items", {}).items():
+        # Use the first auto_link_string if available, otherwise use the entity key
+        display_name = entity_key
+        if "auto_link_strings" in entity_data and entity_data["auto_link_strings"]:
+            display_name = entity_data["auto_link_strings"][0]
+        
+        # Store both the display name and the entity key for path generation
+        entity_info.append({
+            "display_name": display_name,
+            "entity_key": entity_key
+        })
     
-    # Sort entity names alphabetically
-    entity_names.sort()
-    return entity_names
+    # Sort entity info alphabetically by display name
+    entity_info.sort(key=lambda x: x["display_name"])
+    return entity_info
 
 def construct_entity_markdown_table(dry_run=False):
     """Construct rows for the entity table."""
@@ -85,14 +91,9 @@ def construct_entity_markdown_table(dry_run=False):
         row_cells = []
         for j, entities in enumerate(category_entities):
             if i < len(entities):
-                entity_name = entities[i]
-                # Create a link to the entity page
-                category_path = ENTITY_CATEGORIES[j]["name"].lower().replace(" ", "")
-                entity_path = entity_name.lower().replace(" ", "").replace("'", "").replace("(", "").replace(")", "")
-                if "^" in entity_path:
-                    entity_path, _ = entity_path.split("^", 1)
-                link = f"[{entity_name}]({category_path}/{entity_path}/index.md)"
-                row_cells.append(link)
+                entity_info = entities[i]
+                display_name = entity_info["display_name"]
+                row_cells.append(f" {display_name} ")
             else:
                 row_cells.append("")
         # Only add the row if it has at least one non-empty cell

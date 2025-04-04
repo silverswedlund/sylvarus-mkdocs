@@ -24,17 +24,18 @@ def remove_links_from_file(file_path):
         print(f"❌ Error processing {file_path}: {e}")
         return False
 
-def find_and_process_md_files(directory):
-    """Find all .md files in the directory and its subdirectories and remove links."""
+def find_and_process_md_and_md_insert_files(directory):
+    """Find all .md and .md_insert files in the directory and its subdirectories and remove links."""
     directory_path = Path(directory)
     md_files = list(directory_path.glob('**/*.md'))
+    md_insert_files = list(directory_path.glob('**/*.md_insert'))
     
-    total_files = len(md_files)
+    total_files = len(md_files) + len(md_insert_files)
     modified_files = 0
     
     print(f"🔍 Found {total_files} Markdown files to process")
     
-    for file_path in md_files:
+    for file_path in md_files + md_insert_files:
         if remove_links_from_file(file_path):
             modified_files += 1
             print(f"✅ Removed links from {file_path}")
@@ -55,7 +56,7 @@ def main():
     if args.dry_run:
         print("🔍 DRY RUN: No files will be modified")
     
-    find_and_process_md_files(args.directory)
+    find_and_process_md_and_md_insert_files(args.directory)
 
 if __name__ == "__main__":
     main()

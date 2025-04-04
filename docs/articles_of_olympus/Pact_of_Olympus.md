@@ -153,7 +153,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 7. Release from Tartarus may only occur through:
 
     - A **unanimous vote** of the Council, or
-    - A **supermajority vote** when presented for appeal/pardon from both the **Warden of Tartarus** (currently Enkidu) and the **Leader of the [Underworlders](../pantheons/underworlders/index.md)** (currently Hades).
+    - A **supermajority vote** when presented for appeal/pardon from both the **Warden of Tartarus** (currently [Enkidu](gods/enkidu/index.md)) and the **Leader of the [Underworlders](../pantheons/underworlders/index.md)** (currently [Hades](gods/hades/index.md)).
     - If approved for release, the imprisoned entity may be released or subjected to a different punishment or imprisonment as decided by the council.
 
 8. If capture or containment of a subject is deemed too dangerous, costly, difficult, or slow, the Council may authorize a **Kill Order**, subject to:
