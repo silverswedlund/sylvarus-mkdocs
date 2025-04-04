@@ -10,7 +10,7 @@ echo "🔧 Starting Sylvarus MkDocs Build..."
 SCRIPTS=(
   "_scripts/sort_json_items.py"
   "_scripts/generate_indexes_from_json.py"
-  "_scripts/generate_main_gods_page.py"
+  "_scripts/insert_sub_entity_tables.py"
   "_scripts/insert_pantheon_tables.py"
   "_scripts/insert_identifier_tables.py"
   "_scripts/insert_story_content.py"

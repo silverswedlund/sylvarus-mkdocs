@@ -2,7 +2,8 @@
   "config": {
     "base_path": "docs/entities/gods",
     "template": "_templates/god_template.md",
-    "type": "entity"
+    "type": "entity",
+    "subtype": "god"
   },
   "items": {
     "Amun": {
