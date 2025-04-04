@@ -6,11 +6,16 @@
 ---
 
 ## 🧬 Classification  
-**Type:** {{ type }}  
-**Origin:** {{ origin }}  
-**Average Lifespan:** {{ lifespan }}  
-**Average Size:** {{ average_size_range }}  
-**Typical Physique:** {{ physique }}  
+**Type:**  
+  - {{ type }}  
+**Origin:**  
+  - {{ origin }}  
+**Average Lifespan:**  
+  - {{ lifespan }}  
+**Average Size:**  
+  - {{ average_size_range }}  
+**Typical Physique:**  
+  - {{ physique }}  
 **Common Languages:**  
 {% for language in languages %}
   - {{ language }}  
@@ -24,15 +29,17 @@
 ---
 
 ## 🌍 Distribution  
-**Homeland(s):** {{ homelands }}  
-**Presence in Other Regions:** {{ other_regions }}
+**Homeland(s):**  
+  - {{ homelands }}  
+**Presence in Other Regions:**  
+  - {{ other_regions }}
 {{ distribution }}
 
 ---
 
 {% if history %}
 ## 📜 Historical Background  
-{{ history }}
+  - {{ history }}
 {% endif %}
 
 ---
