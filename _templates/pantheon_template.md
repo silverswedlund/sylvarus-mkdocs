@@ -13,7 +13,8 @@
   - {{ current_leader }}  
 
 
-{{ custom_details }}
+**Additional Details:**  
+  - {{ custom_details }}
 
 ---
 

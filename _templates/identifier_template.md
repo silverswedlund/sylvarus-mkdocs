@@ -5,7 +5,8 @@
 ---
 
 ## 📍 Basic Information
-**Description:** {{ description }}  
+**Description:**  
+  - {{ description }}  
 **Related Identifiers:** 
 {% for related_id in related_identifiers %}  
   - {{ related_id }}  
@@ -13,7 +14,7 @@
 
 ---
 
-## 👥 List of Identifier-Havers
+## 👥 List of Identifier-Havers  
 {% include "identifiers/{{name|lower}}/id_havers_table.md_insert" %}
 
 ---

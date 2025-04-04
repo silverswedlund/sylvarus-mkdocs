@@ -5,12 +5,14 @@
 ---
 
 ## 📕 Details
-**Pronouns:** {{ pronouns }}  
+**Pronouns:**  
+  - {{ pronouns }}  
 **Aliases:**  
 {% for alias in aliases %}
   - {{ alias }}  
 {% endfor %}  
-**Species:** {{ pre_fall_species }}  
+**Species:**  
+  - {{ pre_fall_species }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -48,22 +50,24 @@
 **Relevant Stories:**  
 |relevant_story_table|  
 
-{{ custom_details }}
+
+**Additional Details:**  
+  - {{ custom_details }}
 
 ---
 
 ## 🌀 Current Status
-{{ current_status }}
+  - {{ current_status }}
 
 ---
 
 ## 📜 History
-{{ history }}
+  - {{ history }}
 
 ---
 
 ## 🧠 Description
-{{ description }}
+  - {{ description }}
 
 ---
 

@@ -3,40 +3,46 @@
 ---
 
 ## 🧭 Overview
-**Start Year:** {{ start_year }}  
-**End Year:** {{ end_year }}    
-**Preceded By:** {{ preceded_by }}   
-**Followed By:** {{ followed_by }}   
+**Start Year:**  
+  - {{ start_year }}  
+**End Year:**  
+  - {{ end_year }}    
+**Preceded By:**  
+  - {{ preceded_by }}   
+**Followed By:**  
+  - {{ followed_by }}   
 **Known For:**
+  - {{ known_for }}
 
-{{ custom_details }}
+**Additional Details:**
+  - {{ custom_details }}
 
 ---
 
 ## 📜 Historical Summary
-{{ summary }}
+  - {{ summary }}
 
 ---
 
 ## 🧩 Major Events
-{{ major_events }}
+  - {{ major_events }}
 
 ---
 
 ## 🌍 Notable Civilizations
-{{ notable_civilizations }}
+  - {{ notable_civilizations }}
 
 ---
 
 ## 🌟 Cultural Themes & Shifts
-{{ culture }}
+  - {{ culture }}
 
 ---
 
 ## 🔗 Relevant Figures
-{{ notable_figures }}
+  - {{ notable_figures }}
 
 ---
 
 ## 🧙 Legacy
-{{ legacy }}
+  - {{ legacy }}

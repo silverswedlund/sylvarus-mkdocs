@@ -33,15 +33,24 @@
 
 
 ## 🗺️ Basic Information
-**Region:** {{ region }}  
-**Population:** {{ population }}  
-**Capital City:** [{{ capital }}](../../cities/{{ capital }})  
-**Major Cities:** {{ major_cities }}  
-**Government Type:** {{ government_type }}  
-**Ruling Power:** {{ ruling_power }}  
-**Founding Time Period:** [{{ founding_time_period }}](../../../history/time_periods/{{ founding_time_period_link_name }})  
-**Majority Species:** {{ majority_species }}  
-**Known For:** {{ known_for }}
+**Region:**  
+  - {{ region }}  
+**Population:**  
+  - {{ population }}  
+**Capital City:**  
+  - [{{ capital }}](../../cities/{{ capital }})  
+**Major Cities:**  
+  - {{ major_cities }}  
+**Government Type:**  
+  - {{ government_type }}  
+**Ruling Power:**  
+  - {{ ruling_power }}  
+**Founding Time Period:**  
+  - {{ founding_time_period }}
+**Majority Species:**  
+  - {{ majority_species }}  
+**Known For:**  
+  - {{ known_for }}
 
 {% if anthem_path %}
   **Anthem:** {% if anthem_name %}"{{ anthem_name }}"{% endif %}  
@@ -64,35 +73,37 @@
 ---
 
 ## 🧭 Description
-{{ description }}
+  - {{ description }}
 
 ---
 
 ## 📜 History
-{{ history }}
+  - {{ history }}
 
 ---
 
 ## 🎭 Culture
-{{ culture }}
+  - {{ culture }}
 
 ---
 
 ## 🛡️ Politics & Foreign Relations
-{{ politics }}
+  - {{ politics }}
 
 ---
 
 ## 🔗 Notable Relationships
-{{ relationships }}
+  {% for relationship in relationships %}
+  - {{ relationship }}
+  {% endfor %}
 
 ---
 
 ## 🌆 Territories & Geography
-{{ geography }}
+  - {{ geography }}
 
 ---
 
 ## 🧩 Additional Notes
-{{ notes }}
+  - {{ notes }}
 

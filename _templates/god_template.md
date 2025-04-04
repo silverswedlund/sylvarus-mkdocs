@@ -12,10 +12,14 @@
   - {{ alias }}  
 {% endfor %}
 
-**Pre-ascension Species:** {{ species }}  
-**[Time Period](../../history/time_periods/) of Ascension:** {{ ascension_time_period }}  
-**[Pantheon](../../../pantheons):** {{ pantheon }}  
-**Divine Trial:** {{ trial }}  
+**Pre-ascension Species:**  
+  - {{ species }}  
+**[Time Period](../../history/time_periods/) of Ascension:**  
+  - {{ ascension_time_period }}  
+**[Pantheon](../../../pantheons):**  
+  - {{ pantheon }}  
+**Divine Trial:**  
+  - {{ trial }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -42,11 +46,11 @@
 {% if song_name != "" and music_path != "" %}
 **Theme Music:**  
 <audio controls>
-  <source src="{{ music_path }}" type="audio/mpeg">
-  Your browser does not support the audio element.
+  - <source src="{{ music_path }}" type="audio/mpeg">
+  - Your browser does not support the audio element.
 </audio>
 
-"{{ song_name }}"  
+  - "{{ song_name }}"  
 {% endif %}
 {% endif %}
 
@@ -54,23 +58,23 @@
 {{ custom_details }}
 
 **Relevant Stories:**  
-|relevant_story_table|  
+ - |relevant_story_table|  
 
 
 ---
 
 ## 🌀 Current Status
-{{ current_status }}
+ - {{ current_status }}
 
 ---
 
 ## 📜 History
-{{ history }}
+ - {{ history }}
 
 ---
 
 ## 👤 Physical Description
-{{ physical_description }}
+ - {{ physical_description }}
 
 ---
 {% if relationships %}
