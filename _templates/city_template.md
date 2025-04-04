@@ -8,7 +8,7 @@
 **Type:**  
   - {{ type }}  
 **Nation:**  
-  - [{{ nation }}](../../../locations/nations/{{ nation }})  
+  - {{ nation }}  
 **Region:**  
   - {{ region }}  
 **Population:**  

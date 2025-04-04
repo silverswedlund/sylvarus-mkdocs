@@ -38,7 +38,7 @@
 **Population:**  
   - {{ population }}  
 **Capital City:**  
-  - [{{ capital }}](../../cities/{{ capital }})  
+  - {{ capital }}  
 **Major Cities:**  
   - {{ major_cities }}  
 **Government Type:**  
