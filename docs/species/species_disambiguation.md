@@ -8,7 +8,7 @@ In the vast and diverse world of Sylvarus, many species inhabit the lands, each 
 
 - **Detailed Profiles**: Each species has a dedicated page that delves into their origins, physical characteristics, cultural practices, and more. You'll find information on their typical lifespans, languages, and societal structures.
 
-- **Cultural Insights**: Discover the traditions, customs, and religious beliefs that shape the lives of each species. From the grand celebrations of the [Dwarves](dwarf/index.md) to the mystical rituals of the [Elves](elf/index.md), each culture offers a unique perspective on life in Sylvarus.
+- **Cultural Insights**: Discover the traditions, customs, and religious beliefs that shape the lives of each species. From the grand celebrations of the [Dwarves](dwarf/index.md) to the mystical rituals of the Elves, each culture offers a unique perspective on life in Sylvarus.
 
 - **Historical Context**: Learn about the historical events that have influenced the development and interactions of these species. Understand the alliances, conflicts, and migrations that have shaped the current landscape.
 

@@ -1,37 +1,12 @@
 #!/usr/bin/env python3
 import json
-import os
-import re
+import logging
 from pathlib import Path
 import argparse
-import logging
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-# === CONFIGURABLE EXCEPTIONS ===
-EXCLUDED_PATHS = [
-    "docs/identifiers",  # Don't search identifier pages themselves
-    # Add more full paths to exclude as needed
-]
-
-# === PATHS ===
-base_docs = Path("docs")
-identifier_json_path = Path("_json/identifiers_data.json")
-identifiers_base_path = base_docs / "identifiers"
-
-# === HELPER: Extract title from index.md (fallback to folder name) ===
-def extract_title(path: Path) -> str:
-    content = path.read_text(encoding="utf-8")
-    match = re.search(r"^#\s+(.+)", content, re.MULTILINE)
-    return match.group(1).strip() if match else path.parent.name
-
-# === HELPER: Check if path should be excluded ===
-def should_exclude(path: Path) -> bool:
-    path_str = str(path)
-    return any(excl in path_str for excl in EXCLUDED_PATHS)
-
-# === HELPER: Load JSON data ===
 def load_json_data(json_path: Path):
     """Load JSON data from a file."""
     try:
@@ -41,28 +16,91 @@ def load_json_data(json_path: Path):
         logging.error(f"Error loading {json_path}: {e}")
         return None
 
-# === HELPER: Generate related pages table ===
-def generate_related_pages_table(matches):
-    """Generate a markdown table of related pages."""
-    if not matches:
-        return "| Related Pages |\n|----------------|\n| _No references found_ |"
+def get_identifier_mapping(identifiers_data):
+    """Create a mapping of identifier strings to their keys."""
+    identifier_map = {}
+    
+    for identifier_key, info in identifiers_data.get("items", {}).items():
+        auto_link_strings = info.get("auto_link_strings", [])
+        if auto_link_strings:
+            for link_string in auto_link_strings:
+                identifier_map[link_string.lower()] = identifier_key
+        else:
+            # Use the key itself if no auto-link strings
+            identifier_map[identifier_key.lower()] = identifier_key
+    
+    return identifier_map
+
+def get_entity_display_name(entity_data):
+    """Get the display name for an entity (first auto-link string or name)."""
+    if "auto_link_strings" in entity_data and entity_data["auto_link_strings"]:
+        # Use the first auto-link string exactly as it appears
+        return entity_data["auto_link_strings"][0]
+    elif "name" in entity_data:
+        return entity_data["name"]
+    else:
+        return "Unknown Entity"
+
+def find_identifier_matches(json_files, identifier_map):
+    """Find all entities that match each identifier."""
+    # Initialize a dictionary to store matches for each identifier
+    identifier_matches = {identifier_key: [] for identifier_key in set(identifier_map.values())}
+    
+    # Process each JSON file
+    for json_file in json_files:
+        data = load_json_data(json_file)
+        if not data:
+            continue
+        
+        logging.info(f"Processing {json_file.name}")
+        
+        # Process each entity in the JSON file
+        for entity_key, entity_data in data.get("items", {}).items():
+            # Get the display name for this entity
+            display_name = get_entity_display_name(entity_data)
+            
+            # Check LGBTQ identifications
+            lgbtq_ids = entity_data.get("lgbtq_identifications", [])
+            for lgbtq_id in lgbtq_ids:
+                # Check if this ID matches any known identifier
+                for id_string, id_key in identifier_map.items():
+                    if id_string.lower() in lgbtq_id.lower():
+                        identifier_matches[id_key].append(display_name)
+                        logging.debug(f"Match found: {entity_key} → {id_key} (via LGBTQ ID: {lgbtq_id})")
+                        break
+            
+            # Check other identifiers
+            other_ids = entity_data.get("other_identifiers", [])
+            for other_id in other_ids:
+                # Check if this ID matches any known identifier
+                for id_string, id_key in identifier_map.items():
+                    if id_string.lower() in other_id.lower():
+                        identifier_matches[id_key].append(display_name)
+                        logging.debug(f"Match found: {entity_key} → {id_key} (via Other ID: {other_id})")
+                        break
+    
+    return identifier_matches
+
+def generate_id_havers_table(titles):
+    """Generate a markdown table of ID havers."""
+    if not titles:
+        return "| ID Havers |\n|----------------|\n| _No references found_ |"
     
     # Create the markdown table
-    table = "| Related Pages |\n|----------------|"
+    table = "| ID Havers |\n|----------------|"
     
-    # Add each page as a row - use plain text without links
-    for title, _ in sorted(matches):  # Sort alphabetically
+    # Add each entity as a row - use plain text without links
+    for title in sorted(titles):  # Sort alphabetically
         table += f"\n| {title} |"
     
     return table
 
-# === HELPER: Write table to insert file ===
-def write_related_pages_insert(identifier_dir, matches, dry_run=False):
-    """Write the related pages table to an insert file."""
-    insert_file_path = identifier_dir / "related_pages.md_insert"
+def write_id_havers_table_insert(identifier_dir, titles, dry_run=False):
+    """Write the ID havers table to an insert file."""
+    insert_file_path = identifier_dir / "id_havers_table.md_insert"
     
     # Generate the table
-    table = generate_related_pages_table(matches)
+    table = generate_id_havers_table(titles)
     
     # Create parent directories if they don't exist
     if not dry_run:
@@ -72,17 +110,16 @@ def write_related_pages_insert(identifier_dir, matches, dry_run=False):
     if not dry_run:
         with open(insert_file_path, "w", encoding="utf-8") as f:
             f.write(table)
-        logging.info(f"✅ Updated related pages for {identifier_dir.name}")
+        logging.info(f"✅ Updated ID havers table for {identifier_dir.name}")
     else:
-        logging.info(f"🔍 Would update related pages for {identifier_dir.name}")
+        logging.info(f"🔍 Would update ID havers table for {identifier_dir.name}")
         logging.info(f"Table content would be:\n{table}")
     
     return True
 
-# === MAIN FUNCTION ===
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Generate related pages tables for identifiers.')
+    parser = argparse.ArgumentParser(description='Generate ID havers tables for identifiers.')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
     args = parser.parse_args()
     
@@ -92,61 +129,56 @@ def main():
     logging.info("🔍 Starting insert_identifier_tables.py")
     
     # Paths
-    base_docs = Path("docs")
-    identifier_json_path = Path("_json/identifiers_data.json")
-    identifiers_base_path = base_docs / "identifiers"
+    json_dir = Path("_json")
+    identifiers_json_path = json_dir / "identifiers_data.json"
+    identifiers_base_path = Path("docs/identifiers")
     
-    # Load identifiers from JSON
-    identifiers_data = load_json_data(identifier_json_path)
+    # Load identifiers data
+    identifiers_data = load_json_data(identifiers_json_path)
     if not identifiers_data:
         logging.error("❌ Failed to load identifiers data.")
         return
     
-    identifiers = identifiers_data.get("items", {})
+    # Create identifier mapping
+    identifier_map = get_identifier_mapping(identifiers_data)
+    logging.info(f"Loaded {len(identifier_map)} identifier strings for {len(set(identifier_map.values()))} unique identifiers")
+    
+    # Get all JSON files except identifiers_data.json
+    json_files = [f for f in json_dir.glob("*.json") if f.name != "identifiers_data.json"]
+    logging.info(f"Found {len(json_files)} JSON files to process")
+    
+    # Find all matches for each identifier
+    identifier_matches = find_identifier_matches(json_files, identifier_map)
     
     # Track statistics
-    total_identifiers = 0
+    total_identifiers = len(identifier_matches)
     updated_identifiers = 0
     
-    # Process each identifier
-    for identifier_key, info in identifiers.items():
-        total_identifiers += 1
-        
-        # Use auto_link_strings if available, otherwise use name or key
-        display_name = identifier_key
-        if "name" in info:
-            display_name = info["name"]
-        if "auto_link_strings" in info and info["auto_link_strings"]:
-            display_name = info["auto_link_strings"][0]
-        
-        identifier_dir = identifiers_base_path / identifier_key.lower()
-        identifier_index = identifier_dir / "index.md"
-        
-        if not identifier_index.exists():
-            logging.warning(f"⚠️ Index file not found for {display_name}")
+    # Generate and write tables for each identifier
+    for identifier_key, matches in identifier_matches.items():
+        # Skip if no matches
+        if not matches:
+            logging.info(f"No matches found for identifier: {identifier_key}")
             continue
         
-        matches = []
+        # Remove duplicates while preserving order
+        unique_matches = []
+        for match in matches:
+            if match not in unique_matches:
+                unique_matches.append(match)
         
-        # Search ALL index.md files in docs directory
-        for index_file in base_docs.rglob("index.md"):
-            if should_exclude(index_file):
-                continue
-                
-            try:
-                content = index_file.read_text(encoding="utf-8").lower()
-                if display_name.lower() in content:
-                    logging.info(f"Found match in: {index_file}")
-                    title = extract_title(index_file)
-                    rel_path = os.path.relpath(index_file, identifier_dir)
-                    matches.append((title, rel_path))
-            except Exception as e:
-                logging.error(f"Error processing {index_file}: {e}")
+        # Get the identifier directory
+        identifier_dir = identifiers_base_path / identifier_key.lower()
         
-        # Write the related pages table to an insert file
-        if write_related_pages_insert(identifier_dir, matches, args.dry_run):
+        # Skip if directory doesn't exist
+        if not identifier_dir.exists():
+            logging.warning(f"⚠️ Directory not found for identifier: {identifier_key}")
+            continue
+        
+        # Write the ID havers table
+        if write_id_havers_table_insert(identifier_dir, unique_matches, args.dry_run):
             updated_identifiers += 1
-            logging.info(f"  ✅ Updated {display_name} with {len(matches)} related pages")
+            logging.info(f"  ✅ Updated {identifier_key} with {len(unique_matches)} ID havers")
     
     logging.info(f"\n✅ Summary: Updated {updated_identifiers} out of {total_identifiers} identifiers.")
     logging.info("Finished insert_identifier_tables.py")

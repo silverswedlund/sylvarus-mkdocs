@@ -14,8 +14,6 @@
 ---
 
 ## 👥 List of Identifier-Havers
-|people_table|
-
-
+{% include "identifiers/{{name|lower}}/id_havers_table.md_insert" %}
 
 ---
