@@ -12,6 +12,10 @@
 	/* Darker Sidebar */
 	border-right: 3px solid #ff9800;
 	/* Orange border */
+	padding-left: 0;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
 }
 
 /* Header */
@@ -183,4 +187,43 @@ a:hover {
 	.entity-table th, .entity-table td {
 		padding: 0.15rem;
 	}
+}
+
+/* Search bar styling */
+.md-search__input {
+	background-color: #333;
+	/* Match the dark theme */
+	color: #e0e0e0;
+	/* Soft white text */
+	border: 1px solid #ff9800;
+	/* Orange border */
+}
+
+.md-search__input:focus {
+	border-color: #ffc947;
+	/* Lighter orange on focus */
+}
+
+/* Adjust search bar position */
+.md-search {
+	margin-right: 1rem;
+	position: relative;
+}
+
+/* Adjust sidebar container - more specific approach */
+.md-sidebar {
+	padding-left: 0;
+	margin-left: 0;
+	position: absolute;
+	left: 150px;
+}
+
+/* Adjust the main content area */
+.md-main {
+	margin-left: 0;
+}
+
+/* Adjust the main content container */
+.md-main__inner {
+	margin-left: 20rem;
 }

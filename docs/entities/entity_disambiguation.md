@@ -1,169 +1,58 @@
 # Entities Disambiguation
 
-This section contains a list of all Entities of note - this includes, but is not limited to, beings of significant power, influence, or unique nature. They include gods, titans, demigods, powerful mortals, and other remarkable creatures that have shaped reality across the planes.
+This section contains a list of all Entities of note - this includes, but is not limited to, beings of significant power, influence, or unique nature. They include gods, titans, [demigods](../species/demigod/index.md), powerful mortals, and other remarkable creatures that have shaped reality across the planes.
 
-These beings are categorized by their nature and origin, though some may span multiple classifications. For example, Angels are both a species and powerful entities
+These beings are categorized by their nature and origin, though some may span multiple classifications. For example, [Angels](../species/angel/index.md) are both a species and powerful entities
 
 # Entity categories
 
-<table class="entity-table">
-  <thead>
-    <tr>
-      <th>Gods</th>
-      <th>Demigods</th>
-      <th>Titans</th>
-      <th>Primordial Beings</th>
-      <th>Mortals</th>
-      <th>Beasts</th>
-      <th>Constructs</th>
-      <th>Chaos Dieties</th>
-      <th>Other Entities</th>
-    </tr>
-  </thead>
-  <tbody>
-        <tr>
-      <td>Amun</td><td>Atenael</td><td>Aliqotash</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Anuke</td><td>Aurelius</td><td>Hydraxus</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Aphrodite</td><td>Deimos</td><td>Krella</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Apollo</td><td>Ephyra</td><td>Nemia</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Ares</td><td>Eurydice</td><td>Odysseus</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Artemis</td><td>Heracles</td><td>Ombrim</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Asher</td><td>Morax</td><td>Set (titan)</td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Athena</td><td>Persephone</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Balbarash</td><td>Phobos</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Death^god</td><td>Sabazios</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Delinette</td><td>Tiamel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Demeter</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Dionysus</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Ecatra</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Enkidu</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Eris</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Fortuna</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Freija</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Gilgamesh</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Hades</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Halacaster</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Hephaestus</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Hera</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Hermes</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Hestia</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Inkozana</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Iranara</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Loki</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Malice^god</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Marith</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Midas</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Nyx</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Odinn</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Orakothros</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Orpheus</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Osiris</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Pan</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Poseidon</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Shal'nan</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Silence^god</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Thanatos</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Tyro</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Valentina</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Versengeterix</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Virtue^god</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Zagreus</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Zeus</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>quetzalcoatl</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-  </tbody>
-</table>
+Gods | Demigods | Titans | Primordial Beings | Mortals | Beasts | Constructs | Chaos Dieties | Other Entities |
+------|----------|--------|-------------------|---------|--------|------------|---------------|----------------|
+[Amun](gods/amun/index.md) | [Atenael](demigods/atenael/index.md) | [Aliqotash](titans/aliqotash/index.md) | | | | | | |
+[Anuke](gods/anuke/index.md) | [Aurelius](demigods/aurelius/index.md) | [Hydraxus](titans/hydraxus/index.md) | | | | | | |
+[Aphrodite](gods/aphrodite/index.md) | [Deimos](demigods/deimos/index.md) | [Krella](titans/krella/index.md) | | | | | | |
+[Apollo](gods/apollo/index.md) | [Ephyra](demigods/ephyra/index.md) | [Nemia](titans/nemia/index.md) | | | | | | |
+[Ares](gods/ares/index.md) | [Eurydice](demigods/eurydice/index.md) | [Odysseus](titans/odysseus/index.md) | | | | | | |
+[Artemis](gods/artemis/index.md) | [Heracles](demigods/heracles/index.md) | [Ombrim](titans/ombrim/index.md) | | | | | | |
+[Asher](gods/asher/index.md) | [Morax](demigods/morax/index.md) | [Set (titan)](titans/set/index.md) | | | | | | |
+[Athena](gods/athena/index.md) | [Persephone](demigods/persephone/index.md) | | | | | | | |
+[Balbarash](gods/balbarash/index.md) | [Phobos](demigods/phobos/index.md) | | | | | | | |
+[Death](gods/death/index.md) | [Sabazios](demigods/sabazios/index.md) | | | | | | | |
+[Delinette](gods/delinette/index.md) | [Tiamel](demigods/tiamel/index.md) | | | | | | | |
+[Demeter](gods/demeter/index.md) | | | | | | | | |
+[Dionysus](gods/dionysus/index.md) | | | | | | | | |
+[Ecatra](gods/ecatra/index.md) | | | | | | | | |
+[Enkidu](gods/enkidu/index.md) | | | | | | | | |
+[Eris](gods/eris/index.md) | | | | | | | | |
+[Fortuna](gods/fortuna/index.md) | | | | | | | | |
+[Freija](gods/freija/index.md) | | | | | | | | |
+[Gilgamesh](gods/gilgamesh/index.md) | | | | | | | | |
+[Hades](gods/hades/index.md) | | | | | | | | |
+[Halacaster](gods/halacaster/index.md) | | | | | | | | |
+[Hephaestus](gods/hephaestus/index.md) | | | | | | | | |
+[Hera](gods/hera/index.md) | | | | | | | | |
+[Hermes](gods/hermes/index.md) | | | | | | | | |
+[Hestia](gods/hestia/index.md) | | | | | | | | |
+[Inkozana](gods/inkozana/index.md) | | | | | | | | |
+[Iranara](gods/iranara/index.md) | | | | | | | | |
+[Loki](gods/loki/index.md) | | | | | | | | |
+[Malice](gods/malice/index.md) | | | | | | | | |
+[Marith](gods/marith/index.md) | | | | | | | | |
+[Midas](gods/midas/index.md) | | | | | | | | |
+[Nyx](gods/nyx/index.md) | | | | | | | | |
+[Odinn](gods/odinn/index.md) | | | | | | | | |
+[Orakothros](gods/orakothros/index.md) | | | | | | | | |
+[Orpheus](gods/orpheus/index.md) | | | | | | | | |
+[Osiris](gods/osiris/index.md) | | | | | | | | |
+[Pan](gods/pan/index.md) | | | | | | | | |
+[Poseidon](gods/poseidon/index.md) | | | | | | | | |
+[Shal'nan](gods/shalnan/index.md) | | | | | | | | |
+[Silence](gods/silence/index.md) | | | | | | | | |
+[Thanatos](gods/thanatos/index.md) | | | | | | | | |
+[Tyro](gods/tyro/index.md) | | | | | | | | |
+[Valentina](gods/valentina/index.md) | | | | | | | | |
+[Versengeterix](gods/versengeterix/index.md) | | | | | | | | |
+[Virtue](gods/virtue/index.md) | | | | | | | | |
+[Zagreus](gods/zagreus/index.md) | | | | | | | | |
+[Zeus](gods/zeus/index.md) | | | | | | | | |
+[quetzalcoatl](gods/quetzalcoatl/index.md) | | | | | | | | |

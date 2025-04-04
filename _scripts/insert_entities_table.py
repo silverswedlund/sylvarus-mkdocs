@@ -53,7 +53,7 @@ def get_entity_names(json_path):
     entity_names.sort()
     return entity_names
 
-def construct_entity_table_rows(dry_run=False):
+def construct_entity_markdown_table(dry_run=False):
     """Construct rows for the entity table."""
     # Get entity names for each category
     category_entities = []
@@ -72,26 +72,34 @@ def construct_entity_table_rows(dry_run=False):
         category_entities.append(entities)
         max_entities = max(max_entities, len(entities))
     
-    # Construct table rows
+    # Create the table header
+    header_row = " | ".join([category["name"] for category in ENTITY_CATEGORIES])
+    separator_row = "|".join(["---" for _ in ENTITY_CATEGORIES])
+    
+    # Create the table rows
     rows = []
+    rows.append(header_row)
+    rows.append(separator_row)
+    
     for i in range(max_entities):
-        row = []
-        for entities in category_entities:
+        row_cells = []
+        for j, entities in enumerate(category_entities):
             if i < len(entities):
-                row.append(entities[i])
+                entity_name = entities[i]
+                # Create a link to the entity page
+                category_path = ENTITY_CATEGORIES[j]["name"].lower().replace(" ", "")
+                entity_path = entity_name.lower().replace(" ", "").replace("'", "").replace("(", "").replace(")", "")
+                if "^" in entity_path:
+                    entity_path, _ = entity_path.split("^", 1)
+                link = f"[{entity_name}]({category_path}/{entity_path}/index.md)"
+                row_cells.append(link)
             else:
-                row.append("")
+                row_cells.append("")
         # Only add the row if it has at least one non-empty cell
-        if any(cell != "" for cell in row):
-            rows.append(row)
+        if any(cell != "" for cell in row_cells):
+            rows.append(" | ".join(row_cells))
     
-    # Convert rows to HTML
-    html_rows = []
-    for row in rows:
-        cells = [f"<td>{entity}</td>" for entity in row]
-        html_rows.append(f"    <tr>\n      {''.join(cells)}\n    </tr>")
-    
-    return "\n".join(html_rows)
+    return "\n".join(rows)
 
 def update_entity_disambiguation(disambiguation_path, dry_run=False):
     """Update the entity disambiguation file with the entity table."""
@@ -101,21 +109,24 @@ def update_entity_disambiguation(disambiguation_path, dry_run=False):
         original_content = content
         
         # Generate the table rows
-        table_rows = construct_entity_table_rows(dry_run)
+        markdown_table = construct_entity_markdown_table(dry_run)
         
         # Check if the placeholder exists
-        if "|entity_table_rows|" in content:
-            content = content.replace("|entity_table_rows|", table_rows)
+        if "|entity_table_rows|" in content or "|entities_table|" in content:
+            content = content.replace("|entity_table_rows|", markdown_table)
+            content = content.replace("|entities_table|", markdown_table)
             logging.info("Replacing entity table rows placeholder")
         else:
             # Look for existing table
-            table_pattern = re.compile(r'<table class="entity-table">.*?<tbody>\s*(.*?)\s*</tbody>\s*</table>', re.DOTALL)
+            table_pattern = re.compile(r'(Gods \| Demigods \| Titans.*?\n[-|]+\n)(.*?)(\n\n|\Z)', re.DOTALL)
             match = table_pattern.search(content)
             if match:
                 # Replace the existing table rows
-                table_start = content.find("<tbody>", match.start()) + len("<tbody>")
-                table_end = content.find("</tbody>", table_start)
-                content = content[:table_start] + "\n" + table_rows + "\n  " + content[table_end:]
+                header = match.group(1)
+                table_end = match.end()
+                table_start = match.start()
+                # Keep the header and replace the rest
+                content = content[:table_start] + markdown_table + content[table_end:]
                 logging.info("Replacing existing entity table rows")
             else:
                 logging.warning("Could not find entity table or placeholder in the file")
