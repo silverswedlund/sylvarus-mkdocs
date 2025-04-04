@@ -86,9 +86,9 @@ def generate_story_table(stories):
     return table
 
 # === HELPER: Write table to insert file ===
-def write_stories_table_insert(entity_path, stories, dry_run=False):
+def write_stories_table_insert(entity_dir, stories, dry_run=False):
     """Write the stories table to an insert file."""
-    insert_file_path = entity_path.parent / "stories_table.md_insert"
+    insert_file_path = entity_dir / "stories_table.md_insert"
     
     # Generate the story table
     story_table = generate_story_table(stories)
@@ -101,9 +101,9 @@ def write_stories_table_insert(entity_path, stories, dry_run=False):
     if not dry_run:
         with open(insert_file_path, "w", encoding="utf-8") as f:
             f.write(story_table)
-        logging.info(f"✅ Updated stories table for {entity_path.parent.name}")
+        logging.info(f"✅ Updated stories table for {entity_dir.name}")
     else:
-        logging.info(f"🔍 Would update stories table for {entity_path.parent.name}")
+        logging.info(f"🔍 Would update stories table for {entity_dir.name}")
         logging.info(f"Table content would be:\n{story_table}")
     
     return True
@@ -111,7 +111,7 @@ def write_stories_table_insert(entity_path, stories, dry_run=False):
 # === MAIN FUNCTION ===
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Generate story tables for entities.')
+    parser = argparse.ArgumentParser(description='Generate relevant stories tables for entities.')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
     args = parser.parse_args()
     
@@ -121,69 +121,108 @@ def main():
     logging.info("🔍 Starting insert_relevant_stories.py")
     
     # Load stories data
-    stories_data = load_json_data(STORIES_JSON_PATH)
+    stories_data = load_json_data(Path("_json/stories_data.json"))
     if not stories_data:
         logging.error("❌ Failed to load stories data.")
         return
     
-    # Get all JSON data files
-    json_files = [f for f in JSON_DIR.glob("*.json") if f.name != "stories_data.json"]
+    # Get all entity JSON files
+    entity_json_files = [
+        Path("_json/gods_data.json"),
+        Path("_json/titans_data.json"),
+        Path("_json/immortals_data.json"),
+        Path("_json/demigods_data.json")
+        # Add more entity JSON files as needed
+    ]
     
-    # Track statistics
+    # Process each entity JSON file
     total_entities = 0
     updated_entities = 0
     
-    # Process each JSON file
-    for json_file in json_files:
-        file_name = json_file.name
-        logging.info(f"Processing {file_name}...")
-        
-        # Load the JSON data
-        try:
-            data = load_json_data(json_file)
-        except Exception as e:
-            logging.error(f"❌ Error loading {json_file}: {e}")
+    for entity_json_path in entity_json_files:
+        # Load entity data
+        entity_data = load_json_data(entity_json_path)
+        if not entity_data:
             continue
         
-        # Get the base path from the config
-        base_path = data.get("config", {}).get("base_path", "")
+        # Skip if not an entity type
+        config = entity_data.get("config", {})
+        if config.get("type") != "entity":
+            logging.info(f"Skipping {entity_json_path.name} - not an entity type")
+            continue
+        
+        # Find stories that reference each entity
+        entity_references = find_entity_references(stories_data, entity_data)
+        
+        # Get the base path for this entity type
+        base_path = entity_data.get("config", {}).get("base_path", "")
         if not base_path:
-            logging.warning(f"⚠️ No base path found in {json_file}")
+            logging.warning(f"⚠️ No base path found for {entity_json_path.name}")
             continue
         
-        # Process each item in the JSON file
-        entity_count = 0
+        # Update relevant stories tables
+        file_name = entity_json_path.name
+        entity_count = len(entity_data.get("items", {}))
+        total_entities += entity_count
         updated_count = 0
         
-        for item_id, item_data in data.get("items", {}).items():
-            total_entities += 1
-            entity_count += 1
+        for entity_id, stories in entity_references.items():
+            # Construct the path to the entity's directory
+            entity_dir = Path(base_path) / entity_id.lower()
             
-            # Get the auto-linking strings
-            auto_links = item_data.get("auto_link_strings", [])
-            if not auto_links:
-                continue
-            
-            # Construct the path to the entity's markdown file
-            entity_path = Path(base_path) / item_id / "index.md"
-            
-            # Skip if file doesn't exist
-            if not entity_path.exists():
-                continue
-            
-            # Find stories for this entity
-            stories = find_stories_for_entity(auto_links, stories_data)
-            
-            # Write the stories table to an insert file
-            if write_stories_table_insert(entity_path, stories, args.dry_run):
-                updated_entities += 1
+            # Write the relevant stories table
+            if write_stories_table_insert(entity_dir, stories, args.dry_run):
                 updated_count += 1
-                logging.info(f"  ✅ Updated {item_id} with {len(stories)} stories")
+                logging.info(f"  ✅ Updated {entity_id} with {len(stories)} stories")
         
         logging.info(f"  Updated {updated_count} of {entity_count} entities in {file_name}")
     
     logging.info(f"\n✅ Summary: Updated {updated_entities} out of {total_entities} entities.")
     logging.info("Finished insert_relevant_stories.py")
+
+def find_entity_references(stories_data, entity_data):
+    """Find all stories that reference each entity based on character_names lists."""
+    entity_references = {}
+    
+    # Skip if entity data is not of type "entity"
+    config = entity_data.get("config", {})
+    if config.get("type") != "entity":
+        logging.info(f"Skipping entity data - not an entity type")
+        return entity_references
+    
+    # Initialize references for all entities
+    for entity_key in entity_data.get("items", {}).keys():
+        entity_references[entity_key] = []
+    
+    # Process each entity
+    for entity_key, entity_info in entity_data.get("items", {}).items():
+        # Get the entity's auto-link strings
+        auto_link_strings = entity_info.get("auto_link_strings", [])
+        if not auto_link_strings:
+            # Use the entity key as fallback
+            auto_link_strings = [entity_key]
+        
+        # Find stories that include this entity in their character_names
+        for story_key, story_info in stories_data.get("items", {}).items():
+            character_names = story_info.get("character_names", [])
+            
+            # Check if any of the entity's auto-link strings match a character name
+            if any(auto_link in character_names for auto_link in auto_link_strings):
+                # Get the story's display name
+                story_name = story_key
+                if "auto_link_strings" in story_info and story_info["auto_link_strings"]:
+                    story_name = story_info["auto_link_strings"][0]
+                elif "name" in story_info:
+                    story_name = story_info["name"]
+                
+                # Get the story's path
+                story_rel_path = f"../../stories/{story_key.lower()}/index.md"
+                
+                # Add to the list of stories for this entity
+                entity_references[entity_key].append((story_name, story_rel_path))
+                logging.info(f"Found story '{story_name}' for entity '{entity_key}'")
+    
+    return entity_references
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,8 @@
 {
   "config": {
     "base_path": "docs/entities/immortals",
-    "template": "_templates/immortal_template.md"
+    "template": "_templates/immortal_template.md",
+    "type": "entity"
   },
   "items": {
     "Alytica": {

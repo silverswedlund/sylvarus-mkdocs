@@ -1,7 +1,8 @@
 {
   "config": {
     "base_path": "docs/entities/titans",
-    "template": "_templates/titan_template.md"
+    "template": "_templates/titan_template.md",
+    "type": "entity"
   },
   "items": {
     "Aliqotash": {

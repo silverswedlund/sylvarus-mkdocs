@@ -1,7 +1,8 @@
 {
   "config": {
     "base_path": "docs/entities/demigods",
-    "template": "_templates/demigod_template.md"
+    "template": "_templates/demigod_template.md",
+    "type": "entity"
   },
   "items": {
     "Atenael": {
