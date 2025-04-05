@@ -206,7 +206,13 @@ if __name__ == "__main__":
     parser.add_argument("--json_dir", default="_json", help="Directory containing all JSON data files")
     parser.add_argument("--script", default="_scripts/replace_templates.py", help="Path to the replace_templates.py script")
     args = parser.parse_args()
-    json_files = glob.glob(os.path.join(args.json_dir, "*.json"))
+    
+    # Find all JSON files recursively in the json directory
+    json_files = []
+    for root, _, files in os.walk(args.json_dir):
+        for file in files:
+            if file.endswith('.json'):
+                json_files.append(os.path.join(root, file))
 
     if not json_files:
         print("No JSON files found in the specified directory.")

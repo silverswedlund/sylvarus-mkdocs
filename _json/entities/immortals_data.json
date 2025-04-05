@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/entities/immortals",
-    "template": "_templates/immortal_template.md",
+    "template": "_templates/entities/immortal_template.md",
     "type": "entity",
     "subtype": "immortal"
   },

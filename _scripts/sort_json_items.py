@@ -54,8 +54,8 @@ def main():
     processed_count = 0
     skipped_count = 0
     
-    # Process all JSON files in the directory
-    for file_path in json_dir.glob('*.json'):
+    # Process all JSON files in the directory and its subdirectories recursively
+    for file_path in json_dir.glob('**/*.json'):
         if file_path.name in SKIP_FILES:
             print(f"Skipping {file_path.name} (in skip list)")
             skipped_count += 1

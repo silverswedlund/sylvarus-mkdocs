@@ -143,8 +143,12 @@ def main():
     identifier_map = get_identifier_mapping(identifiers_data)
     logging.info(f"Loaded {len(identifier_map)} identifier strings for {len(set(identifier_map.values()))} unique identifiers")
     
-    # Get all JSON files except identifiers_data.json
-    json_files = [f for f in json_dir.glob("*.json") if f.name != "identifiers_data.json"]
+    # Get all JSON files except identifiers_data.json - including files in subdirectories
+    json_files = []
+    for path in json_dir.glob("**/*.json"):
+        if path.name != "identifiers_data.json":
+            json_files.append(path)
+    
     logging.info(f"Found {len(json_files)} JSON files to process")
     
     # Find all matches for each identifier

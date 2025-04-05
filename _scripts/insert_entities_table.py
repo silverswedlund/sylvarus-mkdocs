@@ -5,23 +5,10 @@ from pathlib import Path
 import re
 import sys
 import argparse
+import os
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-
-# Map table placeholders to their corresponding JSON files
-ENTITY_CATEGORIES = [
-    {"name": "Gods", "json_file": "_json/gods_data.json"},
-    {"name": "Demigods", "json_file": "_json/demigods_data.json"},
-    {"name": "Titans", "json_file": "_json/titans_data.json"},
-    {"name": "Immortals", "json_file": "_json/immortals_data.json"},
-    {"name": "Primordial Beings", "json_file": ""},
-    {"name": "Mortals", "json_file": ""},
-    {"name": "Beasts", "json_file": ""},
-    {"name": "Constructs", "json_file": ""},
-    {"name": "Chaos Dieties", "json_file": ""},
-    {"name": "Other Entities", "json_file": ""}
-]
 
 def load_json_data(json_path):
     """Load data from a JSON file if it exists."""
@@ -59,28 +46,61 @@ def get_entity_names(json_path):
     entity_info.sort(key=lambda x: x["display_name"])
     return entity_info
 
+def find_entity_categories():
+    """Find all entity categories by scanning the _json/entities directory."""
+    entities_dir = Path("_json/entities")
+    if not entities_dir.exists():
+        logging.error(f"Entities directory not found: {entities_dir}")
+        return []
+    
+    categories = []
+    for json_file in sorted(entities_dir.glob("*.json")):
+        # Extract category name from filename (remove _data.json suffix)
+        category_name = json_file.stem
+        if category_name.endswith("_data"):
+            category_name = category_name[:-5]  # Remove "_data" suffix
+        
+        # Convert to title case and replace underscores with spaces
+        category_name = category_name.replace("_", " ").title()
+        
+        categories.append({
+            "name": category_name,
+            "json_file": str(json_file)
+        })
+    
+    logging.info(f"Found {len(categories)} entity categories: {[c['name'] for c in categories]}")
+    return categories
+
 def construct_entity_markdown_table(dry_run=False):
     """Construct rows for the entity table."""
+    # Get entity categories
+    entity_categories = find_entity_categories()
+    if not entity_categories:
+        logging.error("No entity categories found")
+        return ""
+    
     # Get entity names for each category
     category_entities = []
     max_entities = 0
     
-    for category in ENTITY_CATEGORIES:
-        if category["json_file"]:
-            entities = get_entity_names(category["json_file"])
-            if dry_run:
-                logging.info(f"Found {len(entities)} entities for {category['name']}")
-        else:
-            entities = []
-            if dry_run:
-                logging.info(f"No JSON file for {category['name']}")
+    for category in entity_categories:
+        entities = get_entity_names(category["json_file"])
+        if dry_run:
+            logging.info(f"Found {len(entities)} entities for {category['name']}")
         
         category_entities.append(entities)
         max_entities = max(max_entities, len(entities))
     
-    # Create the table header
-    header_row = " | ".join([category["name"] for category in ENTITY_CATEGORIES])
-    separator_row = "|".join(["---" for _ in ENTITY_CATEGORIES])
+    # Create the table header with links to disambiguation pages
+    header_cells = []
+    for category in entity_categories:
+        # Convert category name to lowercase for URL
+        category_url = category["name"].lower().replace(" ", "_")
+        # Create a markdown link to the disambiguation page
+        header_cells.append(f"[{category['name']}](/entities/{category_url}/{category_url}_disambiguation)")
+    
+    header_row = " | ".join(header_cells)
+    separator_row = "|".join(["---" for _ in entity_categories])
     
     # Create the table rows
     rows = []

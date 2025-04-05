@@ -195,13 +195,38 @@ def main():
     
     # Load auto-link data from JSON files
     auto_link_data = {}
-    json_files = Path(args.json_dir).glob('*.json')
+    
+    # Find all JSON files recursively in the json directory
+    json_files = list(Path(args.json_dir).glob('**/*.json'))
     
     for json_file in json_files:
-        category = json_file.stem.replace('_data', '')
-        data = load_auto_link_data(str(json_file))
-        if data:
-            auto_link_data[category] = data
+        # Extract category from filename or parent directory
+        if json_file.parent.name == args.json_dir:
+            # Files in the root json directory
+            category = json_file.stem.replace('_data', '')
+        else:
+            # Files in subdirectories - use the subdirectory name as category
+            category = json_file.parent.name
+        
+        # Load the JSON data
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # Check if this is an entity data file with the expected structure
+            if "items" in data:
+                # Create a properly structured entry for this category if it doesn't exist
+                if category not in auto_link_data:
+                    auto_link_data[category] = {
+                        "config": {"base_path": f"docs/{category.lower()}"},
+                        "items": {}
+                    }
+                
+                # Add all items from this file to the category
+                auto_link_data[category]["items"].update(data["items"])
+                logging.info(f"Added {len(data['items'])} items from {json_file}")
+        except Exception as e:
+            logging.error(f"Error loading data from {json_file}: {e}")
     
     # Get all auto-link strings
     auto_link_map = get_all_auto_link_strings(auto_link_data)

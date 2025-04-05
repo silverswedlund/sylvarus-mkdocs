@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/entities/gods",
-    "template": "_templates/god_template.md",
+    "template": "_templates/entities/god_template.md",
     "type": "entity",
     "subtype": "god"
   },

@@ -82,10 +82,14 @@ def main():
     
     logging.info("🔍 Starting insert_sub_entity_tables.py")
     
-    # Get all JSON files in the _json directory
-    json_dir = Path("_json")
+    # Get all JSON files in the _json/entities directory
+    json_dir = Path("_json/entities")
+    if not json_dir.exists():
+        logging.error(f"Entities directory not found: {json_dir}")
+        return
+        
     json_files = list(json_dir.glob("*.json"))
-    logging.info(f"Found {len(json_files)} JSON files to process")
+    logging.info(f"Found {len(json_files)} JSON files to process in {json_dir}")
     
     # Track statistics
     total_subtypes = 0
