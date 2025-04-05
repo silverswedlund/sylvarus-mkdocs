@@ -104,15 +104,22 @@ def auto_link_references(content: str, auto_link_map: Dict[str, Tuple[str, str]]
     
     for link_string in sorted_links:
         # Check if the link string contains a caret (^)
+        has_caret = "^" in link_string
         display_text = link_string
-        if "^" in link_string:
-            display_text, _ = link_string.split("^", 1)
+        
+        if has_caret:
+            # Split at the caret - display_text is before the caret
+            parts = link_string.split("^", 1)
+            display_text = parts[0]
+            # For search, we use the full string including the caret
+            # This is because we want to match the entire pattern in the document
         
         # Escape special regex characters in the link string
         escaped_link = re.escape(link_string)
         
         # Create a pattern that matches the link string with word boundaries or whitespace/start/end
-        pattern = rf'((?:\s|^){escaped_link}(?:\s|$))'
+        # Use (?i) for case-insensitive matching
+        pattern = rf'(?i)((?:\s|^){escaped_link}(?:\s|$))'
         
         # Find all matches
         matches = list(re.finditer(pattern, modified_content))
@@ -142,8 +149,15 @@ def auto_link_references(content: str, auto_link_map: Dict[str, Tuple[str, str]]
             if full_match.endswith(" "):
                 trailing_space = " "
             
-            # Replace with auto-link, preserving whitespace and using display_text
-            replacement = f"{leading_space}[{display_text}]({rel_path}){trailing_space}"
+            # For caret notation, use the display_text
+            # Otherwise, preserve the original case of the matched text
+            if has_caret:
+                link_text = display_text
+            else:
+                link_text = full_match.strip()
+            
+            # Replace with auto-link, preserving whitespace
+            replacement = f"{leading_space}[{link_text}]({rel_path}){trailing_space}"
             modified_content = modified_content[:start] + replacement + modified_content[end:]
             replacements += 1
     
