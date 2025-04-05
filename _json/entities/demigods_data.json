@@ -313,5 +313,22 @@
         "Neurodivergent"
       ]
     }
+  },
+  "template": {
+    "auto_link_strings": [],
+    "name": "",
+    "pronouns": "",
+    "aliases": [],
+    "species": "",
+    "relationships": [],
+    "current_status": "",
+    "history": "",
+    "image_path": "",
+    "description": "",
+    "custom_details": "",
+    "lgbtq_identifications": [],
+    "other_identifiers": [],
+    "music_path": "",
+    "song_name": ""
   }
 }

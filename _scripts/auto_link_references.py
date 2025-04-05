@@ -198,14 +198,18 @@ def main():
     
     # Find all JSON files recursively in the json directory
     json_files = list(Path(args.json_dir).glob('**/*.json'))
+    logging.info(f"Found {len(json_files)} JSON files to process")
     
     for json_file in json_files:
         # Extract category from filename or parent directory
         if json_file.parent.name == args.json_dir:
             # Files in the root json directory
             category = json_file.stem.replace('_data', '')
+        elif json_file.parent.name == "entities":
+            # Files in the entities subdirectory - use the filename without _data suffix
+            category = json_file.stem.replace('_data', '')
         else:
-            # Files in subdirectories - use the subdirectory name as category
+            # Files in other subdirectories - use the subdirectory name as category
             category = json_file.parent.name
         
         # Load the JSON data
@@ -215,16 +219,23 @@ def main():
             
             # Check if this is an entity data file with the expected structure
             if "items" in data:
+                # For entities, set the base path to docs/entities/[category]
+                base_path = f"docs/entities/{category.lower()}"
+                if json_file.parent.name == "entities":
+                    base_path = f"docs/entities/{category.lower()}"
+                else:
+                    base_path = f"docs/{category.lower()}"
+                
                 # Create a properly structured entry for this category if it doesn't exist
                 if category not in auto_link_data:
                     auto_link_data[category] = {
-                        "config": {"base_path": f"docs/{category.lower()}"},
+                        "config": {"base_path": base_path},
                         "items": {}
                     }
                 
                 # Add all items from this file to the category
                 auto_link_data[category]["items"].update(data["items"])
-                logging.info(f"Added {len(data['items'])} items from {json_file}")
+                logging.info(f"Added {len(data['items'])} items from {json_file} with base path {base_path}")
         except Exception as e:
             logging.error(f"Error loading data from {json_file}: {e}")
     

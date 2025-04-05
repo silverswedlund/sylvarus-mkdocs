@@ -26,57 +26,23 @@
       "other_identifiers": [],
       "music_path": "",
       "song_name": ""
-    },
-    "Charon": {
-      "auto_link_strings": [
-        "Charon",
-        "The Ferrier of the Dead"
-      ],
-      "name": "Charon",
-      "pronouns": "they/them",
-      "aliases": [
-        "The Ferrier of the Dead"
-      ],
-      "species": "Unknown",
-      "relationships": [
-        "Serves Hades in the Underworld"
-      ],
-      "current_status": "Active - Ferryman of the Underworld",
-      "history": "Charon is known for ferrying souls across the rivers of the underworld, a task they have performed for eons.",
-      "image_path": "charon.jpg",
-      "description": "A stoic and silent figure, Charon is dedicated to their duty as the ferryman.",
-      "custom_details": "Requires payment in the form of a coin placed in the mouth of the deceased to ferry souls across the river Styx.",
-      "lgbtq_identifications": [
-        "Agender",
-        "Asexual",
-        "Aromantic"
-      ],
-      "other_identifiers": [],
-      "music_path": "",
-      "song_name": ""
-    },
-    "Justice": {
-      "auto_link_strings": [
-        "Justice^construct"
-      ],
-      "name": "Justice",
-      "pronouns": "she/her",
-      "aliases": [
-        "The Arbiter"
-      ],
-      "species": "Unknown",
-      "relationships": [],
-      "current_status": "Active - Arbiter of Balance",
-      "history": "Justice serves as the arbiter of balance, ensuring fairness and equity in all realms.",
-      "image_path": "justice.jpg",
-      "description": "A figure of fairness and impartiality, Justice is respected for her unwavering commitment to balance.",
-      "custom_details": "Often depicted blindfolded with scales, representing her impartial judgment based on evidence rather than appearance.",
-      "lgbtq_identifications": [
-        "Lesbian"
-      ],
-      "other_identifiers": [],
-      "music_path": "",
-      "song_name": ""
     }
+  },
+  "template": {
+    "auto_link_strings": [],
+    "name": "",
+    "pronouns": "",
+    "aliases": [],
+    "species": "",
+    "relationships": [],
+    "current_status": "",
+    "history": "",
+    "image_path": "",
+    "description": "",
+    "custom_details": "",
+    "lgbtq_identifications": [],
+    "other_identifiers": [],
+    "music_path": "",
+    "song_name": ""
   }
 }

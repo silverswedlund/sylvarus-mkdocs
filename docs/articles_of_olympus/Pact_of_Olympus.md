@@ -1,17 +1,17 @@
-# Pact of Olympus*Authored by Demeter, during the Time of the [Versengeterix](../entities/versengeterix/index.md) wars
+# Pact of Olympus*Authored by Demeter, during the Time of the [Versengeterix](../entities/gods/versengeterix/index.md) wars
 
 ## Preamble
 
 In the wake of endless conflict, unchecked divine ambition, and growing instability among the immortal, the gods have come together to forge a sacred covenant. The Pact of [Olympus](../territories/olympia/index.md) stands as a cornerstone of [celestial](../species/celestial/index.md) order, a charter of balance, and a declaration of mutual restraint. It is by this document that divine authority shall be tempered, divine crime punished with justice, and divine cooperation preserved.
 
-This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no [Versengeterix](../entities/versengeterix/index.md) stand above the order enshrined herein.
+This Pact serves to end the wars between gods, establish clear protocols for ascension, governance, and judgment, and preserve the realms mortal and divine from further chaos. Let all deities, great and small, know the binding power of these articles, and let no [Versengeterix](../entities/gods/versengeterix/index.md) stand above the order enshrined herein.
 
 **Signed by:** Fortuna, Midas, Gilgamesh, Hades, Quetzalcoatl---
 
 ## Scope of Application
 
 1. This Pact applies to all gods currently in existence, including those who have not signed the Pact.
-2. Should any ancient [Versengeterix](../entities/versengeterix/index.md) awaken from slumber or return from exile, they shall be immediately informed of the Pact and escorted to the **Onboarding Room** (see Article XI), where they shall be treated as a freshly ascended [Versengeterix](../entities/versengeterix/index.md) for purposes of compliance.
+2. Should any ancient [Versengeterix](../entities/gods/versengeterix/index.md) awaken from slumber or return from exile, they shall be immediately informed of the Pact and escorted to the **Onboarding Room** (see Article XI), where they shall be treated as a freshly ascended [Versengeterix](../entities/gods/versengeterix/index.md) for purposes of compliance.
 3. The rules and stipulations contained herein do **not** apply to mortals, non-god immortals, or spark-bearers prior to full ascension.
 
 ---
@@ -33,12 +33,12 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 ## Article II: Divine Ceasefire
 
 1. Henceforth, inter-god violence is no longer sanctioned within or beyond the divine realms.
-2. Any act of aggression or divine crime committed by a [Versengeterix](../entities/versengeterix/index.md) shall be adjudicated by the **Council** (see Article I).
+2. Any act of aggression or divine crime committed by a [Versengeterix](../entities/gods/versengeterix/index.md) shall be adjudicated by the **Council** (see Article I).
 3. The Council holds full authority to investigate, deliberate, and assign punishments as deemed appropriate under divine law.
 
 ## Article II-a: Mortal Plane Embargo
 
-1. As of the signing of this Pact, no [Versengeterix](../entities/versengeterix/index.md) shall intervene, influence, or manifest directly on the Mortal Plane.
+1. As of the signing of this Pact, no [Versengeterix](../entities/gods/versengeterix/index.md) shall intervene, influence, or manifest directly on the Mortal Plane.
 
 2. This embargo shall remain in effect indefinitely, pending future review and repeal by the Council.
 
@@ -60,7 +60,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 ## Article IV: On Ascension and Pantheonic Allegiance
 
 1. All newly ascended gods must sign onto a recognized pantheon within one Sylvaren cycle of their ascension.
-2. Upon signing, each [Versengeterix](../entities/versengeterix/index.md) enters a binding contract to contribute a portion of their divine essence to their pantheon.
+2. Upon signing, each [Versengeterix](../entities/gods/versengeterix/index.md) enters a binding contract to contribute a portion of their divine essence to their pantheon.
    - This essence may be used for collaborative divine works and enforcement of disciplinary measures.
 3. Refusal to align with a pantheon constitutes divine delinquency and is subject to punishment by exile (see Article V).
 
@@ -115,9 +115,9 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
 ## Article VIII: Midasian Exception
 
 1. **Midas** is granted permanent exception from Articles IV and VI.
-2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../entities/midas/index.md) as its sole eternal member.
+2. The **Midasian Pantheon** is established as a single-member pantheon with [Midas](../entities/gods/midas/index.md) as its sole eternal member.
 3. The Midasian Pantheon shall retain **one-eighth of the total vote share** on the Council (see Article I).
-4. No other [Versengeterix](../entities/versengeterix/index.md) may join the Midasian Pantheon, nor is [Midas](../entities/midas/index.md) required to join another.
+4. No other [Versengeterix](../entities/gods/versengeterix/index.md) may join the Midasian Pantheon, nor is [Midas](../entities/gods/midas/index.md) required to join another.
 
 ---
 
@@ -158,7 +158,7 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
     - Endorsement by the **Leader of the Underworlders**.
     - Formal presentation to the **God of Death**, who holds right of first refusal.
 
-9. If declined by the [Versengeterix](../entities/versengeterix/index.md) of Death, execution may be carried out by any god, construct, or divine agent designated by the Council.
+9. If declined by the [Versengeterix](../entities/gods/versengeterix/index.md) of Death, execution may be carried out by any god, construct, or divine agent designated by the Council.
 
 10. All actions, votes, and proceedings under this article must be logged in the Council registry and remain open to divine audit.
 
@@ -251,14 +251,14 @@ This Pact serves to end the wars between gods, establish clear protocols for asc
     - Civic administration and divine residency.
     - Hosting of summits, rituals, and universal assemblies.
 
-7. The **Godruler** is responsible for **presenting new laws, proposals, and amendments** to the **Pantheonic Council** for deliberation and ratification. These may be proposed by any [Versengeterix](../entities/versengeterix/index.md) or pantheon but must be formally introduced by the **Godruler**.
+7. The **Godruler** is responsible for **presenting new laws, proposals, and amendments** to the **Pantheonic Council** for deliberation and ratification. These may be proposed by any [Versengeterix](../entities/gods/versengeterix/index.md) or pantheon but must be formally introduced by the **Godruler**.
 
 8. The **Godruler** must maintain **impartiality** when presenting legislative matters and is strictly forbidden from suppressing or obstructing proposals due to personal or pantheonic affiliations.
 
 9. The **Godruler** shall nominate divine **Judges of Limited Authority** to preside over minor divine legal matters—such as inter-pantheon small claims, low-impact offenses, and administrative disputes. These judges must be confirmed by a **simple majority vote** of the **Pantheonic Council** before being seated.
 
-10. If a [Versengeterix](../entities/versengeterix/index.md) ruler is dies, goes missing, or is otherwise unavailable, ties will remain unbroken and decisions will occur only when the ruler is available or a new ruler is elected
-    - if unavailable for more than one sylvaric year, a new election for [Versengeterix](../entities/versengeterix/index.md) ruler must be held
+10. If a [Versengeterix](../entities/gods/versengeterix/index.md) ruler is dies, goes missing, or is otherwise unavailable, ties will remain unbroken and decisions will occur only when the ruler is available or a new ruler is elected
+    - if unavailable for more than one sylvaric year, a new election for [Versengeterix](../entities/gods/versengeterix/index.md) ruler must be held
 
 11. All declarations, rulings, judicial appointments, and diplomatic communications issued by the **Godruler** must be entered into the **Divine Ledger** and made accessible to all pantheons upon request.
 

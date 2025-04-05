@@ -196,7 +196,7 @@ def main():
     
     # Paths to the files
     pantheons_json_path = Path("_json/pantheons_data.json")
-    gods_json_path = Path("_json/gods_data.json")
+    gods_json_path = Path("_json/entities/gods_data.json")
     table_insert_path = Path("docs/pantheons/pantheon_table.md_insert")
     pantheons_base_path = "docs/pantheons"
     
