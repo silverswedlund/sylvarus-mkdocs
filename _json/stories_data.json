@@ -1,6 +1,6 @@
 {
   "config": {
-    "base_path": "docs/stories",
+    "base_path": "docs/documents/stories",
     "template": "_templates/story_template.md"
   },
   "items": {

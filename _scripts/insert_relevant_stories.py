@@ -62,7 +62,7 @@ def find_stories_for_entity(auto_links, stories_data):
                     if "auto_link_strings" in story_info and story_info["auto_link_strings"]:
                         display_name = story_info["auto_link_strings"][0]
                         
-                    story_path = f"../../../../stories/{story_id}"
+                    story_path = f"../../../../documents/stories/{story_id}"
                     matching_stories.append((display_name, story_path))
                     break  # Found a match, no need to check other auto-links
         except Exception as e:
@@ -126,14 +126,8 @@ def main():
         logging.error("❌ Failed to load stories data.")
         return
     
-    # Get all entity JSON files
-    entity_json_files = [
-        Path("_json/gods_data.json"),
-        Path("_json/titans_data.json"),
-        Path("_json/immortals_data.json"),
-        Path("_json/demigods_data.json")
-        # Add more entity JSON files as needed
-    ]
+    # Get all entity JSON files from _json/entities directory
+    entity_json_files = list(Path("_json/entities").glob("*.json"))
     
     # Process each entity JSON file
     total_entities = 0
@@ -216,7 +210,7 @@ def find_entity_references(stories_data, entity_data):
                     story_name = story_info["name"]
                 
                 # Get the story's path
-                story_rel_path = f"../../stories/{story_key.lower()}/index.md"
+                story_rel_path = f"../../documents/stories/{story_key.lower()}/index.md"
                 
                 # Add to the list of stories for this entity
                 entity_references[entity_key].append((story_name, story_rel_path))

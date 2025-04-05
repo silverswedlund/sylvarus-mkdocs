@@ -219,12 +219,10 @@ def main():
             
             # Check if this is an entity data file with the expected structure
             if "items" in data:
-                # For entities, set the base path to docs/entities/[category]
-                base_path = f"docs/entities/{category.lower()}"
-                if json_file.parent.name == "entities":
-                    base_path = f"docs/entities/{category.lower()}"
-                else:
-                    base_path = f"docs/{category.lower()}"
+                # Use the base_path from the config if available, otherwise construct it
+                if "config" in data and "base_path" in data["config"]:
+                    base_path = data["config"]["base_path"]
+                    logging.info(f"Using configured base path: {base_path} for {json_file}")
                 
                 # Create a properly structured entry for this category if it doesn't exist
                 if category not in auto_link_data:
@@ -232,6 +230,10 @@ def main():
                         "config": {"base_path": base_path},
                         "items": {}
                     }
+                else:
+                    # Update the base path if it's not already set
+                    if "base_path" not in auto_link_data[category]["config"]:
+                        auto_link_data[category]["config"]["base_path"] = base_path
                 
                 # Add all items from this file to the category
                 auto_link_data[category]["items"].update(data["items"])
