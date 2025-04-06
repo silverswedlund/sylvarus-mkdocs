@@ -1,5 +1,9 @@
 # {{ name }}
 
+{% if sub_title %}
+## {{ sub_title }}
+{% endif %}
+
 <!-- Optional -->
 {% if image_path %}
 <img src="{{ image_path }}" alt="{{ name }}" width="400" />

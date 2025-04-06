@@ -10,7 +10,7 @@
         "The Ascension of the Hestia"
       ],
       "name": "Internal Peace",
-      "story_path": "_internal_peace._md",
+      "sub_title": "The Ascension of Hestia",
       "character_names": [
         "Hestia"
       ]
@@ -22,7 +22,7 @@
         "The Ascension of the Athena"
       ],
       "name": "The God of Regret",
-      "story_path": "_the_god_of_regret._md",
+      "sub_title": "The Ascension of Athena",
       "character_names": [
         "Athena",
         "Set (titan)",
@@ -36,6 +36,7 @@
         "The Ascension of the Demeter"
       ],
       "name": "The Life and Works of Demeter",
+      "sub_title": "The Ascension of Hestia, and the Signing of the Pact of the Gods",
       "character_names": [
         "Demeter",
         "Fortuna",
@@ -54,6 +55,7 @@
         "The Narnking and the Dragonborn"
       ],
       "name": "The Narnking and the Dragonborn",
+      "sub_title": "The Ascension of Odinn and the Olympiapfaction of Alytica",
       "character_names": [
         "Odinn",
         "Alytica",
@@ -67,13 +69,13 @@
         "Halacaster (not named as such in the story, he was the onboarding god for Odinn)"
       ]
     },
-    "The_Phoenix_War_An_Introduction": {
+    "The_Phoenix_War": {
       "auto_link_strings": [
         "Phoenix War",
         "Introduction to the Phoenix War"
       ],
-      "name": "The Phoenix War An Introduction",
-      "story_path": "_the_phoenix_war_an_introduction._md",
+      "name": "The Phoenix War",
+      "sub_title": "The Ascension of Zeus",
       "character_names": [
         "Serinvlad Blackiron",
         "Hawk Graewind",
@@ -86,7 +88,7 @@
         "The Ascension of the Zeus"
       ],
       "name": "The Thunder God",
-      "story_path": "_the_thunder_god._md",
+      "sub_title": "The Ascension of the Zeus",
       "character_names": [
         "Athena",
         "Set (titan)",
@@ -99,7 +101,6 @@
         "Virtue's Turn"
       ],
       "name": "The Turn of Virtue",
-      "story_path": "_the_turn_of_virtue._md",
       "character_names": [
         "Virtue^god",
         "Gilgamesh"
