@@ -31,9 +31,9 @@ find docs/planes/material/sylvarus/locations/territories/*/ -type f -name "index
 echo "🧹 Cleaning docs/planes/material/sylvarus/locations/cities/*/index.md..."
 find docs/planes/material/sylvarus/locations/cities/*/ -type f -name "index.md" -exec rm -v {} \;
 
-# Clear all .md_insert files
-echo "🧹 Clearing all .md_insert files..."
-find docs/ -type f -name "*.md_insert" -exec sh -c 'echo -n "" > "$1"' sh {} \;
+# Clear all .md_insert files except content.md_insert
+echo "🧹 Clearing all .md_insert files except content.md_insert..."
+find docs/ -type f -name "*.md_insert" ! -name "*content.md_insert" -exec sh -c 'echo "" > "$1"' sh {} \;
 
 # Delete index.md in each time_periods folder
 echo "🧹 Cleaning docs/history/time_periods/*/index.md..."

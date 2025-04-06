@@ -16,4 +16,4 @@
 
 
 ## 📕 Story
-|story_placeholder|
+{% include "documents/stories/{{name|lower|replace(' ', '_')}}/content.md_insert" %}

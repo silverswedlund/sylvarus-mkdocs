@@ -12,11 +12,11 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # === CONFIGURABLE SETTINGS ===
 JSON_DIR = Path("_json")
-STORIES_JSON_PATH = JSON_DIR / "stories_data.json"
+STORIES_JSON_PATH = JSON_DIR / "documents/stories_data.json"
 
 # === CONFIGURABLE EXCEPTIONS ===
 EXCLUDED_PATHS = [
-    "docs/stories",  # Don't search story pages themselves
+    "docs/documents/stories",  # Don't search story pages themselves
     # Add more full paths to exclude as needed
 ]
 
@@ -121,7 +121,7 @@ def main():
     logging.info("🔍 Starting insert_relevant_stories.py")
     
     # Load stories data
-    stories_data = load_json_data(Path("_json/stories_data.json"))
+    stories_data = load_json_data(Path("_json/documents/stories_data.json"))
     if not stories_data:
         logging.error("❌ Failed to load stories data.")
         return

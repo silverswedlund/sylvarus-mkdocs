@@ -13,7 +13,6 @@ SCRIPTS=(
   "_scripts/insert_sub_entity_tables.py"
   "_scripts/insert_pantheon_tables.py"
   "_scripts/insert_identifier_tables.py"
-  "_scripts/insert_story_content.py"
   "_scripts/insert_relevant_stories.py"
   "_scripts/insert_species_table.py"
   "_scripts/insert_entities_table.py"

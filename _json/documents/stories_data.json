@@ -36,7 +36,6 @@
         "The Ascension of the Demeter"
       ],
       "name": "The Life and Works of Demeter",
-      "story_path": "_the_life_and_works_of_demeter._md",
       "character_names": [
         "Demeter",
         "Fortuna",
@@ -55,7 +54,6 @@
         "The Narnking and the Dragonborn"
       ],
       "name": "The Narnking and the Dragonborn",
-      "story_path": "_the_narnking_and_the_dragonborn._md",
       "character_names": [
         "Odinn",
         "Alytica",
@@ -74,7 +72,7 @@
         "Phoenix War",
         "Introduction to the Phoenix War"
       ],
-      "name": "The Phoenix War - An Introduction",
+      "name": "The Phoenix War An Introduction",
       "story_path": "_the_phoenix_war_an_introduction._md",
       "character_names": [
         "Serinvlad Blackiron",
@@ -87,8 +85,8 @@
         "The Thunder God",
         "The Ascension of the Zeus"
       ],
-      "name": "The God of Regret",
-      "story_path": "_the_god_of_regret._md",
+      "name": "The Thunder God",
+      "story_path": "_the_thunder_god._md",
       "character_names": [
         "Athena",
         "Set (titan)",
