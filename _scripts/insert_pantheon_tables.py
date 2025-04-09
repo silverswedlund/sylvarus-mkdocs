@@ -50,7 +50,7 @@ def get_pantheon_data(json_path):
     pantheons.sort(key=lambda x: x["name"])
     return pantheons
 
-def get_pantheon_members(gods_json_path, pantheon_name):
+def get_pantheon_members(gods_json_path, pantheon_name, pantheon_auto_links):
     """Get all gods that belong to a specific pantheon."""
     data = load_json_data(gods_json_path)
     if not data:
@@ -58,7 +58,10 @@ def get_pantheon_members(gods_json_path, pantheon_name):
     
     members = []
     for god_key, god_info in data.get("items", {}).items():
-        if god_info.get("pantheon") == pantheon_name:
+        god_pantheon = god_info.get("pantheon", "")
+        
+        # Check if the god's pantheon matches the pantheon name or any of its auto_link_strings
+        if god_pantheon == pantheon_name or god_pantheon in pantheon_auto_links:
             # Use auto_link_strings if available, otherwise use name or key
             display_name = god_key
             if "name" in god_info:
@@ -150,6 +153,7 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
         for pantheon in pantheons:
             pantheon_name = pantheon["name"]
             pantheon_key = pantheon["key"]
+            pantheon_auto_links = pantheon.get("auto_link_strings", [])
             pantheon_dir = pantheon_key.lower().replace(" ", "").replace("'", "")
             
             # Create the pantheon directory if it doesn't exist
@@ -164,7 +168,7 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
                 logging.info(f"Created directory for {pantheon_name}: {pantheon_path}")
             
             # Get members for this pantheon
-            members = get_pantheon_members(gods_json_path, pantheon_key)
+            members = get_pantheon_members(gods_json_path, pantheon_name, pantheon_auto_links)
             
             # Construct the members table
             table = construct_members_markdown_table(members, pantheon_name)
