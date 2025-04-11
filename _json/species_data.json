@@ -45,6 +45,38 @@
       "custom_details": "Angels exist in multiple hiveminds, each led by an Archangel who oversees a specialized division. While the exact purposes of these divisions remain mysterious, each appears to serve a distinct cosmic function. Angels manifest in forms that often defy normal physics and biology, appearing surreal and sometimes impossible to comprehend. They share thoughts and knowledge telepathically within their hivemind collective. Though sharing a name with mythological guardians, these beings are more akin to cosmic enforcers, methodically maintaining universal boundaries with unwavering focus.",
       "distribution": "Angels primarily exist in the void between universes, though they can manifest within any realm when pursuing those who have crossed universal boundaries. They seem capable of traversing the multiverse with ease, suggesting an innate understanding of its structure that surpasses most other beings."
     },
+    "Basilisk": {
+      "auto_link_strings": [
+        "Basilisk",
+        "Basilisks"
+      ],
+      "name": "Basilisk",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Basilisk Petrifax",
+      "lifespan": "Immortal",
+      "average_size_range": "10ft to 20ft in length",
+      "physique": "Serpentine creatures with a deadly gaze that can petrify living beings.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Dense forests and underground lairs",
+      "history": "Basilisks are feared for their petrifying gaze and are often hunted by adventurers seeking glory.",
+      "religion": "Feared and avoided by most cultures",
+      "traditions": [
+        "Solitary ambush hunting",
+        "Guardians of hidden treasures"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Feared by many species due to their lethal abilities"
+      ],
+      "example_image_paths": [
+        "basilisk_example.jpg"
+      ],
+      "custom_details": "Basilisks are solitary and elusive, often residing in remote areas where they can hunt without disturbance.",
+      "distribution": "Primarily found in the Astral Plane, with some inhabiting secluded areas of the Material Plane."
+    },
     "Celestial": {
       "auto_link_strings": [
         "Celestial",
@@ -357,6 +389,38 @@
       ],
       "average_size_range": "height: typically 91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
     },
+    "Griffin": {
+      "auto_link_strings": [
+        "Griffin",
+        "Griffins"
+      ],
+      "name": "Griffin",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Griffin Aquileo",
+      "lifespan": "Immortal",
+      "average_size_range": "8ft to 12ft wingspan",
+      "physique": "Creatures with the body of a lion and the head and wings of an eagle.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Forests and mountainous regions",
+      "history": "Griffins are known for their strength and majesty, often depicted as noble guardians in mythology.",
+      "religion": "Associated with deities of protection and valor",
+      "traditions": [
+        "Territorial guardianship",
+        "Protectors of sacred sites"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Respected by many cultures for their noble nature"
+      ],
+      "example_image_paths": [
+        "griffin_example.jpg"
+      ],
+      "custom_details": "Griffins are often seen as symbols of courage and strength, revered in many cultures.",
+      "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane."
+    },
     "Halfling": {
       "auto_link_strings": [
         "Halfling",
@@ -435,6 +499,38 @@
       ],
       "average_size_range": "height: 152-198 cm (5'0\"-6'6\")"
     },
+    "Kraken": {
+      "auto_link_strings": [
+        "Kraken",
+        "Krakens"
+      ],
+      "name": "Kraken",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Kraken Cetuvia",
+      "lifespan": "Immortal",
+      "average_size_range": "50ft to 100ft in length",
+      "physique": "Massive sea creatures with tentacles capable of sinking ships.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Deep ocean trenches and vast seas",
+      "history": "Krakens are legendary sea monsters feared by sailors and often featured in maritime folklore.",
+      "religion": "Feared and revered by seafaring cultures",
+      "traditions": [
+        "Solitary oceanic roaming",
+        "Guardians of the deep"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Feared by many species due to their immense size and power"
+      ],
+      "example_image_paths": [
+        "kraken_example.jpg"
+      ],
+      "custom_details": "Krakens are solitary and elusive, often residing in the deepest parts of the ocean where they can remain undisturbed.",
+      "distribution": "Primarily inhabit the Astral Plane, with rare sightings in the deepest oceans of the Material Plane."
+    },
     "Narn": {
       "auto_link_strings": [
         "Narn",
@@ -507,6 +603,71 @@
       ],
       "average_size_range": "height: 188 cm (6'2\") with no sexual dimorphism"
     },
+    "Pegasus": {
+      "auto_link_strings": [
+        "Pegasus",
+        "Pegasi"
+      ],
+      "name": "Pegasus",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Pegasus Craxly",
+      "lifespan": "Immortal",
+      "average_size_range": "4ft to 6ft at the shoulder",
+      "physique": "Winged horses with powerful, graceful bodies and large feathered wings.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Found in high-altitude regions and magical forests",
+      "history": "Pegasi are known for their beauty and grace, often serving as mounts for heroes and gods in mythology.",
+      "religion": "Associated with deities of the sky and travel",
+      "traditions": [
+        "Skyward migrations",
+        "Guardians of celestial paths"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Highly regarded by many cultures as symbols of freedom and nobility"
+      ],
+      "example_image_paths": [
+        "pegasus_example.jpg"
+      ],
+      "custom_details": "Pegasi are often depicted in art and literature as noble creatures that assist heroes in their quests.",
+      "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane."
+    },
+    "Phoenix": {
+      "auto_link_strings": [
+        "Phoenix",
+        "Phoenixes"
+      ],
+      "name": "Phoenix",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Phoenix Avianna",
+      "lifespan": "Immortal",
+      "average_size_range": "3ft to 15ft wingspan",
+      "physique": "Majestic birds with fiery plumage that glows with an inner light. They are known for their ability to be reborn from their ashes.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Occasionally found in remote, magical locations on the Material Plane",
+      "history": "Phoenixes are legendary creatures known for their cycle of death and rebirth. They are revered in many cultures as symbols of renewal and immortality.",
+      "religion": "Often associated with deities of fire and rebirth",
+      "traditions": [
+        "Rebirth from ashes",
+        "Guardians of sacred flames"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Respected by many species for their regenerative abilities",
+        "Often seen as omens of change"
+      ],
+      "example_image_paths": [
+        "phoenix_example.jpg"
+      ],
+      "custom_details": "Phoenixes are solitary creatures that rarely interact with other species. Their presence is often seen as a sign of significant change or transformation.",
+      "distribution": "Primarily found in the Astral Plane, with rare appearances in the Material Plane."
+    },
     "Quall": {
       "auto_link_strings": [
         "Quall"
@@ -537,6 +698,38 @@
         "quall_example.jpg"
       ],
       "average_size_range": "height: 152 cm (5'0\") with no sexual dimorphism"
+    },
+    "Roc": {
+      "auto_link_strings": [
+        "Roc",
+        "Rocs"
+      ],
+      "name": "Roc",
+      "type": "Beast",
+      "origin": "Descendants of the primordial Roc Aetheria",
+      "lifespan": "Immortal",
+      "average_size_range": "20ft to 50ft wingspan",
+      "physique": "Enormous birds of prey with immense strength and keen eyesight.",
+      "languages": [
+        "None"
+      ],
+      "homelands": "The Astral Plane",
+      "other_regions": "Mountainous regions and vast open skies",
+      "history": "Rocs are legendary for their size and power, often featured in tales of epic battles and adventures.",
+      "religion": "Revered by some cultures as protectors of the skies",
+      "traditions": [
+        "Solitary hunting",
+        "Guardians of mountain peaks"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Feared and respected by many species due to their size and strength"
+      ],
+      "example_image_paths": [
+        "roc_example.jpg"
+      ],
+      "custom_details": "Rocs are solitary creatures that dominate the skies, rarely interacting with other species unless provoked.",
+      "distribution": "Primarily inhabit the Astral Plane, with occasional sightings in remote mountain ranges."
     },
     "Slothturtle": {
       "auto_link_strings": [

@@ -5,7 +5,166 @@
     "type": "entity",
     "subtype": "primordial_being"
   },
-  "items": {},
+  "items": {
+    "Aetheria": {
+      "auto_link_strings": [
+        "Aetheria",
+        "Aetheria^primordial"
+      ],
+      "name": "Aetheria",
+      "species": "Roc",
+      "pronouns": "She/Her",
+      "aliases": [
+        "The First Roc"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Aquileo": {
+      "auto_link_strings": [
+        "Aquileo",
+        "Aquileo^primordial"
+      ],
+      "name": "Aquileo",
+      "species": "Griffin",
+      "pronouns": "He/Him",
+      "aliases": [
+        "The First Griffin"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Avianna": {
+      "auto_link_strings": [
+        "Avianna",
+        "Avianna^primordial",
+        "Avianna^primordial_beast",
+        "Avianna^primordialbeast"
+      ],
+      "name": "Avianna",
+      "species": "Phoenix",
+      "pronouns": "She/Her",
+      "aliases": [
+        "The First Phoenix"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Cetuvi": {
+      "auto_link_strings": [
+        "Cetuvi",
+        "Cetuvi^primordial"
+      ],
+      "name": "Cetuvi",
+      "species": "Kraken",
+      "pronouns": "She/Her",
+      "aliases": [
+        "The First Kraken"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Craxly": {
+      "auto_link_strings": [
+        "Craxly",
+        "Craxly^primordial"
+      ],
+      "name": "Craxly",
+      "species": "Pegasus",
+      "pronouns": "He/Him",
+      "aliases": [
+        "The First Pegasus"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Fafnir": {
+      "auto_link_strings": [
+        "Fafnir",
+        "Fafnir^primordial"
+      ],
+      "name": "Fafnir",
+      "species": "Dragon",
+      "pronouns": "They/Them",
+      "aliases": [
+        "The First Dragon"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [
+        "Agender"
+      ],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "Petrifax": {
+      "auto_link_strings": [
+        "Petrifax",
+        "Petrifax^primordial"
+      ],
+      "name": "Petrifax",
+      "species": "Basilisk",
+      "pronouns": "He/Him",
+      "aliases": [
+        "The First Basilisk"
+      ],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    }
+  },
   "template": {
     "auto_link_strings": [],
     "name": "",

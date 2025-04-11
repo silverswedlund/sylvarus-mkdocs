@@ -64,12 +64,12 @@
       "current_leader": "Midas",
       "custom_details": "Famous for wealth and the golden touch."
     },
-    "None": {
+    "Unaffiliated": {
       "auto_link_strings": [
         "(No Pantheon Affiliation)",
         "no pantheon affiliation"
       ],
-      "name": "None",
+      "name": "Unaffiliated",
       "era_of_creation": "N/A",
       "founding_member": "N/A",
       "current_leader": "N/A",
