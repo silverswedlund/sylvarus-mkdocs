@@ -14,7 +14,7 @@
       "type": "Divine",
       "origin": "The Spaces Between Universes",
       "lifespan": "Immortal",
-      "average_size_range": "5ft to 40ft",
+      "average_size_range": "152-1219 cm (5-40 ft)",
       "physique": "Varies widely; often appearing as surreal, a mix of metal and divine energy'",
       "languages": [
         "Angeltongue - A language similar to Celestial, but with a more complex grammar and syntax",
@@ -54,7 +54,7 @@
       "type": "Primordial",
       "origin": "Descendants of the primordial Basilisk Petrifax",
       "lifespan": "Immortal",
-      "average_size_range": "10ft to 20ft in length",
+      "average_size_range": "1500-2400 cm (50-80 ft) in length",
       "physique": "Serpentine creatures with a deadly gaze that can petrify living beings.",
       "languages": [
         "All languages (through telepathy)"
@@ -110,7 +110,7 @@
       "example_image_paths": [
         "celestial_example.jpg"
       ],
-      "average_size_range": "height: 160-206 cm (5'3\"-6'9\")"
+      "average_size_range": "160-206 cm (5'3\"-6'9\")"
     },
     "Demigod": {
       "auto_link_strings": [
@@ -143,7 +143,7 @@
       "example_image_paths": [
         "demigod_example.jpg"
       ],
-      "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100kg"
+      "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100 kg (220 lbs)"
     },
     "Dragon": {
       "auto_link_strings": [
@@ -182,7 +182,7 @@
       "example_image_paths": [
         "dragon_example.jpg"
       ],
-      "average_size_range": "length: 366-1219 cm (12'0\"-40'0\") with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
+      "average_size_range": "length: 366-1219 cm (12-40 ft) with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
     },
     "Dragonborn": {
       "auto_link_strings": [
@@ -262,7 +262,7 @@
       "example_image_paths": [
         "dwarf_example.jpg"
       ],
-      "average_size_range": "height: 107-137 cm (3'6\"-4'6\")"
+      "average_size_range": "107-137 cm (3'6\"-4'6\")"
     },
     "Elf": {
       "auto_link_strings": [
@@ -299,7 +299,7 @@
       "example_image_paths": [
         "elf_example.jpg"
       ],
-      "average_size_range": "height: 160-206 cm (5'3\"-6'9\")"
+      "average_size_range": "160-206 cm (5'3\"-6'9\")"
     },
     "Fairy": {
       "auto_link_strings": [
@@ -343,7 +343,7 @@
       "example_image_paths": [
         "fairy_example.jpg"
       ],
-      "average_size_range": "height: 91-107 cm (3'0\"-3'6\")"
+      "average_size_range": "91-107 cm (3'0\"-3'6\")"
     },
     "Fey": {
       "auto_link_strings": [
@@ -387,7 +387,7 @@
         "fey_example1.jpg",
         "fey_example2.jpg"
       ],
-      "average_size_range": "height: typically 91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
+      "average_size_range": "91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
     },
     "Griffin": {
       "auto_link_strings": [
@@ -398,7 +398,7 @@
       "type": "Primordial",
       "origin": "Descendants of the primordial Griffin Aquileo",
       "lifespan": "Immortal",
-      "average_size_range": "8ft to 12ft wingspan",
+      "average_size_range": "244 cm (8 ft) to shoulder height, 488-732 cm (16-24 ft) wingspan",
       "physique": "Creatures with the body of a lion and the head and wings of an eagle.",
       "languages": [
         "All languages (through telepathy)"
@@ -508,7 +508,7 @@
       "type": "Primordial",
       "origin": "Descendants of the primordial Kraken Cetuvia",
       "lifespan": "Immortal",
-      "average_size_range": "50ft to 100ft in length",
+      "average_size_range": "100ft to 1000ft (30m to 305m) in length",
       "physique": "Massive sea creatures with tentacles capable of sinking ships.",
       "languages": [
         "All languages (through telepathy)"
@@ -608,32 +608,36 @@
         "Pegasus",
         "Pegasi"
       ],
-      "name": "Pegasus",
+      "name": "Pegasus", 
       "type": "Primordial",
       "origin": "Descendants of the primordial Pegasus Craxly",
       "lifespan": "Immortal",
-      "average_size_range": "4ft to 6ft at the shoulder",
-      "physique": "Winged horses with powerful, graceful bodies and large feathered wings.",
+      "average_size_range": "183-305 cm (6-10 ft) at the shoulder, 762-914 cm (25-30 ft) wingspan",
+      "physique": "Majestic winged horses with powerful, muscular bodies covered in tough, leathery skin. Distinguished by their large bat-like wings and a single spiraling horn protruding from their forehead that serves both as a weapon and tool for channeling their innate magic.",
       "languages": [
         "All languages (through telepathy)"
       ],
-      "homelands": "The Astral Plane",
-      "other_regions": "Found in high-altitude regions and magical forests",
-      "history": "Pegasi are known for their beauty and grace, often serving as mounts for heroes and gods in mythology.",
-      "religion": "Associated with deities of the sky and travel",
+      "homelands": "the forest of the astral plane",
+      "other_regions": "Found in high-altitude regions and ancient forests in the astral plane, and some are found in the material plane, particularly in the northwest tundra and the mountains of shalnan where they have taken up the role of forest guardians",
+      "history": "Pegasi are renowned for their strength, resilience, and deep connection to nature. While they occasionally served as mounts for legendary heroes and gods in ancient mythology, modern Pegasi are more commonly known as fierce protectors of natural spaces.",
+      "religion": "Revere the forests and natural world with an almost religious devotion. They consider themselves guardians of nature's balance and will aggressively defend wooded areas from exploitation.",
       "traditions": [
-        "Skyward migrations",
-        "Guardians of celestial paths"
+        "Guardians of celestial paths",
+        "Forest protection rituals"
       ],
       "notable_figures": [],
       "relationships": [
-        "Highly regarded by many cultures as symbols of freedom and nobility"
+        "Share a particularly strong bond with Dragonborn, often collaborating on forest protection",
+        "Maintain friendly relations with Halflings, appreciating their respect for nature",
+        "Harbor deep resentment toward Dwarves due to their historical deforestation practices",
+        "Played a crucial role in establishing sustainable forestry practices in the Northwest Tundra",
+        "Highly regarded by many cultures as symbols of justice and environmental stewardship"
       ],
       "example_image_paths": [
         "pegasus_example.jpg"
       ],
-      "custom_details": "Pegasi are often depicted in art and literature as noble creatures that assist heroes in their quests.",
-      "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane."
+      "custom_details": "Individual Pegasi are known to claim and protect specific forests from exploitation, leading to the creation of numerous natural sanctuaries across Sylvarus and the astral plane (though this is not as common as in the material plane). These protected areas have evolved into popular parks where people can experience and appreciate nature in its pristine state. Their influence was particularly notable in the Northwest Tundra, where they worked to establish sustainable lumber harvesting rules that are still followed today. While generally peaceful, they can become extremely territorial and aggressive if their protected lands are threatened. Their strong sense of justice extends beyond environmental concerns - they have been known to intervene in cases of significant injustice, though they prefer to focus on protecting natural spaces.",
+      "distribution": "While their primary population resides the astral plane, individual Pegasi can be found wherever there are forests in need of protection, including the material plane. They maintain a particularly strong presence in the Northwest Tundra and shalnan, where they oversee sustainable forestry practices"
     },
     "Phoenix": {
       "auto_link_strings": [
@@ -644,29 +648,34 @@
       "type": "Primordial",
       "origin": "Descendants of the primordial Phoenix Avianna",
       "lifespan": "Immortal",
-      "average_size_range": "3ft to 15ft wingspan",
-      "physique": "Majestic birds with fiery plumage that glows with an inner light. They are known for their ability to be reborn from their ashes.",
+      "average_size_range": "height: 183-244 cm (6-8ft), wingspan: 488-732 cm (16-24ft)",
+      "physique": "Majestic birds with fiery plumage that glows with an inner light. Their feathers range from deep crimson to brilliant gold, with an ethereal flame that dances across their form without burning. When threatened or using their powers, their entire body can become wreathed in intense magical fire.",
       "languages": [
+        "Phoenixsong - A melodic language of trills and calls that they can physically vocalize",
         "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
-      "other_regions": "Occasionally found in remote, magical locations on the Material Plane",
-      "history": "Phoenixes are legendary creatures known for their cycle of death and rebirth. They are revered in many cultures as symbols of renewal and immortality.",
-      "religion": "Often associated with deities of fire and rebirth",
+      "other_regions": "Occasionally found in remote, magical locations on the Material Plane, particularly areas with strong healing energies",
+      "history": "Phoenixes are legendary creatures known for their cycle of death and rebirth. They are revered in many cultures as symbols of renewal and immortality. Their population has always been small, with current numbers only in the low hundreds. They reproduce asexually, with females laying eggs without the need for males, making them an entirely female species.",
+      "religion": "Often associated with deities of fire, rebirth, and healing",
       "traditions": [
-        "Rebirth from ashes",
-        "Guardians of sacred flames"
+        "Passing down ancient healing knowledge through generations",
+        "Teaching the art of controlled fire manipulation to their young",
+        "Serving as healers and advisors to those who seek their wisdom",
+        "Maintaining sacred sites of healing and renewal"
       ],
       "notable_figures": [],
       "relationships": [
-        "Respected by many species for their regenerative abilities",
-        "Often seen as omens of change"
+        "Highly respected by all species for their wisdom and healing abilities",
+        "Often sought out by those in need of powerful healing magic",
+        "Maintain peaceful relations with most species, though rarely form close bonds",
+        "Particularly revered by those who have witnessed their healing powers"
       ],
       "example_image_paths": [
         "phoenix_example.jpg"
       ],
-      "custom_details": "Phoenixes are solitary creatures that rarely interact with other species. Their presence is often seen as a sign of significant change or transformation.",
-      "distribution": "Primarily found in the Astral Plane, with rare appearances in the Material Plane."
+      "custom_details": "Phoenixes possess extraordinary healing abilities and are considered among the wisest of all beings. While typically peaceful, they are fierce fighters when necessary, demonstrating masterful control over fire magic which they only use in self-defense or to protect others. Upon death, they burst into intense magical flames and are reborn from their own ashes, emerging fully grown with all their memories intact. Their healing powers are legendary, capable of curing ailments that resist other forms of magical healing. They are highly intelligent and thoughtful creatures, often serving as advisors to those who seek their counsel.",
+      "distribution": "Primarily found in the Astral Plane, with rare appearances in the Material Plane. Their small population of only a few hundred individuals means encounters with them are extremely rare and often considered significant events."
     },
     "Quall": {
       "auto_link_strings": [
@@ -708,28 +717,36 @@
       "type": "Primordial",
       "origin": "Descendants of the primordial Roc Aetheria",
       "lifespan": "Immortal",
-      "average_size_range": "20ft to 50ft wingspan",
-      "physique": "Enormous birds of prey with immense strength and keen eyesight.",
+      "average_size_range": "height: 305-457 cm (10-15 ft) when standing, wingspan: 610-1524 cm (20-50 ft)",
+      "physique": "Enormous birds of prey with immense strength and glowing white eyes that brighten with power use. Despite their massive size, they remain graceful flyers through their potent telekinetic abilities. Their keen eyesight is legendary, with some claiming they can see through solid stone.",
       "languages": [
-        "All languages (through telepathy)"
+        "All languages (through telepathy)",
+        "Limited vocal sounds"
       ],
       "homelands": "The Astral Plane",
-      "other_regions": "Mountainous regions and vast open skies",
-      "history": "Rocs are legendary for their size and power, often featured in tales of epic battles and adventures.",
-      "religion": "Revered by some cultures as protectors of the skies",
+      "other_regions": "Coastal regions and oceanic mountain ranges where fish are plentiful",
+      "history": "Rocs are legendary for their size, power, and intelligence. While primarily solitary, historical records tell of several instances where Rocs served as advisors to mortal rulers, exchanging their wisdom for food and access to libraries. Their incredible problem-solving abilities have made them valuable, if difficult to recruit, allies.",
+      "religion": "Show little interest in religious matters, focusing instead on intellectual pursuits",
       "traditions": [
-        "Solitary hunting",
-        "Guardians of mountain peaks"
+        "Long-distance fishing expeditions spanning thousands of miles",
+        "Collecting and studying books and scrolls",
+        "Maintaining complex mental maps of their territories",
+        "Testing potential allies with increasingly difficult challenges"
       ],
       "notable_figures": [],
       "relationships": [
-        "Feared and respected by many species due to their size and strength"
+        "Generally self-interested and unlikely to aid others without clear benefit",
+        "Form lasting bonds with those who earn their respect",
+        "Known to honor debts with unwavering loyalty",
+        "Occasionally serve as advisors to powerful mortals in exchange for resources, mostly in the form of access to libraries and knowledge",
+        "Maintain complex relationships with coastal communities, sometimes trading protection for regular tribute",
+        "no specific relations with other species"
       ],
       "example_image_paths": [
         "roc_example.jpg"
       ],
-      "custom_details": "Rocs are solitary creatures that dominate the skies, rarely interacting with other species unless provoked.",
-      "distribution": "Primarily inhabit the Astral Plane, with occasional sightings in remote mountain ranges."
+      "custom_details": "Rocs are primarily piscivorous, specializing in hunting large ocean fish. Their incredible stamina allows them to fly for thousands of miles without rest, aided by their telekinetic abilities which help offset their massive size. While physically incapable of complex vocalization, they communicate effectively through a combination of telepathy and telekinesis, often using their mental powers to manipulate objects as a form of expression. Their intelligence manifests particularly in problem-solving scenarios, though they typically apply this ability solely to matters of personal interest unless properly motivated.",
+      "distribution": "Primarily inhabit the Astral Plane, with significant populations near oceanic mountain ranges and coastal regions where fish are abundant. They establish vast territories that can span hundreds of miles, which they patrol regularly during their hunting flights."
     },
     "Slothturtle": {
       "auto_link_strings": [
@@ -804,7 +821,7 @@
       "example_image_paths": [
         "tiefling_example.jpg"
       ],
-      "average_size_range": "height: 150-230 cm"
+      "average_size_range": "height: 150-230 cm (4'11\"-7'7\")"
     }
   }
 }
