@@ -51,13 +51,13 @@
         "Basilisks"
       ],
       "name": "Basilisk",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Basilisk Petrifax",
       "lifespan": "Immortal",
       "average_size_range": "10ft to 20ft in length",
       "physique": "Serpentine creatures with a deadly gaze that can petrify living beings.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Dense forests and underground lairs",
@@ -151,13 +151,13 @@
         "Dragons"
       ],
       "name": "Dragons",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "All dragons are descendants of the primordial dragon Fafnir, native to the Astral Plane",
       "lifespan": "Immortal",
       "physique": "Come in several distinct forms: serpentine dragons with four limbs, long bodies and multiple wing sets; stocky four-limbed dragons with two wings; and two-legged variants with prehensile wing-appendages.",
       "languages": [
         "Draconic",
-        "Sylvaric"
+        "All languages (through telepathy)"
       ],
       "custom_details": "Highly intelligent and magical beings who reproduce asexually and do not associate with gender. Like other the slothturtles, they continue growing throughout their immortal lives. Their proud and noble nature has shaped much of their history and interactions with other species.",
       "homelands": "The Astral Plane",
@@ -395,13 +395,13 @@
         "Griffins"
       ],
       "name": "Griffin",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Griffin Aquileo",
       "lifespan": "Immortal",
       "average_size_range": "8ft to 12ft wingspan",
       "physique": "Creatures with the body of a lion and the head and wings of an eagle.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Forests and mountainous regions",
@@ -505,13 +505,13 @@
         "Krakens"
       ],
       "name": "Kraken",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Kraken Cetuvia",
       "lifespan": "Immortal",
       "average_size_range": "50ft to 100ft in length",
       "physique": "Massive sea creatures with tentacles capable of sinking ships.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Deep ocean trenches and vast seas",
@@ -609,13 +609,13 @@
         "Pegasi"
       ],
       "name": "Pegasus",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Pegasus Craxly",
       "lifespan": "Immortal",
       "average_size_range": "4ft to 6ft at the shoulder",
       "physique": "Winged horses with powerful, graceful bodies and large feathered wings.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Found in high-altitude regions and magical forests",
@@ -641,13 +641,13 @@
         "Phoenixes"
       ],
       "name": "Phoenix",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Phoenix Avianna",
       "lifespan": "Immortal",
       "average_size_range": "3ft to 15ft wingspan",
       "physique": "Majestic birds with fiery plumage that glows with an inner light. They are known for their ability to be reborn from their ashes.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Occasionally found in remote, magical locations on the Material Plane",
@@ -705,13 +705,13 @@
         "Rocs"
       ],
       "name": "Roc",
-      "type": "Beast",
+      "type": "Primordial",
       "origin": "Descendants of the primordial Roc Aetheria",
       "lifespan": "Immortal",
       "average_size_range": "20ft to 50ft wingspan",
       "physique": "Enormous birds of prey with immense strength and keen eyesight.",
       "languages": [
-        "None"
+        "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Mountainous regions and vast open skies",
