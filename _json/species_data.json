@@ -399,27 +399,33 @@
       "origin": "Descendants of the primordial Griffin Aquileo",
       "lifespan": "Immortal",
       "average_size_range": "244 cm (8 ft) to shoulder height, 488-732 cm (16-24 ft) wingspan",
-      "physique": "Creatures with the body of a lion and the head and wings of an eagle.",
+      "physique": "Creatures with the body of a lion and the head and wings of an eagle. Known for their powerful build and fierce appearance.",
       "languages": [
         "All languages (through telepathy)"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Forests and mountainous regions",
-      "history": "Griffins are known for their strength and majesty, often depicted as noble guardians in mythology.",
+      "history": "Griffins are known for their strength and majesty, often depicted as noble guardians in mythology. Throughout history, they have been sought after as allies by various civilizations, though their proud nature means they choose their associations carefully.",
       "religion": "Associated with deities of protection and valor",
       "traditions": [
         "Territorial guardianship",
-        "Protectors of sacred sites"
+        "Protectors of sacred sites",
+        "Living in small groups of around 10 individuals",
+        "Periods of solitary wandering before returning to the group",
+        "Trading combat services for specially crafted armor"
       ],
       "notable_figures": [],
       "relationships": [
-        "Respected by many cultures for their noble nature"
+        "Respected by many cultures for their noble nature",
+        "Quick to anger when insulted or challenged",
+        "Form strong bonds with those who earn their trust",
+        "Known to engage in trade with skilled armorers"
       ],
       "example_image_paths": [
         "griffin_example.jpg"
       ],
-      "custom_details": "Griffins are often seen as symbols of courage and strength, revered in many cultures.",
-      "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane."
+      "custom_details": "Griffins are proud and temperamental creatures, quick to respond to perceived insults or challenges to their honor. They live in small groups of roughly ten individuals, though it's common for members to spend extended periods alone before returning to their group. Despite their innate magical abilities, they are known to trade their martial prowess and magical services in exchange for mortal-crafted armor, which they wear with pride. Their fierce nature and combat abilities make them formidable warriors, respected and sometimes feared by other species.",
+      "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane. Groups typically claim large territories which they defend vigorously."
     },
     "Halfling": {
       "auto_link_strings": [
@@ -509,27 +515,31 @@
       "origin": "Descendants of the primordial Kraken Cetuvia",
       "lifespan": "Immortal",
       "average_size_range": "100ft to 1000ft (30m to 305m) in length",
-      "physique": "Massive sea creatures with tentacles capable of sinking ships.",
+      "physique": "Massive sea creatures with tentacles. Sustained purely by magic, requiring no physical sustenance. Their bodies are capable of channeling immense amounts of sound and water magic.",
       "languages": [
-        "All languages (through telepathy)"
+        "All languages (through telepathy)",
+        "Sonic vibrations that can carry messages across vast distances"
       ],
       "homelands": "The Astral Plane",
       "other_regions": "Deep ocean trenches and vast seas",
-      "history": "Krakens are legendary sea monsters feared by sailors and often featured in maritime folklore.",
-      "religion": "Feared and revered by seafaring cultures",
+      "history": "Despite fearsome legends, Krakens are peaceful and contemplative beings. Historical accounts of attacks are largely exaggerations of chance encounters. They spend most of their time in deep meditation, moving and acting with deliberate slowness.",
+      "religion": "Practice deep meditation and introspection",
       "traditions": [
-        "Solitary oceanic roaming",
-        "Guardians of the deep"
+        "Solitary contemplation",
+        "Minimal interaction with other species unless necessary",
+        "Using sonic vibrations for long-distance communication between their kind"
       ],
       "notable_figures": [],
       "relationships": [
-        "Feared by many species due to their immense size and power"
+        "Generally avoid contact with other species",
+        "Will defend themselves with devastating force if attacked",
+        "Sometimes sought out by those seeking ancient wisdom, though few have the patience for their slow communication style"
       ],
       "example_image_paths": [
         "kraken_example.jpg"
       ],
-      "custom_details": "Krakens are solitary and elusive, often residing in the deepest parts of the ocean where they can remain undisturbed.",
-      "distribution": "Primarily inhabit the Astral Plane, with rare sightings in the deepest oceans of the Material Plane."
+      "custom_details": "Krakens are deeply introverted beings who rarely communicate even telepathically unless absolutely necessary. They possess devastating magical abilities - their vocalizations alone can kill nearby creatures, and they can control water to create massive floods. Despite this power, they are peaceful unless provoked. They reproduce asexually, with severed tentacles occasionally growing into new Krakens. They subsist entirely on magical energy, spending most of their time in meditative rest. Their wisdom is legendary, though few have the patience to wait for their carefully considered responses.",
+      "distribution": "Primarily inhabit the Astral Plane, with rare individuals in the deepest oceans of the Material Plane where they can remain undisturbed in contemplation."
     },
     "Narn": {
       "auto_link_strings": [
@@ -608,7 +618,7 @@
         "Pegasus",
         "Pegasi"
       ],
-      "name": "Pegasus", 
+      "name": "Pegasus",
       "type": "Primordial",
       "origin": "Descendants of the primordial Pegasus Craxly",
       "lifespan": "Immortal",
