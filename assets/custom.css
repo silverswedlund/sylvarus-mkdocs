@@ -1,0 +1,229 @@
+/* Background colors for a sleek dark theme */
+.md-main {
+	background-color: #212121;
+	/* Dark Gray */
+	color: #e0e0e0;
+	/* Text color: soft white */
+}
+
+/* Sidebar */
+.md-sidebar {
+	background-color: #292929;
+	/* Darker Sidebar */
+	border-right: 3px solid #ff9800;
+	/* Orange border */
+	padding-left: 0;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+}
+
+/* Header */
+.md-header {
+	background-color: #1c1c1c;
+	/* Darker header */
+	border-bottom: 3px solid #ff9800;
+	/* Orange border */
+}
+
+/* Adjusting navigation items in sidebar */
+.md-nav__item--active>.md-nav__link,
+.md-nav__link:hover {
+	color: #ff9800;
+	/* Orange highlight */
+}
+
+/* Links */
+a {
+	color: #ff9800;
+	/* Orange links */
+}
+
+a:hover {
+	color: #ffc947;
+	/* Lighter orange on hover */
+}
+
+/* Code blocks */
+.md-typeset code,
+.md-typeset pre {
+	background-color: #333;
+	color: #ffc947;
+	/* light orange text */
+	border: 1px solid #ff9800;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+	background-color: #2e2e2e;
+	border-left: 4px solid #ff9800;
+	color: #d0d0d0;
+}
+
+/* Tables */
+.md-typeset table {
+	background-color: #2a2a2a;
+}
+
+.md-typeset table th {
+	background-color: #1e1e1e;
+	border-bottom: 2px solid #ff9800;
+}
+
+.md-typeset table td {
+	border-bottom: 1px solid #ff9800;
+}
+
+/* Buttons */
+.md-button,
+.md-button--primary {
+	background-color: #ff9800;
+	color: #212121;
+}
+
+.md-button:hover {
+	background-color: #ffc947;
+}
+
+/* Footer (if applicable) */
+.md-footer {
+	background-color: #1c1c1c;
+	color: #888;
+	border-top: 3px solid #ff9800;
+}
+
+/* Scrollbar (optional aesthetic touch) */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff9800;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #ffc947;
+}
+
+/* Top header site title and navigation links */
+.md-header__title,
+.md-header-nav__button,
+.md-header-nav__topic,
+.md-tabs__link {
+	color: #ffffff !important;
+	/* white text */
+}
+
+.md-tabs__link {
+	color: #000000 !important;
+	/* black text */
+}
+
+/* Active navigation tab text */
+.md-tabs__link--active {
+	color: #ffc947 !important;
+	/* accent color (orange) */
+}
+
+/* Hover navigation tab text */
+.md-tabs__link:hover {
+	color: #ff9800 !important;
+	/* lighter orange */
+}
+
+/* Sidebar active/hover text */
+.md-nav__link--active,
+.md-nav__link:hover {
+	color: #ff9800 !important;
+}
+
+/* Entity table styling */
+.entity-table {
+	width: 100%;
+	font-size: 0.85rem;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.entity-table th {
+	background-color: #1e1e1e;
+	color: #ff9800;
+	padding: 0.5rem 0.25rem;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid #ff9800;
+}
+
+.entity-table td {
+	padding: 0.25rem;
+	text-align: center;
+	border-bottom: 1px solid #444;
+	vertical-align: top;
+}
+
+.entity-table td:empty::after {
+	content: "";
+	display: none;
+}
+
+/* Hide rows that contain only empty cells */
+.entity-table tr:has(td:first-child:empty) {
+	display: none;
+}
+
+/* Responsive adjustments for entity table */
+@media (max-width: 768px) {
+	.entity-table {
+		font-size: 0.75rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.entity-table th, .entity-table td {
+		padding: 0.15rem;
+	}
+}
+
+/* Search bar styling */
+.md-search__input {
+	background-color: #333;
+	/* Match the dark theme */
+	color: #e0e0e0;
+	/* Soft white text */
+	border: 1px solid #ff9800;
+	/* Orange border */
+}
+
+.md-search__input:focus {
+	border-color: #ffc947;
+	/* Lighter orange on focus */
+}
+
+/* Adjust search bar position */
+.md-search {
+	margin-right: 1rem;
+	position: relative;
+}
+
+/* Adjust sidebar container - more specific approach */
+.md-sidebar {
+	padding-left: 0;
+	margin-left: 0;
+	position: absolute;
+	left: 150px;
+}
+
+/* Adjust the main content area */
+.md-main {
+	margin-left: 0;
+}
+
+/* Adjust the main content container */
+.md-main__inner {
+	margin-left: 20rem;
+}
