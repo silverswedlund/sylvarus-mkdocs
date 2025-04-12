@@ -14,6 +14,7 @@ SCRIPTS=(
   "_scripts/insert_pantheon_tables.py"
   "_scripts/insert_identifier_tables.py"
   "_scripts/insert_relevant_stories.py"
+  "_scripts/add_missing_story_content_files.py"
   "_scripts/insert_species_table.py"
   "_scripts/insert_species_members_tables.py"
   "_scripts/insert_entities_table.py"
