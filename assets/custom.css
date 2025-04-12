@@ -1,148 +1,219 @@
-/* Background colors for a sleek dark theme */
-.md-main {
-	background-color: #212121;
-	/* Dark Gray */
-	color: #e0e0e0;
-	/* Text color: soft white */
+/* ─────────────── Global Default Resets ─────────────── */
+
+/* Default text color across all content */
+body,
+html,
+.md-typeset,
+.md-content,
+.md-search-result__item,
+.md-search-result__article,
+.md-search-result__link {
+	color: #e0e0e0 !important;
 }
 
-/* Sidebar */
-.md-sidebar {
-	background-color: #292929;
-	/* Darker Sidebar */
-	border-right: 3px solid #ff9800;
-	/* Orange border */
-	padding-left: 0;
-	margin-left: 0;
-	position: absolute;
-	left: 0;
+/* Default link styling */
+a,
+.md-typeset a,
+.md-search-result__article a,
+.md-search-result__item a,
+.md-nav__link,
+.md-tabs a {
+	color: #ff9800 !important;
+	text-decoration: none;
 }
 
-/* Header */
-.md-header {
-	background-color: #1c1c1c;
-	/* Darker header */
-	border-bottom: 3px solid #ff9800;
-	/* Orange border */
+a:hover,
+.md-typeset a:hover,
+.md-search-result__article a:hover,
+.md-search-result__item a:hover,
+.md-tabs a:hover {
+	color: #ffc947 !important;
+	text-decoration: underline;
 }
 
-/* Adjusting navigation items in sidebar */
-.md-nav__item--active>.md-nav__link,
-.md-nav__link:hover {
-	color: #ff9800;
-	/* Orange highlight */
+/* ─────────────── Search Result Styling ─────────────── */
+
+/* Soften hover effect for search results */
+.md-search-result__item:hover,
+.md-search-result__link:hover {
+	background-color: rgba(255, 152, 0, 0.08) !important;
+	transition: background-color 0.2s ease;
 }
 
-/* Links */
-a {
-	color: #ff9800;
-	/* Orange links */
+/* Search meta and surrounding areas */
+.md-search-result__meta,
+.md-search-result__list,
+.md-search-result__link,
+.md-search-result__article {
+	background-color: #212121 !important;
+	color: #e0e0e0 !important;
 }
 
-a:hover {
-	color: #ffc947;
-	/* Lighter orange on hover */
+/* Search scrollbar */
+.md-search-result__link::-webkit-scrollbar,
+.md-search-result__article::-webkit-scrollbar {
+	width: 12px;
 }
 
-/* Code blocks */
-.md-typeset code,
-.md-typeset pre {
-	background-color: #333;
-	color: #ffc947;
-	/* light orange text */
-	border: 1px solid #ff9800;
-}
-
-/* Blockquotes */
-.md-typeset blockquote {
-	background-color: #2e2e2e;
-	border-left: 4px solid #ff9800;
-	color: #d0d0d0;
-}
-
-/* Tables */
-.md-typeset table {
-	background-color: #2a2a2a;
-}
-
-.md-typeset table th {
-	background-color: #1e1e1e;
-	border-bottom: 2px solid #ff9800;
-}
-
-.md-typeset table td {
-	border-bottom: 1px solid #ff9800;
-}
-
-/* Buttons */
-.md-button,
-.md-button--primary {
+.md-search-result__link::-webkit-scrollbar-thumb,
+.md-search-result__article::-webkit-scrollbar-thumb {
 	background-color: #ff9800;
-	color: #212121;
-}
-
-.md-button:hover {
-	background-color: #ffc947;
-}
-
-/* Footer (if applicable) */
-.md-footer {
-	background-color: #1c1c1c;
-	color: #888;
-	border-top: 3px solid #ff9800;
-}
-
-/* Scrollbar (optional aesthetic touch) */
-::-webkit-scrollbar {
-	width: 8px;
-}
-
-::-webkit-scrollbar-track {
-	background: #212121;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #ff9800;
 	border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-	background: #ffc947;
+.md-search-result__link::-webkit-scrollbar-track,
+.md-search-result__article::-webkit-scrollbar-track {
+	background-color: #333333;
 }
 
-/* Top header site title and navigation links */
+/* ─────────────── Global Theme Colors ─────────────── */
+
+:root {
+	--bg-main: #212121;
+	--bg-sidebar: #292929;
+	--bg-header: #1c1c1c;
+	--bg-alt: #333333;
+	--text-light: #e0e0e0;
+	--text-dim: #888;
+	--accent: #ff9800;
+	--accent-hover: #ffc947;
+}
+
+/* ─────────────── Base Layout ─────────────── */
+
+.md-main,
+::-webkit-scrollbar-track {
+	background-color: var(--bg-main);
+	color: var(--text-light);
+}
+
+.md-sidebar,
+.md-sidebar__scrollwrap,
+.md-nav,
+.md-nav__list {
+	background-color: var(--bg-sidebar) !important;
+}
+
+.md-header,
+.md-nav__title,
+.md-nav__source,
+.md-footer {
+	background-color: var(--bg-header) !important;
+	border-bottom: 3px solid var(--accent);
+}
+
+.md-footer {
+	color: var(--text-dim);
+	border-top: 3px solid var(--accent);
+}
+
+/* ─────────────── Typography ─────────────── */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+	color: var(--text-light) !important;
+}
+
+a,
+.md-typeset a,
+.md-nav__link {
+	color: var(--accent) !important;
+	text-decoration: none;
+}
+
+a:hover,
+.md-typeset a:hover,
+.md-nav__link:hover {
+	color: var(--accent-hover) !important;
+	text-decoration: underline;
+}
+
+/* ─────────────── Navigation and Tabs ─────────────── */
+
 .md-header__title,
 .md-header-nav__button,
 .md-header-nav__topic,
 .md-tabs__link {
 	color: #ffffff !important;
-	/* white text */
 }
 
-.md-tabs__link {
-	color: #000000 !important;
-	/* black text */
-}
-
-/* Active navigation tab text */
 .md-tabs__link--active {
-	color: #ffc947 !important;
-	/* accent color (orange) */
+	color: var(--accent-hover) !important;
 }
 
-/* Hover navigation tab text */
 .md-tabs__link:hover {
-	color: #ff9800 !important;
-	/* lighter orange */
+	color: var(--accent) !important;
 }
 
-/* Sidebar active/hover text */
-.md-nav__link--active,
-.md-nav__link:hover {
-	color: #ff9800 !important;
+.md-nav__link--active {
+	color: var(--accent) !important;
+	font-weight: bold;
 }
 
-/* Entity table styling */
+.md-tabs {
+	background-color: var(--accent) !important;
+	color: #000000 !important;
+	font-weight: bold;
+}
+
+.md-tabs a {
+	color: #000000 !important;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.md-tabs a:hover {
+	color: var(--accent-hover) !important;
+}
+
+/* ─────────────── Code + Blockquotes ─────────────── */
+
+.md-typeset code,
+.md-typeset pre {
+	background-color: var(--bg-alt);
+	color: var(--accent-hover);
+	border: 1px solid var(--accent);
+}
+
+.md-typeset blockquote {
+	background-color: #2e2e2e;
+	border-left: 4px solid var(--accent);
+	color: #d0d0d0;
+}
+
+/* ─────────────── Tables ─────────────── */
+
+.md-typeset table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #2a2a2a !important;
+	color: var(--text-light);
+	margin-bottom: 1rem;
+}
+
+.md-typeset table th {
+	background-color: #1e1e1e !important;
+	color: var(--accent);
+	border: 1px solid var(--accent);
+	font-weight: bold;
+	padding: 0.5rem;
+}
+
+.md-typeset table td {
+	border: 1px solid var(--accent);
+	padding: 0.5rem;
+}
+
+.md-typeset table tr:hover {
+	background-color: var(--bg-alt) !important;
+}
+
+/* ─────────────── Entity Tables ─────────────── */
+
 .entity-table {
 	width: 100%;
 	font-size: 0.85rem;
@@ -152,11 +223,11 @@ a:hover {
 
 .entity-table th {
 	background-color: #1e1e1e;
-	color: #ff9800;
+	color: var(--accent);
 	padding: 0.5rem 0.25rem;
 	text-align: center;
 	font-weight: bold;
-	border-bottom: 2px solid #ff9800;
+	border-bottom: 2px solid var(--accent);
 }
 
 .entity-table td {
@@ -171,59 +242,210 @@ a:hover {
 	display: none;
 }
 
-/* Hide rows that contain only empty cells */
 .entity-table tr:has(td:first-child:empty) {
 	display: none;
 }
 
-/* Responsive adjustments for entity table */
+/* ─────────────── Images ─────────────── */
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+/* ─────────────── Buttons ─────────────── */
+
+.md-button,
+.md-button--primary {
+	background-color: var(--accent);
+	color: var(--bg-main);
+}
+
+.md-button:hover {
+	background-color: var(--accent-hover);
+}
+
+/* ─────────────── Search ─────────────── */
+
+.md-search__input {
+	background-color: var(--bg-alt);
+	color: var(--text-light);
+	border: 1px solid var(--accent);
+}
+
+.md-search__input:focus {
+	border-color: var(--accent-hover);
+}
+
+.md-search__input::placeholder {
+	color: var(--text-light);
+}
+
+.md-search-result__list,
+.md-search__scrollwrap,
+.md-search__form,
+.md-search__overlay {
+	background-color: var(--bg-main);
+}
+
+.md-search-result__item,
+.md-search-result__meta {
+	color: var(--text-light) !important;
+}
+
+.md-search-result__item a,
+.md-search-result__link a,
+.md-search-result__article.md-typeset a {
+	color: var(--accent) !important;
+	text-decoration: none;
+}
+
+.md-search-result__item a:hover,
+.md-search-result__link a:hover,
+.md-search-result__article.md-typeset a:hover {
+	color: var(--accent-hover) !important;
+	background-color: #cc7000 !important;
+	text-decoration: underline;
+}
+
+/* ─────────────── Scrollbar ─────────────── */
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--accent);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--accent-hover);
+}
+
+/* Custom scrollbar for search overlay */
+.md-search-result__link::-webkit-scrollbar,
+.md-search-result__article.md-typeset::-webkit-scrollbar {
+	width: 12px;
+	background-color: var(--accent);
+}
+
+.md-search-result__link::-webkit-scrollbar-thumb,
+.md-search-result__article.md-typeset::-webkit-scrollbar-thumb {
+	background-color: var(--accent);
+}
+
+.md-search-result__link::-webkit-scrollbar-track,
+.md-search-result__article.md-typeset::-webkit-scrollbar-track {
+	background: var(--bg-alt);
+}
+
+/* ─────────────── Responsive Layout ─────────────── */
+
+@media (min-width: 769px) {
+	.md-sidebar {
+		width: 200px;
+		border-right: 3px solid var(--accent);
+	}
+
+	.md-main__inner {
+		margin-left: 200px;
+	}
+}
+
 @media (max-width: 768px) {
+	.md-main__inner {
+		margin-left: 0;
+	}
+
+	.md-typeset table,
+	.md-typeset table th,
+	.md-typeset table td {
+		font-size: 0.85rem;
+		padding: 0.3rem;
+	}
+
 	.entity-table {
 		font-size: 0.75rem;
 	}
 }
 
 @media (max-width: 480px) {
-	.entity-table th, .entity-table td {
+
+	.entity-table th,
+	.entity-table td {
 		padding: 0.15rem;
 	}
 }
 
-/* Search bar styling */
-.md-search__input {
-	background-color: #333;
-	/* Match the dark theme */
-	color: #e0e0e0;
-	/* Soft white text */
-	border: 1px solid #ff9800;
-	/* Orange border */
+
+.md-nav__title {
+	color: #ffffff !important;
 }
 
-.md-search__input:focus {
-	border-color: #ffc947;
-	/* Lighter orange on focus */
+.md-search-result__link,
+.md-search-result__article a,
+.md-search-result__article.md-typeset a {
+	color: #ff9800 !important;
 }
 
-/* Adjust search bar position */
-.md-search {
-	margin-right: 1rem;
-	position: relative;
+.md-search-result__article.md-typeset mark {
+	color: #ff9800 !important;
 }
 
-/* Adjust sidebar container - more specific approach */
+.md-search-result__more div,
+.md-search-result__more summary {
+	color: #e67e00 !important;
+}
+
+.md-nav__list ul {
+	border-left: 4px solid var(--accent) !important;
+	padding-left: 4px;
+}
+
+.md-sidebar--primary {
+	background-color: #333333 !important;
+	color: #333333 !important;
+}
+
+/* Sidebar top header (logo/title area) */
+.md-nav__title,
+.md-nav__source {
+	background-color: #292929 !important;
+	/* Match sidebar background */
+	color: #e0e0e0 !important;
+	/* Light gray text */
+	border-bottom: 3px solid #ff9800;
+	/* Orange underline */
+}
+
+/* Sidebar entire background */
+.md-sidebar__scrollwrap,
 .md-sidebar {
-	padding-left: 0;
-	margin-left: 0;
-	position: absolute;
-	left: 150px;
+	background-color: #292929 !important;
+	/* Ensure consistent background */
 }
 
-/* Adjust the main content area */
-.md-main {
-	margin-left: 0;
+
+.js-focus-visible {
+	background-color: #333333 !important;
 }
 
-/* Adjust the main content container */
-.md-main__inner {
-	margin-left: 20rem;
+
+/* Fix top white strip in sidebar */
+.md-sidebar,
+.md-sidebar__inner,
+.md-sidebar--primary,
+.md-sidebar__scrollwrap,
+.md-nav {
+	background-color: #292929 !important;
+}
+
+/* Cover potential top white bar in sidebar caused by nested search/header */
+.md-sidebar__scrollwrap> :first-child,
+.md-sidebar__scrollwrap>.md-search,
+.md-search__form,
+.md-search__overlay {
+	background-color: #292929 !important;
 }
