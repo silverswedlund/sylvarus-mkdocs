@@ -23,7 +23,7 @@ jobs:
         pip install mkdocs-material
 
     - name: Run custom build script
-      run: ./build_sylvarus_mkdocs.sh
+      run: bash build_sylvarus_mkdocs.sh
 
     - name: Build MkDocs site
       run: mkdocs build
