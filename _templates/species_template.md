@@ -69,3 +69,6 @@
 {% endfor %}
 {% endif %}
 ---
+
+## 🧑‍🤝‍🧑 Species Members  
+{% include "species/{{name|lower}}/species_members_table.md_insert" %}

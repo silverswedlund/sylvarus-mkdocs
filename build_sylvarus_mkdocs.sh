@@ -15,6 +15,7 @@ SCRIPTS=(
   "_scripts/insert_identifier_tables.py"
   "_scripts/insert_relevant_stories.py"
   "_scripts/insert_species_table.py"
+  "_scripts/insert_species_members_tables.py"
   "_scripts/insert_entities_table.py"
   "_scripts/auto_link_references.py"
 )

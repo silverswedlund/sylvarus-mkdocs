@@ -86,7 +86,7 @@
         "Celestial",
         "Celestials"
       ],
-      "name": "Celestials",
+      "name": "Celestial",
       "type": "Humanoid",
       "origin": "Transformed Elves, blessed by interdimensional beings known as angels",
       "lifespan": "750-1000 years",
@@ -116,12 +116,45 @@
       ],
       "average_size_range": "160-206 cm (5'3\"-6'9\")"
     },
+    "Centaur": {
+      "auto_link_strings": [
+        "Centaur",
+        "Centaurs"
+      ],
+      "name": "Centaur",
+      "type": "Astral",
+      "origin": "Descendants of the celestial horse and human union, blessed by the stars.",
+      "lifespan": "200-300 years",
+      "physique": "Half-human, half-horse beings known for their strength and speed. They possess the upper body of a human and the lower body of a horse.",
+      "languages": [
+        "Sylvaric",
+        "Celestial"
+      ],
+      "homelands": "The Astral Plains",
+      "other_regions": "Forests and open fields in the Material Plane",
+      "history": "Centaurs are known for their wisdom and connection to the stars. They are often seen as guides and protectors of the natural world.",
+      "religion": "Revere the stars and celestial bodies, believing them to be the spirits of their ancestors.",
+      "traditions": [
+        "Star-gazing ceremonies",
+        "Seasonal migrations"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Respected by many species for their wisdom and strength",
+        "Often serve as mediators in conflicts"
+      ],
+      "example_image_paths": [
+        "centaur_example.jpg"
+      ],
+      "custom_details": "Centaurs are known for their deep connection to nature and the cosmos. They often serve as guardians of ancient forests and sacred sites.",
+      "distribution": "Primarily found in the Astral Plains, with some communities in the Material Plane."
+    },
     "Demigod": {
       "auto_link_strings": [
         "Demigod",
         "Demigods"
       ],
-      "name": "Demigods",
+      "name": "Demigod",
       "type": "Amorphous",
       "origin": "Born from the union of gods and mortals",
       "lifespan": "Immortal",
@@ -154,7 +187,7 @@
         "Dragon",
         "Dragons"
       ],
-      "name": "Dragons",
+      "name": "Dragon",
       "type": "Primordial",
       "origin": "All dragons are descendants of the primordial dragon Fafnir, native to the Astral Plane",
       "lifespan": "Immortal",
@@ -228,7 +261,7 @@
         "Dwarves",
         "Dwarven"
       ],
-      "name": "Dwarves",
+      "name": "Dwarf",
       "type": "Humanoid",
       "origin": "Share a common ancestor with Elves, believed to be the second oldest sentient species after Elves",
       "lifespan": "200-400 years",
@@ -274,7 +307,7 @@
         "Elves",
         "Elvish"
       ],
-      "name": "Elves",
+      "name": "Elf",
       "type": "Humanoid",
       "origin": "Evolutionary Digergence",
       "lifespan": "750-1000 years",
@@ -310,7 +343,7 @@
         "Fairy",
         "Fairies"
       ],
-      "name": "Fairies",
+      "name": "Fairy",
       "type": "Humanoid",
       "origin": "Hybrid offspring of Fey and mortals",
       "lifespan": "Immortal",
@@ -436,7 +469,7 @@
         "Halfling",
         "Halflings"
       ],
-      "name": "Halflings",
+      "name": "Halfling",
       "type": "Humanoid",
       "origin": "Descended from humans in ancient times",
       "lifespan": "180-200 years",
@@ -474,7 +507,7 @@
         "Humans",
         "Humanity"
       ],
-      "name": "Humans",
+      "name": "Human",
       "type": "Humanoid",
       "origin": "Evolutionary Divergence, more closely related to Dwarves than Elves",
       "lifespan": "80-150 years",
@@ -545,12 +578,45 @@
       "custom_details": "Krakens are deeply introverted beings who rarely communicate even telepathically unless absolutely necessary. They possess devastating magical abilities - their vocalizations alone can kill nearby creatures, and they can control water to create massive floods. Despite this power, they are peaceful unless provoked. They reproduce asexually, with severed tentacles occasionally growing into new Krakens. They subsist entirely on magical energy, spending most of their time in meditative rest. Their wisdom is legendary, though few have the patience to wait for their carefully considered responses.",
       "distribution": "Primarily inhabit the Astral Plane, with rare individuals in the deepest oceans of the Material Plane where they can remain undisturbed in contemplation."
     },
+    "Mer": {
+      "auto_link_strings": [
+        "Mer",
+        "Mers"
+      ],
+      "name": "Mer",
+      "type": "Astral",
+      "origin": "Descendants of the primordial sea spirits, guardians of the ocean's mysteries.",
+      "lifespan": "300-500 years",
+      "physique": "Aquatic beings with the upper body of a human and the lower body of a fish. Known for their beauty and grace.",
+      "languages": [
+        "Aquan",
+        "Sylvaric"
+      ],
+      "homelands": "The Astral Seas",
+      "other_regions": "Oceans and seas in the Material Plane",
+      "history": "Mers are known for their enchanting songs and deep connection to the ocean. They are often seen as protectors of marine life and the ocean's secrets.",
+      "religion": "Worship the sea and its deities, believing them to be the source of all life.",
+      "traditions": [
+        "Oceanic rituals",
+        "Tide celebrations"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Respected by many for their wisdom and beauty",
+        "Often serve as guardians of the ocean's treasures"
+      ],
+      "example_image_paths": [
+        "mer_example.jpg"
+      ],
+      "custom_details": "Mers are known for their enchanting voices and ability to communicate with marine creatures. They often guide lost sailors to safety.",
+      "distribution": "Primarily found in the Astral Seas, with some communities in the Material Plane."
+    },
     "Narn": {
       "auto_link_strings": [
         "Narn",
         "Narns"
       ],
-      "name": "Narns",
+      "name": "Narn",
       "type": "Humanoid",
       "origin": "Native to southern Sylvarus",
       "lifespan": "1100-1400 years",
@@ -587,7 +653,7 @@
         "Orcish",
         "Orcs"
       ],
-      "name": "Orcs",
+      "name": "Orc",
       "type": "Humanoid",
       "origin": "Evolutionary Divergence from a common ancestor with Elves, more closely related to Elves than to Dwarves",
       "lifespan": "80-150 years",
@@ -762,13 +828,46 @@
       "custom_details": "Rocs are primarily piscivorous, specializing in hunting large ocean fish. Their incredible stamina allows them to fly for thousands of miles without rest, aided by their telekinetic abilities which help offset their massive size. While physically incapable of complex vocalization, they communicate effectively through a combination of telepathy and telekinesis, often using their mental powers to manipulate objects as a form of expression. Their intelligence manifests particularly in problem-solving scenarios, though they typically apply this ability solely to matters of personal interest unless properly motivated.",
       "distribution": "Primarily inhabit the Astral Plane, with significant populations near oceanic mountain ranges and coastal regions where fish are abundant. They establish vast territories that can span hundreds of miles, which they patrol regularly during their hunting flights."
     },
+    "Satyr": {
+      "auto_link_strings": [
+        "Satyr",
+        "Satyrs"
+      ],
+      "name": "Satyr",
+      "type": "Astral",
+      "origin": "Born from the union of fey and celestial beings, embodying the spirit of nature.",
+      "lifespan": "150-200 years",
+      "physique": "Humanoid with goat-like features, including horns and hooves. Known for their agility and musical talents.",
+      "languages": [
+        "Feyspeak",
+        "Sylvaric"
+      ],
+      "homelands": "The Astral Forests",
+      "other_regions": "Woodlands and groves in the Material Plane",
+      "history": "Satyrs are known for their love of music and revelry. They are often seen as the life of the party, bringing joy and laughter wherever they go.",
+      "religion": "Celebrate the natural world and the fey spirits that inhabit it.",
+      "traditions": [
+        "Music and dance festivals",
+        "Seasonal feasts"
+      ],
+      "notable_figures": [],
+      "relationships": [
+        "Beloved by many for their joyful nature",
+        "Often act as ambassadors between the fey and mortal realms"
+      ],
+      "example_image_paths": [
+        "satyr_example.jpg"
+      ],
+      "custom_details": "Satyrs are known for their carefree and mischievous nature. They often play pranks on travelers but are generally good-natured.",
+      "distribution": "Primarily found in the Astral Forests, with some residing in the Material Plane."
+    },
     "Slothturtle": {
       "auto_link_strings": [
         "Slothturtle",
         "Slothturtles"
       ],
-      "name": "Slothturtles",
-      "type": "Beast",
+      "name": "Slothturtle",
+      "type": "Astral",
       "origin": "Unknown, believed to be one of the oldest species in existence",
       "lifespan": "Immortal",
       "physique": "A unique combination of turtle and sloth characteristics. Extremely slow-moving creatures with both shell and fur. Young Slothturtles are arboreal, but transition to aquatic lifestyles as they age. Like Dragons, they continue growing throughout their immortal lives, with the oldest specimens reaching enormous sizes.",
@@ -804,7 +903,7 @@
         "Tiefling",
         "Tieflings"
       ],
-      "name": "Tieflings",
+      "name": "Tiefling",
       "type": "Humanoid",
       "origin": "Descended from an Orcish tribe that made dealings with creatures of the Feywilds",
       "lifespan": "750-1000 years",
