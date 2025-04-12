@@ -21,3 +21,16 @@ markdown_extensions:
 plugins:
   - search
   - include-markdown
+  - minify:
+      minify_html: true
+
+theme:
+  name: material
+  features:
+    - navigation.instant         # smooth transitions
+    - navigation.top            # back-to-top button
+    - navigation.tabs           # tabbed nav bar
+    - navigation.sections       # collapsible sections
+    - toc.integrate             # integrates TOC into mobile nav
+    - content.action.edit       # optional "edit on GitHub"
+    - content.code.copy         # adds copy buttons to code blocks

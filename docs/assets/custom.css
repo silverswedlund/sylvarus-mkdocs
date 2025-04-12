@@ -1,47 +1,51 @@
-/* Background colors for a sleek dark theme */
-.md-main {
+/* ────────────── Base Layout + Color Scheme ────────────── */
+
+/* Main background and text */
+.md-main,
+::-webkit-scrollbar-track {
 	background-color: #212121;
-	/* Dark Gray */
 	color: #e0e0e0;
-	/* Text color: soft white */
 }
 
-/* Sidebar */
-.md-sidebar {
-	background-color: #292929;
-	/* Darker Sidebar */
-	border-right: 3px solid #ff9800;
-	/* Orange border */
-	padding-left: 0;
-	margin-left: 0;
-	position: absolute;
-	left: 0;
+.md-sidebar,
+.md-sidebar__scrollwrap,
+.md-sidebar,
+.md-nav,
+.md-nav__list {
+	background-color: #292929 !important;
 }
 
-/* Header */
-.md-header {
-	background-color: #1c1c1c;
-	/* Darker header */
+.md-header,
+.md-nav__title,
+.md-nav__source,
+.md-footer {
+	background-color: #1c1c1c !important;
 	border-bottom: 3px solid #ff9800;
-	/* Orange border */
 }
 
-/* Adjusting navigation items in sidebar */
-.md-nav__item--active>.md-nav__link,
-.md-nav__link:hover {
-	color: #ff9800;
-	/* Orange highlight */
+.md-footer {
+	color: #888;
+	border-top: 3px solid #ff9800;
+}
+
+/* Top Bar */
+.md-header {
+	background-color: #333 !important;
 }
 
 /* Links */
-a {
-	color: #ff9800;
-	/* Orange links */
+a,
+.md-typeset a,
+.md-nav__link {
+	color: #ff9800 !important;
+	text-decoration: none;
 }
 
-a:hover {
-	color: #ffc947;
-	/* Lighter orange on hover */
+a:hover,
+.md-typeset a:hover,
+.md-nav__link:hover {
+	color: #ffc947 !important;
+	text-decoration: underline;
 }
 
 /* Code blocks */
@@ -49,7 +53,6 @@ a:hover {
 .md-typeset pre {
 	background-color: #333;
 	color: #ffc947;
-	/* light orange text */
 	border: 1px solid #ff9800;
 }
 
@@ -62,16 +65,27 @@ a:hover {
 
 /* Tables */
 .md-typeset table {
-	background-color: #2a2a2a;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #2a2a2a !important;
+	color: #e0e0e0;
+	margin-bottom: 1rem;
+}
+
+.md-typeset table th,
+.md-typeset table td {
+	border: 1px solid #ff9800;
+	padding: 0.5rem;
 }
 
 .md-typeset table th {
-	background-color: #1e1e1e;
-	border-bottom: 2px solid #ff9800;
+	background-color: #1e1e1e !important;
+	color: #ff9800;
+	font-weight: bold;
 }
 
-.md-typeset table td {
-	border-bottom: 1px solid #ff9800;
+.md-typeset table tr:hover {
+	background-color: #333 !important;
 }
 
 /* Buttons */
@@ -85,20 +99,9 @@ a:hover {
 	background-color: #ffc947;
 }
 
-/* Footer (if applicable) */
-.md-footer {
-	background-color: #1c1c1c;
-	color: #888;
-	border-top: 3px solid #ff9800;
-}
-
-/* Scrollbar (optional aesthetic touch) */
+/* Scrollbar */
 ::-webkit-scrollbar {
 	width: 8px;
-}
-
-::-webkit-scrollbar-track {
-	background: #212121;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -110,39 +113,91 @@ a:hover {
 	background: #ffc947;
 }
 
-/* Top header site title and navigation links */
+/* ────────────── Navigation and Tabs ────────────── */
+
 .md-header__title,
 .md-header-nav__button,
-.md-header-nav__topic,
+.md-header-nav__topic {
+	color: #ffffff !important;
+}
+
 .md-tabs__link {
 	color: #ffffff !important;
-	/* white text */
 }
 
-.md-tabs__link {
-	color: #000000 !important;
-	/* black text */
-}
-
-/* Active navigation tab text */
 .md-tabs__link--active {
 	color: #ffc947 !important;
-	/* accent color (orange) */
 }
 
-/* Hover navigation tab text */
 .md-tabs__link:hover {
 	color: #ff9800 !important;
-	/* lighter orange */
 }
 
-/* Sidebar active/hover text */
-.md-nav__link--active,
-.md-nav__link:hover {
+/* Sidebar navigation link colors */
+.md-nav__link--active {
 	color: #ff9800 !important;
+	font-weight: bold;
 }
 
-/* Entity table styling */
+/* ────────────── Responsive Sidebar Layout ────────────── */
+
+@media (min-width: 769px) {
+	.md-sidebar {
+		width: 200px;
+		border-right: 3px solid #ff9800;
+	}
+
+	.md-main__inner {
+		margin-left: 200px;
+	}
+}
+
+@media (max-width: 768px) {
+	.md-main__inner {
+		margin-left: 0;
+	}
+
+	.md-typeset table,
+	.md-typeset table th,
+	.md-typeset table td {
+		font-size: 0.85rem;
+		padding: 0.3rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.entity-table th,
+	.entity-table td {
+		padding: 0.15rem;
+	}
+}
+
+/* ────────────── Search Bar ────────────── */
+
+.md-search__input {
+	background-color: #333;
+	color: #e0e0e0;
+	border: 1px solid #ff9800;
+}
+
+.md-search__input:focus {
+	border-color: #ffc947;
+}
+
+.md-search {
+	margin-right: 1rem;
+	position: relative;
+}
+
+/* Sidebar Top Header */
+.md-nav__title,
+.md-nav__button {
+	color: #e0e0e0 !important;
+	/* Light gray text */
+}
+
+/* ────────────── Entity Table ────────────── */
+
 .entity-table {
 	width: 100%;
 	font-size: 0.85rem;
@@ -157,6 +212,26 @@ a:hover {
 	text-align: center;
 	font-weight: bold;
 	border-bottom: 2px solid #ff9800;
+}
+
+/* ────────────── Search Results ────────────── */
+
+.md-search-result__list {
+    background-color: #212121; /* Dark background */
+}
+
+.md-search-result__item {
+    color: #e0e0e0; /* Light gray text */
+}
+
+.md-search-result__item a {
+    color: #ff9800; /* Orange links */
+    text-decoration: none;
+}
+
+.md-search-result__item a:hover {
+    color: #ffc947; /* Lighter orange on hover */
+    text-decoration: underline;
 }
 
 .entity-table td {
@@ -176,54 +251,122 @@ a:hover {
 	display: none;
 }
 
-/* Responsive adjustments for entity table */
+/* Entity table: scale down on smaller screens */
 @media (max-width: 768px) {
 	.entity-table {
 		font-size: 0.75rem;
 	}
 }
 
-@media (max-width: 480px) {
-	.entity-table th, .entity-table td {
-		padding: 0.15rem;
-	}
+/* Responsive image scaling: prevent distortion and overflow */
+img {
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 4px;
 }
 
-/* Search bar styling */
-.md-search__input {
-	background-color: #333;
-	/* Match the dark theme */
+/* Headings: use light gray instead of black */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+	color: #e0e0e0 !important;
+}
+
+/* ────────────── Search Results ────────────── */
+.md-search-result__list {
+	background-color: #212121;
+	/* Dark background */
+}
+
+.md-search-result__item {
+	color: #e0e0e0 !important;
+	/* Light gray text */
+}
+
+.md-search-result__item a {
+	color: #ff9800 !important;
+	/* Orange links */
+	text-decoration: none;
+}
+
+.md-search-result__item a:hover {
+	color: #ffc947 !important;
+	/* Lighter orange on hover */
+	text-decoration: underline;
+}
+
+/* Search input placeholder */
+.md-search__input::placeholder {
 	color: #e0e0e0;
-	/* Soft white text */
-	border: 1px solid #ff9800;
-	/* Orange border */
+	/* Light gray placeholder text */
 }
 
-.md-search__input:focus {
-	border-color: #ffc947;
-	/* Lighter orange on focus */
+/* Navigation Bar */
+.md-tabs {
+	background-color: #7e4c00 !important;
+	/* Orange background */
+	color: #121212 !important;
+	/* Light text */
 }
 
-/* Adjust search bar position */
-.md-search {
-	margin-right: 1rem;
-	position: relative;
+.md-tabs a {
+	color: #ffffff !important;
+	/* White links */
+	text-decoration: none;
 }
 
-/* Adjust sidebar container - more specific approach */
-.md-sidebar {
-	padding-left: 0;
-	margin-left: 0;
-	position: absolute;
-	left: 150px;
+.md-tabs a:hover {
+	color: #ffc947 !important;
+	/* Lighter orange on hover */
+	text-decoration: underline;
 }
 
-/* Adjust the main content area */
-.md-main {
-	margin-left: 0;
+.md-search-result__meta {
+	color: #e0e0e0; /* Light gray text */
+	background-color: #333333; /* Dark gray background */
 }
 
-/* Adjust the main content container */
-.md-main__inner {
-	margin-left: 20rem;
+.md-search__scrollwrap,
+.md-search__form,
+.md-search__overlay {
+	background-color: #333333; /* Dark gray background */
+}
+
+
+.md-search-result__link,
+.md-search-result__article.md-typeset {
+	color: #e0e0e0; /* Light gray text */
+}
+
+.md-search-result__link a,
+.md-search-result__article.md-typeset a {
+	color: #ff9800 !important; /* Orange links */
+	text-decoration: none;
+}
+
+.md-search-result__link a:hover,
+.md-search-result__article.md-typeset a:hover {
+	color: #ffc947 !important; /* Light orange text on hover */
+	background-color: #cc7000 !important; /* Very dark orange background on hover */
+	text-decoration: underline;
+}
+
+/* Custom scrollbar */
+.md-search-result__link::-webkit-scrollbar,
+.md-search-result__article.md-typeset::-webkit-scrollbar {
+	width: 12px;
+	background-color: #ff9800; /* Orange scrollbar */
+}
+
+.md-search-result__link::-webkit-scrollbar-thumb,
+.md-search-result__article.md-typeset::-webkit-scrollbar-thumb {
+	background-color: #ff9800; /* Orange scrollbar thumb */
+}
+
+.md-search-result__link::-webkit-scrollbar-track,
+.md-search-result__article.md-typeset::-webkit-scrollbar-track {
+	background: #333333; /* Dark gray background */
 }
