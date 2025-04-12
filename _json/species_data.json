@@ -52,30 +52,34 @@
       ],
       "name": "Basilisk",
       "type": "Primordial",
-      "origin": "Descendants of the primordial Basilisk Petrifax",
+      "origin": "Descendants of the primordial Basilisk Petrifax, who was formed from the divine source itself.",
       "lifespan": "Immortal",
       "average_size_range": "1500-2400 cm (50-80 ft) in length",
-      "physique": "Serpentine creatures with a deadly gaze that can petrify living beings.",
+      "physique": "Serpentine creatures with a deadly gaze that can petrify living beings by freezing them in time. The process freezes the target in time, making for a few days, and while frozen, the target appears with a silver gleam/glow. The basilisks scales are are iridescent, reflecting light in a spectrum of colors, and their eyes are said to hold the secrets of time itself. They are quite large, and have a long tail with a sharp point at the end. Basilisks are also venoumous, and their venom is deadly to almost all living beings, including themselves. But they rarely use it, preferring to use their time magic to freeze their enemies in time.",
       "languages": [
         "All languages (through telepathy)"
       ],
-      "homelands": "The Astral Plane",
-      "other_regions": "Dense forests and underground lairs",
-      "history": "Basilisks are feared for their petrifying gaze and are often hunted by adventurers seeking glory.",
-      "religion": "Feared and avoided by most cultures",
+      "homelands": "The Astral Plane, where they weave through the fabric of time like threads in a tapestry.",
+      "other_regions": "Dense forests and underground lairs, often near ley lines where time and space converge.",
+      "history": "Basilisks are feared for their time-freezing gaze and are often hunted by adventurers seeking glory. They are known to be crafty and greedy, but generally good-natured unless it involves their possessions. Legends speak of Basilisks who have witnessed the rise and fall of entire civilizations, their memories serving as living chronicles of history.",
+      "religion": "Feared and avoided by most cultures, though some sects revere them as avatars of time and change.",
       "traditions": [
-        "Solitary ambush hunting",
-        "Guardians of hidden treasures"
+        "Solitary ambush hunting, using their time magic to anticipate prey movements.",
+        "Guardians of hidden treasures, often hoarding artifacts of great temporal power.",
+        "Lovers of gold and deals, known to engage in complex trade agreements with those who dare approach them."
       ],
-      "notable_figures": [],
+      "notable_figures": [
+        "Petrifax the Eternal - The first Basilisk, said to have woven the first threads of time."
+      ],
       "relationships": [
-        "Feared by many species due to their lethal abilities"
+        "Feared by many species due to their lethal abilities.",
+        "Known for making deals and contracts, often involving time-bound agreements."
       ],
       "example_image_paths": [
         "basilisk_example.jpg"
       ],
-      "custom_details": "Basilisks are solitary and elusive, often residing in remote areas where they can hunt without disturbance.",
-      "distribution": "Primarily found in the Astral Plane, with some inhabiting secluded areas of the Material Plane."
+      "custom_details": "Basilisks are solitary and elusive, often residing in caves in the Astral Plane where they can hunt without disturbance. They are powerful in time magic and love making deals and contracts. They are protective of their possessions but are open to trading for items they desire. Their love for gold is legendary, and they are known to craft intricate timepieces from the precious metal.",
+      "distribution": "Primarily found in the Astral Plane, with some inhabiting secluded areas of the Material Plane. They are often drawn to places where time flows differently, such as ancient ruins or enchanted forests."
     },
     "Celestial": {
       "auto_link_strings": [
