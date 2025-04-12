@@ -1,9 +1,7 @@
 name: Deploy MkDocs
 
 on:
-  push:
-    branches:
-      - main  # Change this to your default branch if different
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   build:
