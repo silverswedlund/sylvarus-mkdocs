@@ -15,9 +15,6 @@ theme:
 extra_css:
   - assets/custom.css
 
-exclude:
-  - "_*.md"
-
 markdown_extensions:
     - markdown_include.include
 
