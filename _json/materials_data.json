@@ -54,8 +54,12 @@
       "origin": "Forged in dragon fire",
       "rarity": "Rare",
       "custom_details": "Legendary metal known for its strength and magical properties. It is rare because dragons don't produce it for just anyone. A powerful mage with dragonmage can imitate it, but those are just as hard to come by.",
-      "image_paths": [],
-      "image_descriptions": []
+      "image_paths": [
+        "dragonsteel_sword.jpg"
+      ],
+      "image_descriptions": [
+        "A sword made of dragonsteel"
+      ]
     },
     "enchantment_gemstones": {
       "name": "enchantment_gemstones",
@@ -188,8 +192,12 @@
       "origin": "Various mines",
       "rarity": "Common",
       "custom_details": "Known for its luster and conductivity. Often used in wands or powerful magical staves or swords. It is linked with holy things for its ability to burn and damage vampires, werewolves, and the like. There are several silver mines and though much less abundant than iron or copper, it is still not too expensive.",
-      "image_paths": [],
-      "image_descriptions": []
+      "image_paths": [
+        "silver_wand.jpg"
+      ],
+      "image_descriptions": [
+        "A silver wand"
+      ]
     }
   },
   "template": {
