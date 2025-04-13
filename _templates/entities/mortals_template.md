@@ -48,7 +48,8 @@
 {% endif %}
 
 **Relevant Stories:**  
-|relevant_story_table|  
+
+{% include "entities/mortals/{{ name|lower }}/stories_table.md_insert" %}    
 
 
 **Additional Details:**  

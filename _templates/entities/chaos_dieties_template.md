@@ -48,7 +48,8 @@
 {% endif %}
 
 **Relevant Stories:**  
-|relevant_story_table|  
+
+{% include "entities/chaos_dieties/{{ name|lower }}/stories_table.md_insert" %}    
 
 
 **Additional Details:**  

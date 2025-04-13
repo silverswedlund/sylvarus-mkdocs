@@ -48,7 +48,8 @@
 {% endif %}
 
 **Relevant Stories:**  
-|relevant_story_table|  
+
+{% include "entities/other_entities/{{ name|lower }}/stories_table.md_insert" %}    
 
 
 **Additional Details:**  
