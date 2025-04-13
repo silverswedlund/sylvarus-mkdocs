@@ -647,6 +647,14 @@
       ],
       "average_size_range": "height: 300-400 cm (9'10\"-13'1\")"
     },
+    "Narntree": {
+      "auto_link_strings": [
+        "Narntree",
+        "Narntrees"
+      ],
+      "name": "Narntree",
+      "type": "Flora"
+    },
     "Orc": {
       "auto_link_strings": [
         "Orc",
@@ -897,6 +905,14 @@
         "slothturtle_example2.jpg"
       ],
       "average_size_range": "height: 30-1500 cm (1-50 ft), with the youngest being the size of a small dog and the oldest reaching sizes comparable to small buildings"
+    },
+    "Soulblight": {
+      "auto_link_strings": [
+        "Soulblight",
+        "Soulblights"
+      ],
+      "name": "Soulblight",
+      "type": "Flora"
     },
     "Tiefling": {
       "auto_link_strings": [

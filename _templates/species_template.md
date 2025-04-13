@@ -15,11 +15,13 @@
 **Average Size:**  
   - {{ average_size_range }}  
 **Typical Physique:**  
-  - {{ physique }}  
+  - {{ physique }} 
+{% if languages %}
 **Common Languages:**  
 {% for language in languages %}
   - {{ language }}  
 {% endfor %}
+{% endif %}
 
 {% if custom_details %}
 **Additional Details:**  
@@ -44,14 +46,17 @@
 
 ---
 
+{% if religion %}
 ## 🧑‍🤝‍🧑 Society & Culture
 **Religious Beliefs:**  
   - {{ religion }}  
+{% endif %}
+{% if traditions %}
 **Traditions & Customs:**  
 {% for tradition in traditions %}
   - {{ tradition }}  
 {% endfor %}
-
+{% endif %}
 ---
 
 {% if notable_figures %}
@@ -70,5 +75,7 @@
 {% endif %}
 ---
 
+{% if species_members %}
 ## 🧑‍🤝‍🧑 Species Members  
 {% include "species/{{name|lower}}/species_members_table.md_insert" %}
+{% endif %}
