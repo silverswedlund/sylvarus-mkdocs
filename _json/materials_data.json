@@ -1,0 +1,160 @@
+{
+  "config": {
+    "base_path": "docs/materials",
+    "template": "_templates/materials_template.md"
+  },
+  "items": {
+    "aurealan_wood": {
+      "name": "Aurealan Wood",
+      "auto_link_strings": [
+        "Aurealan Wood"
+      ],
+      "type": "Wood",
+      "properties": [
+        "Lightweight",
+        "Durable",
+        "Golden hue"
+      ],
+      "uses": [
+        "Construction",
+        "Crafting",
+        "Magical artifacts"
+      ],
+      "origin": "Sylvarus Forests",
+      "rarity": "Legendary",
+      "custom_details": "Highly sought after for its magical properties."
+    },
+    "dragonsteel": {
+      "name": "Dragonsteel",
+      "auto_link_strings": [
+        "Dragonsteel"
+      ],
+      "type": "Metal",
+      "properties": [
+        "Extremely strong",
+        "Heat-resistant",
+        "Magically conductive"
+      ],
+      "uses": [
+        "Weapons",
+        "Armor",
+        "Magical constructs"
+      ],
+      "origin": "Forged in dragon fire",
+      "rarity": "Rare",
+      "custom_details": "Legendary metal known for its strength and magical properties."
+    },
+    "enchantment_gemstones": {
+      "name": "enchantment_gemstones",
+      "page_title": "Enchantment Gemstones",
+      "auto_link_strings": [
+        "Enchantment Gemstones"
+      ],
+      "type": "Gemstone",
+      "properties": [
+        "Magically attuned",
+        "Colorful",
+        "Rare"
+      ],
+      "uses": [
+        "Enchanting",
+        "Jewelry",
+        "Magical devices"
+      ],
+      "origin": "Mined from magical veins",
+      "rarity": "Varies",
+      "custom_details": "Used to enhance magical properties of items."
+    },
+    "gold": {
+      "name": "Gold",
+      "auto_link_strings": [
+        "Gold"
+      ],
+      "type": "Metal",
+      "properties": [
+        "Malleable",
+        "Conductive",
+        "Corrosion-resistant"
+      ],
+      "uses": [
+        "Currency",
+        "Jewelry",
+        "Magic Nullifiers"  
+      ],
+      "origin": "Athenian Mines, philiophers stone",
+      "rarity": "Rare",
+      "custom_details": "Valued for its beauty and magic properties. it is the only known metal that has a natural ability to absorb and nullify magic. it is still not fully understood how this works. though therories relate to it's conductivity and atomic structure. it's very rare in nature and isn't found in the astral plane or feywild. It appears naturally in the material plane, though extremely rarely. Most of sylvarus' gold comes from the ancient temple burried under the city of Athenia. This gold was made when Midas had a group of his lich followers use a philiopher's stone to turn one of their enemies palace to gold and killed the god. Gold is very important in Orcish culture and is used in many of their artifacts and weapons, and rarely in their shields and armor. the Golden hand uses pure gold for their weapons and armor to protect them from even the most powerful magic."
+    },
+    "iron": {
+      "name": "Iron",
+      "auto_link_strings": [
+        "Iron"
+      ],
+      "type": "Metal",
+      "properties": [
+        "Strong",
+        "Magnetic",
+        "Corrodes easily"
+      ],
+      "uses": [
+        "Construction",
+        "Tools",
+        "Weapons"
+      ],
+      "origin": "Commonly found in the earth's crust",
+      "rarity": "Common",
+      "custom_details": "Widely used for its strength and availability. It can be found in the astral and material planes, but the feywilds has no natural sources of iron. Iron is strong and resiliant, but it is not as strong as dragonsteel or mythril which now have a higher demand for usage in weapons and armor. Though, pure iron still serves useful in many applications. Specifically when dealing with ghosts, spectres, and fey, where it is more effective than dragonsteel or mythril due to their natural weaknesses to iron."
+    },
+    "mythril": {
+      "name": "Mythril",
+      "auto_link_strings": [
+        "Mythril"
+      ],
+      "type": "Metal",
+      "properties": [
+        "Lightweight",
+        "Strong",
+        "Magically conductive"
+      ],
+      "uses": [
+        "Armor",
+        "Weapons",
+        "Magical items"
+      ],
+      "origin": "Deep underground",
+      "rarity": "Rare",
+      "custom_details": "Favored by adventurers for its balance of strength and weight."
+    },
+    "silver": {
+      "name": "Silver",
+      "auto_link_strings": [
+        "Silver"
+      ],
+      "type": "Metal",
+      "properties": [
+        "Conductive",
+        "Antimicrobial",
+        "Reflective"
+      ],
+      "uses": [
+        "Jewelry",
+        "Currency",
+        "Mirrors"
+      ],
+      "origin": "Various mines",
+      "rarity": "Common",
+      "custom_details": "Known for its luster and conductivity."
+    }
+  },
+  "template": {
+    "auto_link_strings": [],
+    "name": "",
+    "type": "",
+    "page_title": "",
+    "properties": [],
+    "uses": [],
+    "origin": "",
+    "rarity": "",
+    "custom_details": ""
+  }
+}
