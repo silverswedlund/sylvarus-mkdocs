@@ -5,7 +5,276 @@
     "type": "entity",
     "subtype": "mortal"
   },
-  "items": {},
+  "items": {
+    "bigsbeetoo_valentine": {
+      "auto_link_strings": [
+        "Bigsbeetoo Valentine"
+      ],
+      "name": "Bigsbeetoo Valentine",
+      "pronouns": "he/him",
+      "species": "halfling",
+      "aliases": [],
+      "relationships": [
+        "Brother: Bisgby Valentine"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "bisgby_valentine": {
+      "auto_link_strings": [
+        "Bisgby Valentine"
+      ],
+      "name": "Bisgby Valentine",
+      "pronouns": "he/him",
+      "species": "halfling",
+      "aliases": [],
+      "relationships": [
+        "Ex-wife: Emma Valentina",
+        "Brother: Bigsbeetoo Valentine"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "coswell_dupont": {
+      "auto_link_strings": [
+        "Coswell Dupont"
+      ],
+      "name": "Coswell Dupont",
+      "pronouns": "he/him",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Advisor and general to: Serinvlad Blackiron"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "damien_rivers": {
+      "auto_link_strings": [
+        "Damien Rivers"
+      ],
+      "name": "Damien Rivers",
+      "pronouns": "he/him",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "elizabeth_fancy": {
+      "auto_link_strings": [
+        "Elizabeth Fancy"
+      ],
+      "name": "Elizabeth Fancy",
+      "pronouns": "she/her",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Twin brother: Leopold Fancy"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "emma_valentina": {
+      "auto_link_strings": [
+        "Emma Valentina"
+      ],
+      "name": "Emma Valentina",
+      "pronouns": "she/her",
+      "species": "human",
+      "aliases": [],
+      "relationships": [
+        "Ex-husband: Bisgby Valentine"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "fumpty_goobledarber": {
+      "auto_link_strings": [
+        "Fumpty Goobledarber"
+      ],
+      "name": "Fumpty Goobledarber",
+      "pronouns": "he/him",
+      "species": "halfling",
+      "aliases": [],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "hawk_graewind": {
+      "auto_link_strings": [
+        "Hawk Graewind"
+      ],
+      "name": "Hawk Graewind",
+      "pronouns": "he/him",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Mother: Raven Graewind (deceased)"
+      ],
+      "current_status": "",
+      "history": "Killed his mother, Raven Graewind.",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "heuramon_starr": {
+      "auto_link_strings": [
+        "Heuramon Starr"
+      ],
+      "name": "Heuramon Starr",
+      "pronouns": "he/him",
+      "species": "dwarf",
+      "aliases": [],
+      "relationships": [
+        "Former partner: Hawk Graewind"
+      ],
+      "current_status": "",
+      "history": "Former partner in the Pit of Champions with Hawk Graewind.",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "leopold_fancy": {
+      "auto_link_strings": [
+        "Leopold Fancy"
+      ],
+      "name": "Leopold Fancy",
+      "pronouns": "he/him",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Twin sister: Elizabeth Fancy"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "natya_mair": {
+      "auto_link_strings": [
+        "Natya Mair"
+      ],
+      "name": "Natya Mair",
+      "pronouns": "she/her",
+      "species": "tiefling",
+      "aliases": [],
+      "relationships": [],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "raven_graewind": {
+      "auto_link_strings": [
+        "Raven Graewind"
+      ],
+      "name": "Raven Graewind",
+      "pronouns": "she/her",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Son: Hawk Graewind"
+      ],
+      "current_status": "Deceased",
+      "history": "Killed by her son, Hawk Graewind.",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    },
+    "serinvlad_blackiron": {
+      "auto_link_strings": [
+        "Serinvlad Blackiron"
+      ],
+      "name": "Serinvlad Blackiron",
+      "pronouns": "he/him",
+      "species": "elf",
+      "aliases": [],
+      "relationships": [
+        "Advisor and general: Coswell Dupont"
+      ],
+      "current_status": "",
+      "history": "",
+      "image_path": "",
+      "description": "",
+      "custom_details": "",
+      "lgbtq_identifications": [],
+      "other_identifiers": [],
+      "music_path": "",
+      "song_name": ""
+    }
+  },
   "template": {
     "auto_link_strings": [],
     "name": "",

@@ -49,7 +49,7 @@
 
 **Relevant Stories:**  
 
-{% include "entities/mortals/{{ name|lower }}/stories_table.md_insert" %}    
+{% include "entities/mortals/{{ name|lower | replace(' ', '_') }}/stories_table.md_insert" %}    
 
 
 **Additional Details:**  
