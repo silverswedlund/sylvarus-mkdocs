@@ -1,7 +1,7 @@
 # {{ name }} — ({{ pronouns }})
 
 <!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" style="height: 600px; width: auto;" />
+<img src="{{ image_path }}" alt="{{ name }}" style="width: 450px; height: auto;" />
 
 ---
 
