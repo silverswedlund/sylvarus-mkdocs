@@ -1,8 +1,19 @@
+{% if page_header %}
+# {{ page_header }}  
+{% else %}
 # {{ name }}  
+{% endif %}
 
+
+{% if example_image_paths %}
+<div style="display: flex; flex-wrap: wrap;">
 {% for example_image_path in example_image_paths %}
-<img src="{{ example_image_path }}" alt="example_image of a {{ name }}" style="width: 450; height: auto;" />
+  <div style="margin: 10px;">
+    <img src="{{ example_image_path }}" alt="example_image of a {{ name }}" style="width: 450px; height: auto;" />
+  </div>
 {% endfor %}
+</div>
+{% endif %}
 ---
 
 ## 🧬 Classification  
@@ -14,8 +25,10 @@
   - {{ lifespan }}  
 **Average Size:**  
   - {{ average_size_range }}  
+{% if physique %}
 **Typical Physique:**  
   - {{ physique }} 
+{% endif %}
 {% if languages %}
 **Common Languages:**  
 {% for language in languages %}

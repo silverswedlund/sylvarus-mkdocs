@@ -45,6 +45,23 @@
       "custom_details": "Angels exist in multiple hiveminds, each led by an Archangel who oversees a specialized division. While the exact purposes of these divisions remain mysterious, each appears to serve a distinct cosmic function. Angels manifest in forms that often defy normal physics and biology, appearing surreal and sometimes impossible to comprehend. They share thoughts and knowledge telepathically within their hivemind collective. Though sharing a name with mythological guardians, these beings are more akin to cosmic enforcers, methodically maintaining universal boundaries with unwavering focus.",
       "distribution": "Angels primarily exist in the void between universes, though they can manifest within any realm when pursuing those who have crossed universal boundaries. They seem capable of traversing the multiverse with ease, suggesting an innate understanding of its structure that surpasses most other beings."
     },
+    "Aureala": {
+      "auto_link_strings": [
+        "Aureala",
+        "Aurealas"
+      ],
+      "name": "Aureala",
+      "type": "Flora",
+      "origin": "A magically-infused tree species endemic to the Aureate",
+      "homelands": "The forests of the Aureate",
+      "other_regions": "No Aurealas are found outside of the Aureate",
+      "average_size_range": "height: roughly 1m when fully grown (sapling); mature trees can reach 20m or more",
+      "lifespan": "approximately 6 years for saplings; mature trees can live for centuries as part of the supercolony",
+      "example_image_paths": [
+        "aureala_example.jpg"
+      ],
+      "custom_details": "Aurealas are a species of enchanted jungle trees known for their lavender-colored bark and rich purple foliage. Native exclusively to the Aureate, they form a vast, interconnected supercolony known by the same name, all Aurealas in The Aureate are actually the giant plant. No Aurealas are permitted to grow outside this region, by the people of the Aureate, as their magic is sacred to the people who live among them. There is some black market trade of Aurealas, but it is strictly forbidden by the people of the Aureate. The people of the Aureate are very protective of their sacred plant and will not tolerate any harm to them unless condoned through ritual. The Aureate people's have hunters who will find and punish those who harm or harvest Aurealas without permission. \n\nThe trees are bioluminescent at night, with leaves that glow faintly with hues ranging from violet to deep indigo. Their bark is infused with potent magical energy, often used in crafting enchanted items such as weapons, armor, and ceremonial jewelry. However, harvesting any part of an Aureala is only permitted through a ritualized exchange—performed by druids or sanctioned mages of the Aureate.\n\nThe inhabitants of the Aureate build their homes high in the trees, using the massive trunks and wide limbs of the Aurealas as foundations for elevated villages. Living on the jungle floor is both culturally taboo and environmentally dangerous, due to magical fauna and unstable terrain.\n\nAurealas thrive only in the hyper-saturated magical ecosystem of the Aureate, which is similar in climate and density to the Amazon rainforest, but with rich violet and lavender coloration dominating the palette. Their flowers bloom in rhythmic pulses in sync with leyline cycles, giving the canopy an otherworldly, shimmering pattern during bloom seasons. Given their Sacred status, the Aureate people don't construct their tree villiages out wood, but rather out of netting, metals, and stone"
+    },
     "Basilisk": {
       "auto_link_strings": [
         "Basilisk",
@@ -653,7 +670,15 @@
         "Narntrees"
       ],
       "name": "Narntree",
-      "type": "Flora"
+      "type": "Flora",
+      "origin": "Legend says they are the result of the magical actions of a forgotten god",
+      "homelands": "The mountains of Narnlund",
+      "average_size_range": "height: 100-200m (328-656ft), width: 10-20m (32.8-65.6ft)",
+      "lifespan": "Unknown - Likely Immortal",
+      "example_image_paths": [
+        "narntree_example.jpg"
+      ],
+      "custom_details": "Narntrees are known for their immense size and their ability to grow in the mountains of Narnlund. They grow very slowly and do not stop growing until they die. They favor the rocky, mountainous regions of Narnlund and are known to grow elsewhere but not as well. They are massive in both height and width, with a single trunk that can be up to 30m (100ft) in diameter. Their bark and leaves are light gray like the skin of the Narn, which is where they get their name. Narntrees are incredibly physically resilient, being resistant to both physical and magical damage. Their skin is akin to stone, and even fire is not a threat to them. Legends of them say they are the result of a magical event by a forgotten god. Only one narntree is known to have been felled, it was done so by Anuke, who is now known as the god of determination for her incredible willpower shown in the face of the tree's immense size and resiliance"
     },
     "Orc": {
       "auto_link_strings": [
@@ -912,7 +937,18 @@
         "Soulblights"
       ],
       "name": "Soulblight",
-      "type": "Flora"
+      "page_header": "Soulblight Flower",
+      "type": "Flora",
+      "origin": "A plant infused with chaos and soul magic in the Feywilds",
+      "homelands": "The far reaches of the Feywilds",
+      "average_size_range": "height: roughly 1m when fully grown",
+      "lifespan": "approximately 6 years",
+      "example_image_paths": [
+        "soulblight_example.jpg",
+        "soulblight_notes.jpg"
+      ],
+      "custom_details": "Soulblights are thorn-covered, semi-sentient bushes that grow in the outer edges of the Feywilds, where chaos magic distorts reality and soul energy permeates the environment. Standing around a meter tall, a Soulblight resembles a warped, alien rosebush with irregular blossoms in shifting hues of blue, gray, and deep red. Its bark emits a faint magical glow, and its thorns can sometimes resemble crystalline spines. The blooms secrete a red, sap-like fluid that is magically conductive and used in ritual magic.\n\nSoulblights emit a distinct magical signature, highly reactive to soul-aspected energies. Prolonged exposure to the plant can affect a person’s dreams, memories, or emotional state. Their seeds are especially dangerous: when ground or distilled, they act as potent soul poison, capable of unraveling a creature’s spiritual essence without leaving a physical mark. For this reason, Soulblight seeds are highly restricted or banned in many magical societies.\n\nThough native to the Feywilds, their presence can warp nearby flora. Rumors persist that particularly large or old Soulblights have a limited awareness, turning slightly when watched or humming faintly in high magical winds. Fey botanists treat the plant with a blend of awe and caution, noting its usefulness in soul magic but warning of its unpredictable behavior near chaotic ley lines.",
+      "other_regions": "Found with some collectors in the Astral and Mortal Planes, and very rare even within the Feywilds. They require specific growing conditions that are difficult to replicate, making them extremely valueable to the right people."
     },
     "Tiefling": {
       "auto_link_strings": [
