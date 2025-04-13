@@ -51,7 +51,7 @@
         "Armor",
         "Magical constructs"
       ],
-      "origin": "Forged in dragon fire",
+      "origin": "Steel which has been forged in dragon fire",
       "rarity": "Rare",
       "custom_details": "Legendary metal known for its strength and magical properties. It is rare because dragons don't produce it for just anyone. A powerful mage with dragonmage can imitate it, but those are just as hard to come by.",
       "image_paths": [
@@ -62,7 +62,7 @@
       ]
     },
     "enchantment_gemstones": {
-      "name": "enchantment_gemstones",
+      "name": "Enchantment Gemstones",
       "page_title": "Enchantment Gemstones",
       "auto_link_strings": [
         "Enchantment Gemstones"
@@ -74,9 +74,10 @@
         "Rare"
       ],
       "uses": [
-        "Enchanting",
         "Jewelry",
-        "Magical devices"
+        "Weapons",
+        "Armor",
+        "Magical items"
       ],
       "origin": "Mined from magical veins, mostly in the Selin Flats, though some are in the Astral Plane. Most Astral-origin stones were destroyed or consumed during the God Wars.",
       "rarity": "Varies",
@@ -105,7 +106,7 @@
         "Jewelry",
         "Magic Nullifiers"
       ],
-      "origin": "Athenian Mines, philiophers stone",
+      "origin": "Athenian Mines, philosopher's stone",
       "rarity": "Rare",
       "custom_details": "Valued for its beauty and magical properties. It is the only known metal that has a natural ability to absorb and nullify magic. It is still not fully understood how this works, though theories relate to its conductivity and atomic structure. It's very rare in nature and isn't found in the astral plane or feywild, only in the material plane, though extremely rarely. Most of Sylvarus' gold comes from the ancient temple buried under the city of Athenia. This gold was made when Midas had a group of his lich followers use a philosopher's stone to turn one of their enemies' palace to gold in order to trap, and then subsequently kill the god. Gold is very important in Orcish culture and is used in many of their artifacts and weapons, and rarely in their shields and armor. The Golden Hand uses pure gold for their weapons and armor to protect them from even the most powerful magic. It also isn't able to be magically duplicated, and nobody knows how to make philosopher's stones anymore, so no gold can be produced except through mining the existing sources.",
       "image_paths": [
@@ -134,7 +135,7 @@
       ],
       "origin": "Commonly found in the earth's crust",
       "rarity": "Common",
-      "custom_details": "Widely used for its strength and availability. It can be found in the astral and material planes, but the feywilds has no natural sources of iron. Iron is strong and resiliant, but it is not as strong as dragonsteel or mythril which now have a higher demand for usage in weapons and armor. Though, pure iron still serves useful in many applications. Specifically when dealing with ghosts, spectres, and fey, where it is more effective than dragonsteel or mythril due to their natural weaknesses to iron.",
+      "custom_details": "Widely used for its strength and availability. It can be found in the astral and material planes, but the feywilds has no natural sources of iron. Iron is strong and resilient, but it is not as strong as dragonsteel or mythril which now have a higher demand for usage in weapons and armor. Though, pure iron still serves useful in many applications. Specifically when dealing with ghosts, spectres, and fey, where it is more effective than dragonsteel or mythril due to their natural weaknesses to iron.",
       "image_paths": [
         "../gold/athenian_shield.jpg"
       ],

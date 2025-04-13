@@ -1,5 +1,4 @@
-# {{ name | replace("_", " ") | title }}
-
+# {{ name | replace("_", " ") | title }}  
 {% if image_paths and image_descriptions %}
 <div style="display: flex; flex-wrap: wrap;">
   {% for i in range(image_paths|length) %}
@@ -7,7 +6,7 @@
   {% set image_description = image_descriptions[i] %}
     <div style="margin: 10px;">
       <p>{{ image_description }}</p>
-      <img src="{{ image_path }}" alt="{{ image_description }}" style="width: 600px; height: auto;" />
+      <img src="{{ image_path }}" alt="{{ image_description }}" style="width: 500px; height: auto;" />
     </div>
   {% endfor %}
 </div>
