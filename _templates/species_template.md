@@ -4,12 +4,11 @@
 # {{ name }}  
 {% endif %}
 
-
 {% if example_image_paths %}
 <div style="display: flex; flex-wrap: wrap;">
 {% for example_image_path in example_image_paths %}
   <div style="margin: 10px;">
-    <img src="{{ example_image_path }}" alt="example_image of a {{ name }}" style="width: 450px; height: auto;" />
+    <img src="{{ example_image_path }}" alt="example_image of a {{ name }}" style="width: {% if custom_image_width %}{{ custom_image_width }}{% else %}450px{% endif %}; height: auto;" />
   </div>
 {% endfor %}
 </div>
