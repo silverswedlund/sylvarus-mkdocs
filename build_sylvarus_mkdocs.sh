@@ -19,6 +19,7 @@ SCRIPTS=(
   "_scripts/insert_species_members_tables.py"
   "_scripts/insert_entities_table.py"
   "_scripts/auto_link_references.py"
+  "_scripts/insert_mkdocs_nav.py"
 )
 
 # Run Scripts

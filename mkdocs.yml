@@ -1,36 +1,217 @@
 site_name: The World of Sylvarus
-
 theme:
   name: material
-  palette:
-    scheme: slate  # Dark mode scheme
-    primary: 'orange'
-    accent: 'amber'
   features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.top
-    - toc.integrate
-
+  - navigation.instant
+  - navigation.top
+  - navigation.tabs
+  - navigation.sections
+  - toc.integrate
+  - content.action.edit
+  - content.code.copy
 extra_css:
-  - assets/custom.css
-
+- assets/custom.css
 markdown_extensions:
-    - markdown_include.include
-
+- markdown_include.include
 plugins:
-  - search
-  - include-markdown
-  - minify:
-      minify_html: true
-
-theme:
-  name: material
-  features:
-    - navigation.instant         # smooth transitions
-    - navigation.top            # back-to-top button
-    - navigation.tabs           # tabbed nav bar
-    - navigation.sections       # collapsible sections
-    - toc.integrate             # integrates TOC into mobile nav
-    - content.action.edit       # optional "edit on GitHub"
-    - content.code.copy         # adds copy buttons to code blocks
+- search
+- include-markdown
+- minify:
+    minify_html: true
+nav:
+- Documents:
+  - Misc documents:
+    - Pact of olympus: documents/misc_documents/pact_of_olympus.md
+  - Stories:
+    - Internal peace: documents/stories/internal_peace/index.md
+    - The god of regret: documents/stories/the_god_of_regret/index.md
+    - The life and works of demeter: documents/stories/the_life_and_works_of_demeter/index.md
+    - The narnking and the dragonborn: documents/stories/the_narnking_and_the_dragonborn/index.md
+    - The phoenix war: documents/stories/the_phoenix_war/index.md
+    - The thunder god: documents/stories/the_thunder_god/index.md
+    - The turn of virtue: documents/stories/the_turn_of_virtue/index.md
+- Entities:
+  - entities/entity_disambiguation.md
+  - Constructs:
+    - Charon: entities/constructs/charon/index.md
+    - Justice: entities/constructs/justice/index.md
+  - Demigods:
+    - entities/demigods/demigods_disambiguation.md
+    - Atenael: entities/demigods/atenael/index.md
+    - Aurelius: entities/demigods/aurelius/index.md
+    - Deimos: entities/demigods/deimos/index.md
+    - Ephyra: entities/demigods/ephyra/index.md
+    - Eurydice: entities/demigods/eurydice/index.md
+    - Heracles: entities/demigods/heracles/index.md
+    - Morax: entities/demigods/morax/index.md
+    - Persephone: entities/demigods/persephone/index.md
+    - Phobos: entities/demigods/phobos/index.md
+    - Sabazios: entities/demigods/sabazios/index.md
+    - Tiamel: entities/demigods/tiamel/index.md
+  - Gods:
+    - entities/gods/gods_disambiguation.md
+    - Amun: entities/gods/amun/index.md
+    - Anuke: entities/gods/anuke/index.md
+    - Aphrodite: entities/gods/aphrodite/index.md
+    - Apollo: entities/gods/apollo/index.md
+    - Ares: entities/gods/ares/index.md
+    - Artemis: entities/gods/artemis/index.md
+    - Asher: entities/gods/asher/index.md
+    - Athena: entities/gods/athena/index.md
+    - Balbarash: entities/gods/balbarash/index.md
+    - Death: entities/gods/death/index.md
+    - Delinette: entities/gods/delinette/index.md
+    - Demeter: entities/gods/demeter/index.md
+    - Dionysus: entities/gods/dionysus/index.md
+    - Ecatra: entities/gods/ecatra/index.md
+    - Enkidu: entities/gods/enkidu/index.md
+    - Eris: entities/gods/eris/index.md
+    - Fortuna: entities/gods/fortuna/index.md
+    - Freija: entities/gods/freija/index.md
+    - Gilgamesh: entities/gods/gilgamesh/index.md
+    - Hades: entities/gods/hades/index.md
+    - Halacaster: entities/gods/halacaster/index.md
+    - Hephaestus: entities/gods/hephaestus/index.md
+    - Hera: entities/gods/hera/index.md
+    - Hermes: entities/gods/hermes/index.md
+    - Hestia: entities/gods/hestia/index.md
+    - Inkozana: entities/gods/inkozana/index.md
+    - Iranara: entities/gods/iranara/index.md
+    - Loki: entities/gods/loki/index.md
+    - Malice: entities/gods/malice/index.md
+    - Marith: entities/gods/marith/index.md
+    - Midas: entities/gods/midas/index.md
+    - Nyx: entities/gods/nyx/index.md
+    - Odinn: entities/gods/odinn/index.md
+    - Orakothros: entities/gods/orakothros/index.md
+    - Orpheus: entities/gods/orpheus/index.md
+    - Osiris: entities/gods/osiris/index.md
+    - Pan: entities/gods/pan/index.md
+    - Poseidon: entities/gods/poseidon/index.md
+    - Quetzalcoatl: entities/gods/quetzalcoatl/index.md
+    - Shalnan: entities/gods/shalnan/index.md
+    - Silence: entities/gods/silence/index.md
+    - Thanatos: entities/gods/thanatos/index.md
+    - Tyro: entities/gods/tyro/index.md
+    - Valentina: entities/gods/valentina/index.md
+    - Versengeterix: entities/gods/versengeterix/index.md
+    - Virtue: entities/gods/virtue/index.md
+    - Zagreus: entities/gods/zagreus/index.md
+    - Zeus: entities/gods/zeus/index.md
+  - Immortals:
+    - entities/immortals/immortals_disambiguation.md
+    - Alytica: entities/immortals/alytica/index.md
+  - Mortals:
+    - Bigsbeetoo valentine: entities/mortals/bigsbeetoo_valentine/index.md
+    - Bisgby valentine: entities/mortals/bisgby_valentine/index.md
+    - Coswell dupont: entities/mortals/coswell_dupont/index.md
+    - Damien rivers: entities/mortals/damien_rivers/index.md
+    - Elizabeth fancy: entities/mortals/elizabeth_fancy/index.md
+    - Emma valentina: entities/mortals/emma_valentina/index.md
+    - Fumpty goobledarber: entities/mortals/fumpty_goobledarber/index.md
+    - Hawk graewind: entities/mortals/hawk_graewind/index.md
+    - Heuramon starr: entities/mortals/heuramon_starr/index.md
+    - Leopold fancy: entities/mortals/leopold_fancy/index.md
+    - Natya mair: entities/mortals/natya_mair/index.md
+    - Raven graewind: entities/mortals/raven_graewind/index.md
+    - Serinvlad blackiron: entities/mortals/serinvlad_blackiron/index.md
+  - Primordial beings:
+    - Aetheria: entities/primordial_beings/aetheria/index.md
+    - Aquileo: entities/primordial_beings/aquileo/index.md
+    - Avianna: entities/primordial_beings/avianna/index.md
+    - Cetuvi: entities/primordial_beings/cetuvi/index.md
+    - Craxly: entities/primordial_beings/craxly/index.md
+    - Fafnir: entities/primordial_beings/fafnir/index.md
+    - Petrifax: entities/primordial_beings/petrifax/index.md
+  - Titans:
+    - entities/titans/titans_disambiguation.md
+    - Aliqotash: entities/titans/aliqotash/index.md
+    - Hydraxus: entities/titans/hydraxus/index.md
+    - Krella: entities/titans/krella/index.md
+    - Nemia: entities/titans/nemia/index.md
+    - Odysseus: entities/titans/odysseus/index.md
+    - Ombrim: entities/titans/ombrim/index.md
+    - Set: entities/titans/set/index.md
+- History:
+  - Time periods:
+    - Age of chaos: history/time_periods/age_of_chaos/index.md
+    - Age of creation: history/time_periods/age_of_creation/index.md
+    - Age of division: history/time_periods/age_of_division/index.md
+    - Age of magic: history/time_periods/age_of_magic/index.md
+    - Age of unity: history/time_periods/age_of_unity/index.md
+    - Modern age: history/time_periods/modern_age/index.md
+    - Period of rebirth: history/time_periods/period_of_rebirth/index.md
+    - The forgotten age: history/time_periods/the_forgotten_age/index.md
+    - The god wars: history/time_periods/the_god_wars/index.md
+- Identifiers:
+  - Adhd: identifiers/adhd/index.md
+  - Agender: identifiers/agender/index.md
+  - Aromantic: identifiers/aromantic/index.md
+  - Asexual: identifiers/asexual/index.md
+  - Autism: identifiers/autism/index.md
+  - Bicurious: identifiers/bicurious/index.md
+  - Demiboy: identifiers/demiboy/index.md
+  - Demigirl: identifiers/demigirl/index.md
+  - Disabled: identifiers/disabled/index.md
+  - Genderqueer: identifiers/genderqueer/index.md
+  - Lesbian: identifiers/lesbian/index.md
+  - Mlm: identifiers/mlm/index.md
+  - Neurodivergent: identifiers/neurodivergent/index.md
+  - Nonbinary: identifiers/nonbinary/index.md
+  - Pansexual: identifiers/pansexual/index.md
+  - Polyamorous: identifiers/polyamorous/index.md
+  - Transgender: identifiers/transgender/index.md
+- Materials:
+  - Aurealan wood: materials/aurealan_wood/index.md
+  - Dragonsteel: materials/dragonsteel/index.md
+  - Enchantment gemstones: materials/enchantment_gemstones/index.md
+  - Gold: materials/gold/index.md
+  - Iron: materials/iron/index.md
+  - Mythril: materials/mythril/index.md
+  - Silver: materials/silver/index.md
+- Pantheons:
+  - pantheons/pantheon_disambiguation.md
+  - Athenians: pantheons/athenians/index.md
+  - Demerans: pantheons/demerans/index.md
+  - Dragongods: pantheons/dragongods/index.md
+  - Fortunians: pantheons/fortunians/index.md
+  - Gilgamites: pantheons/gilgamites/index.md
+  - Midasians: pantheons/midasians/index.md
+  - Unaffiliated: pantheons/unaffiliated/index.md
+  - Underworlders: pantheons/underworlders/index.md
+  - Zagarans: pantheons/zagarans/index.md
+- Planes:
+  - Material:
+    - Locations
+- Species:
+  - species/species_disambiguation.md
+  - Angel: species/angel/index.md
+  - Aureala: species/aureala/index.md
+  - Basilisk: species/basilisk/index.md
+  - Celestial: species/celestial/index.md
+  - Centaur: species/centaur/index.md
+  - Demigod: species/demigod/index.md
+  - Dragon: species/dragon/index.md
+  - Dragonborn: species/dragonborn/index.md
+  - Dwarf: species/dwarf/index.md
+  - Elf: species/elf/index.md
+  - Fairy: species/fairy/index.md
+  - Fey: species/fey/index.md
+  - Griffin: species/griffin/index.md
+  - Halfling: species/halfling/index.md
+  - Human: species/human/index.md
+  - Kraken: species/kraken/index.md
+  - Mer: species/mer/index.md
+  - Narn: species/narn/index.md
+  - Narntree: species/narntree/index.md
+  - Orc: species/orc/index.md
+  - Pegasus: species/pegasus/index.md
+  - Phoenix: species/phoenix/index.md
+  - Quall: species/quall/index.md
+  - Roc: species/roc/index.md
+  - Satyr: species/satyr/index.md
+  - Slothturtle: species/slothturtle/index.md
+  - Soulblight: species/soulblight/index.md
+  - Tiefling: species/tiefling/index.md
+- Sylvarus:
+  - ./sylvarus_disambiguation.md
