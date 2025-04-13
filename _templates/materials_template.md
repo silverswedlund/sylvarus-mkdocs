@@ -1,7 +1,17 @@
-# {% if page_title %}{{ page_title }}{% else %}{{ name }}{% endif %}
+# {{ name | replace("_", " ") | title }}
 
-<!-- Optional -->
-<img src="{{ image_path }}" alt="{{ name }}" style="width: 450px; height: auto;" />
+{% if image_paths and image_descriptions %}
+<div style="display: flex; flex-wrap: wrap;">
+  {% for i in range(image_paths|length) %}
+  {% set image_path = image_paths[i] %}
+  {% set image_description = image_descriptions[i] %}
+    <div style="margin: 10px;">
+      <p>{{ image_description }}</p>
+      <img src="{{ image_path }}" alt="{{ image_description }}" style="width: 600px; height: auto;" />
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
 ---
 
 ## 📕 Details
@@ -26,9 +36,11 @@
 **Additional Details:**  
   - {{ custom_details }}
 
+{% if history %}
 ---
 
 ## 📜 History
   - {{ history }}
+{% endif %}
 
 ---
