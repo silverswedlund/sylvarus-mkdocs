@@ -25,7 +25,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Aquileo": {
@@ -47,7 +47,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Avianna": {
@@ -71,7 +71,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Cetuvi": {
@@ -93,7 +93,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Craxly": {
@@ -115,7 +115,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Fafnir": {
@@ -139,7 +139,7 @@
         "Agender"
       ],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     },
     "Petrifax": {
@@ -161,7 +161,7 @@
       "custom_details": "",
       "lgbtq_identifications": [],
       "other_identifiers": [],
-      "music_path": "",
+      "song_link": "",
       "song_name": ""
     }
   },
@@ -179,7 +179,7 @@
     "custom_details": "",
     "lgbtq_identifications": [],
     "other_identifiers": [],
-    "music_path": "",
+    "song_link": "",
     "song_name": ""
   }
 }

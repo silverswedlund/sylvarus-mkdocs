@@ -24,7 +24,7 @@
 
 **Theme Music:**  
 <audio controls>
-  <source src="{{ music_path }}" type="audio/mpeg">
+  <source src="{{ song_link }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

@@ -59,7 +59,7 @@
       "other_identifiers": [
         "Neurodivergent"
       ],
-      "music_path": "aurelius_|_flames_to_dust.mp4",
+      "song_link": "aurelius_|_flames_to_dust.mp4",
       "song_name": "flames to dust"
     },
     "Deimos": {
@@ -88,7 +88,7 @@
       "other_identifiers": [
         "Neurodivergent"
       ],
-      "music_path": "deimos_|__gaster_electro_swing.mp4",
+      "song_link": "deimos_|__gaster_electro_swing.mp4",
       "song_name": " gaster electro swing"
     },
     "Ephyra": {
@@ -171,7 +171,7 @@
       "other_identifiers": [
         "Neurodivergent"
       ],
-      "music_path": "heracles_|_bleach_ost_1_#7_creeping_shadows.mp4",
+      "song_link": "heracles_|_bleach_ost_1_#7_creeping_shadows.mp4",
       "song_name": "bleach ost 1 #7 creeping shadows"
     },
     "Morax": {
@@ -227,7 +227,7 @@
       "other_identifiers": [
         "Neurodivergent"
       ],
-      "music_path": "persephone_|_relic_forest.mp4",
+      "song_link": "persephone_|_relic_forest.mp4",
       "song_name": "relic forest"
     },
     "Phobos": {
@@ -256,7 +256,7 @@
       "other_identifiers": [
         "Neurodivergent"
       ],
-      "music_path": "phobos_|_undertale_-_'here_we_are'_remix.mp4",
+      "song_link": "phobos_|_undertale_-_'here_we_are'_remix.mp4",
       "song_name": "undertale - 'here we are' remix"
     },
     "Sabazios": {
@@ -328,7 +328,7 @@
     "custom_details": "",
     "lgbtq_identifications": [],
     "other_identifiers": [],
-    "music_path": "",
+    "song_link": "",
     "song_name": ""
   }
 }
