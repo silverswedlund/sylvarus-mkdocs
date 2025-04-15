@@ -52,15 +52,11 @@
 **Known For:**  
   - {{ known_for }}
 
-{% if anthem_path %}
-  **Anthem:** {% if anthem_name %}"{{ anthem_name }}"{% endif %}  
-  <audio controls>
-    <source src="{{ anthem_path }}" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>  
-  {% if song_title %}"{{ song_title }}"{% endif %}
-
-  {{ custom_details }}
+{% if anthem_name and anthem_link %}
+{% if anthem_name != "" and anthem_link != "" %}
+**Anthem:**  
+  - <a href="{{ anthem_link }}" target="_blank">{{ anthem_name }} ({{ song_title }})</a>
+{% endif %}
 {% endif %}
 
 {% if flag_image_path %}
