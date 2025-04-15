@@ -4,8 +4,6 @@ __pycache__/
 .DS_Store
 .env
 venv/
-*.mp4
-*.mp3
 **/index.md
 _scripts/pickles/*
 **/*.md_insert

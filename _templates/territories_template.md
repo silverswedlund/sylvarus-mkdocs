@@ -65,7 +65,6 @@
     <img src="{{ flag_image_path }}" alt="{{ name }} Flag Image" width="300" />
   </div>
 {% endif %}
-
 ---
 
 ## 🧭 Description
