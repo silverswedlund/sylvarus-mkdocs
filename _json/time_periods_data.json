@@ -5,144 +5,217 @@
   },
   "items": {
     "Age_of_Chaos": {
+      "auto_link_strings": [
+        "Age of Chaos",
+        "The Age of Chaos"
+      ],
       "name": "Age of Chaos",
       "start_year": "0 PPO",
       "end_year": "15000 PPO",
       "length": "15000 PPO",
-      "preceded_by": "[The God Wars](../The_God_Wars)",
-      "followed_by": "[Age of Creation](../Age_of_Creation)",
+      "preceded_by": "The God Wars",
+      "followed_by": "Age of Creation",
       "known_for": "No gods, no magic, tribal survival.",
       "custom_details": "",
       "summary": "The Age of Chaos followed the God Wars, with the Pact of Olympus preventing divine influence. Magic disappeared, civilizations crumbled, and mortals struggled to survive.",
-      "major_events": "- Pact of Olympus\n- Magic disappeared\n- Collapse of major civilizations\n- Agricultural and industrial revolutions sparked at the end",
+      "major_events": [
+        "Pact of Olympus",
+        "Magic disappeared",
+        "Collapse of major civilizations",
+        "Agricultural and industrial revolutions sparked at the end"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "",
       "legacy": "Marked by technological evolution and the beginning of mortal self-reliance."
     },
     "Age_of_Creation": {
+      "auto_link_strings": [
+        "Age of Creation",
+        "The Age of Creation"
+      ],
       "name": "Age of Creation",
       "start_year": "15000 PPO",
       "end_year": "17500 PPO",
       "length": "2500 PPO",
-      "preceded_by": "[Age of Chaos](../Age_of_Chaos)",
-      "followed_by": "[Period of Rebirth](../Period_of_Rebirth)",
+      "preceded_by": "Age of Chaos",
+      "followed_by": "Period of Rebirth",
       "known_for": "Technological advancement and eventual nuclear apocalypse.",
       "custom_details": "",
       "summary": "Mortals thrived through technological means. Peace was nearly achieved until escalating conflict led to nuclear war.",
-      "major_events": "- Industrial and digital revolutions\n- Development of atomic technology\n- Global nuclear war",
+      "major_events": [
+        "Industrial and digital revolutions",
+        "Development of atomic technology",
+        "Global nuclear war"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "Athena (spark-bearer, scientist)",
       "legacy": "Ended in nuclear devastation, prompting divine return in the next age."
     },
     "Age_of_Division": {
+      "auto_link_strings": [
+        "Age of Division",
+        "The Age of Division"
+      ],
       "name": "Age of Division",
       "start_year": "35000 PPO",
       "end_year": "50000 PPO",
       "length": "15000 PPO",
-      "preceded_by": "[Age of Magic](../Age_of_Magic)",
-      "followed_by": "[Age of Unity](../Age_of_Unity)",
+      "preceded_by": "Age of Magic",
+      "followed_by": "Age of Unity",
       "known_for": "Wars, shifting power, rebellion.",
       "custom_details": "",
       "summary": "Magic weakened; species and nations clashed in numerous conflicts. Orcs rebelled against humans in Athenia.",
-      "major_events": "- Species-based wars\n- Orcish rebellion in Athenia\n- Failed and successful conquests",
+      "major_events": [
+        "Species-based wars",
+        "Orcish rebellion in Athenia",
+        "Failed and successful conquests"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "",
       "legacy": "Instability gave way to eventual cooperation and trade."
     },
     "Age_of_Magic": {
+      "auto_link_strings": [
+        "Age of Magic",
+        "The Age of Magic"
+      ],
       "name": "Age of Magic",
       "start_year": "18500 PPO",
       "end_year": "35000 PPO",
       "length": "16500 PPO",
-      "preceded_by": "[Period of Rebirth](../Period_of_Rebirth)",
-      "followed_by": "[Age of Division](../Age_of_Division)",
+      "preceded_by": "Period of Rebirth",
+      "followed_by": "Age of Division",
       "known_for": "Magic resurgence, magical wars, planar instability.",
       "custom_details": "",
       "summary": "Planar rifts allowed magic and chaos to flood in. Magic users rose to power but lacked discipline, sparking conflicts over magical resources.",
-      "major_events": "- Rise of magic and magical warfare\n- Formalization of magic by Halacaster\n- Partial sealing of planar rifts",
+      "major_events": [
+        "Rise of magic and magical warfare",
+        "Formalization of magic by Halacaster",
+        "Partial sealing of planar rifts"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "Halacaster",
       "legacy": "Transitioned world from chaotic magical wars to structured societies with declining magic."
     },
     "Age_of_Unity": {
+      "auto_link_strings": [
+        "Age of Unity",
+        "The Age of Unity"
+      ],
       "name": "Age of Unity",
       "start_year": "50000 PPO",
       "end_year": "54518 PPO",
       "length": "4518 PPO",
-      "preceded_by": "[Age of Division](../Age_of_Division)",
-      "followed_by": "[Modern Age](../Modern_Age)",
+      "preceded_by": "Age of Division",
+      "followed_by": "Modern Age",
       "known_for": "Trade, diplomacy, magical and technological growth.",
       "custom_details": "",
       "summary": "Marked by peace and cooperation. Spellcraft and tech advanced. Orcs remained isolationist.",
-      "major_events": "- Trade networks established\n- Enchantment and spellcraft innovation\n- Isolation of orcs\n- Phoenix War initiated by Serinvlad Blackiron",
+      "major_events": [
+        "Trade networks established",
+        "Enchantment and spellcraft innovation",
+        "Isolation of orcs",
+        "Phoenix War initiated by Serinvlad Blackiron"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "Serinvlad Blackiron",
       "legacy": "Ended in mass genocide and collapse of civilization."
     },
     "Modern_Age": {
+      "auto_link_strings": [
+        "Modern Age",
+        "The Modern Age"
+      ],
       "name": "Modern Age",
       "start_year": "54518 PPO",
       "end_year": "",
       "length": "",
-      "preceded_by": "[Age of Unity](../Age_of_Unity)",
+      "preceded_by": "Age of Unity",
       "followed_by": "None (yet!)",
       "known_for": "Recovery from near-extinction event.",
       "custom_details": "",
       "summary": "After the Phoenix War and mass destruction, civilization is struggling to recover amidst ruined cities and lingering threats.",
-      "major_events": "- Fallout from decimators\n- Abandonment of major cities",
+      "major_events": [
+        "Fallout from decimators",
+        "Abandonment of major cities"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "",
       "legacy": "Unfinished; the world is still healing and rebuilding."
     },
     "Period_of_Rebirth": {
+      "auto_link_strings": [
+        "Period of Rebirth",
+        "The Period of Rebirth"
+      ],
       "name": "Period of Rebirth",
       "start_year": "17500 PPO",
       "end_year": "18500 PPO",
       "length": "1000 PPO",
-      "preceded_by": "[Age of Creation](../Age_of_Creation)",
-      "followed_by": "[Age of Magic](../Age_of_Magic)",
+      "preceded_by": "Age of Creation",
+      "followed_by": "Age of Magic",
       "known_for": "Return of gods, survival struggle, rebirth of civilization.",
       "custom_details": "",
       "summary": "Following nuclear war, the gods returned to aid mortals, helping to restore the world. Athenia was founded, and Set was murdered by Athena.",
-      "major_events": "- Return of gods\n- Founding of Athenia\n- Murder of Set by Athena",
+      "major_events": [
+        "Return of gods",
+        "Founding of Athenia",
+        "Murder of Set by Athena"
+      ],
       "notable_civilizations": "Athenia",
       "culture": "",
       "notable_figures": "Athena, Set",
       "legacy": "Sparked a new age of magic and divine restraint."
     },
     "The_Forgotten_Age": {
+      "auto_link_strings": [
+        "The Forgotten Age",
+        "Forgotten Age"
+      ],
       "name": "The Forgotten Age",
       "start_year": "Unknown",
       "end_year": "Unknown",
       "length": "Unknown",
-      "preceded_by": "[Unknown](../Unknown)",
-      "followed_by": "[The God Wars](../The_God_Wars)]",
+      "preceded_by": "Unknown",
+      "followed_by": "The God Wars",
       "known_for": "Infighting among the gods after usurping Death; massive devastation across planes.",
       "custom_details": "",
       "summary": "The God Wars began when Death, the old Godking, was overthrown and put into eternal sleep by his council, who then turned on each other. The gods fought across the astral and mortal planes, causing severe and lasting damage to the world.",
-      "major_events": "- Usurpation of Death\n- Divine infighting\n- Widespread destruction across mortal and astral planes",
+      "major_events": [
+        "Usurpation of Death",
+        "Divine infighting",
+        "Widespread destruction across mortal and astral planes"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "Death",
       "legacy": "Left mortal realm scarred; ended with Pact of Olympus which prohibited gods from interfering in the mortal realm."
     },
     "The_God_Wars": {
+      "auto_link_strings": [
+        "The God Wars",
+        "God Wars"
+      ],
       "name": "The God Wars",
       "start_year": "",
       "end_year": "0 PPO",
       "length": "",
-      "preceded_by": "[The Forgotten Age](../The_Forgotten_Age)",
-      "followed_by": "[Age of Chaos](../Age_of_Chaos)",
+      "preceded_by": "The Forgotten Age",
+      "followed_by": "Age of Chaos",
       "known_for": "Infighting among the gods after usurping Death; massive devastation across planes.",
       "custom_details": "",
       "summary": "The God Wars began when Death, the old Godking, was overthrown and put into eternal sleep by his council, who then turned on each other. The gods fought across the astral and mortal planes, causing severe and lasting damage to the world.",
-      "major_events": "- Usurpation of Death\n- Divine infighting\n- Widespread destruction across mortal and astral planes",
+      "major_events": [
+        "Usurpation of Death",
+        "Divine infighting",
+        "Widespread destruction across mortal and astral planes"
+      ],
       "notable_civilizations": "",
       "culture": "",
       "notable_figures": "Death, Demeter, Midas, Fortuna, Gilgamesh",

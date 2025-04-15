@@ -24,8 +24,10 @@
 
 ---
 
-## 🧩 Major Events
-  - {{ major_events }}
+## 🧩 Major Events  
+{% for event in major_events %}
+  - {{ event }}
+{% endfor %}
 
 ---
 
