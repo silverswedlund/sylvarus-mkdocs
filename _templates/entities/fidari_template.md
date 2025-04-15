@@ -1,4 +1,4 @@
-# {{ name }} — ({{ pronouns }})
+# {{ page_name| default(name) }} — ({{ pronouns }})
 
 <!-- Optional -->
 <img src="{{ image_path }}" alt="{{ name }}" style="width: 450px; height: auto;" />
@@ -12,14 +12,13 @@
   - {{ alias }}  
 {% endfor %}
 
-**Pre-ascension Species:**  
-  - {{ species }}  
-**[Time Period](../../history/time_periods/) of Ascension:**  
-  - {{ ascension_time_period }}  
-**[Pantheon](../../../pantheons):**  
-  - {{ pantheon }}  
-**Divine Trial:**  
-  - {{ trial }}  
+**Origin of Manifestation:**  
+  - {{ manifestation_origin }}  
+**Initial Vessel (if any):**  
+  - {{ manifestation_vessel }}  
+**Approximate First Appearance:**  
+  - {{ first_appearance_time_period }}  
+
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -53,8 +52,7 @@
 
 **Relevant Stories:**  
 
-{% include "entities/gods/{{ name|lower }}/stories_table.md_insert" %}  
-
+{% include "entities/fidari/{{ name|lower }}/stories_table.md_insert" %}  
 
 ---
 

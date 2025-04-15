@@ -48,6 +48,9 @@ nav:
     - Phobos: entities/demigods/phobos/index.md
     - Sabazios: entities/demigods/sabazios/index.md
     - Tiamel: entities/demigods/tiamel/index.md
+  - Fidari:
+    - Father finn: entities/fidari/father_finn/index.md
+    - The smiling god: entities/fidari/the_smiling_god/index.md
   - Gods:
     - entities/gods/gods_disambiguation.md
     - Amun: entities/gods/amun/index.md

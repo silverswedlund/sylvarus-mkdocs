@@ -1,0 +1,92 @@
+{
+  "config": {
+    "base_path": "docs/entities/fidari",
+    "template": "_templates/entities/fidari_template.md",
+    "type": "entity",
+    "subtype": "god"
+  },
+  "items": {
+    "The_Smiling_God": {
+      "auto_link_strings": [
+        "The Smiling God"
+      ],
+      "name": "the_smiling_god",
+      "page_name": "The Smiling God",
+      "pronouns": "they/them",
+      "image_path": "the_smiling_god.jpg",
+      "aliases": [
+        "The Joyfather",
+        "Bearer of Grins",
+        "The Marble Smile"
+      ],
+      "manifestation_origin": "A small community volunteer group devoted to bringing joy and gratitude to their neighborhood.",
+      "manifestation_vessel": "A statue of a smiling creature, once symbolic, eventually became the physical form of the Fidari.",
+      "first_appearance_time_period": "Unknown; believed to have first manifested several thousand years ago and has resurfaced many times since.",
+      "lgbtq_identifications": [
+        "agender"
+      ],
+      "other_identifiers": [
+        "neurodivergent"
+      ],
+      "song_name": "Dessert Bluffs - Music Box Version",
+      "song_link": "https://youtu.be/uE4GE9gKyBw?si=k0RHv3ISBWm7pxT0",
+      "custom_details": "**Cult Behavior:** Followers are relentlessly cheerful and grateful. Frowning is forbidden. Dissenters are gently corrected—or replaced.",
+      "current_status": "Active; known to be influencing several small but growing spiritual communities across different regions.",
+      "history": "The Smiling God was born from pure intent: a community's desire to uplift one another. Over time, this well-meaning group began worshipping a symbolic statue of joy. That belief deepened, becoming obsession, and eventually manifested the Smiling God. Their doctrine transformed into enforced positivity—happiness at any cost. Their cult has risen and collapsed multiple times across history, but they always return, drawn to hope and good will like roots to water.",
+      "physical_description": "A towering figure, 7 feet tall, with a slightly chubby build and a smooth, statue-like body. Their smile is unnaturally wide and ever-present. Their head is slightly larger than proportionate, giving them a surreal, childlike yet unsettling presence. Their eyes never blink. Their surface resembles polished marble or ceramic.",
+      "relationships": [
+        "Occasional ideological conflict with Father Finn, though they share authoritarian structures.",
+        "Rumored historical link to an early minor Olympian of celebration, now long faded."
+      ]
+    },
+    "father_finn": {
+      "auto_link_strings": [
+        "Father Finn"
+      ],
+      "name": "father_finn",
+      "page_name": "Father Finn",
+      "pronouns": "he/him",
+      "image_path": "father_finn.jpg",
+      "aliases": [
+        "The Warden-God",
+        "Father of Chains",
+        "The Lockbearer"
+      ],
+      "manifestation_origin": "A high-security prison where prisoners began revering Finn's teachings of discipline and natural order as sacred doctrine.",
+      "manifestation_vessel": "Originally the prison chaplain, a druid who believed humans were to be respected so long as they fulfilled their role in nature.",
+      "first_appearance_time_period": "During a major revolt within the prison after inmates resisted release and elevated Finn through collective belief.",
+      "lgbtq_identifications": [],
+      "other_identifiers": [
+        "neurodivergent"
+      ],
+      "song_name": "Father Finlee - Instrumental",
+      "song_link": "https://www.youtube.com/watch?v=BJV83tTJKvc",
+      "custom_details": "**Cult Structure:** His temple is the prison itself. Guards are clergy. Prisoners are devotees. Vines and animals flourish within as symbols of natural order. Submission and routine are seen as holy virtues.",
+      "current_status": "Active and worshipped within the Sanctified Penitentiary, a self-contained prison-temple. His influence spreads slowly into reform institutions and militaristic orders.",
+      "history": "Father Finn began as a druid who revered nature and believed humanity should live in harmony with its place in the world. Assigned to a brutal prison as chaplain, he became a source of strength for inmates—not through comfort, but through discipline. When prisoners resisted release, fearing the loss of structure, their belief transformed Finn into a Fidari. He now rules the penitentiary with calm authority. The harsh routines of prison life have become sacred rites. Obedience is salvation. Escape is heresy.",
+      "physical_description": "A towering, muscular man standing 8 feet tall and weighing over 500 pounds. His body is scarred and heavily built. He wears garments that blend 1700s prison uniforms with clergy robes, adorned with heavy chains and silver locks—especially around his ankles. His eyes swirl with unnatural colors, reflecting the chaos and belief from which he was born. He is stoic, commanding, and never raises his voice.",
+      "relationships": [
+        "Ideologically opposed to the Smiling God’s doctrine of joy—though both enforce order through belief.",
+        "Feared and respected by many lower Fidari who lack his level of stability or infrastructure."
+      ]
+    }
+  },
+  "template": {
+    "name": "",
+    "pronouns": "",
+    "image_path": "",
+    "aliases": [],
+    "manifestation_origin": "",
+    "manifestation_vessel": "",
+    "first_appearance_time_period": "",
+    "lgbtq_identifications": [],
+    "other_identifiers": [],
+    "song_name": "",
+    "song_link": "",
+    "custom_details": "",
+    "current_status": "",
+    "history": "",
+    "physical_description": "",
+    "relationships": []
+  }
+}
