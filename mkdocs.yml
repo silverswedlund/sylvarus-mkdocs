@@ -20,23 +20,26 @@ plugins:
     minify_html: true
 nav:
 - Documents:
-  - Misc documents:
-    - Pact of olympus: documents/misc_documents/pact_of_olympus.md
+  - Overview: documents/documents_disambiguation.md
+  - Misc Documents:
+    - Pact Of Olympus: documents/misc_documents/pact_of_olympus.md
   - Stories:
-    - Internal peace: documents/stories/internal_peace/index.md
-    - The god of regret: documents/stories/the_god_of_regret/index.md
-    - The life and works of demeter: documents/stories/the_life_and_works_of_demeter/index.md
-    - The narnking and the dragonborn: documents/stories/the_narnking_and_the_dragonborn/index.md
-    - The phoenix war: documents/stories/the_phoenix_war/index.md
-    - The thunder god: documents/stories/the_thunder_god/index.md
-    - The turn of virtue: documents/stories/the_turn_of_virtue/index.md
+    - Overview: documents/stories/stories_disambiguation.md
+    - Internal Peace: documents/stories/internal_peace/index.md
+    - The God Of Regret: documents/stories/the_god_of_regret/index.md
+    - The Life And Works Of Demeter: documents/stories/the_life_and_works_of_demeter/index.md
+    - The Narnking And The Dragonborn: documents/stories/the_narnking_and_the_dragonborn/index.md
+    - The Phoenix War: documents/stories/the_phoenix_war/index.md
+    - The Thunder God: documents/stories/the_thunder_god/index.md
+    - The Turn Of Virtue: documents/stories/the_turn_of_virtue/index.md
 - Entities:
-  - entities/entity_disambiguation.md
+  - Overview: entities/entities_disambiguation.md
   - Constructs:
+    - Overview: entities/constructs/constructs_disambiguation.md
     - Charon: entities/constructs/charon/index.md
     - Justice: entities/constructs/justice/index.md
   - Demigods:
-    - entities/demigods/demigods_disambiguation.md
+    - Overview: entities/demigods/demigods_disambiguation.md
     - Atenael: entities/demigods/atenael/index.md
     - Aurelius: entities/demigods/aurelius/index.md
     - Deimos: entities/demigods/deimos/index.md
@@ -49,10 +52,11 @@ nav:
     - Sabazios: entities/demigods/sabazios/index.md
     - Tiamel: entities/demigods/tiamel/index.md
   - Fidari:
-    - Father finn: entities/fidari/father_finn/index.md
-    - The smiling god: entities/fidari/the_smiling_god/index.md
+    - Overview: entities/fidari/fidari_disambiguation.md
+    - Father Finn: entities/fidari/father_finn/index.md
+    - The Smiling God: entities/fidari/the_smiling_god/index.md
   - Gods:
-    - entities/gods/gods_disambiguation.md
+    - Overview: entities/gods/gods_disambiguation.md
     - Amun: entities/gods/amun/index.md
     - Anuke: entities/gods/anuke/index.md
     - Aphrodite: entities/gods/aphrodite/index.md
@@ -102,23 +106,25 @@ nav:
     - Zagreus: entities/gods/zagreus/index.md
     - Zeus: entities/gods/zeus/index.md
   - Immortals:
-    - entities/immortals/immortals_disambiguation.md
+    - Overview: entities/immortals/immortals_disambiguation.md
     - Alytica: entities/immortals/alytica/index.md
   - Mortals:
-    - Bigsbeetoo valentine: entities/mortals/bigsbeetoo_valentine/index.md
-    - Bisgby valentine: entities/mortals/bisgby_valentine/index.md
-    - Coswell dupont: entities/mortals/coswell_dupont/index.md
-    - Damien rivers: entities/mortals/damien_rivers/index.md
-    - Elizabeth fancy: entities/mortals/elizabeth_fancy/index.md
-    - Emma valentina: entities/mortals/emma_valentina/index.md
-    - Fumpty goobledarber: entities/mortals/fumpty_goobledarber/index.md
-    - Hawk graewind: entities/mortals/hawk_graewind/index.md
-    - Heuramon starr: entities/mortals/heuramon_starr/index.md
-    - Leopold fancy: entities/mortals/leopold_fancy/index.md
-    - Natya mair: entities/mortals/natya_mair/index.md
-    - Raven graewind: entities/mortals/raven_graewind/index.md
-    - Serinvlad blackiron: entities/mortals/serinvlad_blackiron/index.md
-  - Primordial beings:
+    - Overview: entities/mortals/mortals_disambiguation.md
+    - Bigsbeetoo Valentine: entities/mortals/bigsbeetoo_valentine/index.md
+    - Bisgby Valentine: entities/mortals/bisgby_valentine/index.md
+    - Coswell Dupont: entities/mortals/coswell_dupont/index.md
+    - Damien Rivers: entities/mortals/damien_rivers/index.md
+    - Elizabeth Fancy: entities/mortals/elizabeth_fancy/index.md
+    - Emma Valentina: entities/mortals/emma_valentina/index.md
+    - Fumpty Goobledarber: entities/mortals/fumpty_goobledarber/index.md
+    - Hawk Graewind: entities/mortals/hawk_graewind/index.md
+    - Heuramon Starr: entities/mortals/heuramon_starr/index.md
+    - Leopold Fancy: entities/mortals/leopold_fancy/index.md
+    - Natya Mair: entities/mortals/natya_mair/index.md
+    - Raven Graewind: entities/mortals/raven_graewind/index.md
+    - Serinvlad Blackiron: entities/mortals/serinvlad_blackiron/index.md
+  - Primordial Beings:
+    - Overview: entities/primordial_beings/primordial_beings_disambiguation.md
     - Aetheria: entities/primordial_beings/aetheria/index.md
     - Aquileo: entities/primordial_beings/aquileo/index.md
     - Avianna: entities/primordial_beings/avianna/index.md
@@ -127,7 +133,7 @@ nav:
     - Fafnir: entities/primordial_beings/fafnir/index.md
     - Petrifax: entities/primordial_beings/petrifax/index.md
   - Titans:
-    - entities/titans/titans_disambiguation.md
+    - Overview: entities/titans/titans_disambiguation.md
     - Aliqotash: entities/titans/aliqotash/index.md
     - Hydraxus: entities/titans/hydraxus/index.md
     - Krella: entities/titans/krella/index.md
@@ -136,17 +142,20 @@ nav:
     - Ombrim: entities/titans/ombrim/index.md
     - Set: entities/titans/set/index.md
 - History:
-  - Time periods:
-    - Age of chaos: history/time_periods/age_of_chaos/index.md
-    - Age of creation: history/time_periods/age_of_creation/index.md
-    - Age of division: history/time_periods/age_of_division/index.md
-    - Age of magic: history/time_periods/age_of_magic/index.md
-    - Age of unity: history/time_periods/age_of_unity/index.md
-    - Modern age: history/time_periods/modern_age/index.md
-    - Period of rebirth: history/time_periods/period_of_rebirth/index.md
-    - The forgotten age: history/time_periods/the_forgotten_age/index.md
-    - The god wars: history/time_periods/the_god_wars/index.md
+  - Overview: history/history_disambiguation.md
+  - Time Periods:
+    - Overview: history/time_periods/time_periods_disambiguation.md
+    - Age Of Chaos: history/time_periods/age_of_chaos/index.md
+    - Age Of Creation: history/time_periods/age_of_creation/index.md
+    - Age Of Division: history/time_periods/age_of_division/index.md
+    - Age Of Magic: history/time_periods/age_of_magic/index.md
+    - Age Of Unity: history/time_periods/age_of_unity/index.md
+    - Modern Age: history/time_periods/modern_age/index.md
+    - Period Of Rebirth: history/time_periods/period_of_rebirth/index.md
+    - The Forgotten Age: history/time_periods/the_forgotten_age/index.md
+    - The God Wars: history/time_periods/the_god_wars/index.md
 - Identifiers:
+  - Overview: identifiers/identifiers_disambiguation.md
   - Adhd: identifiers/adhd/index.md
   - Agender: identifiers/agender/index.md
   - Aromantic: identifiers/aromantic/index.md
@@ -165,15 +174,17 @@ nav:
   - Polyamorous: identifiers/polyamorous/index.md
   - Transgender: identifiers/transgender/index.md
 - Materials:
-  - Aurealan wood: materials/aurealan_wood/index.md
+  - Overview: materials/materials_disambiguation.md
+  - Aurealan Wood: materials/aurealan_wood/index.md
   - Dragonsteel: materials/dragonsteel/index.md
-  - Enchantment gemstones: materials/enchantment_gemstones/index.md
+  - Enchantment Gemstones: materials/enchantment_gemstones/index.md
   - Gold: materials/gold/index.md
   - Iron: materials/iron/index.md
   - Mythril: materials/mythril/index.md
   - Silver: materials/silver/index.md
+- Overview: ./sylvarus_disambiguation.md
 - Pantheons:
-  - pantheons/pantheon_disambiguation.md
+  - Overview: pantheons/pantheons_disambiguation.md
   - Athenians: pantheons/athenians/index.md
   - Demerans: pantheons/demerans/index.md
   - Dragongods: pantheons/dragongods/index.md
@@ -184,10 +195,44 @@ nav:
   - Underworlders: pantheons/underworlders/index.md
   - Zagarans: pantheons/zagarans/index.md
 - Planes:
+  - Overview: planes/planes_disambiguation.md
   - Material:
-    - Locations
+    - Overview: planes/material/material_disambiguation.md
+    - Sylvarus:
+      - Overview: planes/material/sylvarus/sylvarus_disambiguation.md
+      - Locations:
+        - Overview: planes/material/sylvarus/locations/locations_disambiguation.md
+        - Cities:
+          - Overview: planes/material/sylvarus/locations/cities/cities_disambiguation.md
+          - Redwater: planes/material/sylvarus/locations/cities/redwater/index.md
+        - Territories:
+          - Overview: planes/material/sylvarus/locations/territories/territories_disambiguation.md
+          - Athenia: planes/material/sylvarus/locations/territories/athenia/index.md
+          - Celestia: planes/material/sylvarus/locations/territories/celestia/index.md
+          - Eton: planes/material/sylvarus/locations/territories/eton/index.md
+          - Haratur Outpost: planes/material/sylvarus/locations/territories/haratur_outpost/index.md
+          - Kamboramm: planes/material/sylvarus/locations/territories/kamboramm/index.md
+          - Land Of King: planes/material/sylvarus/locations/territories/land_of_king/index.md
+          - Mideer: planes/material/sylvarus/locations/territories/mideer/index.md
+          - Narnlund: planes/material/sylvarus/locations/territories/narnlund/index.md
+          - New Noridge: planes/material/sylvarus/locations/territories/new_noridge/index.md
+          - Noridge: planes/material/sylvarus/locations/territories/noridge/index.md
+          - Olympia: planes/material/sylvarus/locations/territories/olympia/index.md
+          - Rositoria: planes/material/sylvarus/locations/territories/rositoria/index.md
+          - Shalnan: planes/material/sylvarus/locations/territories/shalnan/index.md
+          - Taliander: planes/material/sylvarus/locations/territories/taliander/index.md
+          - The Aureate: planes/material/sylvarus/locations/territories/the_aureate/index.md
+          - The Black Islands: planes/material/sylvarus/locations/territories/the_black_islands/index.md
+          - The Frost: planes/material/sylvarus/locations/territories/the_frost/index.md
+          - The Isles Of Tife: planes/material/sylvarus/locations/territories/the_isles_of_tife/index.md
+          - The Northwest Tundra: planes/material/sylvarus/locations/territories/the_northwest_tundra/index.md
+          - The Republic Of Avia: planes/material/sylvarus/locations/territories/the_republic_of_avia/index.md
+          - The Selin Flats: planes/material/sylvarus/locations/territories/the_selin_flats/index.md
+          - The Wastes: planes/material/sylvarus/locations/territories/the_wastes/index.md
+          - Titanrock: planes/material/sylvarus/locations/territories/titanrock/index.md
+          - Tyro: planes/material/sylvarus/locations/territories/tyro/index.md
 - Species:
-  - species/species_disambiguation.md
+  - Overview: species/species_disambiguation.md
   - Angel: species/angel/index.md
   - Aureala: species/aureala/index.md
   - Basilisk: species/basilisk/index.md
@@ -216,5 +261,3 @@ nav:
   - Slothturtle: species/slothturtle/index.md
   - Soulblight: species/soulblight/index.md
   - Tiefling: species/tiefling/index.md
-- Sylvarus:
-  - ./sylvarus_disambiguation.md
