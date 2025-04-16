@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/entities/beasts",
-    "template": "_templates/entities/beasts_template.md",
+    "template": "_templates/entities/beasts_template.md_template",
     "type": "entity",
     "subtype": "beast"
   },

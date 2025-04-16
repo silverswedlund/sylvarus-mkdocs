@@ -12,9 +12,7 @@
   - {{ alias }}  
 {% endfor %}  
 **Species:**  
-  - {{ species }}  
-**Divine Parent:**  
-  - {{ divine_parent }}  
+  - {{ pre_fall_species }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -43,9 +41,11 @@
   - <a href="{{ song_link }}" target="_blank">{{ song_name }}</a>
 {% endif %}
 {% endif %}
+
 **Relevant Stories:**  
 
-{% include "entities/demigods/{{ name|lower }}/stories_table.md_insert" %}  
+{% include "entities/primordial_beings/{{ name|lower }}_stories_table.md_insert" %}  
+
 
 **Additional Details:**  
   - {{ custom_details }}

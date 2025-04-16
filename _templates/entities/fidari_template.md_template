@@ -1,18 +1,24 @@
-# {{ name }} — ({{ pronouns }})
+# {{ page_name| default(name) }} — ({{ pronouns }})
 
 <!-- Optional -->
 <img src="{{ image_path }}" alt="{{ name }}" style="width: 450px; height: auto;" />
+
 ---
 
 ## 📕 Details
-**Pronouns:**  
-  - {{ pronouns }}  
-**Aliases:**  
+**Pronouns:** {{ pronouns }}  
+**Titles/Aliases:**  
 {% for alias in aliases %}
   - {{ alias }}  
-{% endfor %}  
-**Species:**  
-  - {{ pre_fall_species }}  
+{% endfor %}
+
+**Origin of Manifestation:**  
+  - {{ manifestation_origin }}  
+**Initial Vessel (if any):**  
+  - {{ manifestation_vessel }}  
+**Approximate First Appearance:**  
+  - {{ first_appearance_time_period }}  
+
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -42,31 +48,28 @@
 {% endif %}
 {% endif %}
 
+{{ custom_details }}
+
 **Relevant Stories:**  
 
-{% include "entities/mortals/{{ name|lower | replace(' ', '_') }}/stories_table.md_insert" %}    
-
-
-**Additional Details:**  
-  - {{ custom_details }}
+{% include "entities/fidari/{{ name|lower }}_stories_table.md_insert" %}  
 
 ---
 
 ## 🌀 Current Status
-  - {{ current_status }}
+ - {{ current_status }}
 
 ---
 
 ## 📜 History
-  - {{ history }}
+ - {{ history }}
 
 ---
 
-## 🧠 Description
-  - {{ description }}
+## 👤 Physical Description
+ - {{ physical_description }}
 
 ---
-
 {% if relationships %}
 ## 🧩 Notable Relationships
 {% for relationship in relationships %}

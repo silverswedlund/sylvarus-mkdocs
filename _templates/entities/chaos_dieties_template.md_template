@@ -2,24 +2,17 @@
 
 <!-- Optional -->
 <img src="{{ image_path }}" alt="{{ name }}" style="width: 450px; height: auto;" />
-
 ---
 
 ## 📕 Details
-**Pronouns:** {{ pronouns }}  
-**Titles/Aliases:**  
+**Pronouns:**  
+  - {{ pronouns }}  
+**Aliases:**  
 {% for alias in aliases %}
   - {{ alias }}  
-{% endfor %}
-
-**Pre-ascension Species:**  
-  - {{ species }}  
-**[Time Period](../../history/time_periods/) of Ascension:**  
-  - {{ ascension_time_period }}  
-**[Pantheon](../../../pantheons):**  
-  - {{ pantheon }}  
-**Divine Trial:**  
-  - {{ trial }}  
+{% endfor %}  
+**Species:**  
+  - {{ pre_fall_species }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
 {% for id in lgbtq_identifications %}
@@ -49,29 +42,31 @@
 {% endif %}
 {% endif %}
 
-{{ custom_details }}
-
 **Relevant Stories:**  
 
-{% include "entities/gods/{{ name|lower }}/stories_table.md_insert" %}  
+{% include "entities/chaos_dieties/{{ name|lower }}_stories_table.md_insert" %}    
 
+
+**Additional Details:**  
+  - {{ custom_details }}
 
 ---
 
 ## 🌀 Current Status
- - {{ current_status }}
+  - {{ current_status }}
 
 ---
 
 ## 📜 History
- - {{ history }}
+  - {{ history }}
 
 ---
 
-## 👤 Physical Description
- - {{ physical_description }}
+## 🧠 Description
+  - {{ description }}
 
 ---
+
 {% if relationships %}
 ## 🧩 Notable Relationships
 {% for relationship in relationships %}

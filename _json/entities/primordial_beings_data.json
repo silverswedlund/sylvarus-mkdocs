@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/entities/primordial_beings",
-    "template": "_templates/entities/primordial_beings_template.md",
+    "template": "_templates/entities/primordial_beings_template.md_template",
     "type": "entity",
     "subtype": "primordial_being"
   },

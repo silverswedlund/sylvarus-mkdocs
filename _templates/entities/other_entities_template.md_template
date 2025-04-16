@@ -44,7 +44,7 @@
 
 **Relevant Stories:**  
 
-{% include "entities/immortals/{{ name|lower }}/stories_table.md_insert" %}    
+{% include "entities/other_entities/{{ name|lower }}_stories_table.md_insert" %}    
 
 
 **Additional Details:**  

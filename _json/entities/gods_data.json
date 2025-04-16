@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/entities/gods",
-    "template": "_templates/entities/god_template.md",
+    "template": "_templates/entities/god_template.md_template",
     "type": "entity",
     "subtype": "god"
   },
@@ -24,7 +24,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/amun.jpg",
+      "image_path": "../images/amun.jpg",
       "history": "",
       "song_link": "https://youtu.be/Rfvcr2JDfAo?si=_VGbm1fmk91Y1Iez",
       "song_name": "Pokemon Hoenn Legendary Battle Theme (Epic Orchestral Remix)",
@@ -56,7 +56,7 @@
         "Versengeterix - (partner)"
       ],
       "current_status": "",
-      "image_path": "images/anuke.jpg",
+      "image_path": "../images/anuke.jpg",
       "history": "",
       "song_link": "",
       "song_name": "",
@@ -91,7 +91,7 @@
         "Hades - (pseudo friend/stalker /joke)"
       ],
       "current_status": "Traveling the Multi-verse",
-      "image_path": "images/aphrodite.jpg",
+      "image_path": "../images/aphrodite.jpg",
       "history": "Escaped the God Onboarding Room",
       "song_link": "https://youtu.be/556PV-Sf0Z0?si=K8HJzhikQeXip4UN",
       "song_name": "Spider Dance- Orchestral swing remix",
@@ -124,7 +124,7 @@
         "Amun - friend"
       ],
       "current_status": "Doing political moves in Olympia",
-      "image_path": "images/apollo.jpg",
+      "image_path": "../images/apollo.jpg",
       "history": "Doing pol",
       "song_link": "https://youtu.be/rTJjtSP-ORc?si=BcJ3UMMF8Lo9rWvC",
       "song_name": "The Promised Neverland OST - Isabella's Lullaby",
@@ -155,7 +155,7 @@
         "Eris - (Twin Sister)"
       ],
       "current_status": "",
-      "image_path": "images/ares.jpg",
+      "image_path": "../images/ares.jpg",
       "history": "",
       "song_link": "https://youtu.be/kpnW68Q8ltc?si=hnjmspEdsrFOGxgl",
       "song_name": "The only thing they fear is you",
@@ -186,7 +186,7 @@
         "Apollo - Brother"
       ],
       "current_status": "",
-      "image_path": "images/artemis.jpg",
+      "image_path": "../images/artemis.jpg",
       "history": "",
       "song_link": "https://youtu.be/VIiOSrYclc8?si=OAmZv5hidFy_JJZt",
       "song_name": "Death Note- Kuroi Light EXTENDED",
@@ -217,7 +217,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/asher_rose.jpg",
+      "image_path": "../images/asher_rose.jpg",
       "history": "",
       "song_link": "https://youtu.be/QbKH0i4Y-Yo?si=VeqzzIE2rGqXq3iR",
       "song_name": "Halo 3 - Never Forget (Piano Cover)",
@@ -248,7 +248,7 @@
         "Hephaestus - (good friend)"
       ],
       "current_status": "",
-      "image_path": "images/athena.jpg",
+      "image_path": "../images/athena.jpg",
       "history": "",
       "song_link": "https://youtu.be/slvejIelzio?si=PpITvN2q1KVnKGbi",
       "song_name": "A Cruel Angel's Thesis but it's actually dark and depressive (Evangelion OP)",
@@ -280,7 +280,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/balbarash.jpg",
+      "image_path": "../images/balbarash.jpg",
       "history": "",
       "song_link": "https://youtu.be/iPRICWlVJus?si=qeS8NV68guPF3Bl9",
       "song_name": "Efkan Şeşen - Polyushka Polye | Renkler Ve Islıklar © 2008 Sesen Muziek",
@@ -311,7 +311,7 @@
         "Tiamel - (daughter)"
       ],
       "current_status": "Sleeping in the Vault of Death",
-      "image_path": "images/death.jpg",
+      "image_path": "../images/death.jpg",
       "history": "Usurped from Godking by advisors",
       "song_link": "",
       "song_name": "Death's Sleep",
@@ -343,7 +343,7 @@
         "Hephaestus - (partner)"
       ],
       "current_status": "",
-      "image_path": "images/delinette.jpg",
+      "image_path": "../images/delinette.jpg",
       "history": "",
       "song_link": "https://youtu.be/PUrsOQanozo?si=Wy7B5vvyWJCx_tZ7",
       "song_name": "Halo 4 OST - 117",
@@ -376,7 +376,7 @@
         "Zeus - (former partner)"
       ],
       "current_status": "Ascended to the Divine (dead?)",
-      "image_path": "images/demeter.jpg",
+      "image_path": "../images/demeter.jpg",
       "history": "",
       "song_link": "https://youtu.be/y0KZPLtsbSU?si=ZBwkXvUC1Hnk7mKK",
       "song_name": "Halo 4 - Atonement",
@@ -408,7 +408,7 @@
         "Zagreus - (mentor - good friend)"
       ],
       "current_status": "",
-      "image_path": "images/dionysus.jpg",
+      "image_path": "../images/dionysus.jpg",
       "history": "",
       "song_link": "https://youtu.be/x5J2LdaiRwI?si=NelQ-j67lDwE7zkO",
       "song_name": "Pokémon Diamond and Pearl- Game Corner Remix v.II",
@@ -440,7 +440,7 @@
         "Enkidu - (ally)"
       ],
       "current_status": "",
-      "image_path": "images/ecatra.jpg",
+      "image_path": "../images/ecatra.jpg",
       "history": "",
       "song_link": "https://youtu.be/ohNpf4VnlP8?si=Gyh51Nj_NY1SN2Ut",
       "song_name": "MerFolk | Lullaby of Woe - Ashley Serena (LYRICS)",
@@ -471,7 +471,7 @@
         "Ecatra - (ally)"
       ],
       "current_status": "",
-      "image_path": "images/enkidu.jpg",
+      "image_path": "../images/enkidu.jpg",
       "history": ""
     },
     "Eris": {
@@ -492,7 +492,7 @@
         "Ares - Twin Brother"
       ],
       "current_status": "",
-      "image_path": "images/eris_cropped.jpg",
+      "image_path": "../images/eris_cropped.jpg",
       "history": "",
       "song_link": "https://youtu.be/QHRuTYtSbJQ?si=WyAA4hf6ExqFT76d",
       "song_name": "BFG division",
@@ -523,7 +523,7 @@
         "Gilgamesh - (Rival)"
       ],
       "current_status": "",
-      "image_path": "images/fortuna.jpg",
+      "image_path": "../images/fortuna.jpg",
       "history": "",
       "song_link": "https://youtu.be/GXFSK0ogeg4?si=Gs1NSu-3yh4FkJaZ",
       "song_name": "O Fortuna (Carmina Burana - Carl Orff)",
@@ -554,7 +554,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/freija.jpg",
+      "image_path": "../images/freija.jpg",
       "history": "",
       "song_link": "https://youtu.be/z9yRFy5pvV0?si=t2ItKuBcWdQP9wio",
       "song_name": "SKÁLD - Ginnunga (Vikings Chant)",
@@ -586,7 +586,7 @@
         "Virtue - (Friend/Servant)"
       ],
       "current_status": "",
-      "image_path": "images/gilgamesh.jpg",
+      "image_path": "../images/gilgamesh.jpg",
       "history": "",
       "song_link": "https://youtu.be/gbJwtJG-JbM?si=R3_w8xpxIBlTeBbR",
       "song_name": "Hunter x Hunter (2011) OST - Restriction and Pledge",
@@ -624,7 +624,7 @@
         "Osiris - (employee)"
       ],
       "current_status": "Managing the Underworld",
-      "image_path": "images/hades.jpg",
+      "image_path": "../images/hades.jpg",
       "history": "",
       "song_link": "https://youtu.be/cVukkhUI-xM?si=3DDnnvrWeXhD8mjt",
       "song_name": "Hades - God of the Dead",
@@ -655,7 +655,7 @@
         "Anuke - (partner)"
       ],
       "current_status": "",
-      "image_path": "images/halacaster.jpg",
+      "image_path": "../images/halacaster.jpg",
       "history": "",
       "song_link": "https://youtu.be/boXoJi0x638?si=MtGC3WVTjZ7YaEjQ",
       "song_name": "Carter Burwell – Main theme Mr. Holmes",
@@ -686,7 +686,7 @@
         "Athena - (Friend)"
       ],
       "current_status": "Traveling the multi-verse",
-      "image_path": "images/hephaestus.jpg",
+      "image_path": "../images/hephaestus.jpg",
       "history": "",
       "song_link": "https://youtu.be/JfrNrTGxYJ4?si=jptT9-JojKHamBkb",
       "song_name": "Another Medium",
@@ -719,7 +719,7 @@
         "Zeus - (Mentor)"
       ],
       "current_status": "",
-      "image_path": "images/hera_cropped.jpg",
+      "image_path": "../images/hera_cropped.jpg",
       "history": "",
       "song_link": "https://youtu.be/3DG4Ld9UKKk?si=RIpDp02q_nyDB-KW",
       "song_name": "Pokemon Primal Dialga Battle Theme (Epic Orchestral Remix)",
@@ -750,7 +750,7 @@
         "Dionysus - (great friend (with sexual tension))"
       ],
       "current_status": "",
-      "image_path": "images/hermes.jpg",
+      "image_path": "../images/hermes.jpg",
       "history": "",
       "song_link": "https://youtu.be/QK7UP_JFxG8?si=H_Nc06AInPOHYTR_",
       "song_name": "Marvelous Battle OST's: Tsuna Awakes",
@@ -781,7 +781,7 @@
         "Zeus - Great friend"
       ],
       "current_status": "",
-      "image_path": "images/hestia.jpg",
+      "image_path": "../images/hestia.jpg",
       "history": "",
       "song_link": "https://youtu.be/MQBVAfLwDa8?si=VhzCHx5_p1RQzP3Y",
       "song_name": "Minecraft - Pigstep Orchestral Cover",
@@ -812,7 +812,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/inkozana.jpg",
+      "image_path": "../images/inkozana.jpg",
       "history": "",
       "song_link": "https://youtu.be/Zq5WfR4K3zA?si=um8N73JhZNVhWR10",
       "song_name": "Halo 4 OST - Legacy",
@@ -843,7 +843,7 @@
         "Orakothros - (husband)"
       ],
       "current_status": "",
-      "image_path": "images/iranara.jpg",
+      "image_path": "../images/iranara.jpg",
       "history": "",
       "song_link": "https://youtu.be/4jisEhTKpw4?si=zWKb6PEGG4vtoYcL",
       "song_name": "Horn of Plenty (Preparing the Chariots w Tribute Parade from Catching Fire)",
@@ -874,7 +874,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/loki.jpg",
+      "image_path": "../images/loki.jpg",
       "history": "",
       "song_link": "https://youtu.be/CSxLZN4ldb8?si=Lq0MegSXVm2pOvbA",
       "song_name": "Corpse Party: Blood Covered OST - Chapter 1's Main Theme",
@@ -904,7 +904,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/malice.jpg",
+      "image_path": "../images/malice.jpg",
       "history": "",
       "song_link": "https://youtu.be/rUuusqy50yk?si=v_9IBI7ibp2II-hJ",
       "song_name": "Tchaikovsky - Valse Sentimentale",
@@ -935,7 +935,7 @@
         ""
       ],
       "current_status": "Lives and meditates in the far fields of the astral plane Promotes the Marithian religious movement",
-      "image_path": "images/marith.jpg",
+      "image_path": "../images/marith.jpg",
       "history": "",
       "song_link": "https://youtu.be/S3rQmQc3T3o?si=gUzBNGNcfnOKd7tZ",
       "song_name": "Dragon Quest IX Tokyo Suite - Angelic Land",
@@ -967,7 +967,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/midas.jpg",
+      "image_path": "../images/midas.jpg",
       "history": "",
       "song_link": "https://youtu.be/uZFROsvADpo?si=WuLA7Endaa1DTYrd",
       "song_name": "Pearl: Approaching Champion Cynthia Piano Etude (Extended)",
@@ -998,7 +998,7 @@
         "  - Valentina - (Wife)"
       ],
       "current_status": "",
-      "image_path": "images/nyx.jpg",
+      "image_path": "../images/nyx.jpg",
       "history": "",
       "song_link": "https://youtu.be/OrCx5wW94m0?si=eO5WcGrX7SIiJPRG",
       "song_name": "Vivaldi Variation (arr. for piano from Concerto for Strings)",
@@ -1029,7 +1029,7 @@
         "Alytica - (husband)"
       ],
       "current_status": "Living in a cabin with Alytica in the far reaches of the Astral plane",
-      "image_path": "images/odinn.jpg",
+      "image_path": "../images/odinn.jpg",
       "history": "",
       "song_link": "https://youtu.be/bmWbQTtt2dY?si=fnMY_CxL6Lit94u1",
       "song_name": "Halo 3 ODST OST Disk 1 Track 6 Asphalt and Ablution",
@@ -1060,7 +1060,7 @@
         "Iranara - (wife)"
       ],
       "current_status": "",
-      "image_path": "images/orakothros.jpg",
+      "image_path": "../images/orakothros.jpg",
       "history": "",
       "song_link": "https://youtu.be/y9hh91-2iaA?si=mMLS6kaTnpPVYKUK",
       "song_name": "God of War",
@@ -1091,7 +1091,7 @@
         "Eurydice - (wife)"
       ],
       "current_status": "",
-      "image_path": "images/orpheus.jpg",
+      "image_path": "../images/orpheus.jpg",
       "history": "",
       "song_link": "https://youtu.be/QUcTsFe1PVs?si=ETxhDbTJqoee5FEC",
       "song_name": "The Epic Of Gilgamesh In Sumerian",
@@ -1122,7 +1122,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/osiris.jpg",
+      "image_path": "../images/osiris.jpg",
       "history": "",
       "song_link": "https://youtu.be/qZvtvP-_tw4?si=oGaSD6OtaVQrPQ7p",
       "song_name": "Corpse Party: Blood Covered OST - Chapter 3's Main Theme (Extended)",
@@ -1153,7 +1153,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/pan.jpg",
+      "image_path": "../images/pan.jpg",
       "history": "",
       "song_link": "https://youtu.be/MSsWcw1M4xQ?si=pBdeA86nogrtH759",
       "song_name": "Let's Dance, Boys! - Super Smash Bros. Ultimate",
@@ -1184,7 +1184,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/poseidon.jpg",
+      "image_path": "../images/poseidon.jpg",
       "history": "",
       "song_link": "https://youtu.be/fvyx7vZy13E?si=cBYXzaTfyZSwClYE",
       "song_name": "Divinity Original Sin 2 OST 33 The Queens High Seas",
@@ -1215,7 +1215,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/quetzalcoatl.jpg",
+      "image_path": "../images/quetzalcoatl.jpg",
       "history": "",
       "song_link": "https://youtu.be/zvWxcGeYehg?si=osHF-mi4QRKTgXjJ",
       "song_name": "Pokemon Route 42-43-44-Lake of Rage (Epic Orchestral Remix)",
@@ -1248,7 +1248,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/shal'nan.jpg",
+      "image_path": "../images/shal'nan.jpg",
       "history": "",
       "song_link": "https://youtu.be/xDEXjJvexdk?si=HmzRKGBfz89ODJ8e",
       "song_name": "Dragon Lullaby",
@@ -1278,7 +1278,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/silence.jpg",
+      "image_path": "../images/silence.jpg",
       "history": "",
       "song_link": "https://youtu.be/xbV6rWFq5PA?si=-zOcG_sw_jvzomqu",
       "song_name": "Copied City",
@@ -1309,7 +1309,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/thanatos.jpg",
+      "image_path": "../images/thanatos.jpg",
       "history": "",
       "song_link": "https://youtu.be/xiMvjppwqVI?si=8FEqSet0RqR82O58",
       "song_name": "Medieval Chant 'Dies Irae' - Epic background sound edit slowed",
@@ -1340,7 +1340,7 @@
         ""
       ],
       "current_status": "",
-      "image_path": "images/tyro.jpg",
+      "image_path": "../images/tyro.jpg",
       "history": "Invented Enchanting Founded the nation of Tyro",
       "song_link": "https://youtu.be/_iF7lkXKHlA?si=Kyrv97rapbbxO8KD",
       "song_name": ".Goëtia. | Dark Magic Music",
@@ -1372,7 +1372,7 @@
         "Fortuna - (Boss/mentor)"
       ],
       "current_status": "",
-      "image_path": "images/valentina.jpg",
+      "image_path": "../images/valentina.jpg",
       "history": "",
       "song_link": "https://youtu.be/SUT_0c2QVzo?si=AALtgV7jHQMncqdS",
       "song_name": "Chopin - Waltz in C Sharp Minor (Op. 64 No. 2)",
@@ -1405,7 +1405,7 @@
         "Anuke - (partner)"
       ],
       "current_status": "",
-      "image_path": "images/versengeterix.jpg",
+      "image_path": "../images/versengeterix.jpg",
       "history": "",
       "song_link": "https://youtu.be/UQkxNbgohPg?si=2HVHbRIud2hxsetK",
       "song_name": "Pandora hearts OST - Will",
@@ -1435,7 +1435,7 @@
         "Gilgamesh - Friend/Leader"
       ],
       "current_status": "",
-      "image_path": "images/virtue.jpg",
+      "image_path": "../images/virtue.jpg",
       "history": "",
       "song_link": "https://youtu.be/i1vTWXW-jkM?si=vEhb9WQvEJcQbAc9",
       "song_name": "Geralt of Rivia | The Witcher OST",
@@ -1468,7 +1468,7 @@
         "Hades - (friend)"
       ],
       "current_status": "Leader of the Zagarans",
-      "image_path": "images/zagreus.jpg",
+      "image_path": "../images/zagreus.jpg",
       "history": "Convinced Hades to let him out of the last level of the Underworld",
       "song_link": "https://youtu.be/StMoKBxL9ac?si=MMudSQOH3mkce2Lp",
       "song_name": "07 From Olympus",
@@ -1498,7 +1498,7 @@
         "Demeter - Partner (former)"
       ],
       "current_status": "Living in the city of Redwater, having very limited powers from healing the planes",
-      "image_path": "images/zeus.jpg",
+      "image_path": "../images/zeus.jpg",
       "history": "Sacrificed god powers after Demeter super-ascension to save mortal plane from chaos",
       "song_link": "zeus_|_great_grey_wolf_sif_-_dark_souls_soundtrack.mp4",
       "song_name": "https://youtu.be/BjEYqqjw5fM?si=_5BkVFIaJ66D_vH1",

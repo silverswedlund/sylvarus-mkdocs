@@ -44,7 +44,7 @@
 
 **Relevant Stories:**  
 
-{% include "entities/primordial_beings/{{ name|lower }}/stories_table.md_insert" %}  
+{% include "entities/constructs/{{ name|lower }}_stories_table.md_insert" %}    
 
 
 **Additional Details:**  

@@ -12,10 +12,6 @@
   - {{ alias }}  
 {% endfor %}  
 **Species:**  
-  - {{ species }}  
-**Divine Trial:**  
-  - {{ divine_trial }}  
-**Pre-Fall Species:**  
   - {{ pre_fall_species }}  
 **LGBTQ+ Identifications:**  
 {% set lgbtq_identifications_with_images = ["agender", "aromantic", "asexual", "demiboy", "demigirl", "disabled", "mlm", "genderqueer", "lesbian", "nonbinary", "pansexual", "transgender", "bicurious"] %}
@@ -48,7 +44,8 @@
 
 **Relevant Stories:**  
 
-{% include "entities/titans/{{ name|lower }}/stories_table.md_insert" %}    
+{% include "entities/mortals/{{ name|lower | replace(' ', '_') }}_stories_table.md_insert" %}    
+
 
 **Additional Details:**  
   - {{ custom_details }}
