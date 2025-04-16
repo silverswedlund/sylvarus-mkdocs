@@ -1,0 +1,32 @@
+{
+  "config": {
+    "base_path": "docs/identifiers/personality",
+    "template": "_templates/identifier_template.md",
+    "type": "identifier",
+    "subtype": "personality"
+  },
+  "items": {
+    "Extroverted": {
+      "name": "Extroverted",
+      "type": "personality",
+      "description": "Extroverted people are outgoing and sociable, preferring to be around others and engaging in social activities rather than being alone.",
+      "related_identifiers": [
+        "Introverted"
+      ],
+      "auto_link_strings": [
+        "Extroverted"
+      ]
+    },
+    "Introverted": {
+      "name": "Introverted",
+      "type": "personality",
+      "description": "Introverted people are reserved and prefer to be alone, preferring to spend time on their own thoughts and activities.",
+      "related_identifiers": [
+        "Extroverted"
+      ],
+      "auto_link_strings": [
+        "Introverted"
+      ]
+    }
+  }
+}

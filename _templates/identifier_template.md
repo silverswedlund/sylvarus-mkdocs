@@ -1,4 +1,4 @@
-# {{ name }} — ({{ type }})
+# {{ name }}
 
 <!-- Optional -->
 <img src="{{ image_path }}" alt="{{ name }}" width="400" />
@@ -15,6 +15,6 @@
 ---
 
 ## 👥 List of Identifier-Havers  
-{% include "identifiers/{{name|lower}}/id_havers_table.md_insert" %}
+{% include "identifiers/{{ type }}/{{ name|lower }}_id_havers_table.md_insert" %}
 
 ---

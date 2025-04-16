@@ -3,6 +3,7 @@ import json
 import logging
 from pathlib import Path
 import argparse
+import re
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -16,20 +17,70 @@ def load_json_data(json_path: Path):
         logging.error(f"Error loading {json_path}: {e}")
         return None
 
-def get_identifier_mapping(identifiers_data):
-    """Create a mapping of identifier strings to their keys."""
-    identifier_map = {}
+def get_identifier_mapping():
+    """Create a mapping of identifier strings to their keys and categories from all identifier JSON files."""
+    identifier_map = {}  # Maps identifier strings to (key, category) tuples
+    json_dir = Path("_json")
+    identifiers_dir = json_dir / "identifiers"
     
-    for identifier_key, info in identifiers_data.get("items", {}).items():
-        auto_link_strings = info.get("auto_link_strings", [])
-        if auto_link_strings:
-            for link_string in auto_link_strings:
-                identifier_map[link_string.lower()] = identifier_key
-        else:
-            # Use the key itself if no auto-link strings
-            identifier_map[identifier_key.lower()] = identifier_key
+    # Check if identifiers directory exists
+    if not identifiers_dir.exists():
+        logging.error(f"Identifiers directory not found: {identifiers_dir}")
+        return identifier_map
+    
+    # Process all identifier JSON files
+    for json_path in identifiers_dir.glob("*_identifiers_data.json"):
+        logging.info(f"Loading identifiers from {json_path.name}")
+        
+        # Extract category from filename (e.g., "personality" from "personality_identifiers_data.json")
+        category_match = re.match(r'(.+)_identifiers_data\.json', json_path.name)
+        if not category_match:
+            logging.warning(f"Could not extract category from filename: {json_path.name}")
+            continue
+            
+        category = category_match.group(1)
+        
+        identifiers_data = load_json_data(json_path)
+        if not identifiers_data:
+            continue
+        
+        for identifier_key, info in identifiers_data.get("items", {}).items():
+            auto_link_strings = info.get("auto_link_strings", [])
+            if auto_link_strings:
+                for link_string in auto_link_strings:
+                    identifier_map[link_string.lower()] = (identifier_key, category)
+            else:
+                # Use the key itself if no auto-link strings
+                identifier_map[identifier_key.lower()] = (identifier_key, category)
     
     return identifier_map
+
+def get_all_identifiers(json_dir: Path):
+    """Get all identifiers from all identifier JSON files with their categories."""
+    all_identifiers = []  # List of (identifier_key, category) tuples
+    identifiers_dir = json_dir / "identifiers"
+    
+    if not identifiers_dir.exists():
+        logging.error(f"Identifiers directory not found: {identifiers_dir}")
+        return all_identifiers
+    
+    for json_path in identifiers_dir.glob("*_identifiers_data.json"):
+        # Extract category from filename
+        category_match = re.match(r'(.+)_identifiers_data\.json', json_path.name)
+        if not category_match:
+            continue
+            
+        category = category_match.group(1)
+        
+        identifiers_data = load_json_data(json_path)
+        if not identifiers_data:
+            continue
+        
+        # Add all identifiers from this file with their category
+        for identifier_key in identifiers_data.get("items", {}).keys():
+            all_identifiers.append((identifier_key, category))
+    
+    return all_identifiers
 
 def get_entity_display_name(entity_data):
     """Get the display name for an entity (first auto-link string or name)."""
@@ -44,7 +95,13 @@ def get_entity_display_name(entity_data):
 def find_identifier_matches(json_files, identifier_map):
     """Find all entities that match each identifier."""
     # Initialize a dictionary to store matches for each identifier
-    identifier_matches = {identifier_key: [] for identifier_key in set(identifier_map.values())}
+    # Structure: {(identifier_key, category): [matches]}
+    identifier_matches = {}
+    
+    # Initialize the dictionary with all identifiers
+    for _, (id_key, category) in identifier_map.items():
+        if (id_key, category) not in identifier_matches:
+            identifier_matches[(id_key, category)] = []
     
     # Process each JSON file
     for json_file in json_files:
@@ -63,9 +120,9 @@ def find_identifier_matches(json_files, identifier_map):
             lgbtq_ids = entity_data.get("lgbtq_identifications", [])
             for lgbtq_id in lgbtq_ids:
                 # Check if this ID matches any known identifier
-                for id_string, id_key in identifier_map.items():
+                for id_string, (id_key, category) in identifier_map.items():
                     if id_string.lower() in lgbtq_id.lower():
-                        identifier_matches[id_key].append(display_name)
+                        identifier_matches[(id_key, category)].append(display_name)
                         logging.debug(f"Match found: {entity_key} → {id_key} (via LGBTQ ID: {lgbtq_id})")
                         break
             
@@ -73,9 +130,9 @@ def find_identifier_matches(json_files, identifier_map):
             other_ids = entity_data.get("other_identifiers", [])
             for other_id in other_ids:
                 # Check if this ID matches any known identifier
-                for id_string, id_key in identifier_map.items():
+                for id_string, (id_key, category) in identifier_map.items():
                     if id_string.lower() in other_id.lower():
-                        identifier_matches[id_key].append(display_name)
+                        identifier_matches[(id_key, category)].append(display_name)
                         logging.debug(f"Match found: {entity_key} → {id_key} (via Other ID: {other_id})")
                         break
     
@@ -95,24 +152,30 @@ def generate_id_havers_table(titles):
     
     return table
 
-def write_id_havers_table_insert(identifier_dir, titles, dry_run=False):
+def write_id_havers_table_insert(identifier_path, titles, dry_run=False):
     """Write the ID havers table to an insert file."""
-    insert_file_path = identifier_dir / "id_havers_table.md_insert"
+    # Get the directory containing the identifier file
+    identifier_dir = identifier_path.parent
+    
+    # Create the insert file path in the same directory as the identifier file
+    # Use the identifier filename (without extension) for the insert filename
+    identifier_name = identifier_path.stem
+    insert_file_path = identifier_dir / f"{identifier_name}_id_havers_table.md_insert"
     
     # Generate the table
     table = generate_id_havers_table(titles)
     
     # Create parent directories if they don't exist
     if not dry_run:
-        insert_file_path.parent.mkdir(parents=True, exist_ok=True)
+        identifier_dir.mkdir(parents=True, exist_ok=True)
     
     # Write to the insert file
     if not dry_run:
         with open(insert_file_path, "w", encoding="utf-8") as f:
             f.write(table)
-        logging.info(f"✅ Updated ID havers table for {identifier_dir.name}")
+        logging.info(f"✅ Updated ID havers table for {identifier_name}")
     else:
-        logging.info(f"🔍 Would update ID havers table for {identifier_dir.name}")
+        logging.info(f"🔍 Would update ID havers table for {identifier_name}")
         logging.info(f"Table content would be:\n{table}")
     
     return True
@@ -126,28 +189,49 @@ def main():
     if args.dry_run:
         logging.info("🔍 DRY RUN: No files will be modified")
     
-    logging.info("🔍 Starting insert_identifier_tables.py")
+    logging.info("🔍 Starting generate_identifier_tables.py")
     
     # Paths
     json_dir = Path("_json")
-    identifiers_json_path = json_dir / "identifiers_data.json"
     identifiers_base_path = Path("docs/identifiers")
     
-    # Load identifiers data
-    identifiers_data = load_json_data(identifiers_json_path)
-    if not identifiers_data:
-        logging.error("❌ Failed to load identifiers data.")
-        return
-    
-    # Create identifier mapping
-    identifier_map = get_identifier_mapping(identifiers_data)
+    # Create identifier mapping from all identifier JSON files
+    identifier_map = get_identifier_mapping()
     logging.info(f"Loaded {len(identifier_map)} identifier strings for {len(set(identifier_map.values()))} unique identifiers")
     
-    # Get all JSON files except identifiers_data.json - including files in subdirectories
+    # Get all identifiers with their categories
+    all_identifiers = get_all_identifiers(json_dir)
+    logging.info(f"Found {len(all_identifiers)} total identifiers across all categories")
+    
+    # Get all JSON files to process (excluding identifier JSON files)
     json_files = []
-    for path in json_dir.glob("**/*.json"):
-        if path.name != "identifiers_data.json":
-            json_files.append(path)
+    
+    # Add files from specific directories
+    directories_to_process = [
+        json_dir / "entities",
+        json_dir / "locations",
+        json_dir / "documents"
+    ]
+    
+    # Add specific files at the root level
+    root_files_to_process = [
+        "materials_data.json",
+        "pantheons_data.json",
+        "species_data.json",
+        "time_periods_data.json"
+    ]
+    
+    # Collect all JSON files from specified directories
+    for directory in directories_to_process:
+        if directory.exists():
+            for path in directory.glob("*.json"):
+                json_files.append(path)
+    
+    # Add root-level files
+    for filename in root_files_to_process:
+        file_path = json_dir / filename
+        if file_path.exists():
+            json_files.append(file_path)
     
     logging.info(f"Found {len(json_files)} JSON files to process")
     
@@ -155,15 +239,13 @@ def main():
     identifier_matches = find_identifier_matches(json_files, identifier_map)
     
     # Track statistics
-    total_identifiers = len(identifier_matches)
+    total_identifiers = len(all_identifiers)
     updated_identifiers = 0
     
-    # Generate and write tables for each identifier
-    for identifier_key, matches in identifier_matches.items():
-        # Skip if no matches
-        if not matches:
-            logging.info(f"No matches found for identifier: {identifier_key}")
-            continue
+    # Generate and write tables for ALL identifiers, even those with no matches
+    for identifier_key, category in all_identifiers:
+        # Get matches for this identifier (empty list if none)
+        matches = identifier_matches.get((identifier_key, category), [])
         
         # Remove duplicates while preserving order
         unique_matches = []
@@ -171,21 +253,24 @@ def main():
             if match not in unique_matches:
                 unique_matches.append(match)
         
-        # Get the identifier directory
-        identifier_dir = identifiers_base_path / identifier_key.lower()
+        # Get the identifier file path in the appropriate category subdirectory
+        identifier_path = identifiers_base_path / category / f"{identifier_key.lower()}.md"
         
-        # Skip if directory doesn't exist
-        if not identifier_dir.exists():
-            logging.warning(f"⚠️ Directory not found for identifier: {identifier_key}")
-            continue
+        # Create the category directory if it doesn't exist
+        if not identifier_path.parent.exists() and not args.dry_run:
+            identifier_path.parent.mkdir(parents=True, exist_ok=True)
+            logging.info(f"Created directory: {identifier_path.parent}")
         
-        # Write the ID havers table
-        if write_id_havers_table_insert(identifier_dir, unique_matches, args.dry_run):
+        # Write the ID havers table (even if empty)
+        if write_id_havers_table_insert(identifier_path, unique_matches, args.dry_run):
             updated_identifiers += 1
-            logging.info(f"  ✅ Updated {identifier_key} with {len(unique_matches)} ID havers")
+            if matches:
+                logging.info(f"  ✅ Updated {identifier_key} (category: {category}) with {len(unique_matches)} ID havers")
+            else:
+                logging.info(f"  ✅ Created empty table for {identifier_key} (category: {category})")
     
     logging.info(f"\n✅ Summary: Updated {updated_identifiers} out of {total_identifiers} identifiers.")
-    logging.info("Finished insert_identifier_tables.py")
+    logging.info("Finished generate_identifier_tables.py")
 
 if __name__ == "__main__":
     main()

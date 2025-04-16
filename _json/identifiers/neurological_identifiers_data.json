@@ -1,0 +1,50 @@
+{
+  "config": {
+    "base_path": "docs/identifiers/neurological",
+    "template": "_templates/identifier_template.md",
+    "type": "identifier",
+    "subtype": "neurological"
+  },
+  "items": {
+    "Adhd": {
+      "name": "Adhd",
+      "type": "neurological",
+      "description": "ADHD (Attention Deficit Hyperactivity Disorder) is a neurodevelopmental condition characterized by inattention, hyperactivity, and impulsivity.",
+      "related_identifiers": [
+        "Neurodivergent",
+        "Autism"
+      ],
+      "image_path": "../../flags/adhd.jpg",
+      "auto_link_strings": [
+        "ADHD"
+      ]
+    },
+    "Autism": {
+      "name": "Autism",
+      "type": "neurological",
+      "description": "Autism is a neurodevelopmental condition that affects communication, behavior, and social interaction.",
+      "related_identifiers": [
+        "Neurodivergent",
+        "ADHD"
+      ],
+      "image_path": "../../flags/autism.jpg",
+      "auto_link_strings": [
+        "autism",
+        "autistic"
+      ]
+    },
+    "Neurodivergent": {
+      "name": "Neurodivergent",
+      "type": "neurological",
+      "description": "Neurodivergent is an umbrella term for people whose neurological development is atypical, including autism, ADHD, dyslexia, and others.",
+      "related_identifiers": [
+        "Autism",
+        "ADHD"
+      ],
+      "image_path": "../../flags/neurodivergent.jpg",
+      "auto_link_strings": [
+        "Neurodivergent"
+      ]
+    }
+  }
+}
