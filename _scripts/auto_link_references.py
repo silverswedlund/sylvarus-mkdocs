@@ -38,7 +38,7 @@ def get_all_auto_link_strings(data: Dict) -> Dict[str, Tuple[str, str]]:
             normalized_key = item_key.lower().replace("'", "").replace(" ", "")
             
             # Construct the URL based on the base path
-            url = f"{normalized_key}/index.md"
+            url = f"{normalized_key}.md"
             
             # Add all auto-link strings for this item
             for link_string in auto_link_strings:
