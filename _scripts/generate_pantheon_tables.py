@@ -154,18 +154,17 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
             pantheon_name = pantheon["name"]
             pantheon_key = pantheon["key"]
             pantheon_auto_links = pantheon.get("auto_link_strings", [])
-            pantheon_dir = pantheon_key.lower().replace(" ", "").replace("'", "")
             
-            # Create the pantheon directory if it doesn't exist
-            pantheon_path = Path(base_path) / pantheon_dir
-            # Ensure parent directories exist
+            # Normalize the pantheon key for the filename
+            pantheon_filename = pantheon_key.lower().replace(" ", "").replace("'", "")
+            
+            # Get the pantheon file path (not directory)
+            pantheon_path = Path(base_path) / f"{pantheon_filename}.md"
+            
+            # Ensure parent directory exists
             if not dry_run and not pantheon_path.parent.exists():
-                os.makedirs(pantheon_path.parent, exist_ok=True)
-                logging.info(f"Created parent directory: {pantheon_path.parent}")
-            
-            if not dry_run and not pantheon_path.exists():
-                os.makedirs(pantheon_path, exist_ok=True)
-                logging.info(f"Created directory for {pantheon_name}: {pantheon_path}")
+                pantheon_path.parent.mkdir(parents=True, exist_ok=True)
+                logging.info(f"Created directory: {pantheon_path.parent}")
             
             # Get members for this pantheon
             members = get_pantheon_members(gods_json_path, pantheon_name, pantheon_auto_links)
@@ -173,8 +172,8 @@ def update_members_tables(pantheons_json_path, gods_json_path, base_path, dry_ru
             # Construct the members table
             table = construct_members_markdown_table(members, pantheon_name)
             
-            # Path to the members table insert file
-            members_table_path = pantheon_path / "members_table.md_insert"
+            # Path to the members table insert file - use the pantheon filename for the insert
+            members_table_path = pantheon_path.parent / f"{pantheon_filename}_members_table.md_insert"
             
             # Write to the insert file
             if not dry_run:
@@ -201,8 +200,10 @@ def main():
     # Paths to the files
     pantheons_json_path = Path("_json/pantheons_data.json")
     gods_json_path = Path("_json/entities/gods_data.json")
-    table_insert_path = Path("docs/pantheons/pantheon_table.md_insert")
-    pantheons_base_path = "docs/pantheons"
+    
+    # Path for the main pantheons table insert
+    pantheons_base_path = Path("docs/pantheons")
+    table_insert_path = pantheons_base_path / "pantheons_table.md_insert"
     
     # Update the pantheon table
     update_pantheon_table(pantheons_json_path, table_insert_path, args.dry_run)

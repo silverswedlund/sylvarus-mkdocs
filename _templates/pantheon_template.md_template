@@ -2,6 +2,7 @@
 {% for example_image_path in example_image_paths %}
 <img src="{{ example_image_path }}" alt="example_image of a {{ name }}" style="width: 450; height: auto;" />
 {% endfor %}
+
 ---
 
 ## 🏛️ Pantheon Overview
@@ -20,7 +21,7 @@
 
 
 ## 🧙 Members
-{% include "pantheons/{{name|lower}}/members_table.md_insert" %}
+{% include "pantheons/{{name|lower}}_members_table.md_insert" %}
 
 ## History
 {{history}}
