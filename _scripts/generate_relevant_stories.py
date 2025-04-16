@@ -86,9 +86,15 @@ def generate_story_table(stories):
     return table
 
 # === HELPER: Write table to insert file ===
-def write_stories_table_insert(entity_dir, stories, dry_run=False):
+def write_stories_table_insert(entity_path, stories, dry_run=False):
     """Write the stories table to an insert file."""
-    insert_file_path = entity_dir / "stories_table.md_insert"
+    # Get the directory containing the entity file
+    entity_dir = entity_path.parent
+    
+    # Create the insert file path in the same directory as the entity file
+    # Use the entity filename (without extension) for the insert filename
+    entity_name = entity_path.stem
+    insert_file_path = entity_dir / f"{entity_name}_stories_table.md_insert"
     
     # Generate the story table
     story_table = generate_story_table(stories)
@@ -101,9 +107,9 @@ def write_stories_table_insert(entity_dir, stories, dry_run=False):
     if not dry_run:
         with open(insert_file_path, "w", encoding="utf-8") as f:
             f.write(story_table)
-        logging.info(f"✅ Updated stories table for {entity_dir.name}")
+        logging.info(f"✅ Updated stories table for {entity_name}")
     else:
-        logging.info(f"🔍 Would update stories table for {entity_dir.name}")
+        logging.info(f"🔍 Would update stories table for {entity_name}")
         logging.info(f"Table content would be:\n{story_table}")
     
     return True
@@ -161,14 +167,15 @@ def main():
         updated_count = 0
         
         for entity_id, stories in entity_references.items():
-            # Construct the path to the entity's directory
-            entity_dir = Path(base_path) / entity_id.lower()
+            # Construct the path to the entity's file (not directory)
+            entity_path = Path(base_path) / f"{entity_id.lower()}.md"
             
             # Write the relevant stories table
-            if write_stories_table_insert(entity_dir, stories, args.dry_run):
+            if write_stories_table_insert(entity_path, stories, args.dry_run):
                 updated_count += 1
                 logging.info(f"  ✅ Updated {entity_id} with {len(stories)} stories")
         
+        updated_entities += updated_count
         logging.info(f"  Updated {updated_count} of {entity_count} entities in {file_name}")
     
     logging.info(f"\n✅ Summary: Updated {updated_entities} out of {total_entities} entities.")
