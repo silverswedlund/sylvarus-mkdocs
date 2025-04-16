@@ -15,27 +15,30 @@ PICKLE_EXCLUDED_JSON_FILES = ["identifiers_data.json"]  # JSON files to exclude 
 def normalize_name(name):
     return name.lower().replace("'", "").replace(" ", "")
 
-def ensure_directory_and_template(base_path, template_path, folder_name):
-    full_path = os.path.join(base_path, folder_name)
-    index_path = os.path.join(full_path, "index.md")
-    if not os.path.exists(full_path):
-        os.makedirs(full_path)
-        print(f"📁 Created folder: {full_path}")
+def ensure_directory_and_template(base_path, template_path, item_name):
+    # Instead of creating a subdirectory, we'll create the file directly in base_path
+    file_path = os.path.join(base_path, f"{item_name}.md")
+    
+    # Ensure the base directory exists
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        print(f"📁 Created folder: {base_path}")
+    
     if template_path and os.path.exists(template_path):
         try:
-            shutil.copy(template_path, index_path)
-            print(f"📄 Overwrote template to: {index_path}")
+            shutil.copy(template_path, file_path)
+            print(f"📄 Overwrote template to: {file_path}")
         except Exception as e:
             print(f"❌ Error copying template: {e}")
     else:
-        if not os.path.exists(index_path):
+        if not os.path.exists(file_path):
             try:
-                with open(index_path, "w", encoding="utf-8") as f:
+                with open(file_path, "w", encoding="utf-8") as f:
                     f.write("")
-                print(f"📄 Created blank index.md: {index_path}")
+                print(f"📄 Created blank file: {file_path}")
             except Exception as e:
-                print(f"❌ Error creating blank index.md: {e}")
-    return index_path
+                print(f"❌ Error creating blank file: {e}")
+    return file_path
 
 def load_pickle(pickle_path):
     if os.path.exists(pickle_path):
@@ -150,18 +153,18 @@ def run_template_fill(json_file, json_data, replace_script):
         all_keys.update(fields.keys())
 
     for entry_name, fields in items.items():
-        folder_name = normalize_name(entry_name)
+        item_name = normalize_name(entry_name)
         serialized_item = json.dumps(fields, sort_keys=True)
-        new_items_state[folder_name] = serialized_item
+        new_items_state[item_name] = serialized_item
 
-        item_changed = (previous_items.get(folder_name) != serialized_item)
+        item_changed = (previous_items.get(item_name) != serialized_item)
 
-        index_path = os.path.join(base_path, folder_name, "index.md")
-        dest_folder = os.path.dirname(index_path)
-        folder_has_changes = has_git_changes(dest_folder)
+        # Changed from subdirectory/index.md to direct file path
+        file_path = os.path.join(base_path, f"{item_name}.md")
+        file_has_changes = has_git_changes(file_path)
 
-        if global_change or item_changed or folder_has_changes:
-            file_path = ensure_directory_and_template(base_path, template_file, folder_name)
+        if global_change or item_changed or file_has_changes:
+            file_path = ensure_directory_and_template(base_path, template_file, item_name)
             
             # Protect Jinja includes before processing
             temp_file, has_includes = protect_jinja_includes(file_path)
