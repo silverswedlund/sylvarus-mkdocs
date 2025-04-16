@@ -17,7 +17,7 @@
       "relationships": [],
       "current_status": "Unknown",
       "history": "Alytica's history is shrouded in mystery, known only for his wisdom and guidance.",
-      "image_path": "alytica.jpg",
+      "image_path": "../images/alytica.jpg",
       "description": "A figure of wisdom and knowledge, Alytica is revered for his insight.",
       "custom_details": "Known for providing cryptic but valuable advice to those who seek his counsel.",
       "lgbtq_identifications": [
@@ -37,7 +37,7 @@
     "relationships": [],
     "current_status": "",
     "history": "",
-    "image_path": "",
+    "image_path": "../images/",
     "description": "",
     "custom_details": "",
     "lgbtq_identifications": [],

@@ -13,7 +13,7 @@
       "name": "the_smiling_god",
       "page_name": "The Smiling God",
       "pronouns": "they/them",
-      "image_path": "the_smiling_god.jpg",
+      "image_path": "../images/the_smiling_god.jpg",
       "aliases": [
         "The Joyfather",
         "Bearer of Grins",
@@ -46,7 +46,7 @@
       "name": "father_finn",
       "page_name": "Father Finn",
       "pronouns": "he/him",
-      "image_path": "father_finn.jpg",
+      "image_path": "../images/father_finn.jpg",
       "aliases": [
         "The Warden-God",
         "Father of Chains",
@@ -74,7 +74,7 @@
   "template": {
     "name": "",
     "pronouns": "",
-    "image_path": "",
+    "image_path": "../images/",
     "aliases": [],
     "manifestation_origin": "",
     "manifestation_vessel": "",

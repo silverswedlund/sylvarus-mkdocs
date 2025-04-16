@@ -23,7 +23,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "atenael.jpg",
+      "image_path": "../images/atenael.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -50,7 +50,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "aurelius.jpg",
+      "image_path": "../images/aurelius.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -79,7 +79,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "deimos.jpg",
+      "image_path": "../images/deimos.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -108,7 +108,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "ephyra.jpg",
+      "image_path": "../images/ephyra.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -135,7 +135,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "eurydice.jpg",
+      "image_path": "../images/eurydice.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -162,7 +162,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "heracles.jpg",
+      "image_path": "../images/heracles.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -191,7 +191,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "morax.jpg",
+      "image_path": "../images/morax.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -218,7 +218,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "persephone.jpg",
+      "image_path": "../images/persephone.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -247,7 +247,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "phobos.jpg",
+      "image_path": "../images/phobos.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -276,7 +276,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "sabazios.jpg",
+      "image_path": "../images/sabazios.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -303,7 +303,7 @@
       ],
       "current_status": "",
       "history": "",
-      "image_path": "tiamel.jpg",
+      "image_path": "../images/tiamel.jpg",
       "description": "",
       "custom_details": "",
       "lgbtq_identifications": [
@@ -323,7 +323,7 @@
     "relationships": [],
     "current_status": "",
     "history": "",
-    "image_path": "",
+    "image_path": "../images/",
     "description": "",
     "custom_details": "",
     "lgbtq_identifications": [],

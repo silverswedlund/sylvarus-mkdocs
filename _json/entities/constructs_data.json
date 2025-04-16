@@ -22,7 +22,7 @@
       ],
       "current_status": "Active - Ferryman of the Underworld",
       "history": "Charon is known for ferrying souls across the rivers of the underworld, a task they have performed for eons.",
-      "image_path": "charon.jpg",
+      "image_path": "../images/charon.jpg",
       "description": "A stoic and silent figure, Charon is dedicated to their duty as the ferryman.",
       "custom_details": "Requires payment in the form of a coin placed in the mouth of the deceased to ferry souls across the river Styx.",
       "lgbtq_identifications": [
@@ -47,7 +47,7 @@
       "relationships": [],
       "current_status": "Active - Arbiter of Balance",
       "history": "Justice serves as the arbiter of balance, ensuring fairness and equity in all realms.",
-      "image_path": "justice.jpg",
+      "image_path": "../images/justice.jpg",
       "description": "A figure of fairness and impartiality, Justice is respected for her unwavering commitment to balance.",
       "custom_details": "Often depicted blindfolded with scales, representing her impartial judgment based on evidence rather than appearance.",
       "lgbtq_identifications": [
@@ -67,7 +67,7 @@
     "relationships": [],
     "current_status": "",
     "history": "",
-    "image_path": "",
+    "image_path": "../images/",
     "description": "",
     "custom_details": "",
     "lgbtq_identifications": [],

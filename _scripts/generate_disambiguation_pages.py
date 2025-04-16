@@ -42,16 +42,30 @@ def create_disambiguation_page(directory):
     content = f"# {display_name} Disambiguation\n\n"
     content += f"This page lists all subcategories in the {display_name} section.\n\n"
     
-    # Add links to subdirectories
+    # Add links to subdirectories and their markdown files
     for subdir in sorted(subdirectories):
         subdir_name = subdir.name
         display_subdir_name = subdir_name.replace('_', ' ').title()
         
-        # Check if index.md exists in the subdirectory
-        index_path = subdir / "index.md"
-        if index_path.exists():
-            content += f"- [{display_subdir_name}]({subdir_name}/index.md)\n"
+        # Check for markdown files in the subdirectory (excluding disambiguation pages)
+        md_files = [f for f in subdir.glob("*.md") if not f.name.endswith("_disambiguation.md")]
+        
+        if md_files:
+            content += f"## {display_subdir_name}\n\n"
+            
+            # Add links to each markdown file
+            for md_file in sorted(md_files):
+                # Get the file name without extension for display
+                file_display_name = md_file.stem.replace('_', ' ').title()
+                
+                # Create relative path to the file
+                rel_path = f"{subdir_name}/{md_file.name}"
+                
+                content += f"- [{file_display_name}]({rel_path})\n"
+            
+            content += "\n"
         else:
+            # If no markdown files, just list the directory
             content += f"- {display_subdir_name}\n"
     
     # Write the content to the file

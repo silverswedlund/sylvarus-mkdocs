@@ -22,7 +22,7 @@ This page lists all subcategories in the Territories section.
 - [The Frost](the_frost/index.md)
 - [The Isles Of Tife](the_isles_of_tife/index.md)
 - [The Northwest Tundra](the_northwest_tundra/index.md)
-- The Phoenix Empire
+- The [Phoenix](../../../../../species/phoenix/index.md) Empire
 - [The Republic Of Avia](the_republic_of_avia/index.md)
 - [The Selin Flats](the_selin_flats/index.md)
 - [The Wastes](the_wastes/index.md)
