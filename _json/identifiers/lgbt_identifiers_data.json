@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/identifiers/lgbt",
-    "template": "_templates/identifier_template.md",
+    "template": "_templates/identifier_template.md_template",
     "type": "identifier",
     "subtype": "lgbt"
   },

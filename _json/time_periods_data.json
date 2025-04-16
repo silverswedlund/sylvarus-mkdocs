@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/history/time_periods",
-    "template": "_templates/time_period_template.md"
+    "template": "_templates/time_period_template.md_template"
   },
   "items": {
     "Age_of_Chaos": {

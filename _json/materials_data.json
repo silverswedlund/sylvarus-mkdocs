@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/materials",
-    "template": "_templates/materials_template.md"
+    "template": "_templates/materials_template.md_template"
   },
   "items": {
     "aurealan_wood": {

@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/documents/stories",
-    "template": "_templates/story_template.md"
+    "template": "_templates/story_template.md_template"
   },
   "items": {
     "Internal_Peace": {

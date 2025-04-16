@@ -1,7 +1,7 @@
 {
   "config": {
     "base_path": "docs/pantheons",
-    "template": "_templates/pantheon_template.md"
+    "template": "_templates/pantheon_template.md_template"
   },
   "items": {
     "Athenians": {
