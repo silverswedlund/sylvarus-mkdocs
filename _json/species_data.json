@@ -38,9 +38,9 @@
         "Relationship with gods is complex and largely undocumented"
       ],
       "example_image_paths": [
-        "angel_example.jpg",
-        "angel_example2.jpg",
-        "angel_example4.jpg"
+        "../images/angel_example.jpg",
+        "../images/angel_example2.jpg",
+        "../images/angel_example4.jpg"
       ],
       "custom_details": "Angels exist in multiple hiveminds, each led by an Archangel who oversees a specialized division. While the exact purposes of these divisions remain mysterious, each appears to serve a distinct cosmic function. Angels manifest in forms that often defy normal physics and biology, appearing surreal and sometimes impossible to comprehend. They share thoughts and knowledge telepathically within their hivemind collective. Though sharing a name with mythological guardians, these beings are more akin to cosmic enforcers, methodically maintaining universal boundaries with unwavering focus.",
       "distribution": "Angels primarily exist in the void between universes, though they can manifest within any realm when pursuing those who have crossed universal boundaries. They seem capable of traversing the multiverse with ease, suggesting an innate understanding of its structure that surpasses most other beings."
@@ -58,7 +58,7 @@
       "average_size_range": "height: roughly 1m when fully grown (sapling); mature trees can reach 20m or more",
       "lifespan": "approximately 6 years for saplings; mature trees can live for centuries as part of the supercolony",
       "example_image_paths": [
-        "aureala_example.jpg"
+        "../images/aureala_example.jpg"
       ],
       "custom_image_width": "700px",
       "custom_details": "Aurealas are a species of enchanted jungle trees known for their lavender-colored bark and rich purple foliage. Native exclusively to the Aureate, they form a vast, interconnected supercolony known by the same name, all Aurealas in The Aureate are actually the giant plant. No Aurealas are permitted to grow outside this region, by the people of the Aureate, as their magic is sacred to the people who live among them. There is some black market trade of Aurealas, but it is strictly forbidden by the people of the Aureate. The people of the Aureate are very protective of their sacred plant and will not tolerate any harm to them unless condoned through ritual. The Aureate people's have hunters who will find and punish those who harm or harvest Aurealas without permission. \n\nThe trees are bioluminescent at night, with leaves that glow faintly with hues ranging from violet to deep indigo. Their bark is infused with potent magical energy, often used in crafting enchanted items such as weapons, armor, and ceremonial jewelry. However, harvesting any part of an Aureala is only permitted through a ritualized exchange—performed by druids or sanctioned mages of the Aureate.\n\nThe inhabitants of the Aureate build their homes high in the trees, using the massive trunks and wide limbs of the Aurealas as foundations for elevated villages. Living on the jungle floor is both culturally taboo and environmentally dangerous, due to magical fauna and unstable terrain.\n\nAurealas thrive only in the hyper-saturated magical ecosystem of the Aureate, which is similar in climate and density to the Amazon rainforest, but with rich violet and lavender coloration dominating the palette. Their flowers bloom in rhythmic pulses in sync with leyline cycles, giving the canopy an otherworldly, shimmering pattern during bloom seasons. Given their Sacred status, the Aureate people don't construct their tree villiages out wood, but rather out of netting, metals, and stone"
@@ -94,7 +94,7 @@
         "Known for making deals and contracts, often involving time-bound agreements."
       ],
       "example_image_paths": [
-        "basilisk_example.jpg"
+        "../images/basilisk_example.jpg"
       ],
       "custom_details": "Basilisks are solitary and elusive, often residing in caves in the Astral Plane where they can hunt without disturbance. They are powerful in time magic and love making deals and contracts. They are protective of their possessions but are open to trading for items they desire. Their love for gold is legendary, and they are known to craft intricate timepieces from the precious metal.",
       "distribution": "Primarily found in the Astral Plane, with some inhabiting secluded areas of the Material Plane. They are often drawn to places where time flows differently, such as ancient ruins or enchanted forests."
@@ -130,7 +130,7 @@
         "Often seen as aloof by mortal races"
       ],
       "example_image_paths": [
-        "celestial_example.jpg"
+        "../images/celestial_example.jpg"
       ],
       "average_size_range": "160-206 cm (5'3\"-6'9\")"
     },
@@ -162,7 +162,7 @@
         "Often serve as mediators in conflicts"
       ],
       "example_image_paths": [
-        "centaur_example.jpg"
+        "../images/centaur_example.jpg"
       ],
       "custom_details": "Centaurs are known for their deep connection to nature and the cosmos. They often serve as guardians of ancient forests and sacred sites.",
       "distribution": "Primarily found in the Astral Plains, with some communities in the Material Plane."
@@ -196,7 +196,7 @@
         "Frequently seen with the Fey, due to their similar chaotic and unpredictable nature"
       ],
       "example_image_paths": [
-        "demigod_example.jpg"
+        "../images/demigod_example.jpg"
       ],
       "average_size_range": "N/A - amorphous form can take any size though they maintain the same mass of around 100 kg (220 lbs)"
     },
@@ -235,7 +235,7 @@
       ],
       "culture": "Highly individualistic yet maintain strong traditions. The Astral dragons particularly value nobility and responsible use of power, learned from the cautionary tale of their material plane kin. Violent and aggressive dragons are often ostracized from their kind, and are often hunted by the Astral dragons. The dragons do protect their own kind though, and will come to their defense if harmed. They believe dragons should be judged by their own kind, not by mortals.",
       "example_image_paths": [
-        "dragon_example.jpg"
+        "../images/dragon_example.jpg"
       ],
       "average_size_range": "length: 366-1219 cm (12-40 ft) with extreme outliers. Weight: newborn 1-1.5 kg (2-3 lbs), adult average 1800 kg (2 tons), ancient specimens reaching several dozen tons"
     },
@@ -269,7 +269,7 @@
         "Maintain peaceful trade relations with most other nations"
       ],
       "example_image_paths": [
-        "dragonborn_example.jpg"
+        "../images/dragonborn_example.jpg"
       ],
       "average_size_range": "height: males 188 cm (6'2\"), females 201 cm (6'7\")"
     },
@@ -315,7 +315,7 @@
         "Protect Halfling territories in exchange for regulated lumber access"
       ],
       "example_image_paths": [
-        "dwarf_example.jpg"
+        "../images/dwarf_example.jpg"
       ],
       "average_size_range": "107-137 cm (3'6\"-4'6\")"
     },
@@ -352,7 +352,7 @@
         "Ongoing conflict with Dwarves stems from fundamentally different approaches to nature and resources"
       ],
       "example_image_paths": [
-        "elf_example.jpg"
+        "../images/elf_example.jpg"
       ],
       "average_size_range": "160-206 cm (5'3\"-6'9\")"
     },
@@ -396,7 +396,7 @@
       ],
       "culture": "Share the Fey's love for vibrant clothing, unique fashion, and elaborate hats. Music plays a central role in their society, and they often blend mortal musical traditions with Fey influences. Fairy society values creativity, spontaneity, and individual expression above all else. They organize themselves in loose collectives rather than rigid hierarchies, with leadership roles shifting based on specific needs and talents. Their homes are often architectural marvels that blend seamlessly with natural surroundings, incorporating living plants and magical enhancements. Fairy markets are famous throughout the realms for offering rare magical items, enchanted crafts, and experiences that cannot be found elsewhere. Despite their chaotic nature, Fairies maintain a strong ethical code regarding their interactions with mortals, believing that their magic should bring wonder and beauty rather than harm.",
       "example_image_paths": [
-        "fairy_example.jpg"
+        "../images/fairy_example.jpg"
       ],
       "average_size_range": "91-107 cm (3'0\"-3'6\")"
     },
@@ -439,8 +439,8 @@
       ],
       "culture": "Fey society defies conventional understanding, operating on principles that seem contradictory or impossible to outside observers. Status among Fey is determined by a complex interplay of age, power, and the uniqueness of one's experiences. They organize themselves into 'courts' that are not geographic or political entities but rather philosophical alignments based on their relationship to different aspects of chaos. These courts are fluid, with Fey moving between them as their nature evolves. Art is central to Fey existence, though their creations often incorporate elements that change or transform the viewer in subtle ways. Music, in particular, holds special significance, with Fey compositions containing harmonies that mortals find extremely catchy and often cathartic. Some of the more advanced composers can create music that, somehow  realm that can alter the fabric of reality when performed correctly. Despite their chaotic nature, Fey adhere strictly to the terms of agreements they make, though they are notorious for exploiting loopholes and unexpected interpretations.",
       "example_image_paths": [
-        "fey_example1.jpg",
-        "fey_example2.jpg"
+        "../images/fey_example1.jpg",
+        "../images/fey_example2.jpg"
       ],
       "average_size_range": "91-213 cm (3'0\"-7'0\"), but variations extend well beyond this range"
     },
@@ -477,7 +477,7 @@
         "Known to engage in trade with skilled armorers"
       ],
       "example_image_paths": [
-        "griffin_example.jpg"
+        "../images/griffin_example.jpg"
       ],
       "custom_details": "Griffins are proud and temperamental creatures, quick to respond to perceived insults or challenges to their honor. They live in small groups of roughly ten individuals, though it's common for members to spend extended periods alone before returning to their group. Despite their innate magical abilities, they are known to trade their martial prowess and magical services in exchange for mortal-crafted armor, which they wear with pride. Their fierce nature and combat abilities make them formidable warriors, respected and sometimes feared by other species.",
       "distribution": "Commonly found in the Astral Plane, with some residing in remote areas of the Material Plane. Groups typically claim large territories which they defend vigorously."
@@ -515,7 +515,7 @@
         "Known for fair and honest dealings in all trade relationships"
       ],
       "example_image_paths": [
-        "halfling_example1.jpg"
+        "../images/halfling_example1.jpg"
       ],
       "average_size_range": "height: 100-150 cm (3.3-4.9 ft)"
     },
@@ -556,7 +556,7 @@
         "Maintain peaceful trade relations with most races"
       ],
       "example_image_paths": [
-        "human_example.jpg"
+        "../images/human_example.jpg"
       ],
       "average_size_range": "height: 152-198 cm (5'0\"-6'6\")"
     },
@@ -591,7 +591,7 @@
         "Sometimes sought out by those seeking ancient wisdom, though few have the patience for their slow communication style"
       ],
       "example_image_paths": [
-        "kraken_example.jpg"
+        "../images/kraken_example.jpg"
       ],
       "custom_details": "Krakens are deeply introverted beings who rarely communicate even telepathically unless absolutely necessary. They possess devastating magical abilities - their vocalizations alone can kill nearby creatures, and they can control water to create massive floods. Despite this power, they are peaceful unless provoked. They reproduce asexually, with severed tentacles occasionally growing into new Krakens. They subsist entirely on magical energy, spending most of their time in meditative rest. Their wisdom is legendary, though few have the patience to wait for their carefully considered responses.",
       "distribution": "Primarily inhabit the Astral Plane, with rare individuals in the deepest oceans of the Material Plane where they can remain undisturbed in contemplation."
@@ -624,7 +624,7 @@
         "Often serve as guardians of the ocean's treasures"
       ],
       "example_image_paths": [
-        "mer_example.jpg"
+        "../images/mer_example.jpg"
       ],
       "custom_details": "Mers are known for their enchanting voices and ability to communicate with marine creatures. They often guide lost sailors to safety.",
       "distribution": "Primarily found in the Astral Seas, with some communities in the Material Plane."
@@ -661,7 +661,7 @@
         "Value honor and strength in their interactions with all races"
       ],
       "example_image_paths": [
-        "narn_example.jpg"
+        "../images/narn_example.jpg"
       ],
       "average_size_range": "height: 300-400 cm (9'10\"-13'1\")"
     },
@@ -677,7 +677,7 @@
       "average_size_range": "height: 100-200m (328-656ft), width: 10-20m (32.8-65.6ft)",
       "lifespan": "Unknown - Likely Immortal",
       "example_image_paths": [
-        "narntree_example.jpg"
+        "../images/narntree_example.jpg"
       ],
       "custom_details": "Narntrees are known for their immense size and their ability to grow in the mountains of Narnlund. They grow very slowly and do not stop growing until they die. They favor the rocky, mountainous regions of Narnlund and are known to grow elsewhere but not as well. They are massive in both height and width, with a single trunk that can be up to 30m (100ft) in diameter. Their bark and leaves are light gray like the skin of the Narn, which is where they get their name. Narntrees are incredibly physically resilient, being resistant to both physical and magical damage. Their skin is akin to stone, and even fire is not a threat to them. Legends of them say they are the result of a magical event by a forgotten god. Only one narntree is known to have been felled, it was done so by Anuke, who is now known as the god of determination for her incredible willpower shown in the face of the tree's immense size and resiliance"
     },
@@ -713,7 +713,7 @@
         "Prefer to stay out of others' conflicts"
       ],
       "example_image_paths": [
-        "orc_example.jpg"
+        "../images/orc_example.jpg"
       ],
       "average_size_range": "height: 188 cm (6'2\") with no sexual dimorphism"
     },
@@ -748,7 +748,7 @@
         "Highly regarded by many cultures as symbols of justice and environmental stewardship"
       ],
       "example_image_paths": [
-        "pegasus_example.jpg"
+        "../images/pegasus_example.jpg"
       ],
       "custom_details": "Individual Pegasi are known to claim and protect specific forests from exploitation, leading to the creation of numerous natural sanctuaries across Sylvarus and the astral plane (though this is not as common as in the material plane). These protected areas have evolved into popular parks where people can experience and appreciate nature in its pristine state. Their influence was particularly notable in the Northwest Tundra, where they worked to establish sustainable lumber harvesting rules that are still followed today. While generally peaceful, they can become extremely territorial and aggressive if their protected lands are threatened. Their strong sense of justice extends beyond environmental concerns - they have been known to intervene in cases of significant injustice, though they prefer to focus on protecting natural spaces.",
       "distribution": "While their primary population resides the astral plane, individual Pegasi can be found wherever there are forests in need of protection, including the material plane. They maintain a particularly strong presence in the Northwest Tundra and shalnan, where they oversee sustainable forestry practices"
@@ -786,7 +786,7 @@
         "Particularly revered by those who have witnessed their healing powers"
       ],
       "example_image_paths": [
-        "phoenix_example.jpg"
+        "../images/phoenix_example.jpg"
       ],
       "custom_details": "Phoenixes possess extraordinary healing abilities and are considered among the wisest of all beings. While typically peaceful, they are fierce fighters when necessary, demonstrating masterful control over fire magic which they only use in self-defense or to protect others. Upon death, they burst into intense magical flames and are reborn from their own ashes, emerging fully grown with all their memories intact. Their healing powers are legendary, capable of curing ailments that resist other forms of magical healing. They are highly intelligent and thoughtful creatures, often serving as advisors to those who seek their counsel.",
       "distribution": "Primarily found in the Astral Plane, with rare appearances in the Material Plane. Their small population of only a few hundred individuals means encounters with them are extremely rare and often considered significant events."
@@ -818,7 +818,7 @@
         "Only really known due to the experience of multiversal travelers - especialy the Quall God Delinette, who ascending in Sylvarus after he travels"
       ],
       "example_image_paths": [
-        "quall_example.jpg"
+        "../images/quall_example.jpg"
       ],
       "average_size_range": "height: 152 cm (5'0\") with no sexual dimorphism"
     },
@@ -857,7 +857,7 @@
         "no specific relations with other species"
       ],
       "example_image_paths": [
-        "roc_example.jpg"
+        "../images/roc_example.jpg"
       ],
       "custom_details": "Rocs are primarily piscivorous, specializing in hunting large ocean fish. Their incredible stamina allows them to fly for thousands of miles without rest, aided by their telekinetic abilities which help offset their massive size. While physically incapable of complex vocalization, they communicate effectively through a combination of telepathy and telekinesis, often using their mental powers to manipulate objects as a form of expression. Their intelligence manifests particularly in problem-solving scenarios, though they typically apply this ability solely to matters of personal interest unless properly motivated.",
       "distribution": "Primarily inhabit the Astral Plane, with significant populations near oceanic mountain ranges and coastal regions where fish are abundant. They establish vast territories that can span hundreds of miles, which they patrol regularly during their hunting flights."
@@ -890,7 +890,7 @@
         "Often act as ambassadors between the fey and mortal realms"
       ],
       "example_image_paths": [
-        "satyr_example.jpg"
+        "../images/satyr_example.jpg"
       ],
       "custom_details": "Satyrs are known for their carefree and mischievous nature. They often play pranks on travelers but are generally good-natured.",
       "distribution": "Primarily found in the Astral Forests, with some residing in the Material Plane."
@@ -927,8 +927,8 @@
         "Dragons share a special kinship with them, as both species are immortal and continue growing throughout their lives"
       ],
       "example_image_paths": [
-        "slothturtle_example.jpg",
-        "slothturtle_example2.jpg"
+        "../images/slothturtle_example.jpg",
+        "../images/slothturtle_example2.jpg"
       ],
       "average_size_range": "height: 30-1500 cm (1-50 ft), with the youngest being the size of a small dog and the oldest reaching sizes comparable to small buildings"
     },
@@ -945,8 +945,8 @@
       "average_size_range": "height: roughly 1m when fully grown",
       "lifespan": "approximately 6 years",
       "example_image_paths": [
-        "soulblight_example.jpg",
-        "soulblight_notes.jpg"
+        "../images/soulblight_example.jpg",
+        "../images/soulblight_notes.jpg"
       ],
       "custom_details": "Soulblights are thorn-covered, semi-sentient bushes that grow in the outer edges of the Feywilds, where chaos magic distorts reality and soul energy permeates the environment. Standing around a meter tall, a Soulblight resembles a warped, alien rosebush with irregular blossoms in shifting hues of blue, gray, and deep red. Its bark emits a faint magical glow, and its thorns can sometimes resemble crystalline spines. The blooms secrete a red, sap-like fluid that is magically conductive and used in ritual magic.\n\nSoulblights emit a distinct magical signature, highly reactive to soul-aspected energies. Prolonged exposure to the plant can affect a person’s dreams, memories, or emotional state. Their seeds are especially dangerous: when ground or distilled, they act as potent soul poison, capable of unraveling a creature’s spiritual essence without leaving a physical mark. For this reason, Soulblight seeds are highly restricted or banned in many magical societies.\n\nThough native to the Feywilds, their presence can warp nearby flora. Rumors persist that particularly large or old Soulblights have a limited awareness, turning slightly when watched or humming faintly in high magical winds. Fey botanists treat the plant with a blend of awe and caution, noting its usefulness in soul magic but warning of its unpredictable behavior near chaotic ley lines.",
       "other_regions": "Found with some collectors in the Astral and Mortal Planes, and very rare even within the Feywilds. They require specific growing conditions that are difficult to replicate, making them extremely valueable to the right people."
@@ -985,7 +985,7 @@
       ],
       "culture": "Strongly family-oriented, with the seven ruling families operating in a manner similar to organized crime syndicates. Their association with criminal elements and chaos magic often leads other societies to view Tiefling groups with suspicion.",
       "example_image_paths": [
-        "tiefling_example.jpg"
+        "../images/tiefling_example.jpg"
       ],
       "average_size_range": "height: 150-230 cm (4'11\"-7'7\")"
     }
