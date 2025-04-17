@@ -2,295 +2,89 @@
 import os
 import re
 import json
-import argparse
 import logging
 from pathlib import Path
-from typing import Dict, List, Set, Tuple
+from typing import Dict, Tuple, List
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+# Logging setup
+logging.basicConfig(level=logging.WARNING, format='%(levelname)s: %(message)s')
 
-def load_auto_link_data(json_path: str) -> Dict:
-    """Load auto-link data from a JSON file."""
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return data
-    except Exception as e:
-        logging.error(f"Error loading auto-link data from {json_path}: {e}")
-        return {}
+# Directories
+JSON_DIR = Path("_json")
+DOCS_DIR = Path("docs")
 
-def get_all_auto_link_strings(data: Dict) -> Dict[str, Tuple[str, str]]:
-    """Extract all auto-link strings and their corresponding URLs from the data."""
-    auto_link_map = {}
-    duplicate_warnings = set()  # Track duplicates to avoid repeated warnings
-    
-    for category, items in data.items():
-        base_path = items.get("config", {}).get("base_path", "")
-        if not base_path:
-            base_path = f"docs/{category.lower()}"
-        
-        logging.info(f"Processing category {category} with base_path {base_path}")
-        
-        for item_key, item_data in items.get("items", {}).items():
-            auto_link_strings = item_data.get("auto_link_strings", [])
-            if not auto_link_strings:
-                continue
-                
-            # Normalize the item key for the URL
-            normalized_key = item_key.lower().replace("'", "").replace(" ", "")
-            
-            # Construct the URL based on the base path
-            url = f"{normalized_key}.md"
-            
-            # Add all auto-link strings for this item
-            for link_string in auto_link_strings:
-                if link_string in auto_link_map:
-                    old_url, old_base_path = auto_link_map[link_string]
-                    warning_key = f"{link_string}:{old_base_path}/{old_url}:{base_path}/{url}"
-                    
-                    if warning_key not in duplicate_warnings:
-                        logging.warning(f"DUPLICATE AUTO-LINK STRING: '{link_string}' "
-                                       f"Previously mapped to {old_base_path}/{old_url}, "
-                                       f"now mapped to {base_path}/{url}")
-                        duplicate_warnings.add(warning_key)
-                
-                # Always update the mapping (last writer wins)
-                auto_link_map[link_string] = (url, base_path)
-                logging.info(f"Added auto-link string: '{link_string}' -> {base_path}/{url}")
-    
-    return auto_link_map
+def load_all_json(json_dir: Path) -> List[Dict]:
+    data = []
+    for json_file in json_dir.rglob("*.json"):
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                content = json.load(f)
+            data.append(content)
+        except Exception as e:
+            logging.warning(f"Failed to load {json_file}: {e}")
+    return data
 
-def find_markdown_files(docs_dir: str, include_md_insert: bool = False) -> List[str]:
-    """Find all markdown files in the docs directory."""
-    markdown_files = []
-    
-    # Define patterns to match
+def build_link_map(data: List[Dict]) -> Dict[str, Tuple[str, Path]]:
+    link_map = {}
+    for content in data:
+        category = content.get("config", {}).get("subtype") or content.get("config", {}).get("base_path", "").split("/")[-1]
+        base_path = Path(content.get("config", {}).get("base_path", f"docs/{category}"))
+        for item_key, item in content.get("items", {}).items():
+            clean_key = item_key.lower().replace(" ", "").replace("'", "")
+            file_name = f"{clean_key}.md"
+            for raw in item.get("auto_link_strings", []):
+                search = raw  # Use the full string as the key
+                if search in link_map:
+                    old_path = link_map[search][1]
+                    logging.warning(f"Duplicate term '{search}' in {base_path}/{file_name} (previous: {old_path})")
+                link_map[search] = (search, base_path / file_name)
+    return link_map
+
+def find_markdown_files(docs_dir: Path, include_md_insert: bool = True) -> List[Path]:
     patterns = ["**/*.md"]
     if include_md_insert:
         patterns.append("**/*.md_insert")
-    
-    # Find all markdown files
+    files = []
     for pattern in patterns:
-        markdown_files.extend([str(p) for p in Path(docs_dir).glob(pattern)])
-    
-    return markdown_files
+        files.extend(docs_dir.rglob(pattern))
+    return files
 
-def is_inside_code_block(content: str, position: int) -> bool:
-    """Check if the position is inside a code block."""
-    # Find all code block markers
-    code_markers = list(re.finditer(r'```', content))
-    
-    # If no code markers or odd number of markers, something is wrong
-    if not code_markers or len(code_markers) % 2 != 0:
-        return False
-    
-    # Check if position is between any pair of code markers
-    for i in range(0, len(code_markers), 2):
-        start = code_markers[i].end()
-        end = code_markers[i+1].start() if i+1 < len(code_markers) else len(content)
-        if start <= position <= end:
-            return True
-    
-    return False
+def strip_existing_links(content: str) -> str:
+    return re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', content)
 
-def is_inside_link(content: str, position: int) -> bool:
-    """Check if the position is already inside a markdown link."""
-    # Find all markdown links
-    links = list(re.finditer(r'\[([^\]]+)\]\([^)]+\)', content))
+def replace_terms_in_markdown(file_path: Path, link_map: Dict[str, Tuple[str, Path]]):
+    content = file_path.read_text(encoding="utf-8")
     
-    # Check if position is inside any link
-    for link in links:
-        if link.start() <= position <= link.end():
-            return True
-    
-    return False
+    # Strip existing links
+    content = strip_existing_links(content)
 
-def auto_link_references(content: str, auto_link_map: Dict[str, Tuple[str, str]], file_path: str) -> Tuple[str, int]:
-    """Add auto-links to references in the content."""
-    modified_content = content
-    replacements = 0
-    
-    # Get the directory of the current file
-    file_dir = os.path.dirname(file_path)
-    
-    # Sort auto-link strings by length (descending) to handle longer matches first
-    sorted_links = sorted(auto_link_map.keys(), key=len, reverse=True)
-    
-    for link_string in sorted_links:
-        # Check if the link string contains a caret (^)
-        has_caret = "^" in link_string
-        display_text = link_string
+    def replacement(match):
+        prefix = match.group(1)  # Capture the prefix
+        word = match.group(2)    # Capture the word
+        if word not in link_map:
+            return match.group(0)  # Return the original match if no link is found
         
-        if has_caret:
-            # Split at the caret - display_text is before the caret
-            parts = link_string.split("^", 1)
-            display_text = parts[0]
-            # For search, we use the full string including the caret
-            # This is because we want to match the entire pattern in the document
-        
-        # Escape special regex characters in the link string
-        escaped_link = re.escape(link_string)
-        
-        # Create a pattern that matches the link string with word boundaries or whitespace/start/end
-        # Use (?i) for case-insensitive matching
-        pattern = rf'(?i)((?:\s|^){escaped_link}(?:\s|$))'
-        
-        # Find all matches
-        matches = list(re.finditer(pattern, modified_content))
-        
-        # Process matches in reverse order to avoid position shifts
-        for match in reversed(matches):
-            full_match = match.group(1)
-            start, end = match.span(1)
-            
-            # Skip if inside a code block or already in a link
-            if is_inside_code_block(modified_content, start) or is_inside_link(modified_content, start):
-                continue
-            
-            # Get the URL and base path
-            url, base_path = auto_link_map[link_string]
-            
-            # Calculate relative path from current file to target
-            rel_path = os.path.relpath(os.path.join(base_path, url), file_dir)
-            rel_path = rel_path.replace("\\", "/")  # Normalize path separators for markdown
-            
-            # Preserve leading/trailing whitespace
-            leading_space = ""
-            trailing_space = ""
-            
-            if full_match.startswith(" "):
-                leading_space = " "
-            if full_match.endswith(" "):
-                trailing_space = " "
-            
-            # For caret notation, use the display_text
-            # Otherwise, preserve the original case of the matched text
-            if has_caret:
-                link_text = display_text
-            else:
-                link_text = full_match.strip()
-            
-            # Replace with auto-link, preserving whitespace
-            replacement = f"{leading_space}[{link_text}]({rel_path}){trailing_space}"
-            modified_content = modified_content[:start] + replacement + modified_content[end:]
-            replacements += 1
-    
-    return modified_content, replacements
+        # Remove the suffix after linking
+        base_word = word.split("^", 1)[0]
+        display, target_path = link_map[word]
+        relative_path = os.path.relpath(target_path, start=file_path.parent).replace("\\", "/")
+        return f"{prefix}[{base_word}]({relative_path})"
 
-def process_file(file_path: str, auto_link_map: Dict[str, Tuple[str, str]], dry_run: bool = False) -> int:
-    """Process a single markdown file."""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        modified_content, replacements = auto_link_references(content, auto_link_map, file_path)
-        
-        if replacements > 0 and not dry_run:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(modified_content)
-            logging.info(f"✅ Added {replacements} auto-links to {file_path}")
-        elif replacements > 0:
-            logging.info(f"🔍 Would add {replacements} auto-links to {file_path}")
-        
-        return replacements
-    except Exception as e:
-        logging.error(f"Error processing file {file_path}: {e}")
-        return 0
+    # Create a pattern to match all terms in the link_map with specific boundaries
+    pattern = r'(\s|^|")(' + "|".join(re.escape(k) for k in sorted(link_map, key=len, reverse=True)) + r')(?=\s|$|,)'
+    
+    # Replace terms in the content
+    content_new = re.sub(pattern, replacement, content)
 
-def main():
-    parser = argparse.ArgumentParser(description='Add auto-links to references in markdown files.')
-    parser.add_argument('--docs-dir', default='docs', help='Directory containing markdown files')
-    parser.add_argument('--json-dir', default='_json', help='Directory containing JSON data files')
-    parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
-    parser.add_argument('--debug', action='store_true', help='Enable debug logging')
-    args = parser.parse_args()
-    
-    # Set logging level based on debug flag
-    if args.debug:
-        logging.getLogger().setLevel(logging.DEBUG)
-    
-    if args.dry_run:
-        logging.info("🔍 DRY RUN: No files will be modified")
-    
-    # Load auto-link data from JSON files
-    auto_link_data = {}
-    
-    # Find all JSON files recursively in the json directory
-    json_files = list(Path(args.json_dir).glob('**/*.json'))
-    logging.info(f"Found {len(json_files)} JSON files to process")
-    
-    for json_file in json_files:
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            
-            # Check if this is a data file with the expected structure
-            if "items" in data and "config" in data:
-                # Get the category from the config if available
-                if "subtype" in data["config"]:
-                    category = data["config"]["subtype"]
-                    logging.info(f"Using category from config subtype: {category}")
-                else:
-                    # Extract category from filename or parent directory
-                    if json_file.parent.name == args.json_dir:
-                        # Files in the root json directory
-                        category = json_file.stem.replace('_data', '')
-                    elif json_file.parent.name == "entities":
-                        # Files in the entities subdirectory
-                        category = json_file.stem.replace('_data', '')
-                    else:
-                        # Files in other subdirectories
-                        category = json_file.parent.name
-                    
-                    logging.info(f"Derived category from path: {category}")
-                
-                # Get base_path from config
-                if "base_path" in data["config"]:
-                    base_path = data["config"]["base_path"]
-                    logging.info(f"Using base_path from config: {base_path}")
-                else:
-                    # Default base path if not specified
-                    base_path = f"docs/{category.lower()}"
-                    logging.info(f"Using default base_path: {base_path}")
-                
-                # Create a properly structured entry for this category
-                if category not in auto_link_data:
-                    auto_link_data[category] = {
-                        "config": {"base_path": base_path},
-                        "items": {}
-                    }
-                else:
-                    # Update the base path
-                    auto_link_data[category]["config"]["base_path"] = base_path
-                
-                # Add all items from this file to the category
-                auto_link_data[category]["items"].update(data["items"])
-                logging.info(f"Added {len(data['items'])} items from {json_file} to category {category}")
-            else:
-                logging.warning(f"Skipping {json_file}: Missing required 'items' or 'config' sections")
-        except Exception as e:
-            logging.error(f"Error processing {json_file}: {e}")
-    
-    # Get all auto-link strings
-    auto_link_map = get_all_auto_link_strings(auto_link_data)
-    logging.info(f"Loaded {len(auto_link_map)} auto-link strings")
-    
-    # Debug: Print all auto-link mappings
-    for link_string, (url, base_path) in auto_link_map.items():
-        logging.debug(f"Auto-link mapping: '{link_string}' -> {base_path}/{url}")
-    
-    # Find all markdown files, including .md_insert files
-    markdown_files = find_markdown_files(args.docs_dir, include_md_insert=True)
-    logging.info(f"Found {len(markdown_files)} markdown files to process")
-    
-    # Process each file
-    total_replacements = 0
-    for file_path in markdown_files:
-        replacements = process_file(file_path, auto_link_map, args.dry_run)
-        total_replacements += replacements
-    
-    logging.info(f"Total auto-links added: {total_replacements}")
+    # Write back to the file if changes were made
+    if content_new != content:
+        file_path.write_text(content_new, encoding="utf-8")
+        logging.info(f"Rewritten: {file_path}")
 
 if __name__ == "__main__":
-    main()
+    print("Starting auto-link reference script...")
+    json_data = load_all_json(JSON_DIR)
+    term_map = build_link_map(json_data)
+    md_files = find_markdown_files(DOCS_DIR)
+    for md_file in md_files:
+        replace_terms_in_markdown(md_file, term_map)

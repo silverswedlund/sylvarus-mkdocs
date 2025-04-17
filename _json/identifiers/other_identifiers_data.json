@@ -42,6 +42,7 @@
       "related_identifiers": [],
       "auto_link_strings": [
         "Mortal",
+        "Mortals",
         "Mortal beings",
         "Mortal being"
       ]
@@ -57,16 +58,19 @@
         "Polyamorous"
       ]
     },
-    "Primodial_Beast": {
-      "name": "Primodial_Beast",
+    "Primordial_Beast": {
+      "name": "Primordial_Beast",
       "type": "other",
       "description": "The Primodial Beasts are the first of each of the astral species (centaurs, pegasi, dragons, rocs, pheonixes, griffins, lleviathen). They are the progenitors of their entire species and legend says they were created directly from the divine source. They are the oldest and most powerful non-god creatures in the astral plane. They are not gods, but they are still divine-like. They are larger than the average member of each of their species. When a sparkbearer is born, one of the primordial beasts will have a vision from the divine, and will be given knowledge of what that sparkbearers devine trial is. They are responsible for communiting that information to the sparkbearer, and they often assist in keeping the sparkbearer safe, while they are young and vulnerable. though they cannot directly assist in the completion of the trial, they can provide the sparkbearer with information and guidance.",
       "related_identifiers": [
-        "Sparkbearer"
+        "Sparkbearer",
+        "Sparkbearers"
       ],
       "auto_link_strings": [
-        "Primodial Beast",
-        "Primodial Beasts"
+        "Primordial Beast",
+        "Primordial Beasts",
+        "Primordial Being",
+        "Primordial Beings"
       ]
     },
     "Sparkbearer": {
