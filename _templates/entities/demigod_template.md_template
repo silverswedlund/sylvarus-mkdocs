@@ -43,6 +43,8 @@
   - <a href="{{ song_link }}" target="_blank">{{ song_name }}</a>
 {% endif %}
 {% endif %}
+
+
 **Relevant Stories:**  
 
 {% include "entities/demigods/{{ name|lower }}_stories_table.md_insert" %}  
