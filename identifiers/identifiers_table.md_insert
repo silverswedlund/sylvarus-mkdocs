@@ -1,14 +1,14 @@
-| Lgbt | Neurological | Personality |
-| --- | --- | --- |
-| [Agender](personality/agender.md) | [ADHD](personality/adhd.md) | [Extroverted](personality/extroverted.md) |
-| [Aromantic](personality/aromantic.md) | [autism](personality/autism.md) | [Introverted](personality/introverted.md) |
-| [asexual](personality/asexual.md) | [Neurodivergent](personality/neurodivergent.md) |  |
-| [Bicurious](personality/bicurious.md) |  |  |
-| [Demiboy](personality/demiboy.md) |  |  |
-| [Demigirl](personality/demigirl.md) |  |  |
-| [Gay (MLM)](personality/mlm.md) |  |  |
-| [Genderqueer](personality/genderqueer.md) |  |  |
-| [Lesbian](personality/lesbian.md) |  |  |
-| [Nonbinary](personality/nonbinary.md) |  |  |
-| [Pansexual](personality/pansexual.md) |  |  |
-| [Transgender](personality/transgender.md) |  |  |
+| Lgbt | Neurological | Other | Personality |
+| --- | --- | --- | --- |
+| [Agender](lgbt/agender.md) | [ADHD](neurological/adhd.md) | [Fidari](other/fidari.md) | [Extroverted](personality/extroverted.md) |
+| [Aromantic](lgbt/aromantic.md) | [autism](neurological/autism.md) | [God](other/god.md) | [Introverted](personality/introverted.md) |
+| [asexual](lgbt/asexual.md) | [Neurodivergent](neurological/neurodivergent.md) | [Mortal](other/mortal.md) |  |
+| [Bicurious](lgbt/bicurious.md) |  | [Polyamory](other/polyamorous.md) |  |
+| [Demiboy](lgbt/demiboy.md) |  | [Primordial Beast](other/primordial_beast.md) |  |
+| [Demigirl](lgbt/demigirl.md) |  | [Sparkbearer](other/sparkbearer.md) |  |
+| [Gay (MLM)](lgbt/mlm.md) |  | [Titan](other/titan.md) |  |
+| [Genderqueer](lgbt/genderqueer.md) |  |  |  |
+| [Lesbian](lgbt/lesbian.md) |  |  |  |
+| [Nonbinary](lgbt/nonbinary.md) |  |  |  |
+| [Pansexual](lgbt/pansexual.md) |  |  |  |
+| [Transgender](lgbt/transgender.md) |  |  |  |
