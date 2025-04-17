@@ -19,9 +19,8 @@
 
 ---
 
+## History
+{{history}}
 
 ## 🧙 Members
 {% include "pantheons/{{name|lower}}_members_table.md_insert" %}
-
-## History
-{{history}}
