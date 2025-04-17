@@ -33,7 +33,7 @@ def build_link_map(data: List[Dict]) -> Dict[str, Tuple[str, Path]]:
             clean_key = item_key.lower().replace(" ", "").replace("'", "")
             file_name = f"{clean_key}.md"
             for raw in item.get("auto_link_strings", []):
-                search = raw  # Use the full string as the key
+                search = raw.lower()  # Use the full string as the key
                 if search in link_map:
                     old_path = link_map[search][1]
                     logging.warning(f"Duplicate term '{search}' in {base_path}/{file_name} (previous: {old_path})")
@@ -61,12 +61,14 @@ def replace_terms_in_markdown(file_path: Path, link_map: Dict[str, Tuple[str, Pa
     def replacement(match):
         prefix = match.group(1)  # Capture the prefix
         word = match.group(2)    # Capture the word
-        if word not in link_map:
+
+        # Convert word to lowercase for case-insensitive matching
+        word_lower = word.lower()
+        if word_lower not in link_map:
             return match.group(0)  # Return the original match if no link is found
         
-        # Remove the suffix after linking
         base_word = word.split("^", 1)[0]
-        display, target_path = link_map[word]
+        display, target_path = link_map[word_lower]
         relative_path = os.path.relpath(target_path, start=file_path.parent).replace("\\", "/")
         return f"{prefix}[{base_word}]({relative_path})"
 
@@ -74,12 +76,12 @@ def replace_terms_in_markdown(file_path: Path, link_map: Dict[str, Tuple[str, Pa
     pattern = r'(\s|^)(' + "|".join(re.escape(k) for k in sorted(link_map, key=len, reverse=True)) + r')(?=\s|$|,)'
     
     # Replace terms in the content
-    content_new = re.sub(pattern, replacement, content)
+    content_new = re.sub(pattern, replacement, content, flags=re.IGNORECASE)
 
     # Write back to the file if changes were made
     if content_new != content:
         file_path.write_text(content_new, encoding="utf-8")
-        logging.info(f"Rewritten: {file_path}")
+        print(f"Rewritten: {file_path}")
 
 if __name__ == "__main__":
     print("Starting auto-link reference script...")

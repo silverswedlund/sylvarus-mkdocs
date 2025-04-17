@@ -3,7 +3,7 @@
     "base_path": "docs/entities/fidari",
     "template": "_templates/entities/fidari_template.md_template",
     "type": "entity",
-    "subtype": "god"
+    "subtype": "fidari"
   },
   "items": {
     "The_Smiling_God": {
@@ -39,6 +39,39 @@
         "Rumored historical link to an early minor Olympian of celebration, now long faded."
       ]
     },
+    "The_Whispering_Wind": {
+      "auto_link_strings": [
+        "The Whispering Wind"
+      ],
+      "name": "the_whispering_wind",
+      "page_name": "The Whispering Wind",
+      "pronouns": "she/they",
+      "image_path": "../images/whispering_wind.jpg",
+      "aliases": [
+        "The Silent Breeze",
+        "Voice of the Leaves",
+        "The Invisible Guide"
+      ],
+      "manifestation_origin": "A secluded villiage of halflings in the Northwest Tundra that revered the wind as a messenger of nature, carrying secrets and wisdom.",
+      "manifestation_vessel": "A gentle breeze that rustled through the trees, believed to be the voice of the forest itself. They Whisper to their diciples by blowing through the trees in a way that makes a rustling sound that is understandable whisper.",
+      "first_appearance_time_period": "First appeared during the Age of Unity, when communication was believed to be sacred and only shared through whispers.",
+      "lgbtq_identifications": [
+        "nonbinary",
+        "demigirl"
+      ],
+      "other_identifiers": [
+        "empath"
+      ],
+      "song_name": "Whispers of the Forest",
+      "song_link": "",
+      "custom_details": "**Cult Behavior:** Followers communicate in hushed tones, believing that loud noises disrupt the natural order. They practice meditation and listen to the wind for guidance.",
+      "current_status": "Active; known to influence environmental movements and spiritual retreats focused on harmony with nature.",
+      "history": "The Whispering Wind emerged from a deep respect for nature and the belief that the wind carries the voices of the past. Over time, this belief grew into a spiritual practice, with followers seeking wisdom in the rustling leaves and gentle breezes. The Whispering Wind is seen as a guide, leading her followers to enlightenment through silence and reflection. Unlike most Fidari, she is considered benevolent even by non-followers, as her teachings promote harmony with nature and peaceful coexistence rather than zealous conversion. This rare goodwill from outsiders has allowed her influence to spread naturally through environmental movements without the typical fear and suspicion that surrounds other Fidari.",
+      "physical_description": "An ethereal presence, often felt rather than seen. When they manifest, they appear as a translucent figure with flowing hair and garments and a gentle smile. Their eyes are said to reflect the sky, changing with the weather.",
+      "relationships": [
+        "Respected by nature spirits and often seen as a mediator between the natural and spiritual worlds."
+      ]
+    },
     "father_finn": {
       "auto_link_strings": [
         "Father Finn"
@@ -66,7 +99,7 @@
       "history": "Father Finn began as a druid who revered nature and believed humanity should live in harmony with its place in the world. Assigned to a brutal prison as chaplain, he became a source of strength for inmates—not through comfort, but through discipline. When prisoners resisted release, fearing the loss of structure, their belief transformed Finn into a Fidari. He now rules the penitentiary with calm authority. The harsh routines of prison life have become sacred rites. Obedience is salvation. Escape is heresy.",
       "physical_description": "A towering, muscular man standing 8 feet tall and weighing over 500 pounds. His body is scarred and heavily built. He wears garments that blend 1700s prison uniforms with clergy robes, adorned with heavy chains and silver locks—especially around his ankles. His eyes swirl with unnatural colors, reflecting the chaos and belief from which he was born. He is stoic, commanding, and never raises his voice.",
       "relationships": [
-        "Ideologically opposed to the Smiling God’s doctrine of joy—though both enforce order through belief.",
+        "Ideologically opposed to the Smiling God's doctrine of joy—though both enforce order through belief.",
         "Feared and respected by many lower Fidari who lack his level of stability or infrastructure."
       ]
     }
