@@ -505,6 +505,43 @@
       "custom_details": "",
       "physical_description": ""
     },
+    "Felrie": {
+      "auto_link_strings": [
+        "Felrie",
+        "Felrie^god"
+      ],
+      "name": "Felrie",
+      "pronouns": "He/Him",
+      "species": "Halfling",
+      "aliases": [
+        "God of Nature",
+        "The Verdant One",
+        "Keeper of the Wild Heart"
+      ],
+      "trial": "Tame the Titan of the Northwest Tundra",
+      "ascension_time_period": "Age of Division",
+      "pantheon": "Gilgamites",
+      "relationships": [
+        "Dionysus - (occasional revelry companion)",
+        "Demeter - (respectful rival in agricultural domains (former)) ",
+        "The Whispering Wind - (kindred spirit)"
+      ],
+      "current_status": "Guardian of the Wilds, currently residing in the Emerald Sanctuary",
+      "image_path": "../images/felrie.jpg",
+      "history": "Once a humble druid from the Northwest Tundra, Felrie gained renown for their ability to commune with even the most ferocious beasts. When the Titan of the Ancient Woods threatened to destroy the balance of nature, Felrie spent seven years tracking the creature, eventually taming it through patience and understanding rather than force. This act of harmony with the natural world earned them ascension. The Titan of the Ancient Woods is now a trusted ally who helps maintain and protect the Northwest Tundra.",
+      "song_link": "https://youtu.be/xNN7iTA57jM?si=sBdGHgJcVHXXrPZl",
+      "song_name": "Forest Temple - The Legend of Zelda: Ocarina of Time",
+      "lgbtq_identifications": [
+        "Transgender (FTM)",
+        "Pansexual",
+        "Aromantic"
+      ],
+      "other_identifiers": [
+        "Neurodivergent"
+      ],
+      "custom_details": "**Sacred Ritual:** Followers of Fyero practice the Ceremony of Roots, where they plant themselves barefoot in soil for a full day and night to 'listen to the earth's wisdom.'",
+      "physical_description": "A figure of serene presence standing just over four feet tall, with moss-green eyes that shift colors with the seasons. Their skin bears some tatoos resembling tree bark, and they wear a living crown of leaves and flowers that changes with their mood. Small animals often perch on their shoulders, and their laughter is said to make plants grow. They are generally happy, but also has a fiery ambition and a bit of a temper."
+    },
     "Fortuna": {
       "auto_link_strings": [
         "Fortuna",
