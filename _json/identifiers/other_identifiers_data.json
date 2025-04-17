@@ -6,15 +6,92 @@
     "subtype": "other"
   },
   "items": {
-    "Polyamory": {
-      "name": "Polyamory",
+    "Fidari": {
+      "name": "Fidari",
       "type": "other",
-      "description": "Polyamory is a relationship style that involves having multiple romantic relationships at the same time.",
+      "description": "Fidari are beings that come into being from the sheer belief of their followers. They are usually a reflection of the beliefs of their followers, and have a intense desire to increase their followers' devotion to them and the number of their followers. Fidari usually manifest in the form of a holy figure, object, or entity. Something that their followers previously believed in. Like an idol, statue, or a holy book. They can manifest from beings or people, but this is rare.",
+      "related_identifiers": [
+        "God"
+      ],
+      "auto_link_strings": [
+        "Fidari"
+      ]
+    },
+    "God": {
+      "name": "God",
+      "type": "other",
+      "description": "Gods are deities or beings that are worshipped or revered as a supreme being or deity. Usually Gods refers to the olympic dieties, who are ascended sparkbearers. Chaos dieties are not olympians but are still considered gods. Fidari are usually not considered gods except by their cultists.",
+      "related_identifiers": [
+        "Demigod",
+        "Chaos Deity",
+        "Fidari"
+      ],
+      "auto_link_strings": [
+        "God",
+        "Gods",
+        "Goddess",
+        "Goddesses",
+        "Olympian",
+        "Olympians"
+      ]
+    },
+    "Mortal": {
+      "name": "Mortal",
+      "type": "other",
+      "description": "Mortal is a being that is not divine or divine-like. Though usually referes to being with souls and who are born of natural means. Elves, humans, dwarves, and other sapient species are all considered mortals. Gods, demigods, and other divine beings are not mortals.",
+      "related_identifiers": [],
+      "auto_link_strings": [
+        "Mortal",
+        "Mortal beings",
+        "Mortal being"
+      ]
+    },
+    "Polyamorous": {
+      "name": "Polyamorous",
+      "type": "other",
+      "description": "Polyamory is a relationship style that involves having multiple romantic relationships at the same time with the consent of all involved parties. Being polyamorous means you engage in polyamory.",
       "related_identifiers": [],
       "image_path": "../../flags/polyamorous.jpg",
       "auto_link_strings": [
         "Polyamory",
         "Polyamorous"
+      ]
+    },
+    "Primodial_Beast": {
+      "name": "Primodial_Beast",
+      "type": "other",
+      "description": "The Primodial Beasts are the first of each of the astral species (centaurs, pegasi, dragons, rocs, pheonixes, griffins, lleviathen). They are the progenitors of their entire species and legend says they were created directly from the divine source. They are the oldest and most powerful non-god creatures in the astral plane. They are not gods, but they are still divine-like. They are larger than the average member of each of their species. When a sparkbearer is born, one of the primordial beasts will have a vision from the divine, and will be given knowledge of what that sparkbearers devine trial is. They are responsible for communiting that information to the sparkbearer, and they often assist in keeping the sparkbearer safe, while they are young and vulnerable. though they cannot directly assist in the completion of the trial, they can provide the sparkbearer with information and guidance.",
+      "related_identifiers": [
+        "Sparkbearer"
+      ],
+      "auto_link_strings": [
+        "Primodial Beast",
+        "Primodial Beasts"
+      ]
+    },
+    "Sparkbearer": {
+      "name": "Sparkbearer",
+      "type": "other",
+      "description": "Sparkbearers are mortal beings whose soul contains an extra spark of divinity. This spark increases their abilities in magic and physical prowess. It also makes them longer lived, and generally smarter than normal for their species. Sparkbearers are extremely rare, and are often praised by their followers as heroes. Due to their hieghtened abilities, a lot of legendary figures are sparkbearers. These people are given a divine trial in a vision from one of the primodial beasts when they are young. If they complete the trial, they ascend to godhood. If they die without completing the trial, their soul falls to the feywild and is corrupted by the feywild's influence. Fallen sparkbearers are usually monsterous and are called titans.",
+      "related_identifiers": [
+        "God",
+        "Titan"
+      ],
+      "auto_link_strings": [
+        "Sparkbearer",
+        "Sparkbearers"
+      ]
+    },
+    "Titan": {
+      "name": "Titan",
+      "type": "other",
+      "description": "Titans are fallen sparkbearers. They are usually monstrous and are a danger to the world. They are not gods, but they are still divine-like. They are also usually much more powerful than normal sparkbearers, the corruption of their soul makes it more potent than normal. most titans lose their sapience during the fall, and become mindless monsters. Though some titans do not lose their sapience. THese are usually considered the most dangerous and powerful of all titans. Some are peaceful, but thie is the exception. They usually realm the outer feywilds where they fall, and often just go on rampages. Some of the more dangerous ones are hunted by the gods and are usually killed or imprisoned in tartarus.",
+      "related_identifiers": [
+        "Sparkbearer"
+      ],
+      "auto_link_strings": [
+        "Titan",
+        "Titans"
       ]
     }
   }
