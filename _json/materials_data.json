@@ -25,7 +25,7 @@
       "rarity": "Legendary",
       "custom_details": "Highly sought after for its magical properties.",
       "image_paths": [
-        "aurealian_hammer.jpg"
+        "../images/aurealian_hammer.jpg"
       ],
       "image_descriptions": [
         "A warhammer in a case with an Aurealan Wood handle"
@@ -55,7 +55,7 @@
       "rarity": "Rare",
       "custom_details": "Legendary metal known for its strength and magical properties. It is rare because dragons don't produce it for just anyone. A powerful mage with dragonmage can imitate it, but those are just as hard to come by.",
       "image_paths": [
-        "dragonsteel_sword.jpg"
+        "../images/dragonsteel_sword.jpg"
       ],
       "image_descriptions": [
         "A sword made of dragonsteel"
@@ -83,7 +83,7 @@
       "rarity": "Varies",
       "custom_details": "Enchantment gemstones are infused with the elemental and metaphysical forces of magic. Each stone is attuned to a specific magical domain, distinguished by its color and subtle aura. The standard method of use involves crushing the gemstone into fine dust and using it during the enchanting process to bind a magical effect to an item. However, a rarer technique involves embedding the whole gemstone directly into an item, preserving its integrity. This method is difficult, but equally potent.\n\n**Color Associations:**\n\n| Color      | Domain                                      |\n|------------|---------------------------------------------|\n| White      | Psychic (thought, mental projection, memory) |\n| Black      | Shadow (stealth, fear, corruption)           |\n| Clear      | Wind (movement, agility, breath)             |\n| Blue       | Water (control, shaping, fluidity)           |\n| Red        | Fire (destruction, passion, energy)          |\n| Green      | Nature (growth, poison, animal bonding)      |\n| Yellow     | Soul (divinity, essence, resurrection)       |\n| Pink       | Pink (emotion, joy, chaos, glamour)          |\n| Purple     | Void (space, teleportation, scaling)         |\n| Gray       | Warding (barriers, hardlight, anti-magic)    |\n| Brown      | Necromancy (undeath, decay, soul binding)    |\n| Orange     | Healing (regeneration, vitality, blood magic)|\n| Copper     | Sound (vibration, resonance, voice)          |\n| Silver     | Time (acceleration, delay, memory replay)    |\n| Gold       | Luck (fate manipulation, fortune, probability)|\n| Mint       | Force (telekinesis, impact, shielding)       |\n| Sky Blue   | Lightning (speed, stormcalling, shocking touch)|\n\nGemstones may glow, shimmer, or pulse depending on their alignment, and each has a distinct resonance felt by skilled enchanters. Breathing in raw gemstone dust has been known to impact the soul. For some individuals, it induces temporary berserk states, spontaneous magical surges, or prolonged enchantment sensitivity. Caution is always advised when handling unrefined magical dust, especially in enclosed areas.",
       "image_paths": [
-        "gems_display.jpg"
+        "../images/gems_display.jpg"
       ],
       "image_descriptions": [
         "A display of gemstones"
@@ -110,7 +110,7 @@
       "rarity": "Rare",
       "custom_details": "Valued for its beauty and magical properties. It is the only known metal that has a natural ability to absorb and nullify magic. It is still not fully understood how this works, though theories relate to its conductivity and atomic structure. It's very rare in nature and isn't found in the astral plane or feywild, only in the material plane, though extremely rarely. Most of Sylvarus' gold comes from the ancient temple buried under the city of Athenia. This gold was made when Midas had a group of his lich followers use a philosopher's stone to turn one of their enemies' palace to gold in order to trap, and then subsequently kill the god. Gold is very important in Orcish culture and is used in many of their artifacts and weapons, and rarely in their shields and armor. The Golden Hand uses pure gold for their weapons and armor to protect them from even the most powerful magic. It also isn't able to be magically duplicated, and nobody knows how to make philosopher's stones anymore, so no gold can be produced except through mining the existing sources.",
       "image_paths": [
-        "athenian_shield.jpg"
+        "../images/athenian_shield.jpg"
       ],
       "image_descriptions": [
         "An Athenia shield with gold trim"
@@ -137,7 +137,7 @@
       "rarity": "Common",
       "custom_details": "Widely used for its strength and availability. It can be found in the astral and material planes, but the feywilds has no natural sources of iron. Iron is strong and resilient, but it is not as strong as dragonsteel or mythril which now have a higher demand for usage in weapons and armor. Though, pure iron still serves useful in many applications. Specifically when dealing with ghosts, spectres, and fey, where it is more effective than dragonsteel or mythril due to their natural weaknesses to iron.",
       "image_paths": [
-        "../gold/athenian_shield.jpg"
+        "../images/athenian_shield.jpg"
       ],
       "image_descriptions": [
         "An Athenia shield made of iron with a gold trim"
@@ -167,7 +167,7 @@
       "rarity": "Rare",
       "custom_details": "Mythril is known for its magical properties, converting a portion of magic that hits it into mana for the nearest soul. Unlike gold, which nullifies magic, mythril transforms some of the magic into mana. It is unknown if dwarves are the only ones who know how to make it or if they have exclusive access to the veins.",
       "image_paths": [
-        "mythril_helmet.jpg"
+        "../images/mythril_helmet.jpg"
       ],
       "image_descriptions": [
         "A helmet made of mythril"
@@ -194,7 +194,7 @@
       "rarity": "Common",
       "custom_details": "Known for its luster and conductivity. Often used in wands or powerful magical staves or swords. It is linked with holy things for its ability to burn and damage vampires, werewolves, and the like. There are several silver mines and though much less abundant than iron or copper, it is still not too expensive.",
       "image_paths": [
-        "silver_wand.jpg"
+        "../images/silver_wand.jpg"
       ],
       "image_descriptions": [
         "A silver wand"
