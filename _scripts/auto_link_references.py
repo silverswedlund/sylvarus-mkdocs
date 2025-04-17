@@ -23,11 +23,14 @@ def load_auto_link_data(json_path: str) -> Dict:
 def get_all_auto_link_strings(data: Dict) -> Dict[str, Tuple[str, str]]:
     """Extract all auto-link strings and their corresponding URLs from the data."""
     auto_link_map = {}
+    duplicate_warnings = set()  # Track duplicates to avoid repeated warnings
     
     for category, items in data.items():
         base_path = items.get("config", {}).get("base_path", "")
         if not base_path:
             base_path = f"docs/{category.lower()}"
+        
+        logging.info(f"Processing category {category} with base_path {base_path}")
         
         for item_key, item_data in items.get("items", {}).items():
             auto_link_strings = item_data.get("auto_link_strings", [])
@@ -42,7 +45,19 @@ def get_all_auto_link_strings(data: Dict) -> Dict[str, Tuple[str, str]]:
             
             # Add all auto-link strings for this item
             for link_string in auto_link_strings:
+                if link_string in auto_link_map:
+                    old_url, old_base_path = auto_link_map[link_string]
+                    warning_key = f"{link_string}:{old_base_path}/{old_url}:{base_path}/{url}"
+                    
+                    if warning_key not in duplicate_warnings:
+                        logging.warning(f"DUPLICATE AUTO-LINK STRING: '{link_string}' "
+                                       f"Previously mapped to {old_base_path}/{old_url}, "
+                                       f"now mapped to {base_path}/{url}")
+                        duplicate_warnings.add(warning_key)
+                
+                # Always update the mapping (last writer wins)
                 auto_link_map[link_string] = (url, base_path)
+                logging.info(f"Added auto-link string: '{link_string}' -> {base_path}/{url}")
     
     return auto_link_map
 
@@ -188,7 +203,12 @@ def main():
     parser.add_argument('--docs-dir', default='docs', help='Directory containing markdown files')
     parser.add_argument('--json-dir', default='_json', help='Directory containing JSON data files')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making changes')
+    parser.add_argument('--debug', action='store_true', help='Enable debug logging')
     args = parser.parse_args()
+    
+    # Set logging level based on debug flag
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
     
     if args.dry_run:
         logging.info("🔍 DRY RUN: No files will be modified")
@@ -201,49 +221,64 @@ def main():
     logging.info(f"Found {len(json_files)} JSON files to process")
     
     for json_file in json_files:
-        # Extract category from filename or parent directory
-        if json_file.parent.name == args.json_dir:
-            # Files in the root json directory
-            category = json_file.stem.replace('_data', '')
-        elif json_file.parent.name == "entities":
-            # Files in the entities subdirectory - use the filename without _data suffix
-            category = json_file.stem.replace('_data', '')
-        else:
-            # Files in other subdirectories - use the subdirectory name as category
-            category = json_file.parent.name
-        
-        # Load the JSON data
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            # Check if this is an entity data file with the expected structure
-            if "items" in data:
-                # Use the base_path from the config if available, otherwise construct it
-                if "config" in data and "base_path" in data["config"]:
-                    base_path = data["config"]["base_path"]
-                    logging.info(f"Using configured base path: {base_path} for {json_file}")
+            # Check if this is a data file with the expected structure
+            if "items" in data and "config" in data:
+                # Get the category from the config if available
+                if "subtype" in data["config"]:
+                    category = data["config"]["subtype"]
+                    logging.info(f"Using category from config subtype: {category}")
+                else:
+                    # Extract category from filename or parent directory
+                    if json_file.parent.name == args.json_dir:
+                        # Files in the root json directory
+                        category = json_file.stem.replace('_data', '')
+                    elif json_file.parent.name == "entities":
+                        # Files in the entities subdirectory
+                        category = json_file.stem.replace('_data', '')
+                    else:
+                        # Files in other subdirectories
+                        category = json_file.parent.name
+                    
+                    logging.info(f"Derived category from path: {category}")
                 
-                # Create a properly structured entry for this category if it doesn't exist
+                # Get base_path from config
+                if "base_path" in data["config"]:
+                    base_path = data["config"]["base_path"]
+                    logging.info(f"Using base_path from config: {base_path}")
+                else:
+                    # Default base path if not specified
+                    base_path = f"docs/{category.lower()}"
+                    logging.info(f"Using default base_path: {base_path}")
+                
+                # Create a properly structured entry for this category
                 if category not in auto_link_data:
                     auto_link_data[category] = {
                         "config": {"base_path": base_path},
                         "items": {}
                     }
                 else:
-                    # Update the base path if it's not already set
-                    if "base_path" not in auto_link_data[category]["config"]:
-                        auto_link_data[category]["config"]["base_path"] = base_path
+                    # Update the base path
+                    auto_link_data[category]["config"]["base_path"] = base_path
                 
                 # Add all items from this file to the category
                 auto_link_data[category]["items"].update(data["items"])
-                logging.info(f"Added {len(data['items'])} items from {json_file} with base path {base_path}")
+                logging.info(f"Added {len(data['items'])} items from {json_file} to category {category}")
+            else:
+                logging.warning(f"Skipping {json_file}: Missing required 'items' or 'config' sections")
         except Exception as e:
-            logging.error(f"Error loading data from {json_file}: {e}")
+            logging.error(f"Error processing {json_file}: {e}")
     
     # Get all auto-link strings
     auto_link_map = get_all_auto_link_strings(auto_link_data)
     logging.info(f"Loaded {len(auto_link_map)} auto-link strings")
+    
+    # Debug: Print all auto-link mappings
+    for link_string, (url, base_path) in auto_link_map.items():
+        logging.debug(f"Auto-link mapping: '{link_string}' -> {base_path}/{url}")
     
     # Find all markdown files, including .md_insert files
     markdown_files = find_markdown_files(args.docs_dir, include_md_insert=True)
