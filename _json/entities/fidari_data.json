@@ -102,6 +102,40 @@
         "Ideologically opposed to the Smiling God's doctrine of joy—though both enforce order through belief.",
         "Feared and respected by many lower Fidari who lack his level of stability or infrastructure."
       ]
+    },
+    "maxidon": {
+      "auto_link_strings": [
+        "Maxidon"
+      ],
+      "name": "maxidon",
+      "page_name": "Maxidon",
+      "pronouns": "he/him",
+      "image_path": "../images/maxidon.jpg",
+      "aliases": [
+        "The Affirmed One",
+        "Manifest Ideal",
+        "He Who Holds the Tablets"
+      ],
+      "manifestation_origin": "Tyro, within the Faithful sect—a marginalized subculture dedicated to belief-driven self-affirmation",
+      "manifestation_vessel": "Twin affirmation tablets, originally mounted in a wall at the Faithful’s meeting house",
+      "first_appearance_time_period": "Age of Fractures",
+      "lgbtq_identifications": [],
+      "other_identifiers": [
+        "Fidari",
+        "Constructed God",
+        "Charismatic Entity"
+      ],
+      "song_name": "Mass Effect 3 Soundtrack - Leaving Earth",
+      "song_link": "https://www.youtube.com/watch?v=KGHA9oO1Ybg",
+      "custom_details": "Maxidon is the realized embodiment of the Faithful's belief in self-created salvation—a Fidari who is equal parts guru, therapist, and idealized man. He heals, uplifts, and inspires—but always with the promise that belief is the price of transformation.",
+      "current_status": "Touring across Tyro and neighboring regions, gaining influence through speeches and miraculous interventions. Genuinely revered by many, cautiously tolerated by the Tyro authorities.",
+      "history": "Formed when the Faithful, a fringe group in Tyro focused on self-belief and positive affirmations, concentrated their worship into a pair of inscribed stone tablets. When these tablets dislodged and fell into the arms of a new being—Maxidon—he was immediately recognized as a manifestation of their collective desire for guidance, success, and inner strength. His existence is a challenge to Tyro’s empiricist faith, despite having emerged through what some call 'controlled belief.'",
+      "physical_description": "Maxidon is tall, handsome, and impeccably sculpted—orange-skinned, with a chiseled jaw, luminous pink eyes, and a magnetically reassuring voice. He appears as the idealized Tyroan man: fit, confident, wealthy in bearing. His two large hands each cradle one of the original affirmation tablets, which glow faintly when he speaks. He wears form-fitting, sleek robes that blur the line between scientific uniform and preacher’s attire.",
+      "relationships": [
+        "The Faithful - (origin group and current core followers)",
+        "Tyroan Theocracy - (views him as a philosophical paradox and political nuisance)",
+        "Other Fidari - (ambiguous; Maxidon views most with respect, but they often see him as dangerously persuasive)"
+      ]
     }
   },
   "template": {
