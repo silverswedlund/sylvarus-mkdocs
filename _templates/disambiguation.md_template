@@ -1,0 +1,5 @@
+# {{ pascal_case_name }} Disambiguation
+{% include "{{ path }}/{{ name }}_disambiguation.md_content" %}
+
+# {{ pascal_case_name }} Table
+{% include "{{ path }}/{{ name }}_table.md_insert" %}

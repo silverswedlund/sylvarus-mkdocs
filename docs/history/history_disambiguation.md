@@ -1,5 +1,5 @@
 # History Disambiguation
+{% include "history/history_disambiguation.md_content" %}
 
-This page lists all subcategories in the History section.
-
-- Time Periods
+# History Table
+{% include "history/history_table.md_insert" %}

@@ -3,7 +3,7 @@
     "base_path": "docs/entities/other_entities",
     "template": "_templates/entities/other_entities_template.md_template",
     "type": "entity",
-    "subtype": "other_entity"
+    "subtype": "other_entities"
   },
   "items": {},
   "template": {

@@ -1,3 +1,5 @@
-# Immortals
+# Immortals Disambiguation
+{% include "entities/immortals/immortals_disambiguation.md_content" %}
 
-{% include "entities/immortals/immortal_table.md_insert" %}
+# Immortals Table
+{% include "entities/immortals/immortals_table.md_insert" %}

@@ -1,5 +1,5 @@
 # Cities Disambiguation
+{% include "planes/material/sylvarus/locations/cities/cities_disambiguation.md_content" %}
 
-This page lists all subcategories in the Cities section.
-
-- [Redwater](redwater/index.md)
+# Cities Table
+{% include "planes/material/sylvarus/locations/cities/cities_table.md_insert" %}

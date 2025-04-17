@@ -1,5 +1,5 @@
 # Planes Disambiguation
+{% include "planes/planes_disambiguation.md_content" %}
 
-This page lists all subcategories in the Planes section.
-
-- Material
+# Planes Table
+{% include "planes/planes_table.md_insert" %}

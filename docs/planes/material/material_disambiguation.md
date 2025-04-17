@@ -1,5 +1,5 @@
 # Material Disambiguation
+{% include "planes/material/material_disambiguation.md_content" %}
 
-This page lists all subcategories in the Material section.
-
-- Sylvarus
+# Material Table
+{% include "planes/material/material_table.md_insert" %}

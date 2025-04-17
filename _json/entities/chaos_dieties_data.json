@@ -3,7 +3,7 @@
     "base_path": "docs/entities/chaos_dieties",
     "template": "_templates/entities/chaos_dieties_template.md_template",
     "type": "entity",
-    "subtype": "chaos_dietie"
+    "subtype": "chaos_diety"
   },
   "items": {},
   "template": {

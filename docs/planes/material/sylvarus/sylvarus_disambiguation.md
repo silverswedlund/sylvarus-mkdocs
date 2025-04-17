@@ -1,5 +1,5 @@
 # Sylvarus Disambiguation
+{% include "planes/material/sylvarus/sylvarus_disambiguation.md_content" %}
 
-This page lists all subcategories in the Sylvarus section.
-
-- Locations
+# Sylvarus Table
+{% include "planes/material/sylvarus/sylvarus_table.md_insert" %}

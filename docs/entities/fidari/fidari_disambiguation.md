@@ -1,6 +1,5 @@
 # Fidari Disambiguation
+{% include "entities/fidari/fidari_disambiguation.md_content" %}
 
-This page lists all subcategories in the Fidari section.
-
-- [Father Finn](father_finn/index.md)
-- [The Smiling God](the_smiling_god/index.md)
+# Fidari Table
+{% include "entities/fidari/fidari_table.md_insert" %}

@@ -1,6 +1,5 @@
 # Documents Disambiguation
+{% include "documents/documents_disambiguation.md_content" %}
 
-This page lists all subcategories in the Documents section.
-
-- Misc Documents
-- Stories
+# Documents Table
+{% include "documents/documents_table.md_insert" %}

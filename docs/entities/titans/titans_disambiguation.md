@@ -1,3 +1,5 @@
-# Titans
+# Titans Disambiguation
+{% include "entities/titans/titans_disambiguation.md_content" %}
 
-{% include "entities/titans/titan_table.md_insert" %}
+# Titans Table
+{% include "entities/titans/titans_table.md_insert" %}

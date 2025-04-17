@@ -1,11 +1,5 @@
-# Primordial Beings Disambiguation
+# PrimordialBeings Disambiguation
+{% include "entities/primordial_beings/primordial_beings_disambiguation.md_content" %}
 
-This page lists all subcategories in the Primordial Beings section.
-
-- [Aetheria](aetheria/index.md)
-- [Aquileo](aquileo/index.md)
-- [Avianna](avianna/index.md)
-- [Cetuvi](cetuvi/index.md)
-- [Craxly](craxly/index.md)
-- [Fafnir](fafnir/index.md)
-- [Petrifax](petrifax/index.md)
+# PrimordialBeings Table
+{% include "entities/primordial_beings/primordial_beings_table.md_insert" %}

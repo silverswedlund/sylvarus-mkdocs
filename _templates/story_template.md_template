@@ -20,4 +20,4 @@
 
 
 ## 📕 Story
-{% include "documents/stories/{{name|lower|replace(' ', '_')}}/content.md_insert" %}
+{% include "documents/stories/{{name|lower|replace(' ', '_')}}.md_content" %}

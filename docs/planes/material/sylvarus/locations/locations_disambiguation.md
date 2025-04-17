@@ -1,6 +1,5 @@
 # Locations Disambiguation
+{% include "planes/material/sylvarus/locations/locations_disambiguation.md_content" %}
 
-This page lists all subcategories in the Locations section.
-
-- Cities
-- Territories
+# Locations Table
+{% include "planes/material/sylvarus/locations/locations_table.md_insert" %}

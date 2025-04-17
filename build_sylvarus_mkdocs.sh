@@ -17,7 +17,7 @@ SCRIPTS=(
   "_scripts/add_missing_story_content_files.py"
   "_scripts/generate_species_table.py"
   "_scripts/generate_species_members_tables.py"
-  "_scripts/generate_entities_table.py"
+  "_scripts/generate_disambiguation_pages.py"
   "_scripts/auto_link_references.py"
 )
 
