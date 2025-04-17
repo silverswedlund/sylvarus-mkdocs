@@ -1,0 +1,5 @@
+# {{ name }}
+
+
+## 📕 Document
+{% include "documents/misc_documents/{{name|lower|replace(' ', '_')}}.md_content" %}

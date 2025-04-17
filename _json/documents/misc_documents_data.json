@@ -1,0 +1,15 @@
+{
+  "config": {
+    "base_path": "docs/documents/misc_documents",
+    "template": "_templates/misc_document_template.md_template"
+  },
+  "items": {
+    "Pact_of_Olympus": {
+      "auto_link_strings": [
+        "Pact of Olympus",
+        "The Pact of Olympus"
+      ],
+      "name": "Pact of Olympus"
+    }
+  }
+}
