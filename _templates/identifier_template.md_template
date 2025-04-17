@@ -1,7 +1,9 @@
 # {{ name }}
 
+{% if image_path %}
 <!-- Optional -->
 <img src="{{ image_path }}" alt="{{ name }}" width="400" />
+{% endif %}
 ---
 
 ## 📍 Basic Information

@@ -71,7 +71,7 @@ def replace_terms_in_markdown(file_path: Path, link_map: Dict[str, Tuple[str, Pa
         return f"{prefix}[{base_word}]({relative_path})"
 
     # Create a pattern to match all terms in the link_map with specific boundaries
-    pattern = r'(\s|^|")(' + "|".join(re.escape(k) for k in sorted(link_map, key=len, reverse=True)) + r')(?=\s|$|,)'
+    pattern = r'(\s|^)(' + "|".join(re.escape(k) for k in sorted(link_map, key=len, reverse=True)) + r')(?=\s|$|,)'
     
     # Replace terms in the content
     content_new = re.sub(pattern, replacement, content)
