@@ -1,0 +1,21 @@
+{
+  "config": {
+    "base_path": "docs/identifiers/other",
+    "template": "_templates/identifier_template.md_template",
+    "type": "identifier",
+    "subtype": "other"
+  },
+  "items": {
+    "Polyamory": {
+      "name": "Polyamory",
+      "type": "other",
+      "description": "Polyamory is a relationship style that involves having multiple romantic relationships at the same time.",
+      "related_identifiers": [],
+      "image_path": "../../flags/polyamorous.jpg",
+      "auto_link_strings": [
+        "Polyamory",
+        "Polyamorous"
+      ]
+    }
+  }
+}

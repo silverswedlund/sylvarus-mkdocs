@@ -14,7 +14,7 @@
         "Neurodivergent",
         "Autism"
       ],
-      "image_path": "../../flags/adhd.jpg",
+      "image_path": "../../../flags/adhd.jpg",
       "auto_link_strings": [
         "ADHD"
       ]
@@ -27,7 +27,7 @@
         "Neurodivergent",
         "ADHD"
       ],
-      "image_path": "../../flags/autism.jpg",
+      "image_path": "../../../flags/autism.jpg",
       "auto_link_strings": [
         "autism",
         "autistic"
@@ -41,7 +41,7 @@
         "Autism",
         "ADHD"
       ],
-      "image_path": "../../flags/neurodivergent.jpg",
+      "image_path": "../../../flags/neurodivergent.jpg",
       "auto_link_strings": [
         "Neurodivergent"
       ]

@@ -14,7 +14,7 @@
         "Nonbinary",
         "Genderqueer"
       ],
-      "image_path": "../../flags/agender.jpg",
+      "image_path": "../../../flags/agender.jpg",
       "auto_link_strings": [
         "Agender"
       ]
@@ -26,7 +26,7 @@
       "related_identifiers": [
         "Asexual"
       ],
-      "image_path": "../../flags/aromantic.jpg",
+      "image_path": "../../../flags/aromantic.jpg",
       "auto_link_strings": [
         "Aromantic"
       ]
@@ -38,7 +38,7 @@
       "related_identifiers": [
         "Aromantic"
       ],
-      "image_path": "../../flags/asexual.jpg",
+      "image_path": "../../../flags/asexual.jpg",
       "auto_link_strings": [
         "asexual"
       ]
@@ -50,7 +50,7 @@
       "related_identifiers": [
         "Pansexual"
       ],
-      "image_path": "../../flags/bicurious.jpg",
+      "image_path": "../../../flags/bicurious.jpg",
       "auto_link_strings": [
         "Bicurious"
       ]
@@ -63,7 +63,7 @@
         "Nonbinary",
         "Demigirl"
       ],
-      "image_path": "../../flags/demiboy.jpg",
+      "image_path": "../../../flags/demiboy.jpg",
       "auto_link_strings": [
         "Demiboy"
       ]
@@ -76,7 +76,7 @@
         "Nonbinary",
         "Demiboy"
       ],
-      "image_path": "../../flags/demigirl.jpg",
+      "image_path": "../../../flags/demigirl.jpg",
       "auto_link_strings": [
         "Demigirl"
       ]
@@ -89,7 +89,7 @@
         "Nonbinary",
         "Agender"
       ],
-      "image_path": "../../flags/genderqueer.jpg",
+      "image_path": "../../../flags/genderqueer.jpg",
       "auto_link_strings": [
         "Genderqueer"
       ]
@@ -101,7 +101,7 @@
       "related_identifiers": [
         "Gay (MLM)"
       ],
-      "image_path": "../../flags/lesbian.jpg",
+      "image_path": "../../../flags/lesbian.jpg",
       "auto_link_strings": [
         "Lesbian"
       ]
@@ -113,7 +113,7 @@
       "related_identifiers": [
         "Pansexual"
       ],
-      "image_path": "../../flags/mlm.jpg",
+      "image_path": "../../../flags/mlm.jpg",
       "auto_link_strings": [
         "Gay (MLM)"
       ]
@@ -128,7 +128,7 @@
         "Agender",
         "Genderqueer"
       ],
-      "image_path": "../../flags/nonbinary.jpg",
+      "image_path": "../../../flags/nonbinary.jpg",
       "auto_link_strings": [
         "Nonbinary",
         "enby"
@@ -139,7 +139,7 @@
       "type": "lgbt",
       "description": "Pansexuality is the romantic or sexual attraction toward people regardless of their gender identity.",
       "related_identifiers": [],
-      "image_path": "../../flags/pansexual.jpg",
+      "image_path": "../../../flags/pansexual.jpg",
       "auto_link_strings": [
         "Pansexual"
       ]
@@ -152,7 +152,7 @@
         "Nonbinary",
         "Genderqueer"
       ],
-      "image_path": "../../flags/transgender.jpg",
+      "image_path": "../../../flags/transgender.jpg",
       "auto_link_strings": [
         "Transgender"
       ]
