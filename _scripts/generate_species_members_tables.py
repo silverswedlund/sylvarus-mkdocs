@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
+"""
+Script to generate species members tables.
+For each species, this script:
+1. Finds all entities that belong to that species
+2. Generates a table of those entities
+3. Writes the table to a species_members_table.md_insert file in the species directory
+"""
+
 import json
 import logging
 from pathlib import Path
 import argparse
-
+import re
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -64,7 +72,7 @@ def find_species_matches(json_files, species_map):
                 if "species" in field.lower() and isinstance(value, str):
                     # Check if this species matches any known species
                     for species_string, species_key in species_map.items():
-                        if species_string.lower() in value.lower():
+                        if re.search(f"{re.escape(species_string.lower())}$|\s", value.lower()):
                             species_matches[species_key].append(display_name)
                             logging.debug(f"Match found: {entity_key} → {species_key} (via species: {value})")
                             break
@@ -85,9 +93,16 @@ def generate_species_members_table(titles):
     
     return table
 
-def write_species_members_table_insert(species_dir, titles, dry_run=False):
+def write_species_members_table_insert(species_key, titles, base_path, dry_run=False):
     """Write the species members table to an insert file."""
-    insert_file_path = species_dir / "species_members_table.md_insert"
+    # Create the species filename (lowercase, no spaces)
+    species_filename = species_key.lower().replace(" ", "").replace("'", "")
+    
+    # Get the path to the species file (not directory)
+    species_file_path = base_path / f"{species_filename}.md"
+    
+    # Path to the members table insert file
+    insert_file_path = base_path / f"{species_filename}_members_table.md_insert"
     
     # Generate the table
     table = generate_species_members_table(titles)
@@ -100,9 +115,9 @@ def write_species_members_table_insert(species_dir, titles, dry_run=False):
     if not dry_run:
         with open(insert_file_path, "w", encoding="utf-8") as f:
             f.write(table)
-        logging.info(f"✅ Updated species members table for {species_dir.name}")
+        logging.info(f"✅ Updated species members table for {species_key}")
     else:
-        logging.info(f"🔍 Would update species members table for {species_dir.name}")
+        logging.info(f"🔍 Would update species members table for {species_key}")
         logging.info(f"Table content would be:\n{table}")
     
     return True
@@ -116,7 +131,7 @@ def main():
     if args.dry_run:
         logging.info("🔍 DRY RUN: No files will be modified")
     
-    logging.info("🔍 Starting insert_species_members_tables.py")
+    logging.info("🔍 Starting generate_species_members_tables.py")
     
     # Paths
     json_dir = Path("_json/entities")
@@ -153,20 +168,17 @@ def main():
             if match not in unique_matches:
                 unique_matches.append(match)
         
-        # Get the species directory
-        species_dir = species_base_path / species_key.lower()
-        
-        # Ensure the directory exists
-        if not species_dir.exists():
-            species_dir.mkdir(parents=True, exist_ok=True)
+        # Ensure the base directory exists
+        if not species_base_path.exists() and not args.dry_run:
+            species_base_path.mkdir(parents=True, exist_ok=True)
         
         # Write the species members table
-        if write_species_members_table_insert(species_dir, unique_matches, args.dry_run):
+        if write_species_members_table_insert(species_key, unique_matches, species_base_path, args.dry_run):
             updated_species += 1
             logging.info(f"  ✅ Updated {species_key} with {len(unique_matches)} species members")
     
     logging.info(f"\n✅ Summary: Updated {updated_species} out of {total_species} species.")
-    logging.info("Finished insert_species_members_tables.py")
+    logging.info("Finished generate_species_members_tables.py")
 
 if __name__ == "__main__":
     main()

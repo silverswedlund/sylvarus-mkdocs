@@ -87,7 +87,5 @@
 {% endif %}
 ---
 
-{% if species_members %}
 ## 🧑‍🤝‍🧑 Species Members  
-{% include "species/{{name|lower}}/species_members_table.md_insert" %}
-{% endif %}
+{% include "species/{{name|lower}}_members_table.md_insert" %}
