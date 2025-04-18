@@ -73,6 +73,18 @@
         "Primordial Beings"
       ]
     },
+    "Soulaligned": {
+      "name": "Soulaligned",
+      "type": "other",
+      "description": "The soulaligned are beings, usually mortals, who's souls are aligned with a specific magical element. This alignment means that they have a natural affinity for that element. They can convert their mana to that element much more efficiently than non-soulaligned beings. Every being has certain magical alignments, usually 3, but soulaligned being are entirely aligned with one element. Soulaligned beings are rare. Not as rare as sparkbearers, but still rare. around 1 in 1,000,000 beings are soulaligned.",
+      "related_identifiers": [],
+      "auto_link_strings": [
+        "Soulaligned",
+        "Soulalignment",
+        "Soulaligned beings",
+        "Soulaligned being"
+      ]
+    },
     "Sparkbearer": {
       "name": "Sparkbearer",
       "type": "other",
