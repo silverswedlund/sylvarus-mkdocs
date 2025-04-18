@@ -1,9 +1,9 @@
 | Constructs | [Demigods](../species/demigod.md) | [Fidari](../identifiers/other/fidari.md) | [Gods](../identifiers/other/god.md) | Immortals | [Mortals](../identifiers/other/mortal.md) | [Primordial Beings](../identifiers/other/primordial_beast.md) | [Titans](../identifiers/other/titan.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Charon](constructs/charon.md) | [Atenael](demigods/atenael.md) | [Father Finn](fidari/father_finn.md) | [Amun](gods/amun.md) | [Alytica](immortals/alytica.md) | [Bigsbeetoo Valentine](mortals/bigsbeetoo_valentine.md) | [Aetheria](primordial_beings/aetheria.md) | [Aliqotash](titans/aliqotash.md) |
-| [Justice](constructs/justice.md) | [Aurelius](demigods/aurelius.md) | [The Smiling God](fidari/the_smiling_god.md) | [Anuke](gods/anuke.md) |  | [Bisgby Valentine](mortals/bisgby_valentine.md) | [Aquileo](primordial_beings/aquileo.md) | [Hydraxus](titans/hydraxus.md) |
-|  | [Deimos](demigods/deimos.md) |  | [Aphrodite](gods/aphrodite.md) |  | [Coswell Dupont](mortals/coswell_dupont.md) | [Avianna](primordial_beings/avianna.md) | [Krella](titans/krella.md) |
-|  | [Ephyra](demigods/ephyra.md) |  | [Apollo](gods/apollo.md) |  | [Damien Rivers](mortals/damien_rivers.md) | [Cetuvi](primordial_beings/cetuvi.md) | [Nemia](titans/nemia.md) |
+| [Justice](constructs/justice.md) | [Aurelius](demigods/aurelius.md) | [Maxidon](fidari/maxidon.md) | [Anuke](gods/anuke.md) |  | [Bisgby Valentine](mortals/bisgby_valentine.md) | [Aquileo](primordial_beings/aquileo.md) | [Hydraxus](titans/hydraxus.md) |
+|  | [Deimos](demigods/deimos.md) | [The Smiling God](fidari/the_smiling_god.md) | [Aphrodite](gods/aphrodite.md) |  | [Coswell Dupont](mortals/coswell_dupont.md) | [Avianna](primordial_beings/avianna.md) | [Krella](titans/krella.md) |
+|  | [Ephyra](demigods/ephyra.md) | [The Whispering Wind](fidari/the_whispering_wind.md) | [Apollo](gods/apollo.md) |  | [Damien Rivers](mortals/damien_rivers.md) | [Cetuvi](primordial_beings/cetuvi.md) | [Nemia](titans/nemia.md) |
 |  | [Eurydice](demigods/eurydice.md) |  | [Ares](gods/ares.md) |  | [Elizabeth Fancy](mortals/elizabeth_fancy.md) | [Craxly](primordial_beings/craxly.md) | [Odysseus](titans/odysseus.md) |
 |  | [Heracles](demigods/heracles.md) |  | [Artemis](gods/artemis.md) |  | [Emma Valentina](mortals/emma_valentina.md) | [Fafnir](primordial_beings/fafnir.md) | [Ombrim](titans/ombrim.md) |
 |  | [Morax](demigods/morax.md) |  | [Asher](gods/asher.md) |  | [Fumpty Goobledarber](mortals/fumpty_goobledarber.md) | [Petrifax](primordial_beings/petrifax.md) | [Set](titans/set.md) |
@@ -16,6 +16,7 @@
 |  |  |  | [Ecatra](gods/ecatra.md) |  |  |  |  |
 |  |  |  | [Enkidu](gods/enkidu.md) |  |  |  |  |
 |  |  |  | [Eris](gods/eris.md) |  |  |  |  |
+|  |  |  | [Felrie](gods/felrie.md) |  |  |  |  |
 |  |  |  | [Fortuna](gods/fortuna.md) |  |  |  |  |
 |  |  |  | [Freija](gods/freija.md) |  |  |  |  |
 |  |  |  | [Gilgamesh](gods/gilgamesh.md) |  |  |  |  |
